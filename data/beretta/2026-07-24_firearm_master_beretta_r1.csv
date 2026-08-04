@@ -1,0 +1,41 @@
+firearm_id,manufacturer_id,display_name,model,variant,caliber,barrel_length,action_type,passport_fit,active,discontinued
+BERETTA-000001,BERETTA-MFG,Beretta M9,M9,Standard,9mm,4.90,Semi-Auto,A4,1,0
+BERETTA-000002,BERETTA-MFG,Beretta M9A1,M9,A1 Variant,9mm,4.90,Semi-Auto,A4,1,0
+BERETTA-000003,BERETTA-MFG,Beretta M9A3,M9,A3 Variant,9mm,4.90,Semi-Auto,A4,1,0
+BERETTA-000004,BERETTA-MFG,Beretta 92FS,92,Standard,9mm,4.90,Semi-Auto,A4,1,0
+BERETTA-000005,BERETTA-MFG,Beretta 92FS Inox,92,Inox Finish,9mm,4.90,Semi-Auto,A4,1,0
+BERETTA-000006,BERETTA-MFG,Beretta 92FSR,92,Compact,9mm,4.90,Semi-Auto,A4,1,0
+BERETTA-000007,BERETTA-MFG,Beretta 92X Full Size,92X,Full Size,9mm,4.90,Semi-Auto,A4,1,0
+BERETTA-000008,BERETTA-MFG,Beretta 92X Centurion,92X,Centurion,9mm,4.25,Semi-Auto,A3,1,0
+BERETTA-000009,BERETTA-MFG,Beretta 92X Compact,92X,Compact,9mm,3.80,Semi-Auto,A2.5,1,0
+BERETTA-000010,BERETTA-MFG,Beretta 92X Performance,92X,Performance,9mm,4.90,Semi-Auto,A4,1,0
+BERETTA-000011,BERETTA-MFG,Beretta APX,APX,Standard,9mm,4.25,Semi-Auto,A3,1,0
+BERETTA-000012,BERETTA-MFG,Beretta APX Carry,APX,Carry,9mm,3.50,Semi-Auto,A2,1,0
+BERETTA-000013,BERETTA-MFG,Beretta APX Compact,APX,Compact,9mm,3.80,Semi-Auto,A2.5,1,0
+BERETTA-000014,BERETTA-MFG,Beretta APX F,APX,F Model,9mm,4.25,Semi-Auto,A3,1,0
+BERETTA-000015,BERETTA-MFG,Beretta APX R,APX,R Model,9mm,4.25,Semi-Auto,A3,1,0
+BERETTA-000016,BERETTA-MFG,Beretta APX Lightail Pro,APX,Lightail Pro,9mm,4.25,Semi-Auto,A3,1,0
+BERETTA-000017,BERETTA-MFG,Beretta APX A1 Tactical,APX,A1 Tactical,9mm,4.80,Semi-Auto,A4,1,0
+BERETTA-000018,BERETTA-MFG,Beretta 80X Cheetah,80X,Standard,.380 ACP,3.82,Semi-Auto,A2,1,0
+BERETTA-000019,BERETTA-MFG,Beretta 80X Cheetah Inox,80X,Inox Finish,.380 ACP,3.82,Semi-Auto,A2,1,0
+BERETTA-000020,BERETTA-MFG,Beretta 3032 Tomcat,3032,Standard,.32 ACP,2.45,Semi-Auto,A1.5,1,0
+BERETTA-000021,BERETTA-MFG,Beretta 3032 Tomcat Inox,3032,Inox Finish,.32 ACP,2.45,Semi-Auto,A1.5,1,0
+BERETTA-000022,BERETTA-MFG,Beretta U22 Neos 4.5 Inch,.22 LR,4.5 Inch,.22 LR,4.50,Semi-Auto,A2.5,1,0
+BERETTA-000023,BERETTA-MFG,Beretta U22 Neos 6 Inch,.22 LR,6 Inch,.22 LR,6.00,Semi-Auto,A2.5,1,0
+BERETTA-000024,BERETTA-MFG,Beretta PX4 Storm Compact,PX4,Compact,9mm,3.27,Semi-Auto,A2,1,0
+BERETTA-000025,BERETTA-MFG,Beretta PX4 Storm Full Size,PX4,Full Size,9mm,4.00,Semi-Auto,A3,1,0
+BERETTA-000026,BERETTA-MFG,Beretta PX4 Storm Subcompact,PX4,Subcompact,9mm,3.00,Semi-Auto,A2,1,0
+BERETTA-000027,BERETTA-MFG,Beretta PX4 Storm Tactical,PX4,Tactical,9mm,4.00,Semi-Auto,A3,1,0
+BERETTA-000028,BERETTA-MFG,Beretta 92 Brigadier,92,Brigadier,9mm,4.90,Semi-Auto,A4,0,1
+BERETTA-000029,BERETTA-MFG,Beretta 96 Brigadier,.40 S&W,Brigadier,.40 S&W,4.90,Semi-Auto,A4,0,1
+BERETTA-000030,BERETTA-MFG,Beretta 8000 Cougar,8000,Standard,9mm,3.60,Semi-Auto,A2.5,0,1
+BERETTA-000031,BERETTA-MFG,Beretta 8000 Cougar .40 S&W,8000,.40 S&W,.40 S&W,3.60,Semi-Auto,A2.5,0,1
+BERETTA-000032,BERETTA-MFG,Beretta 8040 Cougar Compact,.40 S&W,Compact,.40 S&W,3.60,Semi-Auto,A2.5,0,1
+BERETTA-000033,BERETTA-MFG,Beretta 96 Full Size,.40 S&W,Full Size,.40 S&W,4.90,Semi-Auto,A4,0,1
+BERETTA-000034,BERETTA-MFG,Beretta 96 Compact,.40 S&W,Compact,.40 S&W,3.60,Semi-Auto,A2.5,0,1
+BERETTA-000035,BERETTA-MFG,Beretta 84FS Cheetah,.380 ACP,Standard,.380 ACP,3.82,Semi-Auto,A2,0,1
+BERETTA-000036,BERETTA-MFG,Beretta 84 Cheetah,.380 ACP,Standard,.380 ACP,3.82,Semi-Auto,A2,0,1
+BERETTA-000037,BERETTA-MFG,Beretta 950 Jetfire,.25 ACP,Standard,.25 ACP,2.40,Semi-Auto,A1,0,1
+BERETTA-000038,BERETTA-MFG,Beretta Model 21 Bobcat,.22 LR,Standard,.22 LR,2.40,Semi-Auto,A1,0,1
+BERETTA-000039,BERETTA-MFG,Beretta 70 Pistol,.22 LR,Standard,.22 LR,3.50,Semi-Auto,A2,0,1
+BERETTA-000040,BERETTA-MFG,Beretta Px4 Type F Compact,PX4,Type F Compact,9mm,3.27,Semi-Auto,A2,1,0
