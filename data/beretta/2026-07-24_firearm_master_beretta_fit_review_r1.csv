@@ -1,41 +1,41 @@
-firearm_id,display_name,proposed_passport_fit,confidence_level,passport_chart_exact_match,comparable_models,decision_basis,review_required,reviewer_decision,supporting_source_urls
-BERETTA-000001,Beretta M9,A4,High,Yes,M9A1 - 4.90 inch barrel,Full-size 9mm military standard,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000002,Beretta M9A1,A4,High,Yes,M9 - 4.90 inch barrel,Full-size 9mm military standard,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000003,Beretta M9A3,A4,High,Yes,M9 - 4.90 inch barrel,Full-size 9mm military standard,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000004,Beretta 92FS,A4,High,Yes,92FS Inox - 4.90 inch barrel,Full-size 9mm standard,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000005,Beretta 92FS Inox,A4,High,Yes,92FS - 4.90 inch barrel,Full-size 9mm stainless,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000006,Beretta 92FSR,A4,High,Yes,92FS - 4.90 inch barrel,Full-size 9mm compact,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000007,Beretta 92X Full Size,A4,High,Yes,92FS - 4.90 inch barrel,Full-size 9mm modern variant,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000008,Beretta 92X Centurion,A3,High,Yes,92X Compact - 4.25 inch barrel,Mid-size 9mm variant,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000009,Beretta 92X Compact,A2.5,High,Yes,PX4 Compact - 3.80 inch barrel,Compact 9mm variant,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000010,Beretta 92X Performance,A4,High,Yes,92FS - 4.90 inch barrel,Full-size 9mm competition model,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000011,Beretta APX,A3,High,Yes,APX Carry - 4.25 inch barrel,Mid-size 9mm polymer frame,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000012,Beretta APX Carry,A2,High,Yes,G43X - 3.50 inch barrel,Compact 9mm carry model,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000013,Beretta APX Compact,A2.5,High,Yes,APX Carry - 3.80 inch barrel,Compact 9mm variant,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000014,Beretta APX F,A3,High,Yes,APX - 4.25 inch barrel,Mid-size 9mm F model,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000015,Beretta APX R,A3,High,Yes,APX - 4.25 inch barrel,Mid-size 9mm R model,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000016,Beretta APX Lightail Pro,A3,High,Yes,APX - 4.25 inch barrel,Mid-size 9mm Lightail variant,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000017,Beretta APX A1 Tactical,A4,High,Yes,APX - 4.80 inch barrel,Full-size 9mm tactical variant,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000018,Beretta 80X Cheetah,A2,High,Yes,Beretta 84 - 3.82 inch barrel,.380 ACP compact,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000019,Beretta 80X Cheetah Inox,A2,High,Yes,80X Cheetah - 3.82 inch barrel,.380 ACP stainless,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000020,Beretta 3032 Tomcat,A1.5,High,Yes,Beretta Model 21 - 2.45 inch barrel,.32 ACP subcompact,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000021,Beretta 3032 Tomcat Inox,A1.5,High,Yes,3032 Tomcat - 2.45 inch barrel,.32 ACP stainless,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000022,Beretta U22 Neos 4.5 Inch,A2.5,High,Yes,Ruger Mark IV - 4.50 inch barrel,.22 LR target model,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000023,Beretta U22 Neos 6 Inch,A2.5,Medium,No,Ruger Mark IV 6 inch,.22 LR 6 inch target,Yes,Pending Chart Review,https://pholsters.com/size-chart/
-BERETTA-000024,Beretta PX4 Storm Compact,A2,High,Yes,G19 Gen 5 - 3.27 inch barrel,Compact 9mm polymer,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000025,Beretta PX4 Storm Full Size,A3,High,Yes,92FS - 4.00 inch barrel,Mid-size 9mm polymer,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000026,Beretta PX4 Storm Subcompact,A2,High,Yes,G26 Gen 5 - 3.00 inch barrel,Subcompact 9mm polymer,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000027,Beretta PX4 Storm Tactical,A3,High,Yes,PX4 Full Size - 4.00 inch barrel,Mid-size 9mm tactical,No,Approved,https://pholsters.com/size-chart/
-BERETTA-000028,Beretta 92 Brigadier,A4,Medium,Yes,92FS - 4.90 inch barrel,Full-size 9mm discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Beretta_92
-BERETTA-000029,Beretta 96 Brigadier,A4,Medium,Yes,92 Brigadier - 4.90 inch barrel,.40 S&W discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Beretta_92
-BERETTA-000030,Beretta 8000 Cougar,A2.5,Medium,Yes,PX4 Compact - 3.60 inch barrel,Compact 9mm discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Beretta_8000_Cougar
-BERETTA-000031,Beretta 8000 Cougar .40 S&W,A2.5,Medium,Yes,8000 Cougar - 3.60 inch barrel,.40 S&W discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Beretta_8000_Cougar
-BERETTA-000032,Beretta 8040 Cougar Compact,A2.5,Medium,Yes,8000 Cougar - 3.60 inch barrel,.40 S&W compact discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Beretta_8000_Cougar
-BERETTA-000033,Beretta 96 Full Size,A4,Medium,Yes,92 Brigadier - 4.90 inch barrel,.40 S&W discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Beretta_92
-BERETTA-000034,Beretta 96 Compact,A2.5,Medium,Yes,96 Full Size - 3.60 inch barrel,.40 S&W compact discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Beretta_92
-BERETTA-000035,Beretta 84FS Cheetah,A2,Medium,Yes,80X Cheetah - 3.82 inch barrel,.380 ACP discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Beretta_84
-BERETTA-000036,Beretta 84 Cheetah,A2,Medium,Yes,84FS Cheetah - 3.82 inch barrel,.380 ACP discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Beretta_84
-BERETTA-000037,Beretta 950 Jetfire,A1,Low,No,Beretta Model 21 - 2.40 inch barrel,.25 ACP discontinued,Yes,Requires Historical Research,https://en.wikipedia.org/wiki/Beretta_950
-BERETTA-000038,Beretta Model 21 Bobcat,A1,Low,No,3032 Tomcat - 2.40 inch barrel,.22 LR discontinued,Yes,Requires Historical Research,https://en.wikipedia.org/wiki/Beretta_21_Bobcat
-BERETTA-000039,Beretta 70 Pistol,A2,Low,No,U22 Neos - 3.50 inch barrel,.22 LR discontinued,Yes,Requires Historical Research,https://en.wikipedia.org/wiki/Beretta_70
-BERETTA-000040,Beretta Px4 Type F Compact,A2,High,Yes,PX4 Compact - 3.27 inch barrel,Compact 9mm Type F variant,No,Approved,https://pholsters.com/size-chart/
+firearm_id,display_name,barrel_length,proposed_passport_fit,confidence_level,passport_chart_exact_match,comparable_models,decision_basis,review_required,reviewer_decision,supporting_source_urls,aliases
+BERETTA-000001,Beretta M9,4.90,A4,High,Yes,M9A1 - 4.90 inch barrel,Full-size 9mm military standard,No,Approved,https://pholsters.com/size-chart/,M9
+BERETTA-000002,Beretta M9A1,4.90,A4,High,Yes,M9 - 4.90 inch barrel,Full-size 9mm military standard,No,Approved,https://pholsters.com/size-chart/,M9A1
+BERETTA-000003,Beretta M9A3,4.90,A4,High,Yes,M9 - 4.90 inch barrel,Full-size 9mm military standard,No,Approved,https://pholsters.com/size-chart/,M9A3
+BERETTA-000004,Beretta 92FS,4.90,A4,High,Yes,92FS Inox - 4.90 inch barrel,Full-size 9mm standard,No,Approved,https://pholsters.com/size-chart/,92FS
+BERETTA-000005,Beretta 92FS Inox,4.90,A4,High,Yes,92FS - 4.90 inch barrel,Full-size 9mm stainless,No,Approved,https://pholsters.com/size-chart/,92FS Inox
+BERETTA-000006,Beretta 92FSR,4.90,A4,High,Yes,92FS - 4.90 inch barrel,Full-size 9mm compact,No,Approved,https://pholsters.com/size-chart/,92FSR
+BERETTA-000007,Beretta 92X Full Size,4.90,A4,High,Yes,92FS - 4.90 inch barrel,Full-size 9mm modern variant,No,Approved,https://pholsters.com/size-chart/,92X FS
+BERETTA-000008,Beretta 92X Centurion,4.25,A3,High,Yes,92X Compact - 4.25 inch barrel,Mid-size 9mm variant,No,Approved,https://pholsters.com/size-chart/,92X Centurion
+BERETTA-000009,Beretta 92X Compact,3.80,A2.5,High,Yes,PX4 Compact - 3.80 inch barrel,Compact 9mm variant,No,Approved,https://pholsters.com/size-chart/,92X Compact
+BERETTA-000010,Beretta 92X Performance,4.90,A4,High,Yes,92FS - 4.90 inch barrel,Full-size 9mm competition model,No,Approved,https://pholsters.com/size-chart/,92X Performance
+BERETTA-000011,Beretta APX,4.25,A3,High,Yes,APX Carry - 4.25 inch barrel,Mid-size 9mm polymer frame,No,Approved,https://pholsters.com/size-chart/,APX
+BERETTA-000012,Beretta APX Carry,3.50,A2,High,Yes,G43X - 3.50 inch barrel,Compact 9mm carry model,No,Approved,https://pholsters.com/size-chart/,APX Carry
+BERETTA-000013,Beretta APX Compact,3.80,A2.5,High,Yes,APX Carry - 3.80 inch barrel,Compact 9mm variant,No,Approved,https://pholsters.com/size-chart/,APX Compact
+BERETTA-000014,Beretta APX F,4.25,A3,High,Yes,APX - 4.25 inch barrel,Mid-size 9mm F model,No,Approved,https://pholsters.com/size-chart/,APX F
+BERETTA-000015,Beretta APX R,4.25,A3,High,Yes,APX - 4.25 inch barrel,Mid-size 9mm R model,No,Approved,https://pholsters.com/size-chart/,APX R
+BERETTA-000016,Beretta APX Lightail Pro,4.25,A3,High,Yes,APX - 4.25 inch barrel,Mid-size 9mm Lightail variant,No,Approved,https://pholsters.com/size-chart/,APX Lightail Pro
+BERETTA-000017,Beretta APX A1 Tactical,4.80,A4,High,Yes,APX - 4.80 inch barrel,Full-size 9mm tactical variant,No,Approved,https://pholsters.com/size-chart/,APX A1 Tactical
+BERETTA-000018,Beretta 80X Cheetah,3.82,A2,High,Yes,Beretta 84 - 3.82 inch barrel,.380 ACP compact,No,Approved,https://pholsters.com/size-chart/,80X Cheetah
+BERETTA-000019,Beretta 80X Cheetah Inox,3.82,A2,High,Yes,80X Cheetah - 3.82 inch barrel,.380 ACP stainless,No,Approved,https://pholsters.com/size-chart/,80X Cheetah Inox
+BERETTA-000020,Beretta 3032 Tomcat,2.45,A1.5,High,Yes,Beretta Model 21 - 2.45 inch barrel,.32 ACP subcompact,No,Approved,https://pholsters.com/size-chart/,3032 Tomcat
+BERETTA-000021,Beretta 3032 Tomcat Inox,2.45,A1.5,High,Yes,3032 Tomcat - 2.45 inch barrel,.32 ACP stainless,No,Approved,https://pholsters.com/size-chart/,3032 Tomcat Inox
+BERETTA-000022,Beretta U22 Neos 4.5 Inch,4.50,A2.5,High,Yes,Ruger Mark IV - 4.50 inch barrel,.22 LR target model,No,Approved,https://pholsters.com/size-chart/,U22 Neos 4.5
+BERETTA-000023,Beretta U22 Neos 6 Inch,6.00,A2.5,Medium,No,Ruger Mark IV 6 inch,.22 LR 6 inch target,Yes,Pending Chart Review,https://pholsters.com/size-chart/,U22 Neos 6
+BERETTA-000024,Beretta PX4 Storm Compact,3.27,A2,High,Yes,G19 Gen 5 - 3.27 inch barrel,Compact 9mm polymer,No,Approved,https://pholsters.com/size-chart/,PX4 Storm Compact
+BERETTA-000025,Beretta PX4 Storm Full Size,4.00,A3,High,Yes,92FS - 4.00 inch barrel,Mid-size 9mm polymer,No,Approved,https://pholsters.com/size-chart/,PX4 Storm FS
+BERETTA-000026,Beretta PX4 Storm Subcompact,3.00,A2,High,Yes,G26 Gen 5 - 3.00 inch barrel,Subcompact 9mm polymer,No,Approved,https://pholsters.com/size-chart/,PX4 Storm Subcompact
+BERETTA-000027,Beretta PX4 Storm Tactical,4.00,A3,High,Yes,PX4 Full Size - 4.00 inch barrel,Mid-size 9mm tactical,No,Approved,https://pholsters.com/size-chart/,PX4 Storm Tactical
+BERETTA-000028,Beretta 92 Brigadier,4.90,A4,Medium,Yes,92FS - 4.90 inch barrel,Full-size 9mm discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Beretta_92,92 Brigadier
+BERETTA-000029,Beretta 96 Brigadier,4.90,A4,Medium,Yes,92 Brigadier - 4.90 inch barrel,.40 S&W discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Beretta_92,96 Brigadier
+BERETTA-000030,Beretta 8000 Cougar,3.60,A2.5,Medium,Yes,PX4 Compact - 3.60 inch barrel,Compact 9mm discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Beretta_8000_Cougar,8000 Cougar
+BERETTA-000031,Beretta 8000 Cougar .40 S&W,3.60,A2.5,Medium,Yes,8000 Cougar - 3.60 inch barrel,.40 S&W discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Beretta_8000_Cougar,8000 Cougar 40
+BERETTA-000032,Beretta 8040 Cougar Compact,3.60,A2.5,Medium,Yes,8000 Cougar - 3.60 inch barrel,.40 S&W compact discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Beretta_8000_Cougar,8040 Cougar
+BERETTA-000033,Beretta 96 Full Size,4.90,A4,Medium,Yes,92 Brigadier - 4.90 inch barrel,.40 S&W discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Beretta_92,96 FS
+BERETTA-000034,Beretta 96 Compact,3.60,A2.5,Medium,Yes,96 Full Size - 3.60 inch barrel,.40 S&W compact discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Beretta_92,96 Compact
+BERETTA-000035,Beretta 84FS Cheetah,3.82,A2,Medium,Yes,80X Cheetah - 3.82 inch barrel,.380 ACP discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Beretta_84,84FS Cheetah
+BERETTA-000036,Beretta 84 Cheetah,3.82,A2,Medium,Yes,84FS Cheetah - 3.82 inch barrel,.380 ACP discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Beretta_84,84 Cheetah
+BERETTA-000037,Beretta 950 Jetfire,2.40,A1,Low,No,Beretta Model 21 - 2.40 inch barrel,.25 ACP discontinued,Yes,Requires Historical Research,https://en.wikipedia.org/wiki/Beretta_950,950 Jetfire
+BERETTA-000038,Beretta Model 21 Bobcat,2.40,A1,Low,No,3032 Tomcat - 2.40 inch barrel,.22 LR discontinued,Yes,Requires Historical Research,https://en.wikipedia.org/wiki/Beretta_21_Bobcat,Model 21 Bobcat
+BERETTA-000039,Beretta 70 Pistol,3.50,A2,Low,No,U22 Neos - 3.50 inch barrel,.22 LR discontinued,Yes,Requires Historical Research,https://en.wikipedia.org/wiki/Beretta_70,70 Pistol
+BERETTA-000040,Beretta PX4 Type F Compact,3.27,A2,High,Yes,PX4 Compact - 3.27 inch barrel,Compact 9mm Type F variant,No,Approved,https://pholsters.com/size-chart/,PX4 Type F Compact
