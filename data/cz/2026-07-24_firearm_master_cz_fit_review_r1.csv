@@ -1,0 +1,66 @@
+firearm_id,display_name,barrel_length,proposed_passport_fit,confidence_level,passport_chart_exact_match,comparable_models,decision_basis,review_required,reviewer_decision,supporting_source_urls,aliases
+CZ-000001,CZ 75 B,4.61,A3,High,Yes,Beretta 92FS - 4.61 inch barrel,Full-size 9mm double-action standard,No,Approved,https://pholsters.com/size-chart/,75 B
+CZ-000002,CZ 75 B Stainless,4.61,A3,High,Yes,75 B - 4.61 inch barrel,Full-size 9mm stainless variant,No,Approved,https://pholsters.com/size-chart/,75 B SS
+CZ-000003,CZ 75 B Tactical,4.61,A3,High,Yes,75 B - 4.61 inch barrel,Full-size 9mm tactical variant,No,Approved,https://pholsters.com/size-chart/,75 B Tactical
+CZ-000004,CZ 75 SP-01,4.72,A3,High,Yes,75 B - 4.72 inch barrel,Full-size 9mm duty standard,No,Approved,https://pholsters.com/size-chart/,SP-01
+CZ-000005,CZ 75 SP-01 Phantom,4.72,A3,High,Yes,SP-01 - 4.72 inch barrel,Full-size 9mm polymer frame variant,No,Approved,https://pholsters.com/size-chart/,SP-01 Phantom
+CZ-000006,CZ 75 SP-01 Shadow,4.72,A3,High,Yes,SP-01 - 4.72 inch barrel,Full-size 9mm tactical shadow variant,No,Approved,https://pholsters.com/size-chart/,SP-01 Shadow
+CZ-000007,CZ 75 SP-01 Tactical,4.72,A3,High,Yes,SP-01 - 4.72 inch barrel,Full-size 9mm tactical rail,No,Approved,https://pholsters.com/size-chart/,SP-01 Tactical
+CZ-000008,CZ 75 Legend,4.61,A3,High,Yes,75 B - 4.61 inch barrel,Full-size 9mm retro 2026,No,Approved,https://pholsters.com/size-chart/,75 Legend
+CZ-000009,CZ 75 Compact,3.93,A2.5,High,Yes,Glock G19 - 3.93 inch barrel,Compact 9mm double-action variant,No,Approved,https://pholsters.com/size-chart/,75 Compact
+CZ-000010,CZ 75 D PCR,3.93,A2.5,High,Yes,75 Compact - 3.93 inch barrel,Compact 9mm decocker variant,No,Approved,https://pholsters.com/size-chart/,D PCR
+CZ-000011,CZ 75 D PCR Compact,3.93,A2.5,High,Yes,D PCR - 3.93 inch barrel,Compact 9mm PCR compact,No,Approved,https://pholsters.com/size-chart/,D PCR Compact
+CZ-000012,CZ 75 P-01,3.80,A2.5,High,Yes,Beretta PX4 Compact - 3.80 inch barrel,Compact 9mm polymer frame,No,Approved,https://pholsters.com/size-chart/,P-01
+CZ-000013,CZ 75 P-01 Omega,3.80,A2.5,High,Yes,P-01 - 3.80 inch barrel,Compact 9mm omega trigger,No,Approved,https://pholsters.com/size-chart/,P-01 Omega
+CZ-000014,CZ 75 P-01 Subcompact,3.80,A2,High,Yes,P-01 - 3.80 inch barrel,Compact 9mm sub-compact variant,No,Approved,https://pholsters.com/size-chart/,P-01 Subcompact
+CZ-000015,CZ 75 TS Czechmate,5.28,A3,High,Yes,Shadow 2 - 5.28 inch barrel,Full-size 9mm competition race,No,Approved,https://pholsters.com/size-chart/,TS Czechmate
+CZ-000016,CZ 75 TS 2,5.28,A3,High,Yes,TS Czechmate - 5.28 inch barrel,Full-size 9mm competition TS2,No,Approved,https://pholsters.com/size-chart/,TS 2
+CZ-000017,CZ 75 Shadow 2,4.89,A3,High,Yes,SP-01 Shadow - 4.89 inch barrel,Full-size 9mm competition shadow,No,Approved,https://pholsters.com/size-chart/,Shadow 2
+CZ-000018,CZ 75 Shadow 2 Compact,3.93,A2.5,High,Yes,Shadow 2 - 3.93 inch barrel,Compact 9mm shadow variant,No,Approved,https://pholsters.com/size-chart/,Shadow 2 Compact
+CZ-000019,CZ 75 Shadow 2 Target,5.30,A3,High,Yes,Shadow 2 - 5.30 inch barrel,Full-size 9mm shadow target 5 inch,No,Approved,https://pholsters.com/size-chart/,Shadow 2 Target 5
+CZ-000020,CZ 75 Shadow 2 Target 6 Inch,6.00,A3,High,Yes,Shadow 2 - 6.00 inch barrel,Full-size 9mm shadow target 6 inch,No,Approved,https://pholsters.com/size-chart/,Shadow 2 Target 6
+CZ-000021,CZ 75 Shadow 2 Carry Optics,4.89,A3,High,Yes,Shadow 2 - 4.89 inch barrel,Full-size 9mm shadow carry optics,No,Approved,https://pholsters.com/size-chart/,Shadow 2 CO
+CZ-000022,CZ 75 RAF Limited,4.61,A3,High,Yes,75 B - 4.61 inch barrel,Full-size 9mm RAF collector edition,No,Approved,https://pholsters.com/size-chart/,RAF Limited
+CZ-000023,CZ P-07,3.80,A2.5,High,Yes,S&W M&P9 Compact - 3.80 inch barrel,Compact 9mm polymer duty,No,Approved,https://pholsters.com/size-chart/,P-07
+CZ-000024,CZ P-07 Omega,3.80,A2.5,High,Yes,P-07 - 3.80 inch barrel,Compact 9mm omega trigger variant,No,Approved,https://pholsters.com/size-chart/,P-07 Omega
+CZ-000025,CZ P-07 Tactical,3.80,A2.5,High,Yes,P-07 - 3.80 inch barrel,Compact 9mm tactical rail,No,Approved,https://pholsters.com/size-chart/,P-07 Tactical
+CZ-000026,CZ P-09,4.54,A3,High,Yes,M&P9 Compact - 4.54 inch barrel,Full-size 9mm polymer duty,No,Approved,https://pholsters.com/size-chart/,P-09
+CZ-000027,CZ P-09 Omega,4.54,A3,High,Yes,P-09 - 4.54 inch barrel,Full-size 9mm omega trigger variant,No,Approved,https://pholsters.com/size-chart/,P-09 Omega
+CZ-000028,CZ P-09 Tactical,4.54,A3,High,Yes,P-09 - 4.54 inch barrel,Full-size 9mm tactical rail,No,Approved,https://pholsters.com/size-chart/,P-09 Tactical
+CZ-000029,CZ P-09 Nocturne,4.54,A3,High,Yes,P-09 - 4.54 inch barrel,Full-size 9mm nocturne 2026,No,Approved,https://pholsters.com/size-chart/,P-09 Nocturne
+CZ-000030,CZ P-10 F,4.50,A3,High,Yes,Glock G17 - 4.50 inch barrel,Full-size 9mm striker-fired,No,Approved,https://pholsters.com/size-chart/,P-10 F
+CZ-000031,CZ P-10 F Optics Ready,4.50,A3,High,Yes,P-10 F - 4.50 inch barrel,Full-size 9mm striker optics ready,No,Approved,https://pholsters.com/size-chart/,P-10 F OR
+CZ-000032,CZ P-10 F Suppressor Ready,4.50,A3,High,Yes,P-10 F - 4.50 inch barrel,Full-size 9mm striker suppressor ready,No,Approved,https://pholsters.com/size-chart/,P-10 F SR
+CZ-000033,CZ P-10 C,3.91,A2.5,High,Yes,Glock G19 - 3.91 inch barrel,Compact 9mm striker-fired,No,Approved,https://pholsters.com/size-chart/,P-10 C
+CZ-000034,CZ P-10 C Optics Ready,3.91,A2.5,High,Yes,P-10 C - 3.91 inch barrel,Compact 9mm striker optics ready,No,Approved,https://pholsters.com/size-chart/,P-10 C OR
+CZ-000035,CZ P-10 C Ported,3.91,A2.5,High,Yes,P-10 C - 3.91 inch barrel,Compact 9mm striker ported,No,Approved,https://pholsters.com/size-chart/,P-10 C Ported
+CZ-000036,CZ P-10 S,3.61,A2,High,Yes,Glock G26 - 3.61 inch barrel,Subcompact 9mm striker-fired,No,Approved,https://pholsters.com/size-chart/,P-10 S
+CZ-000037,CZ P-10 S Optics Ready,3.61,A2,High,Yes,P-10 S - 3.61 inch barrel,Subcompact 9mm striker optics ready,No,Approved,https://pholsters.com/size-chart/,P-10 S OR
+CZ-000038,CZ 82,3.80,A2.5,Medium,Yes,Beretta 80X Cheetah - 3.80 inch barrel,.380 ACP double-action discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/CZ_82,82
+CZ-000039,CZ 83,3.80,A2.5,Medium,Yes,82 - 3.80 inch barrel,.380 ACP variant discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/CZ_83,83
+CZ-000040,CZ 85,4.72,A3,Medium,Yes,75 B - 4.72 inch barrel,Full-size 9mm discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/CZ_85,85
+CZ-000041,CZ 85 Combat,4.72,A3,Medium,Yes,85 - 4.72 inch barrel,Full-size 9mm combat variant discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/CZ_85,85 Combat
+CZ-000042,CZ 52,4.65,A3,Low,No,CZ 75 B - 4.65 inch barrel,Full-size 7.62x25mm discontinued,Yes,Requires Historical Research,https://en.wikipedia.org/wiki/CZ_52,52
+CZ-000043,CZ 50,3.80,A2.5,Low,No,CZ 83 - 3.80 inch barrel,.32 ACP pocket discontinued,Yes,Requires Historical Research,https://en.wikipedia.org/wiki/CZ_50,50
+CZ-000044,CZ 70,3.80,A2.5,Low,No,CZ 83 - 3.80 inch barrel,.32 ACP compact discontinued,Yes,Requires Historical Research,https://en.wikipedia.org/wiki/CZ_vz._70,70
+CZ-000045,CZ 75 Kadet,4.61,A3,High,Yes,Ruger Mark IV - 4.61 inch barrel,Full-size .22 LR training variant,No,Approved,https://pholsters.com/size-chart/,75 Kadet
+CZ-000046,CZ 75 Pre-B,4.61,A3,Medium,Yes,75 B - 4.61 inch barrel,Full-size 9mm pre-B variant discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Pre-B
+CZ-000047,CZ 75 D,4.61,A3,Medium,Yes,75 B - 4.61 inch barrel,Full-size 9mm decocker variant discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,75 D
+CZ-000048,CZ 75 BD,4.61,A3,Medium,Yes,75 B - 4.61 inch barrel,Full-size 9mm BD variant discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,75 BD
+CZ-000049,CZ 75 ST,4.72,A3,Medium,Yes,SP-01 - 4.72 inch barrel,Full-size 9mm ST variant discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,75 ST
+CZ-000050,CZ 75 25th Anniversary,4.61,A3,Medium,Yes,75 B - 4.61 inch barrel,Full-size 9mm anniversary edition,No,Approved Discontinued,https://pholsters.com/size-chart/,75 25th Anniv
+CZ-000051,CZ 75 Tactical Sport,5.20,A3,High,Yes,TS Czechmate - 5.20 inch barrel,Full-size 9mm tactical sport competition,No,Approved,https://pholsters.com/size-chart/,Tactical Sport
+CZ-000052,CZ 75 Tactical Sport Orange,5.20,A3,High,Yes,Tactical Sport - 5.20 inch barrel,Full-size 9mm tactical sport orange,No,Approved,https://pholsters.com/size-chart/,Tactical Sport Orange
+CZ-000053,CZ 97 B,4.84,A3,High,Yes,Colt M1911A1 - 4.84 inch barrel,Full-size .45 ACP double-action,No,Approved,https://pholsters.com/size-chart/,97 B
+CZ-000054,CZ 97 BD,4.84,A3,Medium,Yes,97 B - 4.84 inch barrel,Full-size .45 ACP BD variant discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,97 BD
+CZ-000055,CZ Vz. 61 Skorpion,4.50,A3,Medium,Yes,CZ 75 B - 4.50 inch barrel,Full-size 7.65mm submachine discontinued,Yes,Requires Historical Research,https://en.wikipedia.org/wiki/Vz._61_Skorpion,Skorpion
+CZ-000056,CZ 2075 RAMI,3.07,A1.5,High,Yes,S&W Shield - 3.07 inch barrel,Micro-compact 9mm modern,No,Approved,https://pholsters.com/size-chart/,2075 RAMI
+CZ-000057,CZ 2075 RAMI Compact,3.07,A1.5,High,Yes,2075 RAMI - 3.07 inch barrel,Micro-compact 9mm RAMI compact,No,Approved,https://pholsters.com/size-chart/,2075 RAMI Compact
+CZ-000058,CZ 2075 RAMI .40 S&W,3.07,A1.5,High,Yes,2075 RAMI - 3.07 inch barrel,Micro-compact .40 S&W variant,No,Approved,https://pholsters.com/size-chart/,2075 RAMI 40
+CZ-000059,CZ Deadeye Revolver,3.00,A2,High,Yes,S&W Model 60 - 3.00 inch barrel,.38 Special precision revolver,No,Approved,https://pholsters.com/size-chart/,Deadeye
+CZ-000060,CZ 75 Compact B,3.93,A2.5,Medium,Yes,75 Compact - 3.93 inch barrel,Compact 9mm compact B discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Compact B
+CZ-000061,CZ 75 SP-01 Accu-Shadow,4.72,A3,High,Yes,SP-01 Shadow - 4.72 inch barrel,Full-size 9mm shadow accuracy variant,No,Approved,https://pholsters.com/size-chart/,Accu-Shadow
+CZ-000062,CZ 75 P-01 Ultra Compact,3.80,A2,High,Yes,P-01 - 3.80 inch barrel,Compact 9mm P-01 ultra compact,No,Approved,https://pholsters.com/size-chart/,P-01 Ultra
+CZ-000063,CZ P-10 M,3.50,A2,High,Yes,Glock G26 - 3.50 inch barrel,Subcompact 9mm striker micro,No,Approved,https://pholsters.com/size-chart/,P-10 M
+CZ-000064,CZ 75 Shadow 2 OR,4.89,A3,High,Yes,Shadow 2 - 4.89 inch barrel,Full-size 9mm shadow optics ready,No,Approved,https://pholsters.com/size-chart/,Shadow 2 OR
+CZ-000065,CZ 75 SP-01 Accu-Shadow OR,4.72,A3,High,Yes,SP-01 Accu-Shadow - 4.72 inch barrel,Full-size 9mm accu-shadow optics ready,No,Approved,https://pholsters.com/size-chart/,Accu-Shadow OR
