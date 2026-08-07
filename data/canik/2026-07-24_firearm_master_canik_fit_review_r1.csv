@@ -1,0 +1,66 @@
+firearm_id,display_name,barrel_length,proposed_passport_fit,confidence_level,passport_chart_exact_match,comparable_models,decision_basis,review_required,reviewer_decision,supporting_source_urls,aliases
+CANIK-000001,Canik TP9 SFX,5.20,A3,High,Yes,Beretta 92FS - 5.20 inch barrel,Full-size 9mm competition flagship,No,Approved,https://pholsters.com/size-chart/,TP9 SFX
+CANIK-000002,Canik TP9 Elite SC,3.60,A2,High,Yes,Glock G19 - 3.60 inch barrel,Compact 9mm elite sub-compact,No,Approved,https://pholsters.com/size-chart/,TP9 Elite SC
+CANIK-000003,Canik TP9 SF Elite-S,4.19,A3,High,Yes,M&P9 Compact - 4.19 inch barrel,Full-size 9mm elite striker-fired,No,Approved,https://pholsters.com/size-chart/,TP9 SF Elite-S
+CANIK-000004,Canik TP9 SF METE-S,4.19,A3,High,Yes,TP9 SF Elite-S - 4.19 inch barrel,Full-size 9mm METE variant,No,Approved,https://pholsters.com/size-chart/,TP9 SF METE-S
+CANIK-000005,Canik TP9 Sub Elite CAS,3.60,A2,High,Yes,TP9 Elite SC - 3.60 inch barrel,Compact 9mm sub-compact CAS,No,Approved,https://pholsters.com/size-chart/,TP9 Sub Elite CAS
+CANIK-000006,Canik TP9 DA,4.07,A2.5,High,Yes,CZ 75 B - 4.07 inch barrel,Full-size 9mm double-action,No,Approved,https://pholsters.com/size-chart/,TP9 DA
+CANIK-000007,Canik TP9 SA Mod.2,4.07,A2.5,High,Yes,TP9 DA - 4.07 inch barrel,Full-size 9mm single-action variant,No,Approved,https://pholsters.com/size-chart/,TP9 SA Mod.2
+CANIK-000008,Canik TP9 SF,4.07,A2.5,High,Yes,TP9 DA - 4.07 inch barrel,Full-size 9mm striker-fired,No,Approved,https://pholsters.com/size-chart/,TP9 SF
+CANIK-000009,Canik TP9 SF Elite,4.07,A2.5,High,Yes,TP9 SF - 4.07 inch barrel,Full-size 9mm striker-fired elite,No,Approved,https://pholsters.com/size-chart/,TP9 SF Elite
+CANIK-000010,Canik METE MC9 Prime,3.60,A2,High,Yes,P365 - 3.60 inch barrel,Compact 9mm METE prime micro,No,Approved,https://pholsters.com/size-chart/,METE MC9 Prime
+CANIK-000011,Canik METE MC9 Prime NC,3.60,A2,High,Yes,METE MC9 Prime - 3.60 inch barrel,Compact 9mm METE prime no-cut,No,Approved,https://pholsters.com/size-chart/,METE MC9 Prime NC
+CANIK-000012,Canik METE SF,4.07,A2.5,High,Yes,TP9 SF - 4.07 inch barrel,Full-size 9mm METE striker-fired,No,Approved,https://pholsters.com/size-chart/,METE SF
+CANIK-000013,Canik METE SFT,4.07,A2.5,High,Yes,METE SF - 4.07 inch barrel,Full-size 9mm METE tactical,No,Approved,https://pholsters.com/size-chart/,METE SFT
+CANIK-000014,Canik METE MC9L,4.19,A3,High,Yes,M&P9 Compact - 4.19 inch barrel,Full-size 9mm METE compact long,No,Approved,https://pholsters.com/size-chart/,METE MC9L
+CANIK-000015,Canik METE MC9LS,4.19,A3,High,Yes,METE MC9L - 4.19 inch barrel,Full-size 9mm METE compact LS,No,Approved,https://pholsters.com/size-chart/,METE MC9LS
+CANIK-000016,Canik METE MC9,3.60,A2,High,Yes,METE MC9 Prime - 3.60 inch barrel,Compact 9mm METE micro,No,Approved,https://pholsters.com/size-chart/,METE MC9
+CANIK-000017,Canik METE MC9 TAC,3.60,A2,High,Yes,METE MC9 - 3.60 inch barrel,Compact 9mm METE tactical,No,Approved,https://pholsters.com/size-chart/,METE MC9 TAC
+CANIK-000018,Canik METE MC9 CA,3.60,A2,High,Yes,METE MC9 - 3.60 inch barrel,Compact 9mm METE California,No,Approved,https://pholsters.com/size-chart/,METE MC9 CA
+CANIK-000019,Canik METE SFX Pro,5.20,A3,High,Yes,Canik TP9 SFX - 5.20 inch barrel,Full-size 9mm METE SFX pro,No,Approved,https://pholsters.com/size-chart/,METE SFX Pro
+CANIK-000020,Canik METE SFX,5.20,A3,High,Yes,METE SFX Pro - 5.20 inch barrel,Full-size 9mm METE SFX,No,Approved,https://pholsters.com/size-chart/,METE SFX
+CANIK-000021,Canik METE SFT Pro,4.07,A2.5,High,Yes,METE SFT - 4.07 inch barrel,Full-size 9mm METE SFT pro,No,Approved,https://pholsters.com/size-chart/,METE SFT Pro
+CANIK-000022,Canik METE SF ONE,4.07,A2.5,High,Yes,METE SF - 4.07 inch barrel,Full-size 9mm METE SF one,No,Approved,https://pholsters.com/size-chart/,METE SF ONE
+CANIK-000023,Canik METE SFT ONE,4.07,A2.5,High,Yes,METE SFT - 4.07 inch barrel,Full-size 9mm METE SFT one,No,Approved,https://pholsters.com/size-chart/,METE SFT ONE
+CANIK-000024,Canik METE SC,3.60,A2,High,Yes,METE MC9 - 3.60 inch barrel,Compact 9mm METE sub-compact,No,Approved,https://pholsters.com/size-chart/,METE SC
+CANIK-000025,Canik SFx RIVAL-S,5.28,A3,High,Yes,CZ Shadow 2 - 5.28 inch barrel,Full-size 9mm all-steel competition,No,Approved,https://pholsters.com/size-chart/,RIVAL-S
+CANIK-000026,Canik SFx RIVAL,5.20,A3,High,Yes,Beretta 92FS - 5.20 inch barrel,Full-size 9mm polymer competition,No,Approved,https://pholsters.com/size-chart/,SFx RIVAL
+CANIK-000027,Canik TTI Combat,4.70,A3,High,Yes,M&P9 Compact - 4.70 inch barrel,Full-size 9mm TTI tactical elite,No,Approved,https://pholsters.com/size-chart/,TTI Combat
+CANIK-000028,Canik TTI Combat Smoke,4.70,A3,High,Yes,TTI Combat - 4.70 inch barrel,Full-size 9mm TTI combat smoke,No,Approved,https://pholsters.com/size-chart/,TTI Combat Smoke
+CANIK-000029,Canik Prime Radian,3.60,A2,High,Yes,P365 - 3.60 inch barrel,Compact 9mm Radian collaboration 2026,No,Approved,https://pholsters.com/size-chart/,Prime Radian
+CANIK-000030,Canik TP9 SFX Ported,5.20,A3,High,Yes,TP9 SFX - 5.20 inch barrel,Full-size 9mm SFX ported,No,Approved,https://pholsters.com/size-chart/,TP9 SFX Ported
+CANIK-000031,Canik TP9 SF Grey,4.07,A2.5,High,Yes,TP9 SF - 4.07 inch barrel,Full-size 9mm striker grey finish,No,Approved,https://pholsters.com/size-chart/,TP9 SF Grey
+CANIK-000032,Canik TP9 Elite Combat,4.19,A3,High,Yes,M&P9 Compact - 4.19 inch barrel,Full-size 9mm elite combat,No,Approved,https://pholsters.com/size-chart/,TP9 Elite Combat
+CANIK-000033,Canik TP9 Rival TC,5.20,A3,High,Yes,TP9 SFX - 5.20 inch barrel,Full-size 9mm rival tactical competition,No,Approved,https://pholsters.com/size-chart/,TP9 Rival TC
+CANIK-000034,Canik TP9 Rival,5.20,A3,High,Yes,TP9 SFX - 5.20 inch barrel,Full-size 9mm rival competition,No,Approved,https://pholsters.com/size-chart/,TP9 Rival
+CANIK-000035,Canik TP9SF Combat,4.07,A2.5,High,Yes,TP9 SF - 4.07 inch barrel,Full-size 9mm SF combat variant,No,Approved,https://pholsters.com/size-chart/,TP9SF Combat
+CANIK-000036,Canik TP9 Elite-S,4.19,A3,High,Yes,TP9 SF Elite-S - 4.19 inch barrel,Full-size 9mm elite-S variant,No,Approved,https://pholsters.com/size-chart/,TP9 Elite-S
+CANIK-000037,Canik TP9 Compact,3.60,A2,High,Yes,Glock G19 - 3.60 inch barrel,Compact 9mm compact variant,No,Approved,https://pholsters.com/size-chart/,TP9 Compact
+CANIK-000038,Canik TP9 Subcompact,3.18,A1.5,High,Yes,P365 - 3.18 inch barrel,Subcompact 9mm subcompact,No,Approved,https://pholsters.com/size-chart/,TP9 Subcompact
+CANIK-000039,Canik TP9 Combat,4.19,A3,High,Yes,TP9 SF Elite-S - 4.19 inch barrel,Full-size 9mm combat variant,No,Approved,https://pholsters.com/size-chart/,TP9 Combat
+CANIK-000040,Canik TP9 Exec,4.07,A2.5,High,Yes,TP9 SF - 4.07 inch barrel,Full-size 9mm executive variant,No,Approved,https://pholsters.com/size-chart/,TP9 Exec
+CANIK-000041,Canik TP9 SA,4.07,A2.5,Medium,Yes,TP9 DA - 4.07 inch barrel,Full-size 9mm single-action discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,TP9 SA
+CANIK-000042,Canik TP9 DA FDE,4.07,A2.5,Medium,Yes,TP9 DA - 4.07 inch barrel,Full-size 9mm DA FDE discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,TP9 DA FDE
+CANIK-000043,Canik TP9 Gen.1,4.07,A2.5,Medium,Yes,TP9 DA - 4.07 inch barrel,Full-size 9mm generation 1 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,TP9 Gen.1
+CANIK-000044,Canik TP9 Mod.3,4.07,A2.5,Medium,Yes,TP9 SF - 4.07 inch barrel,Full-size 9mm Mod.3 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,TP9 Mod.3
+CANIK-000045,Canik TP9 Century Arms,4.07,A2.5,Medium,Yes,TP9 DA - 4.07 inch barrel,Full-size 9mm Century Arms discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,TP9 Century
+CANIK-000046,Canik TP9 Tungsten,4.07,A2.5,Medium,Yes,TP9 SF - 4.07 inch barrel,Full-size 9mm tungsten finish,No,Approved Discontinued,https://pholsters.com/size-chart/,TP9 Tungsten
+CANIK-000047,Canik TP9 Blackout,4.07,A2.5,Medium,Yes,TP9 SF - 4.07 inch barrel,Full-size 9mm blackout finish,No,Approved Discontinued,https://pholsters.com/size-chart/,TP9 Blackout
+CANIK-000048,Canik TP9 Tactical,4.07,A2.5,High,Yes,TP9 SF - 4.07 inch barrel,Full-size 9mm tactical rail variant,No,Approved,https://pholsters.com/size-chart/,TP9 Tactical
+CANIK-000049,Canik TP9 Scope,5.20,A3,High,Yes,TP9 SFX - 5.20 inch barrel,Full-size 9mm scope ready variant,No,Approved,https://pholsters.com/size-chart/,TP9 Scope
+CANIK-000050,Canik METE MC9 Mod.2,3.60,A2,Medium,Yes,METE MC9 - 3.60 inch barrel,Compact 9mm METE Mod.2 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,METE MC9 Mod.2
+CANIK-000051,Canik TP9SF Combat Exec,4.07,A2.5,High,Yes,TP9SF Combat - 4.07 inch barrel,Full-size 9mm SF combat executive,No,Approved,https://pholsters.com/size-chart/,TP9SF Combat Exec
+CANIK-000052,Canik TP9 Elite Tungsten,4.19,A3,High,Yes,TP9 SF Elite-S - 4.19 inch barrel,Full-size 9mm elite tungsten,No,Approved,https://pholsters.com/size-chart/,TP9 Elite Tungsten
+CANIK-000053,Canik TP9 Combat FDE,4.19,A3,High,Yes,TP9 Combat - 4.19 inch barrel,Full-size 9mm combat FDE,No,Approved,https://pholsters.com/size-chart/,TP9 Combat FDE
+CANIK-000054,Canik METE SFX Ported,5.20,A3,High,Yes,METE SFX - 5.20 inch barrel,Full-size 9mm METE SFX ported,No,Approved,https://pholsters.com/size-chart/,METE SFX Ported
+CANIK-000055,Canik TP9 Compact Exec,3.60,A2,High,Yes,TP9 Compact - 3.60 inch barrel,Compact 9mm compact executive,No,Approved,https://pholsters.com/size-chart/,TP9 Compact Exec
+CANIK-000056,Canik TP9 Subcompact Exec,3.18,A1.5,High,Yes,TP9 Subcompact - 3.18 inch barrel,Subcompact 9mm subcompact executive,No,Approved,https://pholsters.com/size-chart/,TP9 Subcompact Exec
+CANIK-000057,Canik TP9 SFX Elite,5.20,A3,High,Yes,TP9 SFX - 5.20 inch barrel,Full-size 9mm SFX elite variant,No,Approved,https://pholsters.com/size-chart/,TP9 SFX Elite
+CANIK-000058,Canik METE MC9 Prime OR,3.60,A2,High,Yes,METE MC9 Prime - 3.60 inch barrel,Compact 9mm METE prime optics ready,No,Approved,https://pholsters.com/size-chart/,METE MC9 Prime OR
+CANIK-000059,Canik TP9 Rival TC Pro,5.20,A3,High,Yes,TP9 Rival TC - 5.20 inch barrel,Full-size 9mm rival TC pro,No,Approved,https://pholsters.com/size-chart/,TP9 Rival TC Pro
+CANIK-000060,Canik TP9 Elite SC FDE,3.60,A2,High,Yes,TP9 Elite SC - 3.60 inch barrel,Compact 9mm elite SC FDE,No,Approved,https://pholsters.com/size-chart/,TP9 Elite SC FDE
+CANIK-000061,Canik TP9 SFX Combat,5.20,A3,High,Yes,TP9 SFX - 5.20 inch barrel,Full-size 9mm SFX combat,No,Approved,https://pholsters.com/size-chart/,TP9 SFX Combat
+CANIK-000062,Canik SFx RIVAL Pro,5.20,A3,High,Yes,SFx RIVAL - 5.20 inch barrel,Full-size 9mm RIVAL pro variant,No,Approved,https://pholsters.com/size-chart/,RIVAL Pro
+CANIK-000063,Canik TTI Combat Elite,4.70,A3,High,Yes,TTI Combat - 4.70 inch barrel,Full-size 9mm TTI combat elite,No,Approved,https://pholsters.com/size-chart/,TTI Combat Elite
+CANIK-000064,Canik Prime Radian Comp,3.60,A2,High,Yes,Prime Radian - 3.60 inch barrel,Compact 9mm Radian compensator,No,Approved,https://pholsters.com/size-chart/,Prime Radian Comp
+CANIK-000065,Canik TP9 Predator,4.07,A2.5,High,Yes,TP9 SF - 4.07 inch barrel,Full-size 9mm predator finish,No,Approved,https://pholsters.com/size-chart/,TP9 Predator
