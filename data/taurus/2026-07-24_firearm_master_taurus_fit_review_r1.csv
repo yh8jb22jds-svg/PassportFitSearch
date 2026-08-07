@@ -1,0 +1,66 @@
+firearm_id,display_name,barrel_length,proposed_passport_fit,confidence_level,passport_chart_exact_match,comparable_models,decision_basis,review_required,reviewer_decision,supporting_source_urls,aliases
+TAURUS-000001,Taurus TX9 Full Size,4.50,A3,High,Yes,M&P9 Compact - 4.50 inch barrel,Full-size 9mm modular duty 2026,No,Approved,https://pholsters.com/size-chart/,TX9 FS
+TAURUS-000002,Taurus TX9 Compact,4.00,A2.5,High,Yes,Glock G19 - 4.00 inch barrel,Compact 9mm modular tactical,No,Approved,https://pholsters.com/size-chart/,TX9 Compact
+TAURUS-000003,Taurus TX9 Subcompact,3.40,A2,High,Yes,P365 - 3.40 inch barrel,Subcompact 9mm modular carry,No,Approved,https://pholsters.com/size-chart/,TX9 Subcompact
+TAURUS-000004,Taurus GX2 TORO,3.06,A1.5,High,Yes,P365 SAS - 3.06 inch barrel,Micro-compact 9mm optics ready 2026,No,Approved,https://pholsters.com/size-chart/,GX2 TORO
+TAURUS-000005,Taurus GX2 Micro,3.06,A1.5,High,Yes,P365 - 3.06 inch barrel,Micro-compact 9mm micro carry,No,Approved,https://pholsters.com/size-chart/,GX2
+TAURUS-000006,Taurus GX4 Compact,3.06,A1.5,High,Yes,Glock G26 - 3.06 inch barrel,Micro-compact 9mm sub-compact,No,Approved,https://pholsters.com/size-chart/,GX4
+TAURUS-000007,Taurus G3 Full Size,4.25,A3,High,Yes,M&P9 Compact - 4.25 inch barrel,Full-size 9mm hybrid duty,No,Approved,https://pholsters.com/size-chart/,G3
+TAURUS-000008,Taurus G3C Compact,3.80,A2.5,High,Yes,Glock G19 - 3.80 inch barrel,Compact 9mm hybrid tactical,No,Approved,https://pholsters.com/size-chart/,G3C
+TAURUS-000009,Taurus G3C OSP,3.80,A2.5,High,Yes,G3C - 3.80 inch barrel,Compact 9mm optics system ready,No,Approved,https://pholsters.com/size-chart/,G3C OSP
+TAURUS-000010,Taurus TX22 Full Size,5.50,A3,High,Yes,Ruger Mark IV - 5.50 inch barrel,.22 LR full-size target,No,Approved,https://pholsters.com/size-chart/,TX22 FS
+TAURUS-000011,Taurus TX22 Compact,4.50,A3,High,Yes,TX22 - 4.50 inch barrel,.22 LR compact variant,No,Approved,https://pholsters.com/size-chart/,TX22 Compact
+TAURUS-000012,Taurus TX22 Competition,6.00,A3,High,Yes,TX22 - 6.00 inch barrel,.22 LR competition variant,No,Approved,https://pholsters.com/size-chart/,TX22 Competition
+TAURUS-000013,Taurus RPC PDW,4.50,A3,High,Yes,AR-15 Pistol - 4.50 inch barrel,Mid-size 9mm roller-delayed PDW,No,Approved,https://pholsters.com/size-chart/,RPC PDW
+TAURUS-000014,Taurus 22 TUC,2.33,A1.5,High,Yes,Beretta 3032 Tomcat - 2.33 inch barrel,.22 LR tip-up threaded,No,Approved,https://pholsters.com/size-chart/,22 TUC
+TAURUS-000015,Taurus Judge Public Defender,3.00,A2,High,Yes,S&W Governor - 3.00 inch barrel,.410/.45 Colt revolver compact,No,Approved,https://pholsters.com/size-chart/,Judge PD
+TAURUS-000016,Taurus Judge Standard,4.50,A3,High,Yes,Judge - 4.50 inch barrel,.410/.45 Colt revolver standard,No,Approved,https://pholsters.com/size-chart/,Judge Standard
+TAURUS-000017,Taurus Judge Magnum,6.50,A3,High,Yes,Judge - 6.50 inch barrel,.410/.45 Colt revolver magnum,No,Approved,https://pholsters.com/size-chart/,Judge Magnum
+TAURUS-000018,Taurus Judge 20th Anniversary,4.50,A3,High,Yes,Judge - 4.50 inch barrel,.410/.45 Colt anniversary 2026,No,Approved,https://pholsters.com/size-chart/,Judge Anniversary
+TAURUS-000019,Taurus 856 Snub,2.00,A1,High,Yes,S&W Model 36 - 2.00 inch barrel,.38 Special ultra compact revolver,No,Approved,https://pholsters.com/size-chart/,856 Snub
+TAURUS-000020,Taurus 856 Defender,2.00,A1,High,Yes,856 Snub - 2.00 inch barrel,.38 Special defense revolver,No,Approved,https://pholsters.com/size-chart/,856 Defender
+TAURUS-000021,Taurus 856 Executive,2.00,A1,High,Yes,856 - 2.00 inch barrel,.38 Special executive variant,No,Approved,https://pholsters.com/size-chart/,856 Executive
+TAURUS-000022,Taurus 605 Compact,2.00,A1,High,Yes,S&W Model 60 - 2.00 inch barrel,.357 Magnum compact revolver,No,Approved,https://pholsters.com/size-chart/,605
+TAURUS-000023,Taurus 605 Executive,2.00,A1,High,Yes,605 Compact - 2.00 inch barrel,.357 Magnum executive variant,No,Approved,https://pholsters.com/size-chart/,605 Executive
+TAURUS-000024,Taurus 650 Snub,2.00,A1,High,Yes,Colt Cobra - 2.00 inch barrel,.357 Magnum snub-nose,No,Approved,https://pholsters.com/size-chart/,650
+TAURUS-000025,Taurus 942 Rimfire,4.00,A2.5,High,Yes,Heritage Rough Rider - 4.00 inch barrel,.22 LR 8-shot revolver,No,Approved,https://pholsters.com/size-chart/,942
+TAURUS-000026,Taurus 942 .22 WMR,4.00,A2.5,High,Yes,942 - 4.00 inch barrel,.22 WMR 8-shot variant,No,Approved,https://pholsters.com/size-chart/,942 WMR
+TAURUS-000027,Taurus Tracker 692,4.00,A2.5,High,Yes,S&W Model 686 - 4.00 inch barrel,.357 Mag/9mm switch-barrel,No,Approved,https://pholsters.com/size-chart/,Tracker 692
+TAURUS-000028,Taurus Raging Hunter,8.37,A3,High,Yes,Desert Eagle - 8.37 inch barrel,.44 Magnum hunting revolver,No,Approved,https://pholsters.com/size-chart/,Raging Hunter
+TAURUS-000029,Taurus Raging Hunter .454 Casull,8.37,A3,High,Yes,Raging Hunter - 8.37 inch barrel,.454 Casull hunting variant,No,Approved,https://pholsters.com/size-chart/,Raging Hunter 454
+TAURUS-000030,Taurus Raging Hunter .357 Magnum,8.37,A3,High,Yes,Raging Hunter - 8.37 inch barrel,.357 Magnum hunting variant,No,Approved,https://pholsters.com/size-chart/,Raging Hunter 357
+TAURUS-000031,Taurus G2C,3.26,A2,High,Yes,S&W Shield - 3.26 inch barrel,Compact 9mm hybrid discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G2C
+TAURUS-000032,Taurus PT92,4.63,A3,Medium,Yes,Beretta 92FS - 4.63 inch barrel,Full-size 9mm Brazilian discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Taurus_PT92,PT92
+TAURUS-000033,Taurus PT99,4.63,A3,Medium,Yes,PT92 - 4.63 inch barrel,Full-size 9mm target variant discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Taurus_PT92,PT99
+TAURUS-000034,Taurus Millennium PT111,3.25,A2,Medium,Yes,S&W M&P9 Compact - 3.25 inch barrel,Compact 9mm polymer discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,PT111
+TAURUS-000035,Taurus Millennium PT140,3.25,A2,Medium,Yes,S&W M&P40 - 3.25 inch barrel,Compact .40 S&W polymer discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,PT140
+TAURUS-000036,Taurus Millennium PT145,3.27,A2,Medium,Yes,Colt Officer's - 3.27 inch barrel,Compact .45 ACP polymer discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,PT145
+TAURUS-000037,Taurus PT92 AF,4.63,A3,Medium,Yes,PT92 - 4.63 inch barrel,Full-size 9mm all-steel discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Taurus_PT92,PT92 AF
+TAURUS-000038,Taurus Model 66,4.00,A2.5,Medium,Yes,S&W Model 686 - 4.00 inch barrel,.357 Magnum 6-shot discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,66
+TAURUS-000039,Taurus Model 73,3.00,A2,Medium,Yes,Colt Cobra - 3.00 inch barrel,.32 Long 6-shot discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,73
+TAURUS-000040,Taurus Model 80,4.00,A2.5,Medium,Yes,Model 66 - 4.00 inch barrel,.38 Special 6-shot discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,80
+TAURUS-000041,Taurus Model 82,4.00,A2.5,Medium,Yes,Model 80 - 4.00 inch barrel,.38 Special heavy duty discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,82
+TAURUS-000042,Taurus Model 85,2.00,A1,Medium,Yes,S&W Model 36 - 2.00 inch barrel,.38 Special compact discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,85
+TAURUS-000043,Taurus Model 608,4.00,A2.5,Medium,Yes,S&W Model 629 - 4.00 inch barrel,.357 Magnum 8-shot discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,608
+TAURUS-000044,Taurus Model 689,4.00,A2.5,Medium,Yes,Model 66 - 4.00 inch barrel,.357 Magnum 7-shot discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,689
+TAURUS-000045,Taurus PT922,5.50,A3,Medium,Yes,.22 LR target rifle,Full-size .22 LR competitive discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,PT922
+TAURUS-000046,Taurus Model 431,4.00,A2.5,Medium,Yes,Model 66 - 4.00 inch barrel,.44 Special 6-shot discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,431
+TAURUS-000047,Taurus Model 970 Raging Hunter,6.00,A3,Medium,Yes,Raging Hunter - 6.00 inch barrel,.357 Magnum older generation,No,Approved Discontinued,https://pholsters.com/size-chart/,970 Raging Hunter
+TAURUS-000048,Taurus Model 970 Raging Bull,6.00,A3,Medium,Yes,Raging Hunter - 6.00 inch barrel,.416 Rigby older generation,No,Approved Discontinued,https://pholsters.com/size-chart/,970 Raging Bull
+TAURUS-000049,Taurus PT 1911,5.00,A3,High,Yes,Colt M1911A1 - 5.00 inch barrel,Full-size .45 ACP modern,No,Approved,https://pholsters.com/size-chart/,PT 1911
+TAURUS-000050,Taurus PT 1911 Compact,4.25,A2.5,High,Yes,Colt Commander - 4.25 inch barrel,Compact .45 ACP modern,No,Approved,https://pholsters.com/size-chart/,PT 1911 Compact
+TAURUS-000051,Taurus G3SA,4.25,A3,High,Yes,Glock G17 - 4.25 inch barrel,Full-size 9mm single action,No,Approved,https://pholsters.com/size-chart/,G3SA
+TAURUS-000052,Taurus G3SA Compact,3.80,A2.5,High,Yes,G3SA - 3.80 inch barrel,Compact 9mm single action variant,No,Approved,https://pholsters.com/size-chart/,G3SA Compact
+TAURUS-000053,Taurus G3SA .40 S&W,4.25,A3,High,Yes,M&P40 - 4.25 inch barrel,Full-size .40 S&W single action,No,Approved,https://pholsters.com/size-chart/,G3SA 40
+TAURUS-000054,Taurus Model 444 Ultra-Lite,2.00,A1,High,Yes,S&W Model 60 - 2.00 inch barrel,.44 Special ultra-lite revolver,No,Approved,https://pholsters.com/size-chart/,444 Ultra-Lite
+TAURUS-000055,Taurus Model 4410 Tracker,2.50,A1.5,High,Yes,Judge - 2.50 inch barrel,.410/.45 Colt compact,No,Approved,https://pholsters.com/size-chart/,4410 Tracker
+TAURUS-000056,Taurus Model 4410 Toro Taurus,2.50,A1.5,High,Yes,4410 Tracker - 2.50 inch barrel,.410/.45 Colt toro variant,No,Approved,https://pholsters.com/size-chart/,4410 Toro
+TAURUS-000057,Taurus Spectrum,2.80,A1.5,High,Yes,Beretta Pony - 2.80 inch barrel,.380 ACP micro single stack,No,Approved,https://pholsters.com/size-chart/,Spectrum
+TAURUS-000058,Taurus Model 3AT,2.80,A1.5,Medium,Yes,Spectrum - 2.80 inch barrel,.380 ACP pocket discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,3AT
+TAURUS-000059,Taurus Curve,2.50,A1.5,High,Yes,Beretta Pony - 2.50 inch barrel,.380 ACP curved ergonomic,No,Approved,https://pholsters.com/size-chart/,Curve
+TAURUS-000060,Taurus Model 738,2.70,A1.5,Medium,Yes,Beretta 3032 Tomcat - 2.70 inch barrel,.38 Special pocket discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,738
+TAURUS-000061,Taurus Millennium G2 PT111,3.25,A2,Medium,Yes,PT111 - 3.25 inch barrel,Compact 9mm modern hybrid,No,Approved,https://pholsters.com/size-chart/,G2 PT111
+TAURUS-000062,Taurus Model 38S,2.00,A1,High,Yes,S&W Model 36 - 2.00 inch barrel,.38 Special snub revolver,No,Approved,https://pholsters.com/size-chart/,38S
+TAURUS-000063,Taurus Model 44,4.00,A2.5,Medium,Yes,S&W Model 629 - 4.00 inch barrel,.44 Magnum discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,44
+TAURUS-000064,Taurus Model 445,2.00,A1,High,Yes,Model 38S - 2.00 inch barrel,.44 Special snub revolver,No,Approved,https://pholsters.com/size-chart/,445
+TAURUS-000065,Taurus Model 669,4.00,A2.5,Medium,Yes,Model 689 - 4.00 inch barrel,.357 Magnum older model,No,Approved Discontinued,https://pholsters.com/size-chart/,669
