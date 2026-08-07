@@ -1,0 +1,66 @@
+firearm_id,display_name,barrel_length,proposed_passport_fit,confidence_level,passport_chart_exact_match,comparable_models,decision_basis,review_required,reviewer_decision,supporting_source_urls,aliases
+KIMBER-000001,Kimber Next Generation 1911 Full Size,5.00,A3,High,Yes,Colt M1911A1 - 5.00 inch barrel,Full-size .45 ACP modern 2026,No,Approved,https://pholsters.com/size-chart/,NG 1911 FS
+KIMBER-000002,Kimber Next Generation 1911 9mm,5.00,A3,High,Yes,1911 NG - 5.00 inch barrel,Full-size 9mm modern 2026,No,Approved,https://pholsters.com/size-chart/,NG 1911 9mm
+KIMBER-000003,Kimber Next Generation 1911 Stainless,5.00,A3,High,Yes,1911 NG - 5.00 inch barrel,Full-size .45 ACP stainless 2026,No,Approved,https://pholsters.com/size-chart/,NG 1911 SS
+KIMBER-000004,Kimber 2K11 Double Stack 9mm,5.00,A3,High,Yes,Staccato P - 5.00 inch barrel,Full-size 9mm double-stack tactical,No,Approved,https://pholsters.com/size-chart/,2K11 9mm
+KIMBER-000005,Kimber 2K11 Double Stack .45 ACP,5.00,A3,High,Yes,2K11 - 5.00 inch barrel,Full-size .45 ACP double-stack tactical,No,Approved,https://pholsters.com/size-chart/,2K11 45
+KIMBER-000006,Kimber Custom II,5.00,A3,High,Yes,Colt M1911A1 - 5.00 inch barrel,Full-size .45 ACP custom standard,No,Approved,https://pholsters.com/size-chart/,Custom II
+KIMBER-000007,Kimber Custom II 9mm,5.00,A3,High,Yes,Custom II - 5.00 inch barrel,Full-size 9mm custom variant,No,Approved,https://pholsters.com/size-chart/,Custom II 9mm
+KIMBER-000008,Kimber Custom II Stainless,5.00,A3,High,Yes,Custom II - 5.00 inch barrel,Full-size .45 ACP stainless variant,No,Approved,https://pholsters.com/size-chart/,Custom II SS
+KIMBER-000009,Kimber TLE II,5.00,A3,High,Yes,Springfield TRP - 5.00 inch barrel,Full-size .45 ACP tactical duty,No,Approved,https://pholsters.com/size-chart/,TLE II
+KIMBER-000010,Kimber TLE II 9mm,5.00,A3,High,Yes,TLE II - 5.00 inch barrel,Full-size 9mm tactical duty,No,Approved,https://pholsters.com/size-chart/,TLE II 9mm
+KIMBER-000011,Kimber TLE II Boot Campaign,5.00,A3,High,Yes,TLE II - 5.00 inch barrel,Full-size .45 ACP boot campaign,No,Approved,https://pholsters.com/size-chart/,TLE II Boot
+KIMBER-000012,Kimber TLE II RL,5.00,A3,High,Yes,TLE II - 5.00 inch barrel,Full-size .45 ACP rail configuration,No,Approved,https://pholsters.com/size-chart/,TLE II RL
+KIMBER-000013,Kimber Rapide,5.00,A3,High,Yes,Custom II - 5.00 inch barrel,Full-size .45 ACP premium custom,No,Approved,https://pholsters.com/size-chart/,Rapide
+KIMBER-000014,Kimber Rapide Dawn,5.00,A3,High,Yes,Rapide - 5.00 inch barrel,Full-size .45 ACP premium dawn finish,No,Approved,https://pholsters.com/size-chart/,Rapide Dawn
+KIMBER-000015,Kimber Rapide Premier,5.00,A3,High,Yes,Rapide - 5.00 inch barrel,Full-size .45 ACP premier grade,No,Approved,https://pholsters.com/size-chart/,Rapide Premier
+KIMBER-000016,Kimber Aegis Elite,5.00,A3,High,Yes,Rapide - 5.00 inch barrel,Full-size .45 ACP elite series,No,Approved,https://pholsters.com/size-chart/,Aegis Elite
+KIMBER-000017,Kimber Desert Warrior,5.00,A3,High,Yes,TLE II - 5.00 inch barrel,Full-size .45 ACP desert tactical,No,Approved,https://pholsters.com/size-chart/,Desert Warrior
+KIMBER-000018,Kimber Pro,4.00,A2.5,High,Yes,Colt Commander - 4.00 inch barrel,Compact .45 ACP pro series,No,Approved,https://pholsters.com/size-chart/,Pro
+KIMBER-000019,Kimber Pro 9mm,4.00,A2.5,High,Yes,Pro - 4.00 inch barrel,Compact 9mm pro variant,No,Approved,https://pholsters.com/size-chart/,Pro 9mm
+KIMBER-000020,Kimber Pro Stainless,4.00,A2.5,High,Yes,Pro - 4.00 inch barrel,Compact .45 ACP stainless pro,No,Approved,https://pholsters.com/size-chart/,Pro SS
+KIMBER-000021,Kimber Pro Covert,4.00,A2.5,High,Yes,Pro - 4.00 inch barrel,Compact .45 ACP covert pro,No,Approved,https://pholsters.com/size-chart/,Pro Covert
+KIMBER-000022,Kimber Pro CDP,4.00,A2.5,High,Yes,Pro - 4.00 inch barrel,Compact .45 ACP defense package,No,Approved,https://pholsters.com/size-chart/,Pro CDP
+KIMBER-000023,Kimber Ultra,3.00,A1.5,High,Yes,Colt Defender - 3.00 inch barrel,Subcompact .45 ACP ultra series,No,Approved,https://pholsters.com/size-chart/,Ultra
+KIMBER-000024,Kimber Ultra 9mm,3.00,A1.5,High,Yes,Ultra - 3.00 inch barrel,Subcompact 9mm ultra variant,No,Approved,https://pholsters.com/size-chart/,Ultra 9mm
+KIMBER-000025,Kimber Ultra Stainless,3.00,A1.5,High,Yes,Ultra - 3.00 inch barrel,Subcompact .45 ACP stainless ultra,No,Approved,https://pholsters.com/size-chart/,Ultra SS
+KIMBER-000026,Kimber Ultra Covert,3.00,A1.5,High,Yes,Ultra - 3.00 inch barrel,Subcompact .45 ACP covert ultra,No,Approved,https://pholsters.com/size-chart/,Ultra Covert
+KIMBER-000027,Kimber Ultra CDP,3.00,A1.5,High,Yes,Ultra - 3.00 inch barrel,Subcompact .45 ACP defense ultra,No,Approved,https://pholsters.com/size-chart/,Ultra CDP
+KIMBER-000028,Kimber Ultra Carry,3.00,A1.5,High,Yes,Ultra - 3.00 inch barrel,Subcompact .45 ACP carry ultra,No,Approved,https://pholsters.com/size-chart/,Ultra Carry
+KIMBER-000029,Kimber Micro 9,3.15,A2,High,Yes,Glock G26 - 3.15 inch barrel,Subcompact 9mm micro modern,No,Approved,https://pholsters.com/size-chart/,Micro 9
+KIMBER-000030,Kimber Micro 9 Stainless,3.15,A2,High,Yes,Micro 9 - 3.15 inch barrel,Subcompact 9mm stainless micro,No,Approved,https://pholsters.com/size-chart/,Micro 9 SS
+KIMBER-000031,Kimber Micro 9 Bel Air,3.15,A2,High,Yes,Micro 9 - 3.15 inch barrel,Subcompact 9mm bel air edition,No,Approved,https://pholsters.com/size-chart/,Micro 9 Bel Air
+KIMBER-000032,Kimber Micro 9 Desert Tan,3.15,A2,High,Yes,Micro 9 - 3.15 inch barrel,Subcompact 9mm desert finish,No,Approved,https://pholsters.com/size-chart/,Micro 9 Desert
+KIMBER-000033,Kimber Micro 9 Two-Tone,3.15,A2,High,Yes,Micro 9 - 3.15 inch barrel,Subcompact 9mm two-tone variant,No,Approved,https://pholsters.com/size-chart/,Micro 9 TT
+KIMBER-000034,Kimber Micro 9 Raptor,3.15,A2,High,Yes,Micro 9 - 3.15 inch barrel,Subcompact 9mm raptor scale,No,Approved,https://pholsters.com/size-chart/,Micro 9 Raptor
+KIMBER-000035,Kimber Grand Raptor,5.00,A3,High,Yes,Rapide - 5.00 inch barrel,Full-size .45 ACP raptor scale,No,Approved,https://pholsters.com/size-chart/,Grand Raptor
+KIMBER-000036,Kimber Warrior,5.00,A3,High,Yes,Custom II - 5.00 inch barrel,Full-size .45 ACP warrior series,No,Approved,https://pholsters.com/size-chart/,Warrior
+KIMBER-000037,Kimber Stainless II,5.00,A3,High,Yes,Custom II - 5.00 inch barrel,Full-size .45 ACP stainless series,No,Approved,https://pholsters.com/size-chart/,Stainless II
+KIMBER-000038,Kimber Gold Combat,5.00,A3,High,Yes,Custom II - 5.00 inch barrel,Full-size .45 ACP gold combat series,No,Approved,https://pholsters.com/size-chart/,Gold Combat
+KIMBER-000039,Kimber Eclipse II,5.00,A3,High,Yes,Custom II - 5.00 inch barrel,Full-size .45 ACP eclipse series,No,Approved,https://pholsters.com/size-chart/,Eclipse II
+KIMBER-000040,Kimber Target,5.00,A3,High,Yes,Custom II - 5.00 inch barrel,Full-size .45 ACP target variant,No,Approved,https://pholsters.com/size-chart/,Target
+KIMBER-000041,Kimber Super Match,5.00,A3,High,Yes,Custom II - 5.00 inch barrel,Full-size .45 ACP super match,No,Approved,https://pholsters.com/size-chart/,Super Match
+KIMBER-000042,Kimber Super Match II,5.00,A3,High,Yes,Custom II - 5.00 inch barrel,Full-size .45 ACP super match II,No,Approved,https://pholsters.com/size-chart/,Super Match II
+KIMBER-000043,Kimber Tactical Pro II,4.00,A2.5,High,Yes,Pro - 4.00 inch barrel,Compact .45 ACP tactical pro II,No,Approved,https://pholsters.com/size-chart/,Tactical Pro II
+KIMBER-000044,Kimber Tactical Ultra II,3.00,A1.5,High,Yes,Ultra - 3.00 inch barrel,Subcompact .45 ACP tactical ultra II,No,Approved,https://pholsters.com/size-chart/,Tactical Ultra II
+KIMBER-000045,Kimber Combat Carry,5.00,A3,High,Yes,Custom II - 5.00 inch barrel,Full-size .45 ACP combat carry,No,Approved,https://pholsters.com/size-chart/,Combat Carry
+KIMBER-000046,Kimber Custom Aegis,5.00,A3,High,Yes,Custom II - 5.00 inch barrel,Full-size .45 ACP custom aegis,No,Approved,https://pholsters.com/size-chart/,Custom Aegis
+KIMBER-000047,Kimber Compact CDP II,4.00,A2.5,High,Yes,Pro - 4.00 inch barrel,Compact .45 ACP CDP II,No,Approved,https://pholsters.com/size-chart/,Compact CDP II
+KIMBER-000048,Kimber Ultra CDP II,3.00,A1.5,High,Yes,Ultra - 3.00 inch barrel,Subcompact .45 ACP CDP II,No,Approved,https://pholsters.com/size-chart/,Ultra CDP II
+KIMBER-000049,Kimber Tactical Entry,3.00,A1.5,High,Yes,Ultra - 3.00 inch barrel,Subcompact .45 ACP tactical entry,No,Approved,https://pholsters.com/size-chart/,Tactical Entry
+KIMBER-000050,Kimber Gold Match,5.00,A3,Medium,Yes,Custom II - 5.00 inch barrel,Full-size .45 ACP gold match discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Gold Match
+KIMBER-000051,Kimber Gold Match II,5.00,A3,Medium,Yes,Custom II - 5.00 inch barrel,Full-size .45 ACP gold match II discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Gold Match II
+KIMBER-000052,Kimber Aegis Pro,4.00,A2.5,Medium,Yes,Pro - 4.00 inch barrel,Compact .45 ACP aegis pro discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Aegis Pro
+KIMBER-000053,Kimber Aegis Ultra,3.00,A1.5,Medium,Yes,Ultra - 3.00 inch barrel,Subcompact .45 ACP aegis ultra discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Aegis Ultra
+KIMBER-000054,Kimber Compact Stainless,4.00,A2.5,Medium,Yes,Pro - 4.00 inch barrel,Compact .45 ACP stainless discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Compact SS
+KIMBER-000055,Kimber Ultra Stainless II,3.00,A1.5,Medium,Yes,Ultra - 3.00 inch barrel,Subcompact .45 ACP stainless II discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Ultra SS II
+KIMBER-000056,Kimber Polymer,5.00,A3,Medium,Yes,Custom II - 5.00 inch barrel,Full-size .45 ACP polymer discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Polymer
+KIMBER-000057,Kimber Pro Carry,4.00,A2.5,Medium,Yes,Pro - 4.00 inch barrel,Compact .45 ACP pro carry discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Pro Carry
+KIMBER-000058,Kimber Ultra Carry II,3.00,A1.5,Medium,Yes,Ultra - 3.00 inch barrel,Subcompact .45 ACP ultra carry II discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Ultra Carry II
+KIMBER-000059,Kimber Grand Raptor II,5.00,A3,Medium,Yes,Grand Raptor - 5.00 inch barrel,Full-size .45 ACP grand raptor II discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Grand Raptor II
+KIMBER-000060,Kimber Stainless Gold Match,5.00,A3,Medium,Yes,Gold Match - 5.00 inch barrel,Full-size .45 ACP stainless gold match discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,SS Gold Match
+KIMBER-000061,Kimber Royal,5.00,A3,Low,No,Custom II - 5.00 inch barrel,Full-size .45 ACP royal discontinued,Yes,Requires Historical Research,https://en.wikipedia.org/wiki/Kimber_(firearms),Royal
+KIMBER-000062,Kimber Centennial,5.00,A3,Medium,Yes,Custom II - 5.00 inch barrel,Full-size .45 ACP centennial variant,No,Approved Discontinued,https://pholsters.com/size-chart/,Centennial
+KIMBER-000063,Kimber Compact Pro Stainless,4.00,A2.5,Medium,Yes,Pro - 4.00 inch barrel,Compact .45 ACP pro SS discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Compact Pro SS
+KIMBER-000064,Kimber Micro 9 DC,3.15,A2,Medium,Yes,Micro 9 - 3.15 inch barrel,Subcompact 9mm micro DC discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Micro 9 DC
+KIMBER-000065,Kimber Aegis II,5.00,A3,Medium,Yes,Custom II - 5.00 inch barrel,Full-size .45 ACP aegis II discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Aegis II
