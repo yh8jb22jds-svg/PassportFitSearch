@@ -1,0 +1,66 @@
+firearm_id,display_name,barrel_length,proposed_passport_fit,confidence_level,passport_chart_exact_match,comparable_models,decision_basis,review_required,reviewer_decision,supporting_source_urls,aliases
+RIA-000001,Rock Island Armory GI Standard FS,5.00,A3,High,Yes,Colt M1911A1 - 5.00 inch barrel,Full-size .45 ACP GI standard,No,Approved,https://pholsters.com/size-chart/,GI Standard
+RIA-000002,Rock Island Armory GI Standard 9mm,5.00,A3,High,Yes,1911 GI - 5.00 inch barrel,Full-size 9mm GI standard,No,Approved,https://pholsters.com/size-chart/,GI 9mm
+RIA-000003,Rock Island Armory GI Compact,3.50,A2,High,Yes,Colt Officer's - 3.50 inch barrel,Compact .45 ACP GI compact,No,Approved,https://pholsters.com/size-chart/,GI Compact
+RIA-000004,Rock Island Armory GI Midsize,4.00,A2.5,High,Yes,Colt Commander - 4.00 inch barrel,Compact .45 ACP GI mid-size,No,Approved,https://pholsters.com/size-chart/,GI Midsize
+RIA-000005,Rock Island Armory Rock Ultra FS,5.00,A3,High,Yes,GI Standard - 5.00 inch barrel,Full-size .45 ACP rock ultra,No,Approved,https://pholsters.com/size-chart/,Rock Ultra FS
+RIA-000006,Rock Island Armory Rock Ultra 9mm,5.00,A3,High,Yes,Rock Ultra - 5.00 inch barrel,Full-size 9mm rock ultra variant,No,Approved,https://pholsters.com/size-chart/,Rock Ultra 9mm
+RIA-000007,Rock Island Armory Rock Ultra Midsize,4.00,A2.5,High,Yes,Rock Ultra FS - 4.00 inch barrel,Compact .45 ACP rock ultra mid,No,Approved,https://pholsters.com/size-chart/,Rock Ultra MS
+RIA-000008,Rock Island Armory Rock Ultra Compact,3.50,A2,High,Yes,Rock Ultra FS - 3.50 inch barrel,Compact .45 ACP rock ultra compact,No,Approved,https://pholsters.com/size-chart/,Rock Ultra CS
+RIA-000009,Rock Island Armory Tactical II FS,5.00,A3,High,Yes,Springfield TRP - 5.00 inch barrel,Full-size .45 ACP tactical II,No,Approved,https://pholsters.com/size-chart/,TAC II FS
+RIA-000010,Rock Island Armory Tactical II 9mm,5.00,A3,High,Yes,TAC II FS - 5.00 inch barrel,Full-size 9mm tactical II variant,No,Approved,https://pholsters.com/size-chart/,TAC II 9mm
+RIA-000011,Rock Island Armory Tactical II Midsize,4.00,A2.5,High,Yes,TAC II FS - 4.00 inch barrel,Compact .45 ACP tactical II mid,No,Approved,https://pholsters.com/size-chart/,TAC II MS
+RIA-000012,Rock Island Armory Tactical II Compact,3.50,A2,High,Yes,TAC II FS - 3.50 inch barrel,Compact .45 ACP tactical II compact,No,Approved,https://pholsters.com/size-chart/,TAC II CS
+RIA-000013,Rock Island Armory Pro Match Ultra,5.00,A3,High,Yes,Kimber Super Match - 5.00 inch barrel,Full-size .45 ACP pro match,No,Approved,https://pholsters.com/size-chart/,Pro Match Ultra
+RIA-000014,Rock Island Armory Pro Match 9mm,5.00,A3,High,Yes,Pro Match - 5.00 inch barrel,Full-size 9mm pro match variant,No,Approved,https://pholsters.com/size-chart/,Pro Match 9mm
+RIA-000015,Rock Island Armory XT22 Standard,5.00,A3,High,Yes,Ruger Mark IV - 5.00 inch barrel,.22 LR training standard,No,Approved,https://pholsters.com/size-chart/,XT22
+RIA-000016,Rock Island Armory XT22 Magnum,5.00,A3,High,Yes,XT22 - 5.00 inch barrel,.22 WMR training variant,No,Approved,https://pholsters.com/size-chart/,XT22 Magnum
+RIA-000017,Rock Island Armory TCM Combo,5.00,A3,High,Yes,1911 GI - 5.00 inch barrel,.22 TCM/.45 ACP combo,No,Approved,https://pholsters.com/size-chart/,TCM Combo
+RIA-000018,Rock Island Armory TCM Full-Size,5.00,A3,High,Yes,1911 GI - 5.00 inch barrel,.22 TCM full-size proprietary,No,Approved,https://pholsters.com/size-chart/,TCM FS
+RIA-000019,Rock Island Armory TCM Compact,3.50,A2,High,Yes,TCM FS - 3.50 inch barrel,.22 TCM compact,No,Approved,https://pholsters.com/size-chart/,TCM Compact
+RIA-000020,Rock Island Armory Baby Rock .380,3.00,A1.5,High,Yes,Beretta Pony - 3.00 inch barrel,.380 ACP compact carry,No,Approved,https://pholsters.com/size-chart/,Baby Rock 380
+RIA-000021,Rock Island Armory Baby Rock .45,3.10,A1.5,High,Yes,Colt Defender - 3.10 inch barrel,.45 ACP subcompact carry,No,Approved,https://pholsters.com/size-chart/,Baby Rock 45
+RIA-000022,Rock Island Armory 1911 Double Stack A2 FS,5.00,A3,High,Yes,STI Double Stack - 5.00 inch barrel,Full-size 9mm double-stack hi-cap,No,Approved,https://pholsters.com/size-chart/,A2 FS
+RIA-000023,Rock Island Armory 1911 Double Stack A2 .45,5.00,A3,High,Yes,A2 FS - 5.00 inch barrel,Full-size .45 ACP double-stack variant,No,Approved,https://pholsters.com/size-chart/,A2 45
+RIA-000024,Rock Island Armory 1911 Double Stack A2 10mm,5.00,A3,High,Yes,A2 FS - 5.00 inch barrel,Full-size 10mm double-stack variant,No,Approved,https://pholsters.com/size-chart/,A2 10mm
+RIA-000025,Rock Island Armory STK Standard,4.00,A2.5,High,Yes,Glock G19 - 4.00 inch barrel,Compact 9mm striker-fired modern,No,Approved,https://pholsters.com/size-chart/,STK Standard
+RIA-000026,Rock Island Armory STK Tactical,4.00,A2.5,High,Yes,STK Standard - 4.00 inch barrel,Compact 9mm striker-fired tactical,No,Approved,https://pholsters.com/size-chart/,STK Tactical
+RIA-000027,Rock Island Armory STK Compact,3.50,A2,High,Yes,STK Standard - 3.50 inch barrel,Compact 9mm striker-fired compact,No,Approved,https://pholsters.com/size-chart/,STK Compact
+RIA-000028,Rock Island Armory M1911-A1 Standard,5.00,A3,High,Yes,Colt M1911A1 - 5.00 inch barrel,Full-size .45 ACP standard classic,No,Approved,https://pholsters.com/size-chart/,M1911-A1 Standard
+RIA-000029,Rock Island Armory M1911-A1 Match,5.00,A3,High,Yes,M1911-A1 Standard - 5.00 inch barrel,Full-size .45 ACP match target,No,Approved,https://pholsters.com/size-chart/,M1911-A1 Match
+RIA-000030,Rock Island Armory M1911-A1 Tactical,5.00,A3,High,Yes,M1911-A1 Standard - 5.00 inch barrel,Full-size .45 ACP tactical variant,No,Approved,https://pholsters.com/size-chart/,M1911-A1 Tactical
+RIA-000031,Rock Island Armory CSA 38 Federal,5.00,A3,High,Yes,M1911-A1 - 5.00 inch barrel,Full-size .38 Super full-size,No,Approved,https://pholsters.com/size-chart/,CSA 38 Federal
+RIA-000032,Rock Island Armory CSA 38 Compact,3.50,A2,High,Yes,CSA 38 - 3.50 inch barrel,Compact .38 Super compact,No,Approved,https://pholsters.com/size-chart/,CSA 38 Compact
+RIA-000033,Rock Island Armory Rock Standard FS,5.00,A3,High,Yes,GI Standard - 5.00 inch barrel,Full-size .45 ACP rock standard,No,Approved,https://pholsters.com/size-chart/,Rock Standard
+RIA-000034,Rock Island Armory Rock Standard Midsize,4.00,A2.5,High,Yes,Rock Standard - 4.00 inch barrel,Compact .45 ACP rock mid-size,No,Approved,https://pholsters.com/size-chart/,Rock Standard MS
+RIA-000035,Rock Island Armory Rock Standard Compact,3.50,A2,High,Yes,Rock Standard - 3.50 inch barrel,Compact .45 ACP rock compact,No,Approved,https://pholsters.com/size-chart/,Rock Standard CS
+RIA-000036,Rock Island Armory 1911 10mm Full,5.00,A3,High,Yes,Glock 20 - 5.00 inch barrel,Full-size 10mm tactical,No,Approved,https://pholsters.com/size-chart/,1911 10mm FS
+RIA-000037,Rock Island Armory 1911 10mm Tactical,5.00,A3,High,Yes,1911 10mm FS - 5.00 inch barrel,Full-size 10mm tactical rail,No,Approved,https://pholsters.com/size-chart/,1911 10mm Tac
+RIA-000038,Rock Island Armory 1911 .40 S&W Full,5.00,A3,High,Yes,M&P9 Compact - 5.00 inch barrel,Full-size .40 S&W tactical,No,Approved,https://pholsters.com/size-chart/,1911 40 FS
+RIA-000039,Rock Island Armory Tactical Compact FS,5.00,A3,High,Yes,TAC II FS - 5.00 inch barrel,Full-size .45 ACP compact rail,No,Approved,https://pholsters.com/size-chart/,Tactical Compact
+RIA-000040,Rock Island Armory Tactical Ultra,4.00,A2.5,High,Yes,TAC II MS - 4.00 inch barrel,Compact .45 ACP tactical ultra,No,Approved,https://pholsters.com/size-chart/,Tactical Ultra
+RIA-000041,Rock Island Armory P10 TCM,5.00,A3,High,Yes,1911 GI - 5.00 inch barrel,.22 TCM P10 variant,No,Approved,https://pholsters.com/size-chart/,P10 TCM
+RIA-000042,Rock Island Armory GI SPEC Standard,5.00,A3,High,Yes,GI Standard - 5.00 inch barrel,Full-size .45 ACP GI spec,No,Approved,https://pholsters.com/size-chart/,GI SPEC
+RIA-000043,Rock Island Armory Matchmaster Standard,5.00,A3,High,Yes,Pro Match Ultra - 5.00 inch barrel,Full-size .45 ACP matchmaster,No,Approved,https://pholsters.com/size-chart/,Matchmaster
+RIA-000044,Rock Island Armory Rock Operator,5.00,A3,High,Yes,TAC II FS - 5.00 inch barrel,Full-size .45 ACP rock operator,No,Approved,https://pholsters.com/size-chart/,Rock Operator
+RIA-000045,Rock Island Armory Ultra Compact Tactical,3.50,A2,High,Yes,Rock Ultra CS - 3.50 inch barrel,Compact .45 ACP ultra tactical,No,Approved,https://pholsters.com/size-chart/,Ultra Compact Tac
+RIA-000046,Rock Island Armory 1911 FSP,5.00,A3,Medium,Yes,M1911-A1 Standard - 5.00 inch barrel,Full-size .45 ACP FSP discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,1911 FSP
+RIA-000047,Rock Island Armory 1911 MEU,5.00,A3,Medium,Yes,1911 FSP - 5.00 inch barrel,Full-size .45 ACP MEU discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,1911 MEU
+RIA-000048,Rock Island Armory 1911A1 Combo,5.00,A3,Medium,Yes,M1911-A1 Standard - 5.00 inch barrel,Full-size .45/.22 TCM combo discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,1911A1 Combo
+RIA-000049,Rock Island Armory CS Model,3.50,A2,High,Yes,GI Compact - 3.50 inch barrel,Compact .45 ACP CS model,No,Approved,https://pholsters.com/size-chart/,CS Model
+RIA-000050,Rock Island Armory 1911 MS Model,4.00,A2.5,High,Yes,GI Midsize - 4.00 inch barrel,Compact .45 ACP MS model,No,Approved,https://pholsters.com/size-chart/,MS Model
+RIA-000051,Rock Island Armory Rock Match Ultra FS,5.00,A3,High,Yes,Pro Match Ultra - 5.00 inch barrel,Full-size .45 ACP rock match,No,Approved,https://pholsters.com/size-chart/,Rock Match Ultra
+RIA-000052,Rock Island Armory .22 TCM Midsize,4.00,A2.5,High,Yes,TCM FS - 4.00 inch barrel,.22 TCM mid-size,No,Approved,https://pholsters.com/size-chart/,TCM Midsize
+RIA-000053,Rock Island Armory VE Series,5.00,A3,Medium,Yes,M1911-A1 Standard - 5.00 inch barrel,Full-size .45 ACP VE discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,VE Series
+RIA-000054,Rock Island Armory Midsize Double Stack,4.50,A3,High,Yes,A2 FS - 4.50 inch barrel,Compact 9mm double-stack mid,No,Approved,https://pholsters.com/size-chart/,A2 Midsize
+RIA-000055,Rock Island Armory Tactical Exec,4.00,A2.5,High,Yes,Tactical Ultra - 4.00 inch barrel,Compact .45 ACP tactical exec,No,Approved,https://pholsters.com/size-chart/,Tactical Exec
+RIA-000056,Rock Island Armory Rock Ultra 10mm,5.00,A3,High,Yes,Rock Ultra FS - 5.00 inch barrel,Full-size 10mm rock ultra,No,Approved,https://pholsters.com/size-chart/,Rock Ultra 10mm
+RIA-000057,Rock Island Armory Standard GI Enhanced,5.00,A3,High,Yes,GI Standard - 5.00 inch barrel,Full-size .45 ACP GI enhanced,No,Approved,https://pholsters.com/size-chart/,GI Enhanced
+RIA-000058,Rock Island Armory Tactical II 10mm,5.00,A3,High,Yes,TAC II FS - 5.00 inch barrel,Full-size 10mm tactical II variant,No,Approved,https://pholsters.com/size-chart/,TAC II 10mm
+RIA-000059,Rock Island Armory 1911 .38 Super Full,5.00,A3,High,Yes,CSA 38 Federal - 5.00 inch barrel,Full-size .38 Super full variant,No,Approved,https://pholsters.com/size-chart/,1911 38 Super
+RIA-000060,Rock Island Armory BBR 3.10,3.10,A1.5,High,Yes,Baby Rock 45 - 3.10 inch barrel,Subcompact .45 ACP BBR model,No,Approved,https://pholsters.com/size-chart/,BBR 3.10
+RIA-000061,Rock Island Armory TCM Single Stack,5.00,A3,High,Yes,TCM FS - 5.00 inch barrel,.22 TCM single stack,No,Approved,https://pholsters.com/size-chart/,TCM Single Stack
+RIA-000062,Rock Island Armory Midsize Tactical,4.00,A2.5,High,Yes,Rock Ultra MS - 4.00 inch barrel,Compact .45 ACP mid tactical,No,Approved,https://pholsters.com/size-chart/,Midsize Tactical
+RIA-000063,Rock Island Armory STK .40 S&W,4.00,A2.5,High,Yes,STK Standard - 4.00 inch barrel,Compact .40 S&W striker variant,No,Approved,https://pholsters.com/size-chart/,STK 40
+RIA-000064,Rock Island Armory Rock Compact Tactical,3.50,A2,High,Yes,Rock Ultra CS - 3.50 inch barrel,Compact .45 ACP rock compact tac,No,Approved,https://pholsters.com/size-chart/,Rock Compact Tac
+RIA-000065,Rock Island Armory XT22 Compact,4.00,A2.5,High,Yes,XT22 - 4.00 inch barrel,.22 LR compact training,No,Approved,https://pholsters.com/size-chart/,XT22 Compact
