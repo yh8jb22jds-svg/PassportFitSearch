@@ -1,0 +1,51 @@
+firearm_id,display_name,barrel_length,proposed_passport_fit,confidence_level,passport_chart_exact_match,comparable_models,decision_basis,review_required,reviewer_decision,supporting_source_urls,aliases
+SW-000001,S&W M&P9,4.25,A3,High,Yes,Beretta 92FS - 4.25 inch barrel,Full-size 9mm polymer standard,No,Approved,https://pholsters.com/size-chart/,M&P9
+SW-000002,S&W M&P9 Compact,3.50,A2,High,Yes,Glock G19 - 3.50 inch barrel,Compact 9mm polymer variant,No,Approved,https://pholsters.com/size-chart/,M&P9c
+SW-000003,S&W M&P9 Subcompact,3.00,A1.5,High,Yes,Glock G26 - 3.00 inch barrel,Subcompact 9mm polymer,No,Approved,https://pholsters.com/size-chart/,M&P9sc
+SW-000004,S&W M&P9 M2.0,4.25,A3,High,Yes,M&P9 - 4.25 inch barrel,Full-size 9mm modern variant,No,Approved,https://pholsters.com/size-chart/,M&P9 2.0
+SW-000005,S&W M&P9 M2.0 Compact,3.50,A2,High,Yes,M&P9 Compact - 3.50 inch barrel,Compact 9mm modern variant,No,Approved,https://pholsters.com/size-chart/,M&P9c 2.0
+SW-000006,S&W M&P9 M2.0 Metal Compact,4.00,A2.5,High,Yes,Spec Series VI - 4.00 inch barrel,Compact 9mm metal frame,No,Approved,https://pholsters.com/size-chart/,M&P9 Metal Compact
+SW-000007,S&W Spec Series VI M&P9 Metal Compact,4.00,A2.5,High,Yes,M&P9 M2.0 Metal - 4.00 inch barrel,Compact 9mm optics ready 2026,No,Approved,https://pholsters.com/size-chart/,Spec VI M&P9
+SW-000008,S&W M&P40,4.25,A3,High,Yes,Beretta 92FS - 4.25 inch barrel,Full-size .40 S&W polymer,No,Approved,https://pholsters.com/size-chart/,M&P40
+SW-000009,S&W M&P40 Compact,3.50,A2,High,Yes,Glock G23 - 3.50 inch barrel,Compact .40 S&W polymer,No,Approved,https://pholsters.com/size-chart/,M&P40c
+SW-000010,S&W M&P40 Subcompact,3.00,A1.5,High,Yes,Glock G27 - 3.00 inch barrel,Subcompact .40 S&W,No,Approved,https://pholsters.com/size-chart/,M&P40sc
+SW-000011,S&W M&P45,4.50,A3,High,Yes,Colt M1911 - 4.50 inch barrel,Full-size .45 ACP polymer,No,Approved,https://pholsters.com/size-chart/,M&P45
+SW-000012,S&W M&P45 Compact,3.75,A2,High,Yes,Glock G30 - 3.75 inch barrel,Compact .45 ACP polymer,No,Approved,https://pholsters.com/size-chart/,M&P45c
+SW-000013,S&W SD9 VE,4.00,A2.5,High,Yes,Glock G19 - 4.00 inch barrel,Compact 9mm polymer budget,No,Approved,https://pholsters.com/size-chart/,SD9 VE
+SW-000014,S&W SD40 VE,4.00,A2.5,High,Yes,S&W SD9 VE - 4.00 inch barrel,Compact .40 S&W polymer budget,No,Approved,https://pholsters.com/size-chart/,SD40 VE
+SW-000015,S&W Shield,3.10,A1.5,High,Yes,Glock G43 - 3.10 inch barrel,Subcompact 9mm single stack,No,Approved,https://pholsters.com/size-chart/,Shield
+SW-000016,S&W Shield .40,3.10,A1.5,High,Yes,S&W Shield 9mm - 3.10 inch barrel,Subcompact .40 S&W single stack,No,Approved,https://pholsters.com/size-chart/,Shield 40
+SW-000017,S&W Shield Plus,3.10,A1.5,High,Yes,S&W Shield - 3.10 inch barrel,Subcompact 9mm modern variant,No,Approved,https://pholsters.com/size-chart/,Shield+
+SW-000018,S&W Shield Plus .40,3.10,A1.5,High,Yes,Shield Plus 9mm - 3.10 inch barrel,Subcompact .40 S&W modern,No,Approved,https://pholsters.com/size-chart/,Shield+ 40
+SW-000019,S&W M&P9 Shield EZ,3.67,A2,High,Yes,S&W Shield - 3.67 inch barrel,Compact 9mm easy action,No,Approved,https://pholsters.com/size-chart/,Shield EZ
+SW-000020,S&W M&P9 Shield EZ 2.0,3.67,A2,High,Yes,M&P9 Shield EZ - 3.67 inch barrel,Compact 9mm modern easy action,No,Approved,https://pholsters.com/size-chart/,Shield EZ 2.0
+SW-000021,S&W CSX,3.10,A1.5,High,Yes,S&W Shield - 3.10 inch barrel,Micro-compact 9mm SAO trigger,No,Approved,https://pholsters.com/size-chart/,CSX
+SW-000022,S&W SW1911,5.00,A3,High,Yes,Colt M1911A1 - 5.00 inch barrel,Full-size .45 ACP single action,No,Approved,https://pholsters.com/size-chart/,1911
+SW-000023,S&W SW1911 Pro Series,5.00,A3,High,Yes,SW1911 - 5.00 inch barrel,Full-size .45 ACP performance,No,Approved,https://pholsters.com/size-chart/,1911 Pro
+SW-000024,S&W SW1911 Scandium,5.00,A3,High,Yes,SW1911 - 5.00 inch barrel,Full-size .45 ACP lightweight,No,Approved,https://pholsters.com/size-chart/,1911 Scandium
+SW-000025,S&W SW22 Victory,5.50,A3,High,Yes,Ruger Mark IV - 5.50 inch barrel,.22 LR target pistol,No,Approved,https://pholsters.com/size-chart/,22 Victory
+SW-000026,S&W M&P Competitor,5.00,A3,High,Yes,Glock 34 - 5.00 inch barrel,Full-size 9mm competition,No,Approved,https://pholsters.com/size-chart/,M&P Competitor
+SW-000027,S&W Performance Center M&P9,4.25,A3,High,Yes,M&P9 - 4.25 inch barrel,Full-size 9mm race gun,No,Approved,https://pholsters.com/size-chart/,M&P9 PC
+SW-000028,S&W Performance Center M&P45,4.50,A3,High,Yes,M&P45 - 4.50 inch barrel,Full-size .45 ACP race gun,No,Approved,https://pholsters.com/size-chart/,M&P45 PC
+SW-000029,S&W Bodyguard .380,2.75,A1.5,High,Yes,Beretta Pony - 2.75 inch barrel,Subcompact .380 ACP pocket pistol,No,Approved,https://pholsters.com/size-chart/,Bodyguard 380
+SW-000030,S&W Bodyguard .38,1.88,A1,High,Yes,S&W Model 36 - 1.88 inch barrel,.38 Special Bodyguard revolver,No,Approved,https://pholsters.com/size-chart/,Bodyguard 38
+SW-000031,S&W Bodyguard 2.0 .380,2.75,A1.5,High,Yes,S&W Bodyguard .380 - 2.75 inch barrel,Subcompact .380 ACP 2026 variant,No,Approved,https://pholsters.com/size-chart/,Bodyguard 2.0
+SW-000032,S&W Model 36,1.88,A1,High,Yes,Beretta 3032 Tomcat - 1.88 inch barrel,.38 Special Chief's Special revolver,No,Approved,https://pholsters.com/size-chart/,36
+SW-000033,S&W Model 60,2.13,A1.5,High,Yes,S&W Model 36 - 2.13 inch barrel,.357 Magnum stainless revolver,No,Approved,https://pholsters.com/size-chart/,60
+SW-000034,S&W Model 637,1.88,A1,High,Yes,Model 36 - 1.88 inch barrel,.38 Special Airweight revolver,No,Approved,https://pholsters.com/size-chart/,637
+SW-000035,S&W Model 638,1.88,A1,High,Yes,Model 637 - 1.88 inch barrel,.38 Special Airweight variant,No,Approved,https://pholsters.com/size-chart/,638
+SW-000036,S&W Model 357,1.88,A1,High,Yes,Model 637 - 1.88 inch barrel,.357 Magnum Airweight,No,Approved,https://pholsters.com/size-chart/,357
+SW-000037,S&W Model 686,4.00,A2.5,High,Yes,Colt Python - 4.00 inch barrel,.357 Magnum revolver,No,Approved,https://pholsters.com/size-chart/,686
+SW-000038,S&W Model 686 Plus,4.13,A2.5,High,Yes,Model 686 - 4.13 inch barrel,.357 Magnum 7-shot,No,Approved,https://pholsters.com/size-chart/,686+
+SW-000039,S&W Spec Series R Model 686 Plus,4.13,A2.5,High,Yes,Model 686 Plus - 4.13 inch barrel,.357 Magnum 2026 performance,No,Approved,https://pholsters.com/size-chart/,Spec R 686+
+SW-000040,S&W Model 629,4.00,A2.5,High,Yes,Model 686 - 4.00 inch barrel,.44 Magnum revolver,No,Approved,https://pholsters.com/size-chart/,629
+SW-000041,S&W Model 340 PD,1.88,A1,High,Yes,S&W Model 36 - 1.88 inch barrel,.357 Magnum ultralight revolver,No,Approved,https://pholsters.com/size-chart/,340 PD
+SW-000042,S&W Model 500,4.00,A2.5,Medium,No,Desert Eagle - 4.00 inch barrel,.500 S&W Magnum,Yes,Requires Historical Research,https://pholsters.com/size-chart/,500
+SW-000043,S&W Model 460,4.00,A2.5,Medium,No,Model 500 - 4.00 inch barrel,.460 S&W Magnum,Yes,Requires Historical Research,https://pholsters.com/size-chart/,460
+SW-000044,S&W Model 59,4.00,A2.5,Medium,Yes,M&P9 Compact - 4.00 inch barrel,Compact 9mm double stack discontinued,Yes,Requires Verification,https://pholsters.com/size-chart/,59
+SW-000045,S&W Model 439,4.00,A2.5,Medium,Yes,Model 59 - 4.00 inch barrel,Compact 9mm double stack discontinued,Yes,Requires Verification,https://pholsters.com/size-chart/,439
+SW-000046,S&W Model 459,4.00,A2.5,Medium,Yes,Model 59 - 4.00 inch barrel,Full-size 9mm double stack discontinued,Yes,Requires Verification,https://pholsters.com/size-chart/,459
+SW-000047,S&W Model 3913,3.50,A2,Medium,Yes,Colt Officer's - 3.50 inch barrel,Compact 9mm single stack discontinued,Yes,Requires Verification,https://pholsters.com/size-chart/,3913
+SW-000048,S&W Model 4013,4.00,A2.5,Medium,Yes,M&P9 Compact - 4.00 inch barrel,Compact .40 S&W single stack discontinued,Yes,Requires Verification,https://pholsters.com/size-chart/,4013
+SW-000049,S&W Model 4513,4.13,A2.5,Medium,Yes,Model 4013 - 4.13 inch barrel,Compact .45 ACP single stack discontinued,Yes,Requires Verification,https://pholsters.com/size-chart/,4513
+SW-000050,S&W Model 10,4.00,A2.5,Medium,Yes,Colt Police Special - 4.00 inch barrel,.38 Special revolver discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,10
