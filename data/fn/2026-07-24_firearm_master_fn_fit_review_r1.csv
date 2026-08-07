@@ -1,0 +1,66 @@
+firearm_id,display_name,barrel_length,proposed_passport_fit,confidence_level,passport_chart_exact_match,comparable_models,decision_basis,review_required,reviewer_decision,supporting_source_urls,aliases
+FN-000001,FN 309 MRD,3.74,A2,High,Yes,P365 - 3.74 inch barrel,Compact 9mm budget optics-ready 2026,No,Approved,https://pholsters.com/size-chart/,309 MRD
+FN-000002,FN 309 MRD 20+1,3.74,A2,High,Yes,309 MRD - 3.74 inch barrel,Compact 9mm budget high capacity,No,Approved,https://pholsters.com/size-chart/,309 MRD HC
+FN-000003,FN Reflex MRD,3.74,A2,High,Yes,P365 - 3.74 inch barrel,Compact 9mm CCW optics-ready,No,Approved,https://pholsters.com/size-chart/,Reflex MRD
+FN-000004,FN Reflex XL MRD,4.24,A2.5,High,Yes,Reflex MRD - 4.24 inch barrel,Compact 9mm CCW XL optics-ready,No,Approved,https://pholsters.com/size-chart/,Reflex XL MRD
+FN-000005,FN Reflex Tactical,3.74,A2,High,Yes,Reflex MRD - 3.74 inch barrel,Compact 9mm CCW tactical rail,No,Approved,https://pholsters.com/size-chart/,Reflex Tactical
+FN-000006,FN Reflex Tactical XL,4.24,A2.5,High,Yes,Reflex XL MRD - 4.24 inch barrel,Compact 9mm tactical XL rail,No,Approved,https://pholsters.com/size-chart/,Reflex Tactical XL
+FN-000007,FN 509 Midsize,4.00,A2.5,High,Yes,Glock G19 - 4.00 inch barrel,Compact 9mm striker modular,No,Approved,https://pholsters.com/size-chart/,509 Midsize
+FN-000008,FN 509 Full-Size,4.72,A3,High,Yes,Beretta 92FS - 4.72 inch barrel,Full-size 9mm striker modular,No,Approved,https://pholsters.com/size-chart/,509 FS
+FN-000009,FN 509 Compact,3.64,A2,High,Yes,Glock G26 - 3.64 inch barrel,Compact 9mm striker compact,No,Approved,https://pholsters.com/size-chart/,509 Compact
+FN-000010,FN 509 Tactical,4.72,A3,High,Yes,M&P9 Compact - 4.72 inch barrel,Full-size 9mm tactical modular,No,Approved,https://pholsters.com/size-chart/,509 Tactical
+FN-000011,FN 509 Tactical MRD,4.72,A3,High,Yes,509 Tactical - 4.72 inch barrel,Full-size 9mm tactical optics-ready,No,Approved,https://pholsters.com/size-chart/,509 Tactical MRD
+FN-000012,FN 509 LS Edge,5.03,A3,High,Yes,CZ Shadow 2 - 5.03 inch barrel,Full-size 9mm competition LS edge,No,Approved,https://pholsters.com/size-chart/,509 LS Edge
+FN-000013,FN 509 LS Edge MRD,5.03,A3,High,Yes,509 LS Edge - 5.03 inch barrel,Full-size 9mm competition optics,No,Approved,https://pholsters.com/size-chart/,509 LS Edge MRD
+FN-000014,FN 509 Midsize MRD,4.00,A2.5,High,Yes,509 Midsize - 4.00 inch barrel,Compact 9mm optics-ready,No,Approved,https://pholsters.com/size-chart/,509 Midsize MRD
+FN-000015,FN 509 Compact MRD,3.64,A2,High,Yes,509 Compact - 3.64 inch barrel,Compact 9mm optics-ready compact,No,Approved,https://pholsters.com/size-chart/,509 Compact MRD
+FN-000016,FN 509 Full-Size MRD,4.72,A3,High,Yes,509 FS - 4.72 inch barrel,Full-size 9mm optics-ready,No,Approved,https://pholsters.com/size-chart/,509 FS MRD
+FN-000017,FN 510 Tactical,4.72,A3,High,Yes,Glock 20 - 4.72 inch barrel,Full-size 10mm tactical modular,No,Approved,https://pholsters.com/size-chart/,510 Tactical
+FN-000018,FN 510 Tactical MRD,4.72,A3,High,Yes,510 Tactical - 4.72 inch barrel,Full-size 10mm tactical optics-ready,No,Approved,https://pholsters.com/size-chart/,510 Tactical MRD
+FN-000019,FN 510 Full-Size,4.72,A3,High,Yes,510 Tactical - 4.72 inch barrel,Full-size 10mm modular standard,No,Approved,https://pholsters.com/size-chart/,510 FS
+FN-000020,FN 510 Compact,3.64,A2,High,Yes,510 FS - 3.64 inch barrel,Compact 10mm modular,No,Approved,https://pholsters.com/size-chart/,510 Compact
+FN-000021,FN 545 Tactical,4.72,A3,High,Yes,Colt M1911A1 - 4.72 inch barrel,Full-size .45 ACP tactical modular,No,Approved,https://pholsters.com/size-chart/,545 Tactical
+FN-000022,FN 545 Tactical MRD,4.72,A3,High,Yes,545 Tactical - 4.72 inch barrel,Full-size .45 ACP tactical optics-ready,No,Approved,https://pholsters.com/size-chart/,545 Tactical MRD
+FN-000023,FN 545 Full-Size,4.72,A3,High,Yes,545 Tactical - 4.72 inch barrel,Full-size .45 ACP modular standard,No,Approved,https://pholsters.com/size-chart/,545 FS
+FN-000024,FN 545 Compact,3.64,A2,High,Yes,545 FS - 3.64 inch barrel,Compact .45 ACP modular,No,Approved,https://pholsters.com/size-chart/,545 Compact
+FN-000025,FN FNX-45 Tactical,5.30,A3,High,Yes,Desert Eagle - 5.30 inch barrel,.45 ACP tactical threaded hammer-fired,No,Approved,https://pholsters.com/size-chart/,FNX-45 Tactical
+FN-000026,FN FNX-45 Standard,4.72,A3,High,Yes,Colt M1911A1 - 4.72 inch barrel,.45 ACP hammer-fired DA/SA,No,Approved,https://pholsters.com/size-chart/,FNX-45
+FN-000027,FN FNX-9 Tactical,5.30,A3,High,Yes,Beretta 92FS - 5.30 inch barrel,Full-size 9mm tactical threaded,No,Approved,https://pholsters.com/size-chart/,FNX-9 Tactical
+FN-000028,FN FNX-9 Standard,4.72,A3,High,Yes,Beretta 92FS - 4.72 inch barrel,Full-size 9mm hammer-fired DA/SA,No,Approved,https://pholsters.com/size-chart/,FNX-9
+FN-000029,FN Five-seveN MK3,4.75,A3,High,Yes,CZ 75 B - 4.75 inch barrel,Full-size 5.7x28mm 20-round tactical,No,Approved,https://pholsters.com/size-chart/,Five-seveN MK3
+FN-000030,FN Five-seveN MRD,4.75,A3,High,Yes,Five-seveN MK3 - 4.75 inch barrel,Full-size 5.7x28mm optics-ready,No,Approved,https://pholsters.com/size-chart/,Five-seveN MRD
+FN-000031,FN Five-seveN Tactical,4.75,A3,High,Yes,Five-seveN MK3 - 4.75 inch barrel,Full-size 5.7x28mm tactical rail,No,Approved,https://pholsters.com/size-chart/,Five-seveN Tactical
+FN-000032,FN 502 Tactical,5.03,A3,High,Yes,Ruger Mark IV - 5.03 inch barrel,.22 LR tactical training,No,Approved,https://pholsters.com/size-chart/,502 Tactical
+FN-000033,FN 502 MRD,5.03,A3,High,Yes,502 Tactical - 5.03 inch barrel,.22 LR optics-ready training,No,Approved,https://pholsters.com/size-chart/,502 MRD
+FN-000034,FN 502 Standard,5.03,A3,High,Yes,502 Tactical - 5.03 inch barrel,.22 LR training standard,No,Approved,https://pholsters.com/size-chart/,502 Standard
+FN-000035,FN High Power 9mm,4.65,A3,High,Yes,Browning Hi-Power - 4.65 inch barrel,Full-size 9mm modern classic,No,Approved,https://pholsters.com/size-chart/,High Power 9mm
+FN-000036,FN High Power 9mm MRD,4.65,A3,High,Yes,High Power 9mm - 4.65 inch barrel,Full-size 9mm modern optics-ready,No,Approved,https://pholsters.com/size-chart/,High Power 9mm MRD
+FN-000037,FN SCAR 15P Pistol,7.50,A3,Medium,No,AR-15 Pistol - 7.50 inch barrel,Mid-size 5.56mm tactical rifle-pistol,No,Approved,https://pholsters.com/size-chart/,SCAR 15P
+FN-000038,FN SCAR 15P .300 BLK,7.50,A3,Medium,No,SCAR 15P - 7.50 inch barrel,Mid-size .300 BLK tactical rifle-pistol,No,Approved,https://pholsters.com/size-chart/,SCAR 15P 300BLK
+FN-000039,FN 509 Tactical Plus,5.03,A3,High,Yes,509 Tactical - 5.03 inch barrel,Full-size 9mm tactical plus extended,No,Approved,https://pholsters.com/size-chart/,509 Tactical Plus
+FN-000040,FN 509 Combat Optics,4.72,A3,High,Yes,509 Tactical - 4.72 inch barrel,Full-size 9mm combat optics,No,Approved,https://pholsters.com/size-chart/,509 Combat Optics
+FN-000041,FN 510 Full-Size MRD,4.72,A3,High,Yes,510 FS - 4.72 inch barrel,Full-size 10mm optics-ready,No,Approved,https://pholsters.com/size-chart/,510 FS MRD
+FN-000042,FN 545 Full-Size MRD,4.72,A3,High,Yes,545 FS - 4.72 inch barrel,Full-size .45 ACP optics-ready,No,Approved,https://pholsters.com/size-chart/,545 FS MRD
+FN-000043,FN 509 Competition,5.03,A3,High,Yes,509 LS Edge - 5.03 inch barrel,Full-size 9mm competition variant,No,Approved,https://pholsters.com/size-chart/,509 Competition
+FN-000044,FN Reflex Standard,3.74,A2,High,Yes,Reflex MRD - 3.74 inch barrel,Compact 9mm CCW standard,No,Approved,https://pholsters.com/size-chart/,Reflex Standard
+FN-000045,FN Reflex XL Standard,4.24,A2.5,High,Yes,Reflex XL MRD - 4.24 inch barrel,Compact 9mm CCW XL standard,No,Approved,https://pholsters.com/size-chart/,Reflex XL Standard
+FN-000046,FN 509 Midsize Tactical,4.00,A2.5,High,Yes,509 Midsize - 4.00 inch barrel,Compact 9mm tactical rail,No,Approved,https://pholsters.com/size-chart/,509 Midsize Tactical
+FN-000047,FN 509 Full-Size Tactical,4.72,A3,High,Yes,509 FS - 4.72 inch barrel,Full-size 9mm tactical rail,No,Approved,https://pholsters.com/size-chart/,509 FS Tactical
+FN-000048,FN 509 Compact Tactical,3.64,A2,High,Yes,509 Compact - 3.64 inch barrel,Compact 9mm tactical rail,No,Approved,https://pholsters.com/size-chart/,509 Compact Tactical
+FN-000049,FN 510 Standard,4.72,A3,High,Yes,510 Tactical - 4.72 inch barrel,Full-size 10mm standard modular,No,Approved,https://pholsters.com/size-chart/,510 Standard
+FN-000050,FN 545 Standard,4.72,A3,High,Yes,545 Tactical - 4.72 inch barrel,Full-size .45 ACP standard modular,No,Approved,https://pholsters.com/size-chart/,545 Standard
+FN-000051,FN FNX-45 Compact,3.64,A2,High,Yes,FNX-45 Standard - 3.64 inch barrel,.45 ACP compact hammer-fired,No,Approved,https://pholsters.com/size-chart/,FNX-45 Compact
+FN-000052,FN FNX-9 Compact,3.64,A2,High,Yes,FNX-9 Standard - 3.64 inch barrel,Compact 9mm hammer-fired,No,Approved,https://pholsters.com/size-chart/,FNX-9 Compact
+FN-000053,FN Five-seveN USG,4.75,A3,Medium,Yes,Five-seveN MK3 - 4.75 inch barrel,Full-size 5.7x28mm USG discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Five-seveN USG
+FN-000054,FN 509 Full-Size M-LOK,4.72,A3,High,Yes,509 FS - 4.72 inch barrel,Full-size 9mm M-LOK rail system,No,Approved,https://pholsters.com/size-chart/,509 FS M-LOK
+FN-000055,FN 509 Midsize M-LOK,4.00,A2.5,High,Yes,509 Midsize - 4.00 inch barrel,Compact 9mm M-LOK rail system,No,Approved,https://pholsters.com/size-chart/,509 Midsize M-LOK
+FN-000056,FN FN15 Pistol,10.50,A4,Medium,No,AR-15 Pistol - 10.50 inch barrel,Full-size 5.56mm tactical rifle-pistol,No,Approved,https://pholsters.com/size-chart/,FN15 Pistol
+FN-000057,FN FN15 .300 Blackout Pistol,10.50,A4,Medium,No,FN15 Pistol - 10.50 inch barrel,Full-size .300 BLK tactical rifle-pistol,No,Approved,https://pholsters.com/size-chart/,FN15 .300 BLK
+FN-000058,FN 509 Compact Plus,4.00,A2.5,High,Yes,509 Compact - 3.64 inch barrel,Compact 9mm compact plus extended,No,Approved,https://pholsters.com/size-chart/,509 Compact Plus
+FN-000059,FN 502 Suppressor Ready,5.03,A3,High,Yes,502 Tactical - 5.03 inch barrel,.22 LR suppressor ready training,No,Approved,https://pholsters.com/size-chart/,502 Suppressor Ready
+FN-000060,FN 509 LS Edge Competition Pro,5.03,A3,High,Yes,509 LS Edge - 5.03 inch barrel,Full-size 9mm competition pro,No,Approved,https://pholsters.com/size-chart/,509 LS Edge Pro
+FN-000061,FN Reflex Plus,4.74,A3,High,Yes,Reflex XL MRD - 4.74 inch barrel,Compact 9mm CCW plus variant,No,Approved,https://pholsters.com/size-chart/,Reflex Plus
+FN-000062,FN 510 Midsize,4.00,A2.5,High,Yes,509 Midsize - 4.00 inch barrel,Compact 10mm modular,No,Approved,https://pholsters.com/size-chart/,510 Midsize
+FN-000063,FN 545 Midsize,4.00,A2.5,High,Yes,509 Midsize - 4.00 inch barrel,Compact .45 ACP modular,No,Approved,https://pholsters.com/size-chart/,545 Midsize
+FN-000064,FN Five-seveN Law Enforcement,4.75,A3,Medium,Yes,Five-seveN MK3 - 4.75 inch barrel,Full-size 5.7x28mm LE edition discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Five-seveN LE
+FN-000065,FN 309 Standard,3.74,A2,High,Yes,309 MRD - 3.74 inch barrel,Compact 9mm budget standard,No,Approved,https://pholsters.com/size-chart/,309 Standard
