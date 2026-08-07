@@ -1,0 +1,41 @@
+firearm_id,display_name,colt_source_url,passport_chart_url,source_type,date_accessed,specification_notes
+COLT-000001,Colt M1911,https://www.colt.com/products/m1911/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,5.00 inch barrel full-size .45 ACP
+COLT-000002,Colt M1911A1,https://www.colt.com/products/m1911/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,5.00 inch barrel A1 variant
+COLT-000003,Colt Government Model,https://www.colt.com/products/government/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,5.00 inch barrel full-size .45 ACP
+COLT-000004,Colt Government Model .38 Super,https://www.colt.com/products/government/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,5.00 inch barrel .38 Super variant
+COLT-000005,Colt Commander,https://www.colt.com/products/commander/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,4.25 inch barrel mid-size .45 ACP
+COLT-000006,Colt Commander .38 Super,https://www.colt.com/products/commander/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,4.25 inch barrel .38 Super variant
+COLT-000007,Colt Officer's Model,https://www.colt.com/products/officers/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,3.50 inch barrel compact .45 ACP
+COLT-000008,Colt Defender,https://www.colt.com/products/defender/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,3.00 inch barrel subcompact .45 ACP
+COLT-000009,Colt Pocket Nine,https://www.colt.com/products/pocket-nine/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,3.15 inch barrel compact 9mm
+COLT-000010,Colt Double Eagle,https://www.colt.com/products/double-eagle/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,4.25 inch barrel mid-size .45 ACP double action
+COLT-000011,Colt Double Eagle Compact,https://www.colt.com/products/double-eagle/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,3.80 inch barrel compact .45 ACP double action
+COLT-000012,Colt M1991A1 Compact,https://www.colt.com/products/m1991a1/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,3.50 inch barrel compact 9mm
+COLT-000013,Colt M1991A1,https://www.colt.com/products/m1991a1/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,4.25 inch barrel mid-size 9mm
+COLT-000014,Colt Pony,https://www.colt.com/products/pony/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,2.80 inch barrel subcompact .380 ACP
+COLT-000015,Colt Pony Pocketlite,https://www.colt.com/products/pony/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,2.80 inch barrel subcompact .380 ACP lightweight
+COLT-000016,Colt Mustang,https://www.colt.com/products/mustang/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,2.75 inch barrel subcompact .380 ACP
+COLT-000017,Colt Mustang Pocketlite,https://www.colt.com/products/mustang/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,2.75 inch barrel subcompact .380 ACP lightweight
+COLT-000018,Colt Mustang Plus II,https://www.colt.com/products/mustang/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,3.00 inch barrel compact .380 ACP
+COLT-000019,Colt XSE Government,https://www.colt.com/products/xse/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,5.00 inch barrel full-size .45 ACP enhanced
+COLT-000020,Colt XSE Commander,https://www.colt.com/products/xse/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,4.25 inch barrel mid-size .45 ACP enhanced
+COLT-000021,Colt Concealed Carry Officer's,https://www.colt.com/products/concealed-carry/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,3.50 inch barrel compact .45 ACP tactical
+COLT-000022,Colt Rail Gun,https://www.colt.com/products/rail-gun/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,5.00 inch barrel full-size .45 ACP tactical
+COLT-000023,Colt Combat Unit,https://www.colt.com/products/combat-unit/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,4.25 inch barrel mid-size .45 ACP combat
+COLT-000024,Colt Lightweight Commander,https://www.colt.com/products/commander/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,4.25 inch barrel mid-size .45 ACP lightweight
+COLT-000025,Colt Marine Pistol,https://www.colt.com/products/marine/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,5.00 inch barrel full-size .45 ACP military
+COLT-000026,Colt Lawman Mk III,https://en.wikipedia.org/wiki/Colt_Lawman,https://pholsters.com/size-chart/,Public Reference,2026-07-24,4.00 inch barrel .357 Magnum revolver discontinued
+COLT-000027,Colt Detective Special,https://en.wikipedia.org/wiki/Colt_Detective_Special,https://pholsters.com/size-chart/,Public Reference,2026-07-24,2.00 inch barrel .38 Special revolver discontinued
+COLT-000028,Colt Police Special,https://en.wikipedia.org/wiki/Colt_Police_Special,https://pholsters.com/size-chart/,Public Reference,2026-07-24,4.00 inch barrel .38 Special revolver discontinued
+COLT-000029,Colt Python,https://en.wikipedia.org/wiki/Colt_Python,https://pholsters.com/size-chart/,Public Reference,2026-07-24,4.00 inch barrel .357 Magnum revolver discontinued
+COLT-000030,Colt Cobra,https://en.wikipedia.org/wiki/Colt_Cobra,https://pholsters.com/size-chart/,Public Reference,2026-07-24,2.00 inch barrel .38 Special revolver discontinued
+COLT-000031,Colt King Cobra,https://en.wikipedia.org/wiki/Colt_King_Cobra,https://pholsters.com/size-chart/,Public Reference,2026-07-24,4.00 inch barrel .357 Magnum revolver discontinued
+COLT-000032,Colt Diamondback,https://en.wikipedia.org/wiki/Colt_Diamondback,https://pholsters.com/size-chart/,Public Reference,2026-07-24,4.00 inch barrel .38 Special revolver discontinued
+COLT-000033,Colt Trooper,https://en.wikipedia.org/wiki/Colt_Trooper,https://pholsters.com/size-chart/,Public Reference,2026-07-24,4.00 inch barrel .357 Magnum revolver discontinued
+COLT-000034,Colt Peacemaker,https://en.wikipedia.org/wiki/Colt_Single_Action_Army,https://pholsters.com/size-chart/,Public Reference,2026-07-24,4.75 inch barrel .45 Colt single action discontinued
+COLT-000035,Colt Single Action Army,https://en.wikipedia.org/wiki/Colt_Single_Action_Army,https://pholsters.com/size-chart/,Public Reference,2026-07-24,5.00 inch barrel .45 Colt single action discontinued
+COLT-000036,Colt 1911 Rail Gun Compact,https://www.colt.com/products/rail-gun/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,4.00 inch barrel compact .45 ACP tactical
+COLT-000037,Colt All American 2000,https://en.wikipedia.org/wiki/Colt_All_American_2000,https://pholsters.com/size-chart/,Public Reference,2026-07-24,4.25 inch barrel 9mm polymer discontinued
+COLT-000038,Colt Delta Elite,https://www.colt.com/products/delta-elite/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,5.00 inch barrel full-size 10mm
+COLT-000039,Colt Combat Commander,https://www.colt.com/products/commander/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,4.25 inch barrel mid-size .45 ACP combat
+COLT-000040,Colt King Cobra Reborn,https://www.colt.com/products/king-cobra/,https://pholsters.com/size-chart/,Official Colt,2026-07-24,4.20 inch barrel .357 Magnum revolver modern
