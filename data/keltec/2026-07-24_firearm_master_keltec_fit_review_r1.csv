@@ -1,0 +1,66 @@
+firearm_id,display_name,barrel_length,proposed_passport_fit,confidence_level,passport_chart_exact_match,comparable_models,decision_basis,review_required,reviewer_decision,supporting_source_urls,aliases
+KELTEC-000001,Kel-Tec PR-3AT,2.75,A1.5,High,Yes,Beretta Pony - 2.75 inch barrel,.380 ACP rotary top-loading compact,No,Approved,https://pholsters.com/size-chart/,PR-3AT
+KELTEC-000002,Kel-Tec PR-3AT Defender,2.75,A1.5,High,Yes,PR-3AT - 2.75 inch barrel,.380 ACP rotary defender package,No,Approved,https://pholsters.com/size-chart/,PR-3AT Defender
+KELTEC-000003,Kel-Tec PR-5.7,3.00,A1.5,High,Yes,P365 - 3.00 inch barrel,Subcompact 5.7x28mm rotary top-loading,No,Approved,https://pholsters.com/size-chart/,PR-5.7
+KELTEC-000004,Kel-Tec PR-5.7 Standard,3.00,A1.5,High,Yes,PR-5.7 - 3.00 inch barrel,Subcompact 5.7x28mm rotary standard,No,Approved,https://pholsters.com/size-chart/,PR-5.7 Standard
+KELTEC-000005,Kel-Tec PR-5.7 Defender,3.00,A1.5,High,Yes,PR-5.7 - 3.00 inch barrel,Subcompact 5.7x28mm rotary defender,No,Approved,https://pholsters.com/size-chart/,PR-5.7 Defender
+KELTEC-000006,Kel-Tec P15,3.75,A2,High,Yes,Glock G19 - 3.75 inch barrel,Compact 9mm slim modern,No,Approved,https://pholsters.com/size-chart/,P15
+KELTEC-000007,Kel-Tec P15 Tactical,3.75,A2,High,Yes,P15 - 3.75 inch barrel,Compact 9mm tactical rail,No,Approved,https://pholsters.com/size-chart/,P15 Tactical
+KELTEC-000008,Kel-Tec P15 Defender,3.75,A2,High,Yes,P15 - 3.75 inch barrel,Compact 9mm defender package,No,Approved,https://pholsters.com/size-chart/,P15 Defender
+KELTEC-000009,Kel-Tec P17,4.00,A2.5,High,Yes,Ruger Mark IV - 4.00 inch barrel,Compact .22 LR budget plinker,No,Approved,https://pholsters.com/size-chart/,P17
+KELTEC-000010,Kel-Tec P17 GSS,4.00,A2.5,High,Yes,P17 - 4.00 inch barrel,Compact .22 LR gss variant,No,Approved,https://pholsters.com/size-chart/,P17 GSS
+KELTEC-000011,Kel-Tec P32,2.68,A1.5,High,Yes,Beretta Pony - 2.68 inch barrel,Micro-compact .32 ACP pocket,No,Approved,https://pholsters.com/size-chart/,P32
+KELTEC-000012,Kel-Tec P32 Parkerized,2.68,A1.5,High,Yes,P32 - 2.68 inch barrel,Micro-compact .32 ACP parkerized,No,Approved,https://pholsters.com/size-chart/,P32 Parkerized
+KELTEC-000013,Kel-Tec P32 Nickel,2.68,A1.5,High,Yes,P32 - 2.68 inch barrel,Micro-compact .32 ACP nickel,No,Approved,https://pholsters.com/size-chart/,P32 Nickel
+KELTEC-000014,Kel-Tec P32 Stainless,2.68,A1.5,High,Yes,P32 - 2.68 inch barrel,Micro-compact .32 ACP stainless,No,Approved,https://pholsters.com/size-chart/,P32 SS
+KELTEC-000015,Kel-Tec PMR30,4.30,A2.5,High,Yes,S&W M&P Shield - 4.30 inch barrel,Compact .22 WMR high-capacity,No,Approved,https://pholsters.com/size-chart/,PMR30
+KELTEC-000016,Kel-Tec PMR30 Standard,4.30,A2.5,High,Yes,PMR30 - 4.30 inch barrel,Compact .22 WMR standard,No,Approved,https://pholsters.com/size-chart/,PMR30 Standard
+KELTEC-000017,Kel-Tec PMR30 Parkerized,4.30,A2.5,High,Yes,PMR30 - 4.30 inch barrel,Compact .22 WMR parkerized,No,Approved,https://pholsters.com/size-chart/,PMR30 Parkerized
+KELTEC-000018,Kel-Tec PMR30 Nickel,4.30,A2.5,High,Yes,PMR30 - 4.30 inch barrel,Compact .22 WMR nickel,No,Approved,https://pholsters.com/size-chart/,PMR30 Nickel
+KELTEC-000019,Kel-Tec SUB-SDP Standard,6.00,A3,High,Yes,CZ P-09 - 6.00 inch barrel,Full-size 9mm folding braced,No,Approved,https://pholsters.com/size-chart/,SUB-SDP
+KELTEC-000020,Kel-Tec SUB-SDP Tactical,6.00,A3,High,Yes,SUB-SDP - 6.00 inch barrel,Full-size 9mm folding tactical,No,Approved,https://pholsters.com/size-chart/,SUB-SDP Tactical
+KELTEC-000021,Kel-Tec SUB-SDP Defender,6.00,A3,High,Yes,SUB-SDP - 6.00 inch barrel,Full-size 9mm folding defender,No,Approved,https://pholsters.com/size-chart/,SUB-SDP Defender
+KELTEC-000022,Kel-Tec KP50 Standard,9.60,A3,High,Yes,Kel-Tec P50 - 9.60 inch barrel,Full-size 5.7x28mm 50-round standard,No,Approved,https://pholsters.com/size-chart/,KP50 Standard
+KELTEC-000023,Kel-Tec KP50 Braced,9.60,A3,High,Yes,KP50 Standard - 9.60 inch barrel,Full-size 5.7x28mm 50-round braced,No,Approved,https://pholsters.com/size-chart/,KP50 Braced
+KELTEC-000024,Kel-Tec KP50 SBR,9.60,A3,High,Yes,KP50 Standard - 9.60 inch barrel,Full-size 5.7x28mm 50-round SBR,No,Approved,https://pholsters.com/size-chart/,KP50 SBR
+KELTEC-000025,Kel-Tec KP50 Defender,9.60,A3,High,Yes,KP50 Standard - 9.60 inch barrel,Full-size 5.7x28mm 50-round defender,No,Approved,https://pholsters.com/size-chart/,KP50 Defender
+KELTEC-000026,Kel-Tec PLR16,9.20,A3,Medium,No,AR-15 Pistol - 9.20 inch barrel,Full-size 5.56mm tactical rifle-pistol,No,Approved,https://pholsters.com/size-chart/,PLR16
+KELTEC-000027,Kel-Tec PLR16 Standard,9.20,A3,Medium,No,PLR16 - 9.20 inch barrel,Full-size 5.56mm standard,No,Approved,https://pholsters.com/size-chart/,PLR16 Standard
+KELTEC-000028,Kel-Tec PLR16 Tactical,9.20,A3,Medium,No,PLR16 - 9.20 inch barrel,Full-size 5.56mm tactical,No,Approved,https://pholsters.com/size-chart/,PLR16 Tactical
+KELTEC-000029,Kel-Tec P50,9.60,A3,High,Yes,KP50 Standard - 9.60 inch barrel,Full-size 5.7x28mm 50-round P50,No,Approved,https://pholsters.com/size-chart/,P50
+KELTEC-000030,Kel-Tec P50 Tactical,9.60,A3,High,Yes,P50 - 9.60 inch barrel,Full-size 5.7x28mm tactical P50,No,Approved,https://pholsters.com/size-chart/,P50 Tactical
+KELTEC-000031,Kel-Tec PF9,3.00,A1.5,High,Yes,P365 - 3.00 inch barrel,Subcompact 9mm light pf9,No,Approved,https://pholsters.com/size-chart/,PF9
+KELTEC-000032,Kel-Tec PF9 Parkerized,3.00,A1.5,High,Yes,PF9 - 3.00 inch barrel,Subcompact 9mm parkerized PF9,No,Approved,https://pholsters.com/size-chart/,PF9 Parkerized
+KELTEC-000033,Kel-Tec PFD9,3.00,A1.5,High,Yes,PF9 - 3.00 inch barrel,Subcompact 9mm double-stack PFD,No,Approved,https://pholsters.com/size-chart/,PFD9
+KELTEC-000034,Kel-Tec P11,3.10,A1.5,High,Yes,Glock G26 - 3.10 inch barrel,Compact 9mm single-stack P11,No,Approved,https://pholsters.com/size-chart/,P11
+KELTEC-000035,Kel-Tec P11 Parkerized,3.10,A1.5,High,Yes,P11 - 3.10 inch barrel,Compact 9mm parkerized P11,No,Approved,https://pholsters.com/size-chart/,P11 Parkerized
+KELTEC-000036,Kel-Tec P3AT,2.75,A1.5,High,Yes,Beretta Pony - 2.75 inch barrel,.380 ACP pocket pistol P3AT,No,Approved,https://pholsters.com/size-chart/,P3AT
+KELTEC-000037,Kel-Tec P3AT Parkerized,2.75,A1.5,High,Yes,P3AT - 2.75 inch barrel,.380 ACP parkerized P3AT,No,Approved,https://pholsters.com/size-chart/,P3AT Parkerized
+KELTEC-000038,Kel-Tec P40,3.30,A2,High,Yes,P3AT - 3.30 inch barrel,.40 S&W lightweight,No,Approved,https://pholsters.com/size-chart/,P40
+KELTEC-000039,Kel-Tec P40 Parkerized,3.30,A2,High,Yes,P40 - 3.30 inch barrel,.40 S&W parkerized,No,Approved,https://pholsters.com/size-chart/,P40 Parkerized
+KELTEC-000040,Kel-Tec PL9,3.10,A1.5,High,Yes,P11 - 3.10 inch barrel,Compact 9mm light PL9,No,Approved,https://pholsters.com/size-chart/,PL9
+KELTEC-000041,Kel-Tec PL9 Parkerized,3.10,A1.5,High,Yes,PL9 - 3.10 inch barrel,Compact 9mm parkerized PL9,No,Approved,https://pholsters.com/size-chart/,PL9 Parkerized
+KELTEC-000042,Kel-Tec KSG Pistol Brace,18.50,A4,Medium,No,Mossberg Shockwave - 18.50 inch barrel,Full-size 12-gauge bullpup brace,Yes,Requires Historical Research,https://pholsters.com/size-chart/,KSG Pistol
+KELTEC-000043,Kel-Tec SUB2000 Carbine,16.00,A4,Medium,No,AR-15 Carbine - 16.00 inch barrel,Full-size 9mm carbine modern,No,Approved,https://pholsters.com/size-chart/,SUB2000
+KELTEC-000044,Kel-Tec P15 Compact,3.30,A2,High,Yes,P15 - 3.30 inch barrel,Compact 9mm compact P15,No,Approved,https://pholsters.com/size-chart/,P15 Compact
+KELTEC-000045,Kel-Tec P17 Stainless,4.00,A2.5,High,Yes,P17 - 4.00 inch barrel,Compact .22 LR stainless,No,Approved,https://pholsters.com/size-chart/,P17 SS
+KELTEC-000046,Kel-Tec PMR30 Stainless,4.30,A2.5,High,Yes,PMR30 - 4.30 inch barrel,Compact .22 WMR stainless,No,Approved,https://pholsters.com/size-chart/,PMR30 SS
+KELTEC-000047,Kel-Tec PLR22 Pistol,9.20,A3,High,Yes,Ruger Mark IV - 9.20 inch barrel,Full-size .22 LR rifle-pistol,No,Approved,https://pholsters.com/size-chart/,PLR22
+KELTEC-000048,Kel-Tec P15 Stainless,3.75,A2,High,Yes,P15 - 3.75 inch barrel,Compact 9mm stainless,No,Approved,https://pholsters.com/size-chart/,P15 SS
+KELTEC-000049,Kel-Tec KP32 Stainless,2.68,A1.5,High,Yes,P32 - 2.68 inch barrel,Micro-compact .32 ACP stainless KP32,No,Approved,https://pholsters.com/size-chart/,KP32
+KELTEC-000050,Kel-Tec P11 Stainless,3.10,A1.5,High,Yes,P11 - 3.10 inch barrel,Compact 9mm stainless P11,No,Approved,https://pholsters.com/size-chart/,P11 SS
+KELTEC-000051,Kel-Tec P3AT Stainless,2.75,A1.5,High,Yes,P3AT - 2.75 inch barrel,.380 ACP stainless,No,Approved,https://pholsters.com/size-chart/,P3AT SS
+KELTEC-000052,Kel-Tec P40 Stainless,3.30,A2,High,Yes,P40 - 3.30 inch barrel,.40 S&W stainless,No,Approved,https://pholsters.com/size-chart/,P40 SS
+KELTEC-000053,Kel-Tec SUB-2000 Gen 2,16.00,A4,Medium,No,SUB2000 - 16.00 inch barrel,Full-size 9mm carbine gen 2,No,Approved,https://pholsters.com/size-chart/,SUB2000 Gen 2
+KELTEC-000054,Kel-Tec PF9 Stainless,3.00,A1.5,High,Yes,PF9 - 3.00 inch barrel,Subcompact 9mm stainless PF9,No,Approved,https://pholsters.com/size-chart/,PF9 SS
+KELTEC-000055,Kel-Tec P15 Micro,3.00,A1.5,High,Yes,P365 - 3.00 inch barrel,Subcompact 9mm micro P15,No,Approved,https://pholsters.com/size-chart/,P15 Micro
+KELTEC-000056,Kel-Tec PMR30 Compact,3.80,A2,High,Yes,PMR30 - 3.80 inch barrel,Compact .22 WMR compact variant,No,Approved,https://pholsters.com/size-chart/,PMR30 Compact
+KELTEC-000057,Kel-Tec KP15,3.75,A2,High,Yes,P15 - 3.75 inch barrel,Compact 9mm upgraded KP15,No,Approved,https://pholsters.com/size-chart/,KP15
+KELTEC-000058,Kel-Tec KSG Tactical Shotgun,18.50,A4,Medium,No,Mossberg Shockwave - 18.50 inch barrel,Full-size 12-gauge tactical bullpup,No,Approved,https://pholsters.com/size-chart/,KSG Tactical
+KELTEC-000059,Kel-Tec MP50 Machine Pistol,9.60,A3,High,Yes,KP50 - 9.60 inch barrel,Full-size 5.7x28mm 50-round MP50,No,Approved,https://pholsters.com/size-chart/,MP50
+KELTEC-000060,Kel-Tec KP50 Extended Magazine,9.60,A3,High,Yes,KP50 - 9.60 inch barrel,Full-size 5.7x28mm 100-round extended,No,Approved,https://pholsters.com/size-chart/,KP50 Extended
+KELTEC-000061,Kel-Tec P32 Tactical,2.68,A1.5,High,Yes,P32 - 2.68 inch barrel,Micro-compact .32 ACP tactical P32,No,Approved,https://pholsters.com/size-chart/,P32 Tactical
+KELTEC-000062,Kel-Tec PLR16 IPM,9.20,A3,Medium,No,PLR16 - 9.20 inch barrel,Full-size 5.56mm IPM variant,No,Approved,https://pholsters.com/size-chart/,PLR16 IPM
+KELTEC-000063,Kel-Tec PL40 Stainless,3.30,A2,High,Yes,P40 - 3.30 inch barrel,.40 S&W stainless light PL40,No,Approved,https://pholsters.com/size-chart/,PL40 SS
+KELTEC-000064,Kel-Tec SUB-SDP Compact,5.50,A2.5,High,Yes,SUB-SDP - 5.50 inch barrel,Compact 9mm folding compact,No,Approved,https://pholsters.com/size-chart/,SUB-SDP Compact
+KELTEC-000065,Kel-Tec P17 Competition,4.00,A2.5,High,Yes,P17 - 4.00 inch barrel,Compact .22 LR competition,No,Approved,https://pholsters.com/size-chart/,P17 Competition
