@@ -1,0 +1,41 @@
+firearm_id,display_name,beretta_source_url,passport_chart_url,source_type,date_accessed,specification_notes
+BERETTA-000001,Beretta M9,https://www.berettausa.com/en-us/m9/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,4.90 inch barrel 9mm
+BERETTA-000002,Beretta M9A1,https://www.berettausa.com/en-us/m9a1/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,4.90 inch barrel 9mm
+BERETTA-000003,Beretta M9A3,https://www.berettausa.com/en-us/m9a3/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,4.90 inch barrel 9mm
+BERETTA-000004,Beretta 92FS,https://www.berettausa.com/en-us/92fs/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,4.90 inch barrel 9mm
+BERETTA-000005,Beretta 92FS Inox,https://www.berettausa.com/en-us/92fs/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,4.90 inch barrel 9mm
+BERETTA-000006,Beretta 92FSR,https://www.berettausa.com/en-us/92fsr/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,4.90 inch barrel 9mm
+BERETTA-000007,Beretta 92X Full Size,https://www.berettausa.com/en-us/92x-full-size/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,4.90 inch barrel 9mm
+BERETTA-000008,Beretta 92X Centurion,https://www.berettausa.com/en-us/92x-centurion/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,4.25 inch barrel 9mm
+BERETTA-000009,Beretta 92X Compact,https://www.berettausa.com/en-us/92x-compact/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,3.80 inch barrel 9mm
+BERETTA-000010,Beretta 92X Performance,https://www.berettausa.com/en-us/92x-performance/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,4.90 inch barrel 9mm
+BERETTA-000011,Beretta APX,https://www.berettausa.com/en-us/apx/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,4.25 inch barrel 9mm
+BERETTA-000012,Beretta APX Carry,https://www.berettausa.com/en-us/apx-carry/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,3.50 inch barrel 9mm
+BERETTA-000013,Beretta APX Compact,https://www.berettausa.com/en-us/apx-compact/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,3.80 inch barrel 9mm
+BERETTA-000014,Beretta APX F,https://www.berettausa.com/en-us/apx/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,4.25 inch barrel 9mm
+BERETTA-000015,Beretta APX R,https://www.berettausa.com/en-us/apx/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,4.25 inch barrel 9mm
+BERETTA-000016,Beretta APX Lightail Pro,https://www.berettausa.com/en-us/apx-lightail-pro/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,4.25 inch barrel 9mm
+BERETTA-000017,Beretta APX A1 Tactical,https://www.berettausa.com/en-us/apx-a1-tactical/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,4.80 inch barrel 9mm
+BERETTA-000018,Beretta 80X Cheetah,https://www.berettausa.com/en-us/80x-cheetah/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,3.82 inch barrel .380 ACP
+BERETTA-000019,Beretta 80X Cheetah Inox,https://www.berettausa.com/en-us/80x-cheetah/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,3.82 inch barrel .380 ACP
+BERETTA-000020,Beretta 3032 Tomcat,https://www.berettausa.com/en-us/3032-tomcat/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,2.45 inch barrel .32 ACP
+BERETTA-000021,Beretta 3032 Tomcat Inox,https://www.berettausa.com/en-us/3032-tomcat/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,2.45 inch barrel .32 ACP
+BERETTA-000022,Beretta U22 Neos 4.5 Inch,https://www.berettausa.com/en-us/u22-neos/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,4.50 inch barrel .22 LR
+BERETTA-000023,Beretta U22 Neos 6 Inch,https://www.berettausa.com/en-us/u22-neos/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,6.00 inch barrel .22 LR
+BERETTA-000024,Beretta PX4 Storm Compact,https://www.berettausa.com/en-us/px4-storm-compact/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,3.27 inch barrel 9mm
+BERETTA-000025,Beretta PX4 Storm Full Size,https://www.berettausa.com/en-us/px4-storm-full-size/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,4.00 inch barrel 9mm
+BERETTA-000026,Beretta PX4 Storm Subcompact,https://www.berettausa.com/en-us/px4-storm-subcompact/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,3.00 inch barrel 9mm
+BERETTA-000027,Beretta PX4 Storm Tactical,https://www.berettausa.com/en-us/px4-storm-tactical/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,4.00 inch barrel 9mm
+BERETTA-000028,Beretta 92 Brigadier,https://en.wikipedia.org/wiki/Beretta_92,https://pholsters.com/size-chart/,Public Reference,2026-07-24,4.90 inch barrel 9mm discontinued
+BERETTA-000029,Beretta 96 Brigadier,https://en.wikipedia.org/wiki/Beretta_96,https://pholsters.com/size-chart/,Public Reference,2026-07-24,4.90 inch barrel .40 S&W discontinued
+BERETTA-000030,Beretta 8000 Cougar,https://en.wikipedia.org/wiki/Beretta_8000_Cougar,https://pholsters.com/size-chart/,Public Reference,2026-07-24,3.60 inch barrel 9mm discontinued
+BERETTA-000031,Beretta 8000 Cougar .40 S&W,https://en.wikipedia.org/wiki/Beretta_8000_Cougar,https://pholsters.com/size-chart/,Public Reference,2026-07-24,3.60 inch barrel .40 S&W discontinued
+BERETTA-000032,Beretta 8040 Cougar Compact,https://en.wikipedia.org/wiki/Beretta_8000_Cougar,https://pholsters.com/size-chart/,Public Reference,2026-07-24,3.60 inch barrel .40 S&W discontinued
+BERETTA-000033,Beretta 96 Full Size,https://en.wikipedia.org/wiki/Beretta_96,https://pholsters.com/size-chart/,Public Reference,2026-07-24,4.90 inch barrel .40 S&W discontinued
+BERETTA-000034,Beretta 96 Compact,https://en.wikipedia.org/wiki/Beretta_96,https://pholsters.com/size-chart/,Public Reference,2026-07-24,3.60 inch barrel .40 S&W discontinued
+BERETTA-000035,Beretta 84FS Cheetah,https://en.wikipedia.org/wiki/Beretta_84,https://pholsters.com/size-chart/,Public Reference,2026-07-24,3.82 inch barrel .380 ACP discontinued
+BERETTA-000036,Beretta 84 Cheetah,https://en.wikipedia.org/wiki/Beretta_84,https://pholsters.com/size-chart/,Public Reference,2026-07-24,3.82 inch barrel .380 ACP discontinued
+BERETTA-000037,Beretta 950 Jetfire,https://en.wikipedia.org/wiki/Beretta_950,https://pholsters.com/size-chart/,Public Reference,2026-07-24,2.40 inch barrel .25 ACP discontinued
+BERETTA-000038,Beretta Model 21 Bobcat,https://en.wikipedia.org/wiki/Beretta_21_Bobcat,https://pholsters.com/size-chart/,Public Reference,2026-07-24,2.40 inch barrel .22 LR discontinued
+BERETTA-000039,Beretta 70 Pistol,https://en.wikipedia.org/wiki/Beretta_70,https://pholsters.com/size-chart/,Public Reference,2026-07-24,3.50 inch barrel .22 LR discontinued
+BERETTA-000040,Beretta Px4 Type F Compact,https://www.berettausa.com/en-us/px4-storm-compact/,https://pholsters.com/size-chart/,Official Beretta,2026-07-24,3.27 inch barrel 9mm

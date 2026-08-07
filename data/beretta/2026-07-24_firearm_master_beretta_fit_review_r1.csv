@@ -1,0 +1,41 @@
+firearm_id,display_name,proposed_passport_fit,confidence_level,passport_chart_exact_match,comparable_models,decision_basis,review_required,reviewer_decision,supporting_source_urls
+BERETTA-000001,Beretta M9,A4,High,Yes,Beretta M9 - 4.90 inch barrel; Beretta 92FS - 4.90 inch barrel,Full-size barrel over 4.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000002,Beretta M9A1,A4,High,Yes,Beretta M9 - 4.90 inch barrel; Beretta 92FS - 4.90 inch barrel,Full-size barrel over 4.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000003,Beretta M9A3,A4,High,Yes,Beretta M9 - 4.90 inch barrel; Beretta 92FS - 4.90 inch barrel,Full-size barrel over 4.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000004,Beretta 92FS,A4,High,Yes,Beretta M9 - 4.90 inch barrel; Beretta 92FS - 4.90 inch barrel,Full-size barrel over 4.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000005,Beretta 92FS Inox,A4,High,Yes,Beretta M9 - 4.90 inch barrel; Beretta 92FS - 4.90 inch barrel,Full-size barrel over 4.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000006,Beretta 92FSR,A4,High,Yes,Beretta M9 - 4.90 inch barrel; Beretta 92FS - 4.90 inch barrel,Full-size barrel over 4.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000007,Beretta 92X Full Size,A4,High,Yes,Beretta M9 - 4.90 inch barrel; Beretta 92FS - 4.90 inch barrel,Full-size barrel over 4.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000008,Beretta 92X Centurion,A3,High,Yes,Beretta APX - 4.25 inch barrel; Beretta PX4 Storm Full Size - 4.00 inch barrel,Mid-size barrel 4.0-4.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000009,Beretta 92X Compact,A2.5,High,Yes,Beretta 92X Compact - 3.80 inch barrel; Beretta 8000 Cougar - 3.60 inch barrel,Mid-compact barrel 3.5-4.0 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000010,Beretta 92X Performance,A4,High,Yes,Beretta M9 - 4.90 inch barrel; Beretta 92FS - 4.90 inch barrel,Full-size barrel over 4.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000011,Beretta APX,A3,High,Yes,Beretta APX - 4.25 inch barrel; Beretta PX4 Storm Full Size - 4.00 inch barrel,Mid-size barrel 4.0-4.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000012,Beretta APX Carry,A2,High,Yes,Beretta APX Carry - 3.50 inch barrel; Beretta PX4 Storm Compact - 3.27 inch barrel,Compact barrel 3.0-3.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000013,Beretta APX Compact,A2.5,High,Yes,Beretta 92X Compact - 3.80 inch barrel; Beretta 8000 Cougar - 3.60 inch barrel,Mid-compact barrel 3.5-4.0 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000014,Beretta APX F,A3,High,Yes,Beretta APX - 4.25 inch barrel; Beretta PX4 Storm Full Size - 4.00 inch barrel,Mid-size barrel 4.0-4.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000015,Beretta APX R,A3,High,Yes,Beretta APX - 4.25 inch barrel; Beretta PX4 Storm Full Size - 4.00 inch barrel,Mid-size barrel 4.0-4.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000016,Beretta APX Lightail Pro,A3,High,Yes,Beretta APX - 4.25 inch barrel; Beretta PX4 Storm Full Size - 4.00 inch barrel,Mid-size barrel 4.0-4.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000017,Beretta APX A1 Tactical,A4,High,Yes,Beretta M9 - 4.90 inch barrel; Beretta 92FS - 4.90 inch barrel,Full-size barrel over 4.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000018,Beretta 80X Cheetah,A2,High,Yes,Beretta APX Carry - 3.50 inch barrel; Beretta PX4 Storm Compact - 3.27 inch barrel,Compact barrel 3.0-3.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000019,Beretta 80X Cheetah Inox,A2,High,Yes,Beretta APX Carry - 3.50 inch barrel; Beretta PX4 Storm Compact - 3.27 inch barrel,Compact barrel 3.0-3.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000020,Beretta 3032 Tomcat,A1.5,High,Yes,Beretta 3032 Tomcat - 2.45 inch barrel; Beretta 3032 Tomcat Inox - 2.45 inch barrel,Compact barrel 2.5-3.0 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000021,Beretta 3032 Tomcat Inox,A1.5,High,Yes,Beretta 3032 Tomcat - 2.45 inch barrel; Beretta 3032 Tomcat Inox - 2.45 inch barrel,Compact barrel 2.5-3.0 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000022,Beretta U22 Neos 4.5 Inch,A2.5,High,Yes,Beretta 92X Compact - 3.80 inch barrel; Beretta 8000 Cougar - 3.60 inch barrel,Mid-compact barrel 3.5-4.0 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000023,Beretta U22 Neos 6 Inch,A2.5,High,Yes,Beretta 92X Compact - 3.80 inch barrel; Beretta 8000 Cougar - 3.60 inch barrel,Mid-compact barrel 3.5-4.0 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000024,Beretta PX4 Storm Compact,A2,High,Yes,Beretta APX Carry - 3.50 inch barrel; Beretta PX4 Storm Compact - 3.27 inch barrel,Compact barrel 3.0-3.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000025,Beretta PX4 Storm Full Size,A3,High,Yes,Beretta APX - 4.25 inch barrel; Beretta PX4 Storm Full Size - 4.00 inch barrel,Mid-size barrel 4.0-4.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000026,Beretta PX4 Storm Subcompact,A2,High,Yes,Beretta APX Carry - 3.50 inch barrel; Beretta PX4 Storm Compact - 3.27 inch barrel,Compact barrel 3.0-3.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000027,Beretta PX4 Storm Tactical,A3,High,Yes,Beretta APX - 4.25 inch barrel; Beretta PX4 Storm Full Size - 4.00 inch barrel,Mid-size barrel 4.0-4.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000028,Beretta 92 Brigadier,A4,High,Yes,Beretta M9 - 4.90 inch barrel; Beretta 92FS - 4.90 inch barrel,Full-size barrel over 4.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000029,Beretta 96 Brigadier,A4,High,Yes,Beretta M9 - 4.90 inch barrel; Beretta 92FS - 4.90 inch barrel,Full-size barrel over 4.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000030,Beretta 8000 Cougar,A2.5,High,Yes,Beretta 92X Compact - 3.80 inch barrel; Beretta 8000 Cougar - 3.60 inch barrel,Mid-compact barrel 3.5-4.0 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000031,Beretta 8000 Cougar .40 S&W,A2.5,High,Yes,Beretta 92X Compact - 3.80 inch barrel; Beretta 8000 Cougar - 3.60 inch barrel,Mid-compact barrel 3.5-4.0 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000032,Beretta 8040 Cougar Compact,A2.5,High,Yes,Beretta 92X Compact - 3.80 inch barrel; Beretta 8000 Cougar - 3.60 inch barrel,Mid-compact barrel 3.5-4.0 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000033,Beretta 96 Full Size,A4,High,Yes,Beretta M9 - 4.90 inch barrel; Beretta 92FS - 4.90 inch barrel,Full-size barrel over 4.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000034,Beretta 96 Compact,A2.5,High,Yes,Beretta 92X Compact - 3.80 inch barrel; Beretta 8000 Cougar - 3.60 inch barrel,Mid-compact barrel 3.5-4.0 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000035,Beretta 84FS Cheetah,A2,High,Yes,Beretta APX Carry - 3.50 inch barrel; Beretta PX4 Storm Compact - 3.27 inch barrel,Compact barrel 3.0-3.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000036,Beretta 84 Cheetah,A2,High,Yes,Beretta APX Carry - 3.50 inch barrel; Beretta PX4 Storm Compact - 3.27 inch barrel,Compact barrel 3.0-3.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000037,Beretta 950 Jetfire,A1,High,Yes,Beretta 950 Jetfire - 2.40 inch barrel; Beretta Model 21 Bobcat - 2.40 inch barrel,Sub-compact pocket pistol barrel under 2.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000038,Beretta Model 21 Bobcat,A1,High,Yes,Beretta 950 Jetfire - 2.40 inch barrel; Beretta Model 21 Bobcat - 2.40 inch barrel,Sub-compact pocket pistol barrel under 2.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000039,Beretta 70 Pistol,A2,High,Yes,Beretta APX Carry - 3.50 inch barrel; Beretta PX4 Storm Compact - 3.27 inch barrel,Compact barrel 3.0-3.5 inches,No,Approved,https://pholsters.com/size-chart/
+BERETTA-000040,Beretta Px4 Type F Compact,A2,High,Yes,Beretta APX Carry - 3.50 inch barrel; Beretta PX4 Storm Compact - 3.27 inch barrel,Compact barrel 3.0-3.5 inches,No,Approved,https://pholsters.com/size-chart/
