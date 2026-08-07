@@ -1,41 +1,41 @@
-firearm_id,display_name,proposed_passport_fit,confidence_level,passport_chart_exact_match,comparable_models,decision_basis,review_required,reviewer_decision,supporting_source_urls
-COLT-000001,Colt M1911,A4,High,Yes,Kimber 1911 - 5.00 inch barrel,Full-size .45 ACP military standard,No,Approved,https://pholsters.com/size-chart/
-COLT-000002,Colt M1911A1,A4,High,Yes,M1911 - 5.00 inch barrel,Full-size .45 ACP military standard,No,Approved,https://pholsters.com/size-chart/
-COLT-000003,Colt Government Model,A4,High,Yes,M1911A1 - 5.00 inch barrel,Full-size .45 ACP standard,No,Approved,https://pholsters.com/size-chart/
-COLT-000004,Colt Government Model .38 Super,A4,High,Yes,Government Model - 5.00 inch barrel,Full-size .38 Super variant,No,Approved,https://pholsters.com/size-chart/
-COLT-000005,Colt Commander,A3,High,Yes,M1911 - 4.25 inch barrel,Mid-size .45 ACP compact,No,Approved,https://pholsters.com/size-chart/
-COLT-000006,Colt Commander .38 Super,A3,High,Yes,Commander - 4.25 inch barrel,Mid-size .38 Super variant,No,Approved,https://pholsters.com/size-chart/
-COLT-000007,Colt Officer's Model,A2.5,High,Yes,M1911 - 3.50 inch barrel,Compact .45 ACP variant,No,Approved,https://pholsters.com/size-chart/
-COLT-000008,Colt Defender,A2,High,Yes,Officer's Model - 3.00 inch barrel,Subcompact .45 ACP variant,No,Approved,https://pholsters.com/size-chart/
-COLT-000009,Colt Pocket Nine,A2,High,Yes,Beretta PX4 Carry - 3.15 inch barrel,Compact 9mm double action,No,Approved,https://pholsters.com/size-chart/
-COLT-000010,Colt Double Eagle,A3,Medium,Yes,Government Model - 4.25 inch barrel,Mid-size .45 ACP double action,Yes,Requires Verification,https://pholsters.com/size-chart/
-COLT-000011,Colt Double Eagle Compact,A2.5,Medium,Yes,Double Eagle - 3.80 inch barrel,Compact .45 ACP double action,Yes,Requires Verification,https://pholsters.com/size-chart/
-COLT-000012,Colt M1991A1 Compact,A2.5,High,Yes,Officer's Model - 3.50 inch barrel,Compact 9mm variant,No,Approved,https://pholsters.com/size-chart/
-COLT-000013,Colt M1991A1,A3,High,Yes,Government Model - 4.25 inch barrel,Mid-size 9mm standard,No,Approved,https://pholsters.com/size-chart/
-COLT-000014,Colt Pony,A2,High,Yes,Beretta 80X Cheetah - 2.80 inch barrel,Subcompact .380 ACP,No,Approved,https://pholsters.com/size-chart/
-COLT-000015,Colt Pony Pocketlite,A2,High,Yes,Pony - 2.80 inch barrel,Subcompact .380 ACP lightweight,No,Approved,https://pholsters.com/size-chart/
-COLT-000016,Colt Mustang,A1.5,High,Yes,Beretta 3032 Tomcat - 2.75 inch barrel,Subcompact .380 ACP,No,Approved,https://pholsters.com/size-chart/
-COLT-000017,Colt Mustang Pocketlite,A1.5,High,Yes,Mustang - 2.75 inch barrel,Subcompact .380 ACP lightweight,No,Approved,https://pholsters.com/size-chart/
-COLT-000018,Colt Mustang Plus II,A2,High,Yes,Mustang - 3.00 inch barrel,Compact .380 ACP variant,No,Approved,https://pholsters.com/size-chart/
-COLT-000019,Colt XSE Government,A4,High,Yes,Government Model - 5.00 inch barrel,Full-size .45 ACP enhanced model,No,Approved,https://pholsters.com/size-chart/
-COLT-000020,Colt XSE Commander,A3,High,Yes,Commander - 4.25 inch barrel,Mid-size .45 ACP enhanced variant,No,Approved,https://pholsters.com/size-chart/
-COLT-000021,Colt Concealed Carry Officer's,A2.5,High,Yes,Officer's Model - 3.50 inch barrel,Compact .45 ACP tactical variant,No,Approved,https://pholsters.com/size-chart/
-COLT-000022,Colt Rail Gun,A4,High,Yes,Government Model - 5.00 inch barrel,Full-size .45 ACP tactical variant,No,Approved,https://pholsters.com/size-chart/
-COLT-000023,Colt Combat Unit,A3,High,Yes,Commander - 4.25 inch barrel,Mid-size .45 ACP combat variant,No,Approved,https://pholsters.com/size-chart/
-COLT-000024,Colt Lightweight Commander,A3,High,Yes,Commander - 4.25 inch barrel,Mid-size .45 ACP lightweight variant,No,Approved,https://pholsters.com/size-chart/
-COLT-000025,Colt Marine Pistol,A4,High,Yes,Government Model - 5.00 inch barrel,Full-size .45 ACP military variant,No,Approved,https://pholsters.com/size-chart/
-COLT-000026,Colt Lawman Mk III,A3,Medium,Yes,Government Model - 4.00 inch barrel,.357 Magnum discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_Lawman
-COLT-000027,Colt Detective Special,A2.5,Medium,Yes,S&W Model 36 - 2.00 inch barrel,.38 Special revolver discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_Detective_Special
-COLT-000028,Colt Police Special,A3,Medium,Yes,Government Model - 4.00 inch barrel,.38 Special revolver discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_Police_Special
-COLT-000029,Colt Python,A3,Medium,Yes,Police Special - 4.00 inch barrel,.357 Magnum revolver discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_Python
-COLT-000030,Colt Cobra,A2.5,Medium,Yes,Detective Special - 2.00 inch barrel,.38 Special revolver discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_Cobra
-COLT-000031,Colt King Cobra,A3,Medium,Yes,Python - 4.00 inch barrel,.357 Magnum revolver discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_King_Cobra
-COLT-000032,Colt Diamondback,A3,Medium,Yes,Police Special - 4.00 inch barrel,.38 Special revolver discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_Diamondback
-COLT-000033,Colt Trooper,A3,Medium,Yes,Police Special - 4.00 inch barrel,.357 Magnum revolver discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_Trooper
-COLT-000034,Colt Peacemaker,A3,Low,No,Single Action Army - 4.75 inch barrel,.45 Colt single action discontinued,Yes,Requires Historical Research,https://en.wikipedia.org/wiki/Colt_Single_Action_Army
-COLT-000035,Colt Single Action Army,A3,Low,No,Peacemaker - 5.00 inch barrel,.45 Colt single action discontinued,Yes,Requires Historical Research,https://en.wikipedia.org/wiki/Colt_Single_Action_Army
-COLT-000036,Colt 1911 Rail Gun Compact,A2.5,High,Yes,Rail Gun - 4.00 inch barrel,Compact .45 ACP tactical variant,No,Approved,https://pholsters.com/size-chart/
-COLT-000037,Colt All American 2000,A3,Medium,Yes,Government Model - 4.25 inch barrel,Mid-size 9mm polymer discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_All_American_2000
-COLT-000038,Colt Delta Elite,A4,High,Yes,Government Model - 5.00 inch barrel,Full-size 10mm variant,No,Approved,https://pholsters.com/size-chart/
-COLT-000039,Colt Combat Commander,A3,High,Yes,Commander - 4.25 inch barrel,Mid-size .45 ACP combat variant,No,Approved,https://pholsters.com/size-chart/
-COLT-000040,Colt King Cobra Reborn,A3,High,Yes,King Cobra - 4.20 inch barrel,.357 Magnum revolver modern variant,No,Approved,https://pholsters.com/size-chart/
+firearm_id,display_name,barrel_length,proposed_passport_fit,confidence_level,passport_chart_exact_match,comparable_models,decision_basis,review_required,reviewer_decision,supporting_source_urls,aliases
+COLT-000001,Colt M1911,5.00,A4,High,Yes,Kimber 1911 - 5.00 inch barrel,Full-size .45 ACP military standard,No,Approved,https://pholsters.com/size-chart/,M1911
+COLT-000002,Colt M1911A1,5.00,A4,High,Yes,M1911 - 5.00 inch barrel,Full-size .45 ACP military standard,No,Approved,https://pholsters.com/size-chart/,M1911A1
+COLT-000003,Colt Government Model,5.00,A4,High,Yes,M1911A1 - 5.00 inch barrel,Full-size .45 ACP standard,No,Approved,https://pholsters.com/size-chart/,Government Model
+COLT-000004,Colt Government Model .38 Super,5.00,A4,High,Yes,Government Model - 5.00 inch barrel,Full-size .38 Super variant,No,Approved,https://pholsters.com/size-chart/,Gov 38 Super
+COLT-000005,Colt Commander,4.25,A3,High,Yes,M1911 - 4.25 inch barrel,Mid-size .45 ACP compact,No,Approved,https://pholsters.com/size-chart/,Commander
+COLT-000006,Colt Commander .38 Super,4.25,A3,High,Yes,Commander - 4.25 inch barrel,Mid-size .38 Super variant,No,Approved,https://pholsters.com/size-chart/,Commander 38 Super
+COLT-000007,Colt Officer's Model,3.50,A2.5,High,Yes,M1911 - 3.50 inch barrel,Compact .45 ACP variant,No,Approved,https://pholsters.com/size-chart/,Officer's
+COLT-000008,Colt Defender,3.00,A2,High,Yes,Officer's Model - 3.00 inch barrel,Subcompact .45 ACP variant,No,Approved,https://pholsters.com/size-chart/,Defender
+COLT-000009,Colt Pocket Nine,3.15,A2,High,Yes,Beretta PX4 Carry - 3.15 inch barrel,Compact 9mm double action,No,Approved,https://pholsters.com/size-chart/,Pocket Nine
+COLT-000010,Colt Double Eagle,4.25,A3,Medium,Yes,Government Model - 4.25 inch barrel,Mid-size .45 ACP double action,Yes,Requires Verification,https://pholsters.com/size-chart/,Double Eagle
+COLT-000011,Colt Double Eagle Compact,3.80,A2.5,Medium,Yes,Double Eagle - 3.80 inch barrel,Compact .45 ACP double action,Yes,Requires Verification,https://pholsters.com/size-chart/,Double Eagle Compact
+COLT-000012,Colt M1991A1 Compact,3.50,A2.5,High,Yes,Officer's Model - 3.50 inch barrel,Compact 9mm variant,No,Approved,https://pholsters.com/size-chart/,M1991A1 Compact
+COLT-000013,Colt M1991A1,4.25,A3,High,Yes,Government Model - 4.25 inch barrel,Mid-size 9mm standard,No,Approved,https://pholsters.com/size-chart/,M1991A1
+COLT-000014,Colt Pony,2.80,A2,High,Yes,Beretta 80X Cheetah - 2.80 inch barrel,Subcompact .380 ACP,No,Approved,https://pholsters.com/size-chart/,Pony
+COLT-000015,Colt Pony Pocketlite,2.80,A2,High,Yes,Pony - 2.80 inch barrel,Subcompact .380 ACP lightweight,No,Approved,https://pholsters.com/size-chart/,Pony Pocketlite
+COLT-000016,Colt Mustang,2.75,A1.5,High,Yes,Beretta 3032 Tomcat - 2.75 inch barrel,Subcompact .380 ACP,No,Approved,https://pholsters.com/size-chart/,Mustang
+COLT-000017,Colt Mustang Pocketlite,2.75,A1.5,High,Yes,Mustang - 2.75 inch barrel,Subcompact .380 ACP lightweight,No,Approved,https://pholsters.com/size-chart/,Mustang Pocketlite
+COLT-000018,Colt Mustang Plus II,3.00,A2,High,Yes,Mustang - 3.00 inch barrel,Compact .380 ACP variant,No,Approved,https://pholsters.com/size-chart/,Mustang Plus II
+COLT-000019,Colt XSE Government,5.00,A4,High,Yes,Government Model - 5.00 inch barrel,Full-size .45 ACP enhanced model,No,Approved,https://pholsters.com/size-chart/,XSE Government
+COLT-000020,Colt XSE Commander,4.25,A3,High,Yes,Commander - 4.25 inch barrel,Mid-size .45 ACP enhanced variant,No,Approved,https://pholsters.com/size-chart/,XSE Commander
+COLT-000021,Colt Concealed Carry Officer's,3.50,A2.5,High,Yes,Officer's Model - 3.50 inch barrel,Compact .45 ACP tactical variant,No,Approved,https://pholsters.com/size-chart/,CCO
+COLT-000022,Colt Rail Gun,5.00,A4,High,Yes,Government Model - 5.00 inch barrel,Full-size .45 ACP tactical variant,No,Approved,https://pholsters.com/size-chart/,Rail Gun
+COLT-000023,Colt Combat Unit,4.25,A3,High,Yes,Commander - 4.25 inch barrel,Mid-size .45 ACP combat variant,No,Approved,https://pholsters.com/size-chart/,Combat Unit
+COLT-000024,Colt Lightweight Commander,4.25,A3,High,Yes,Commander - 4.25 inch barrel,Mid-size .45 ACP lightweight variant,No,Approved,https://pholsters.com/size-chart/,Lightweight Commander
+COLT-000025,Colt Marine Pistol,5.00,A4,High,Yes,Government Model - 5.00 inch barrel,Full-size .45 ACP military variant,No,Approved,https://pholsters.com/size-chart/,Marine Pistol
+COLT-000026,Colt Lawman Mk III,4.00,A3,Medium,Yes,Government Model - 4.00 inch barrel,.357 Magnum discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_Lawman,Lawman MkIII
+COLT-000027,Colt Detective Special,2.00,A1.5,Medium,Yes,S&W Model 36 - 2.00 inch barrel,.38 Special revolver discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_Detective_Special,Detective Special
+COLT-000028,Colt Police Special,4.00,A3,Medium,Yes,Government Model - 4.00 inch barrel,.38 Special revolver discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_Police_Special,Police Special
+COLT-000029,Colt Python,4.00,A3,Medium,Yes,Police Special - 4.00 inch barrel,.357 Magnum revolver discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_Python,Python
+COLT-000030,Colt Cobra,2.00,A1.5,Medium,Yes,Detective Special - 2.00 inch barrel,.38 Special revolver discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_Cobra,Cobra
+COLT-000031,Colt King Cobra,4.00,A3,Medium,Yes,Python - 4.00 inch barrel,.357 Magnum revolver discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_King_Cobra,King Cobra
+COLT-000032,Colt Diamondback,4.00,A3,Medium,Yes,Police Special - 4.00 inch barrel,.38 Special revolver discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_Diamondback,Diamondback
+COLT-000033,Colt Trooper,4.00,A3,Medium,Yes,Police Special - 4.00 inch barrel,.357 Magnum revolver discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_Trooper,Trooper
+COLT-000034,Colt Peacemaker,4.75,A3,Low,No,Single Action Army - 4.75 inch barrel,.45 Colt single action discontinued,Yes,Requires Historical Research,https://en.wikipedia.org/wiki/Colt_Single_Action_Army,Peacemaker
+COLT-000035,Colt Single Action Army,5.00,A3,Low,No,Peacemaker - 5.00 inch barrel,.45 Colt single action discontinued,Yes,Requires Historical Research,https://en.wikipedia.org/wiki/Colt_Single_Action_Army,SAA
+COLT-000036,Colt 1911 Rail Gun Compact,4.00,A2.5,High,Yes,Rail Gun - 4.00 inch barrel,Compact .45 ACP tactical variant,No,Approved,https://pholsters.com/size-chart/,Rail Gun Compact
+COLT-000037,Colt All American 2000,4.25,A3,Medium,Yes,Government Model - 4.25 inch barrel,Mid-size 9mm polymer discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_All_American_2000,All American 2000
+COLT-000038,Colt Delta Elite,5.00,A4,High,Yes,Government Model - 5.00 inch barrel,Full-size 10mm variant,No,Approved,https://pholsters.com/size-chart/,Delta Elite
+COLT-000039,Colt Combat Commander,4.25,A3,High,Yes,Commander - 4.25 inch barrel,Mid-size .45 ACP combat variant,No,Approved,https://pholsters.com/size-chart/,Combat Commander
+COLT-000040,Colt King Cobra Reborn,4.20,A3,High,Yes,King Cobra - 4.20 inch barrel,.357 Magnum revolver modern variant,No,Approved,https://pholsters.com/size-chart/,King Cobra Reborn
