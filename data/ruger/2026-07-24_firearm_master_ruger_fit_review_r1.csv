@@ -1,0 +1,61 @@
+firearm_id,display_name,barrel_length,proposed_passport_fit,confidence_level,passport_chart_exact_match,comparable_models,decision_basis,review_required,reviewer_decision,supporting_source_urls,aliases
+RUGER-000001,Ruger RXM,3.90,A2,High,Yes,Glock G19 - 3.90 inch barrel,Compact 9mm modular polymer 2026,No,Approved,https://pholsters.com/size-chart/,RXM
+RUGER-000002,Ruger RXM Full-Size,4.50,A3,High,Yes,Beretta 92FS - 4.50 inch barrel,Full-size 9mm modular polymer,No,Approved,https://pholsters.com/size-chart/,RXM FS
+RUGER-000003,Ruger RXM Compact,3.60,A2,High,Yes,P320 Compact - 3.60 inch barrel,Compact 9mm modular polymer variant,No,Approved,https://pholsters.com/size-chart/,RXM Compact
+RUGER-000004,Ruger RXM 250th Anniversary,3.90,A2,High,Yes,RXM - 3.90 inch barrel,Compact 9mm modular commemorative 2026,No,Approved,https://pholsters.com/size-chart/,RXM 250th
+RUGER-000005,Ruger LCP,2.75,A1.5,High,Yes,Beretta 3032 Tomcat - 2.75 inch barrel,Micro-compact .380 ACP pocket,No,Approved,https://pholsters.com/size-chart/,LCP
+RUGER-000006,Ruger LCP Crimson Trace,2.75,A1.5,High,Yes,LCP - 2.75 inch barrel,Micro-compact .380 ACP laser variant,No,Approved,https://pholsters.com/size-chart/,LCP CT
+RUGER-000007,Ruger LCP II,2.75,A1.5,High,Yes,LCP - 2.75 inch barrel,Micro-compact .380 ACP improved variant,No,Approved,https://pholsters.com/size-chart/,LCP II
+RUGER-000008,Ruger LCP II Crimson Trace,2.75,A1.5,High,Yes,LCP II - 2.75 inch barrel,Micro-compact .380 ACP laser improved,No,Approved,https://pholsters.com/size-chart/,LCP II CT
+RUGER-000009,Ruger LCP Max,3.00,A1.5,High,Yes,S&W Shield - 3.00 inch barrel,Compact .380 ACP high capacity,No,Approved,https://pholsters.com/size-chart/,LCP Max
+RUGER-000010,Ruger LCP Max 13-Round,3.00,A1.5,High,Yes,LCP Max - 3.00 inch barrel,Compact .380 ACP 13-round 2026,No,Approved,https://pholsters.com/size-chart/,LCP Max 13rd
+RUGER-000011,Ruger Max-9,3.20,A1.5,High,Yes,P365 - 3.20 inch barrel,Micro-compact 9mm high capacity,No,Approved,https://pholsters.com/size-chart/,Max-9
+RUGER-000012,Ruger Max-9 Manual Safety,3.20,A1.5,High,Yes,Max-9 - 3.20 inch barrel,Micro-compact 9mm with safety,No,Approved,https://pholsters.com/size-chart/,Max-9 MS
+RUGER-000013,Ruger Max-9 Lite,3.20,A1.5,High,Yes,Max-9 - 3.20 inch barrel,Micro-compact 9mm aluminum frame,No,Approved,https://pholsters.com/size-chart/,Max-9 Lite
+RUGER-000014,Ruger Security-9,4.00,A2.5,High,Yes,M&P9 Compact - 4.00 inch barrel,Compact 9mm polymer striker,No,Approved,https://pholsters.com/size-chart/,Security-9
+RUGER-000015,Ruger Security-9 Compact,3.42,A2,High,Yes,Glock G19 - 3.42 inch barrel,Compact 9mm striker compact,No,Approved,https://pholsters.com/size-chart/,Security-9c
+RUGER-000016,Ruger Security-9 Pro,4.00,A2.5,High,Yes,Security-9 - 4.00 inch barrel,Compact 9mm optics ready variant,No,Approved,https://pholsters.com/size-chart/,Security-9 Pro
+RUGER-000017,Ruger Security-9 Pro Compact,3.42,A2,High,Yes,Security-9 Compact - 3.42 inch barrel,Compact 9mm optics compact variant,No,Approved,https://pholsters.com/size-chart/,Security-9 Pro Compact
+RUGER-000018,Ruger SR9,4.14,A3,Medium,Yes,Glock G17 - 4.14 inch barrel,Full-size 9mm polymer discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,SR9
+RUGER-000019,Ruger SR9c,3.41,A2,Medium,Yes,Glock G19 - 3.41 inch barrel,Compact 9mm polymer discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,SR9c
+RUGER-000020,Ruger P95,3.90,A2,Medium,Yes,Glock G19 - 3.90 inch barrel,Compact 9mm double action discontinued,Yes,Requires Verification,https://pholsters.com/size-chart/,P95
+RUGER-000021,Ruger P85,4.50,A3,Medium,Yes,Beretta 92FS - 4.50 inch barrel,Full-size 9mm double action discontinued,Yes,Requires Verification,https://pholsters.com/size-chart/,P85
+RUGER-000022,Ruger Mark I,5.50,A3,High,Yes,Ruger Mark IV - 5.50 inch barrel,.22 LR target discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Mark I
+RUGER-000023,Ruger Mark II,5.50,A3,High,Yes,Ruger Mark IV - 5.50 inch barrel,.22 LR target discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Mark II
+RUGER-000024,Ruger Mark III,5.50,A3,High,Yes,Ruger Mark IV - 5.50 inch barrel,.22 LR target discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Mark III
+RUGER-000025,Ruger Mark IV Standard,4.75,A3,High,Yes,Ruger Mark III - 4.75 inch barrel,.22 LR target model,No,Approved,https://pholsters.com/size-chart/,Mark IV Standard
+RUGER-000026,Ruger Mark IV Target,5.50,A3,High,Yes,Ruger Mark IV Standard - 5.50 inch barrel,.22 LR target variant,No,Approved,https://pholsters.com/size-chart/,Mark IV Target
+RUGER-000027,Ruger Mark IV Hunter,4.40,A2.5,High,Yes,Mark IV Standard - 4.40 inch barrel,.22 LR hunter variant,No,Approved,https://pholsters.com/size-chart/,Mark IV Hunter
+RUGER-000028,Ruger Mark IV Competition,5.50,A3,High,Yes,Mark IV Target - 5.50 inch barrel,.22 LR competition variant,No,Approved,https://pholsters.com/size-chart/,Mark IV Competition
+RUGER-000029,Ruger Mark IV Tactical,4.40,A2.5,High,Yes,Mark IV Competition - 4.40 inch barrel,.22 LR tactical variant,No,Approved,https://pholsters.com/size-chart/,Mark IV Tactical
+RUGER-000030,Ruger Mark IV 22/45 Lite,4.40,A2.5,High,Yes,Mark IV Tactical - 4.40 inch barrel,.22 LR 1911-profile lightweight,No,Approved,https://pholsters.com/size-chart/,Mark IV 22/45 Lite
+RUGER-000031,Ruger Mark IV 22/45 Standard,4.75,A3,High,Yes,Mark IV Standard - 4.75 inch barrel,.22 LR 1911-profile,No,Approved,https://pholsters.com/size-chart/,Mark IV 22/45
+RUGER-000032,Ruger Mark IV 22/45 Tactical,4.40,A2.5,High,Yes,Mark IV Tactical - 4.40 inch barrel,.22 LR 1911-profile tactical,No,Approved,https://pholsters.com/size-chart/,Mark IV 22/45 Tactical
+RUGER-000033,Ruger Mark IV 22/45 Hunter,4.40,A2.5,High,Yes,Mark IV 22/45 - 4.40 inch barrel,.22 LR 1911-profile hunter,No,Approved,https://pholsters.com/size-chart/,Mark IV 22/45 Hunter
+RUGER-000034,Ruger SR1911,5.00,A3,High,Yes,Colt M1911A1 - 5.00 inch barrel,Full-size .45 ACP single action,No,Approved,https://pholsters.com/size-chart/,SR1911
+RUGER-000035,Ruger SR1911 Commander,4.25,A2.5,High,Yes,Colt Commander - 4.25 inch barrel,Compact .45 ACP single action variant,No,Approved,https://pholsters.com/size-chart/,SR1911 Commander
+RUGER-000036,Ruger SR1911 Officer,3.60,A2,High,Yes,Colt Officer's - 3.60 inch barrel,Compact .45 ACP single action officer variant,No,Approved,https://pholsters.com/size-chart/,SR1911 Officer
+RUGER-000037,Ruger SR1911 Special Edition,5.00,A3,High,Yes,SR1911 - 5.00 inch barrel,Full-size .45 ACP tactical variant,No,Approved,https://pholsters.com/size-chart/,SR1911 Special
+RUGER-000038,Ruger SR1911 Target,5.00,A3,High,Yes,SR1911 - 5.00 inch barrel,Full-size .45 ACP target variant,No,Approved,https://pholsters.com/size-chart/,SR1911 Target
+RUGER-000039,Ruger SR1911 250th Anniversary,5.00,A3,High,Yes,SR1911 - 5.00 inch barrel,Full-size .45 ACP commemorative 2026,No,Approved,https://pholsters.com/size-chart/,SR1911 250th
+RUGER-000040,Ruger SR22,3.50,A2,High,Yes,Walther P22 - 3.50 inch barrel,.22 LR compact striker,No,Approved,https://pholsters.com/size-chart/,SR22
+RUGER-000041,Ruger SR22 Threaded Barrel,3.50,A2,High,Yes,SR22 - 3.50 inch barrel,.22 LR compact threaded,No,Approved,https://pholsters.com/size-chart/,SR22 Threaded
+RUGER-000042,Ruger Wrangler,5.50,A3,Medium,No,Single Action Army - 5.50 inch barrel,.22 LR single action western,No,Approved,https://pholsters.com/size-chart/,Wrangler
+RUGER-000043,Ruger GP100,4.20,A2.5,High,Yes,Colt Python - 4.20 inch barrel,.357 Magnum revolver,No,Approved,https://pholsters.com/size-chart/,GP100
+RUGER-000044,Ruger Security-Six,4.00,A2.5,Medium,Yes,Colt Python - 4.00 inch barrel,.357 Magnum revolver discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Security-Six
+RUGER-000045,Ruger Speed-Six,2.75,A1.5,Medium,Yes,S&W Model 36 - 2.75 inch barrel,.357 Magnum revolver discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Speed-Six
+RUGER-000046,Ruger Police Service-Six,4.00,A2.5,Medium,Yes,Colt Police Special - 4.00 inch barrel,.357 Magnum revolver discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Police Service-Six
+RUGER-000047,Ruger Redhawk,5.50,A3,High,Yes,S&W Model 686 - 5.50 inch barrel,.357 Magnum revolver,No,Approved,https://pholsters.com/size-chart/,Redhawk
+RUGER-000048,Ruger Super Redhawk,7.50,A4,High,Yes,Ruger Redhawk - 7.50 inch barrel,.357 Magnum long slide,No,Approved,https://pholsters.com/size-chart/,Super Redhawk
+RUGER-000049,Ruger Blackhawk,5.50,A3,Medium,No,Single Action Army - 5.50 inch barrel,.357 Magnum single action discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Blackhawk
+RUGER-000050,Ruger Single-Six,4.63,A2.5,Medium,No,Single Action Army - 4.63 inch barrel,.22 LR single action discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Single-Six
+RUGER-000051,Ruger 22/45,4.75,A3,Medium,Yes,Mark IV 22/45 - 4.75 inch barrel,.22 LR 1911 1970s discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,22/45
+RUGER-000052,Ruger P944,4.00,A2.5,Medium,Yes,M&P9 Compact - 4.00 inch barrel,.40 S&W double action discontinued,Yes,Requires Verification,https://pholsters.com/size-chart/,P944
+RUGER-000053,Ruger P97,4.50,A3,Medium,Yes,Beretta 92FS - 4.50 inch barrel,.45 ACP double action discontinued,Yes,Requires Verification,https://pholsters.com/size-chart/,P97
+RUGER-000054,Ruger Vaquero,5.50,A3,Medium,No,Single Action Army - 5.50 inch barrel,.45 Colt single action western,No,Approved Discontinued,https://pholsters.com/size-chart/,Vaquero
+RUGER-000055,Ruger New Model Blackhawk,5.50,A3,Medium,No,Single Action Army - 5.50 inch barrel,.357 Magnum single action,No,Approved,https://pholsters.com/size-chart/,New Model Blackhawk
+RUGER-000056,Ruger LCP II Plus,2.95,A1.5,High,Yes,LCP II - 2.95 inch barrel,Micro-compact .380 ACP variant,No,Approved,https://pholsters.com/size-chart/,LCP II+
+RUGER-000057,Ruger Max-9 Lite Pro,3.20,A1.5,High,Yes,Max-9 Lite - 3.20 inch barrel,Micro-compact 9mm aluminum pro,No,Approved,https://pholsters.com/size-chart/,Max-9 Lite Pro
+RUGER-000058,Ruger Security-9 Compact Pro,3.42,A2,High,Yes,Security-9 Pro - 3.42 inch barrel,Compact 9mm optics compact pro,No,Approved,https://pholsters.com/size-chart/,Security-9 Compact Pro
+RUGER-000059,Ruger SP101,2.25,A1.5,High,Yes,S&W Model 60 - 2.25 inch barrel,.357 Magnum compact revolver,No,Approved,https://pholsters.com/size-chart/,SP101
+RUGER-000060,Ruger LCRx,1.87,A1,High,Yes,S&W Model 337 - 1.87 inch barrel,.357 Magnum micro revolver,No,Approved,https://pholsters.com/size-chart/,LCRx
