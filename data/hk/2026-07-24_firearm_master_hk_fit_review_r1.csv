@@ -1,0 +1,41 @@
+firearm_id,display_name,proposed_passport_fit,confidence_level,passport_chart_exact_match,comparable_models,decision_basis,review_required,reviewer_decision,supporting_source_urls
+HK-000001,H&K USP Full Size,A3,High,Yes,Beretta 92FS - 4.25 inch barrel,Mid-size 9mm tactical standard,No,Approved,https://pholsters.com/size-chart/
+HK-000002,H&K USP Compact,A2,High,Yes,Glock G19 - 3.27 inch barrel,Compact 9mm tactical variant,No,Approved,https://pholsters.com/size-chart/
+HK-000003,H&K USP Tactical,A3,High,Yes,USP Full Size - 4.25 inch barrel,Mid-size 9mm tactical variant,No,Approved,https://pholsters.com/size-chart/
+HK-000004,H&K USP Match,A3,High,Yes,USP Full Size - 4.25 inch barrel,Mid-size 9mm competition model,No,Approved,https://pholsters.com/size-chart/
+HK-000005,H&K USP 45,A3,High,Yes,Colt Commander - 4.25 inch barrel,Mid-size .45 ACP tactical,No,Approved,https://pholsters.com/size-chart/
+HK-000006,H&K USP 45 Compact,A2,High,Yes,Glock G21SF - 3.50 inch barrel,Compact .45 ACP tactical variant,No,Approved,https://pholsters.com/size-chart/
+HK-000007,H&K USP 45 Tactical,A3,High,Yes,USP 45 - 4.25 inch barrel,Mid-size .45 ACP tactical variant,No,Approved,https://pholsters.com/size-chart/
+HK-000008,H&K USP 40,A3,High,Yes,S&W M&P40 - 4.25 inch barrel,Mid-size .40 S&W tactical,No,Approved,https://pholsters.com/size-chart/
+HK-000009,H&K USP 40 Compact,A2,High,Yes,Glock G23 - 3.50 inch barrel,Compact .40 S&W tactical variant,No,Approved,https://pholsters.com/size-chart/
+HK-000010,H&K USP 357,A3,High,Yes,USP Full Size - 4.25 inch barrel,Mid-size .357 SIG tactical,No,Approved,https://pholsters.com/size-chart/
+HK-000011,H&K P7 M8,A2.5,Medium,Yes,Walther P99 - 3.50 inch barrel,Compact 9mm squeeze cocker,Yes,Requires Verification,https://pholsters.com/size-chart/
+HK-000012,H&K P7 M13,A2.5,Medium,Yes,P7 M8 - 3.50 inch barrel,Compact 9mm 13-round variant,Yes,Requires Verification,https://pholsters.com/size-chart/
+HK-000013,H&K P9S,A2.5,Low,No,P7 M8 - 3.50 inch barrel,Compact 9mm discontinued,Yes,Requires Historical Research,https://pholsters.com/size-chart/
+HK-000014,H&K P9S Combat,A3,Low,No,P7 M8 - 4.00 inch barrel,Mid-size 9mm discontinued,Yes,Requires Historical Research,https://pholsters.com/size-chart/
+HK-000015,H&K P30,A3,High,Yes,Beretta PX4 - 4.00 inch barrel,Mid-size 9mm modern tactical,No,Approved,https://pholsters.com/size-chart/
+HK-000016,H&K P30 Compact,A2,High,Yes,P30 - 3.27 inch barrel,Compact 9mm variant,No,Approved,https://pholsters.com/size-chart/
+HK-000017,H&K P30 LEM,A3,High,Yes,P30 - 4.00 inch barrel,Mid-size 9mm LEM trigger,No,Approved,https://pholsters.com/size-chart/
+HK-000018,H&K P30 SK,A2,High,Yes,P30 Compact - 3.27 inch barrel,Subcompact 9mm variant,No,Approved,https://pholsters.com/size-chart/
+HK-000019,H&K VP9,A3,High,Yes,Glock G17 - 4.09 inch barrel,Full-size 9mm polymer,No,Approved,https://pholsters.com/size-chart/
+HK-000020,H&K VP9 Compact,A2,High,Yes,Glock G19 - 3.50 inch barrel,Compact 9mm polymer variant,No,Approved,https://pholsters.com/size-chart/
+HK-000021,H&K VP9 Tactical,A3,High,Yes,VP9 - 4.09 inch barrel,Full-size 9mm tactical variant,No,Approved,https://pholsters.com/size-chart/
+HK-000022,H&K VP9 SK,A2,High,Yes,VP9 Compact - 3.39 inch barrel,Subcompact 9mm variant,No,Approved,https://pholsters.com/size-chart/
+HK-000023,H&K VP40,A3,High,Yes,S&W M&P40 - 4.25 inch barrel,Full-size .40 S&W polymer,No,Approved,https://pholsters.com/size-chart/
+HK-000024,H&K VP40 Compact,A2,High,Yes,VP40 - 3.50 inch barrel,Compact .40 S&W polymer variant,No,Approved,https://pholsters.com/size-chart/
+HK-000025,H&K Mark 23,A4,High,Yes,Desert Eagle - 5.87 inch barrel,Full-size .45 ACP tactical,No,Approved,https://pholsters.com/size-chart/
+HK-000026,H&K P2000,A2.5,High,Yes,P30 Compact - 3.66 inch barrel,Compact 9mm double action,No,Approved,https://pholsters.com/size-chart/
+HK-000027,H&K P2000 SK,A2,High,Yes,P2000 - 3.27 inch barrel,Subcompact 9mm variant,No,Approved,https://pholsters.com/size-chart/
+HK-000028,H&K P208,A3,Medium,Yes,P2000 - 4.00 inch barrel,Mid-size .40 S&W double action,No,Approved,https://pholsters.com/size-chart/
+HK-000029,H&K P208 SK,A2,Medium,Yes,P208 - 3.27 inch barrel,Subcompact .40 S&W variant,No,Approved,https://pholsters.com/size-chart/
+HK-000030,H&K HK45,A3,High,Yes,Colt M1911 - 4.25 inch barrel,Mid-size .45 ACP tactical,No,Approved,https://pholsters.com/size-chart/
+HK-000031,H&K HK45 Compact,A2,High,Yes,HK45 - 3.50 inch barrel,Compact .45 ACP tactical variant,No,Approved,https://pholsters.com/size-chart/
+HK-000032,H&K HK45 Tactical,A3,High,Yes,HK45 - 4.25 inch barrel,Mid-size .45 ACP tactical variant,No,Approved,https://pholsters.com/size-chart/
+HK-000033,H&K USP9,A3,High,Yes,Beretta 92FS - 4.25 inch barrel,Mid-size 9mm tactical,No,Approved,https://pholsters.com/size-chart/
+HK-000034,H&K PSP,A2.5,Low,No,P7 M8 - 3.50 inch barrel,Compact 9mm discontinued,Yes,Requires Historical Research,https://en.wikipedia.org/wiki/Heckler_%26_Koch_PSP
+HK-000035,H&K P7M7,A2.5,Medium,Yes,P7 M8 - 3.80 inch barrel,Compact 9mm variant,Yes,Requires Verification,https://pholsters.com/size-chart/
+HK-000036,H&K SFP9,A3,High,Yes,VP9 - 4.09 inch barrel,Full-size 9mm law enforcement variant,No,Approved,https://pholsters.com/size-chart/
+HK-000037,H&K SFP9 Compact,A2,High,Yes,SFP9 - 3.50 inch barrel,Compact 9mm law enforcement variant,No,Approved,https://pholsters.com/size-chart/
+HK-000038,H&K SFP9 L,A3,High,Yes,SFP9 - 4.25 inch barrel,Full-size 9mm enhanced law enforcement,No,Approved,https://pholsters.com/size-chart/
+HK-000039,H&K P226 Legion,A3,High,Yes,SIG P226 - 4.40 inch barrel,Mid-size 9mm tactical variant,No,Approved,https://pholsters.com/size-chart/
+HK-000040,H&K VP Pistol,A3,High,Yes,Glock G17 - 4.09 inch barrel,Full-size 9mm modern polymer,No,Approved,https://pholsters.com/size-chart/

@@ -1,0 +1,41 @@
+firearm_id,display_name,hk_source_url,passport_chart_url,source_type,date_accessed,specification_notes
+HK-000001,H&K USP Full Size,https://www.hecklerkoch.com/en-us/products/handguns/usp/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,4.25 inch barrel mid-size 9mm tactical
+HK-000002,H&K USP Compact,https://www.hecklerkoch.com/en-us/products/handguns/usp/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,3.58 inch barrel compact 9mm tactical
+HK-000003,H&K USP Tactical,https://www.hecklerkoch.com/en-us/products/handguns/usp/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,4.25 inch barrel mid-size 9mm tactical variant
+HK-000004,H&K USP Match,https://www.hecklerkoch.com/en-us/products/handguns/usp/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,4.25 inch barrel mid-size 9mm competition
+HK-000005,H&K USP 45,https://www.hecklerkoch.com/en-us/products/handguns/usp/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,4.41 inch barrel mid-size .45 ACP tactical
+HK-000006,H&K USP 45 Compact,https://www.hecklerkoch.com/en-us/products/handguns/usp/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,3.80 inch barrel compact .45 ACP tactical
+HK-000007,H&K USP 45 Tactical,https://www.hecklerkoch.com/en-us/products/handguns/usp/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,4.41 inch barrel mid-size .45 ACP tactical variant
+HK-000008,H&K USP 40,https://www.hecklerkoch.com/en-us/products/handguns/usp/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,4.25 inch barrel mid-size .40 S&W tactical
+HK-000009,H&K USP 40 Compact,https://www.hecklerkoch.com/en-us/products/handguns/usp/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,3.58 inch barrel compact .40 S&W tactical
+HK-000010,H&K USP 357,https://www.hecklerkoch.com/en-us/products/handguns/usp/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,4.25 inch barrel mid-size .357 SIG tactical
+HK-000011,H&K P7 M8,https://en.wikipedia.org/wiki/Heckler_%26_Koch_P7,https://pholsters.com/size-chart/,Public Reference,2026-07-24,3.50 inch barrel compact 9mm squeeze cocker
+HK-000012,H&K P7 M13,https://en.wikipedia.org/wiki/Heckler_%26_Koch_P7,https://pholsters.com/size-chart/,Public Reference,2026-07-24,3.50 inch barrel compact 9mm 13-round
+HK-000013,H&K P9S,https://en.wikipedia.org/wiki/Heckler_%26_Koch_P9S,https://pholsters.com/size-chart/,Public Reference,2026-07-24,3.50 inch barrel compact 9mm discontinued
+HK-000014,H&K P9S Combat,https://en.wikipedia.org/wiki/Heckler_%26_Koch_P9S,https://pholsters.com/size-chart/,Public Reference,2026-07-24,4.00 inch barrel mid-size 9mm discontinued
+HK-000015,H&K P30,https://www.hecklerkoch.com/en-us/products/handguns/p30/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,4.00 inch barrel mid-size 9mm modern tactical
+HK-000016,H&K P30 Compact,https://www.hecklerkoch.com/en-us/products/handguns/p30/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,3.27 inch barrel compact 9mm
+HK-000017,H&K P30 LEM,https://www.hecklerkoch.com/en-us/products/handguns/p30/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,4.00 inch barrel mid-size 9mm LEM trigger
+HK-000018,H&K P30 SK,https://www.hecklerkoch.com/en-us/products/handguns/p30/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,3.27 inch barrel subcompact 9mm
+HK-000019,H&K VP9,https://www.hecklerkoch.com/en-us/products/handguns/vp9/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,4.09 inch barrel full-size 9mm polymer
+HK-000020,H&K VP9 Compact,https://www.hecklerkoch.com/en-us/products/handguns/vp9/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,3.50 inch barrel compact 9mm polymer
+HK-000021,H&K VP9 Tactical,https://www.hecklerkoch.com/en-us/products/handguns/vp9/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,4.09 inch barrel full-size 9mm tactical
+HK-000022,H&K VP9 SK,https://www.hecklerkoch.com/en-us/products/handguns/vp9/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,3.39 inch barrel subcompact 9mm
+HK-000023,H&K VP40,https://www.hecklerkoch.com/en-us/products/handguns/vp40/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,4.25 inch barrel full-size .40 S&W polymer
+HK-000024,H&K VP40 Compact,https://www.hecklerkoch.com/en-us/products/handguns/vp40/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,3.50 inch barrel compact .40 S&W polymer
+HK-000025,H&K Mark 23,https://www.hecklerkoch.com/en-us/products/handguns/mk23/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,5.87 inch barrel full-size .45 ACP tactical
+HK-000026,H&K P2000,https://www.hecklerkoch.com/en-us/products/handguns/p2000/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,3.66 inch barrel compact 9mm double action
+HK-000027,H&K P2000 SK,https://www.hecklerkoch.com/en-us/products/handguns/p2000/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,3.27 inch barrel subcompact 9mm
+HK-000028,H&K P208,https://www.hecklerkoch.com/en-us/products/handguns/p2000/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,4.00 inch barrel mid-size .40 S&W double action
+HK-000029,H&K P208 SK,https://www.hecklerkoch.com/en-us/products/handguns/p2000/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,3.27 inch barrel subcompact .40 S&W
+HK-000030,H&K HK45,https://www.hecklerkoch.com/en-us/products/handguns/hk45/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,4.53 inch barrel mid-size .45 ACP tactical
+HK-000031,H&K HK45 Compact,https://www.hecklerkoch.com/en-us/products/handguns/hk45/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,3.94 inch barrel compact .45 ACP tactical
+HK-000032,H&K HK45 Tactical,https://www.hecklerkoch.com/en-us/products/handguns/hk45/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,4.53 inch barrel mid-size .45 ACP tactical variant
+HK-000033,H&K USP9,https://www.hecklerkoch.com/en-us/products/handguns/usp/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,4.25 inch barrel mid-size 9mm tactical
+HK-000034,H&K PSP,https://en.wikipedia.org/wiki/Heckler_%26_Koch_PSP,https://pholsters.com/size-chart/,Public Reference,2026-07-24,3.50 inch barrel compact 9mm discontinued
+HK-000035,H&K P7M7,https://en.wikipedia.org/wiki/Heckler_%26_Koch_P7,https://pholsters.com/size-chart/,Public Reference,2026-07-24,3.80 inch barrel compact 9mm variant
+HK-000036,H&K SFP9,https://www.hecklerkoch.com/en-us/products/handguns/sfp9/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,4.09 inch barrel full-size 9mm law enforcement
+HK-000037,H&K SFP9 Compact,https://www.hecklerkoch.com/en-us/products/handguns/sfp9/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,3.50 inch barrel compact 9mm law enforcement
+HK-000038,H&K SFP9 L,https://www.hecklerkoch.com/en-us/products/handguns/sfp9/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,4.25 inch barrel full-size 9mm enhanced law enforcement
+HK-000039,H&K P226 Legion,https://www.hecklerkoch.com/en-us/products/handguns/p226-legion/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,4.40 inch barrel mid-size 9mm tactical variant
+HK-000040,H&K VP Pistol,https://www.hecklerkoch.com/en-us/products/handguns/vp/,https://pholsters.com/size-chart/,Official H&K,2026-07-24,4.09 inch barrel full-size 9mm modern polymer
