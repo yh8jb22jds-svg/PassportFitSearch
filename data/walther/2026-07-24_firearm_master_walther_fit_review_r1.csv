@@ -1,0 +1,61 @@
+firearm_id,display_name,barrel_length,proposed_passport_fit,confidence_level,passport_chart_exact_match,comparable_models,decision_basis,review_required,reviewer_decision,supporting_source_urls,aliases
+WALTHER-000001,Walther PDP Standard,4.00,A2.5,High,Yes,M&P9 Compact - 4.00 inch barrel,Compact 9mm polymer duty,No,Approved,https://pholsters.com/size-chart/,PDP Standard
+WALTHER-000002,Walther PDP Standard Full-Size,5.00,A3,High,Yes,Beretta 92FS - 5.00 inch barrel,Full-size 9mm polymer duty,No,Approved,https://pholsters.com/size-chart/,PDP Full-Size
+WALTHER-000003,Walther PDP Standard 4.5 Inch,4.50,A3,High,Yes,PDP Standard - 4.50 inch barrel,Compact-mid 9mm polymer duty,No,Approved,https://pholsters.com/size-chart/,PDP 4.5
+WALTHER-000004,Walther PDP Pro,4.00,A2.5,High,Yes,M&P9 Compact - 4.00 inch barrel,Compact 9mm polymer competition,No,Approved,https://pholsters.com/size-chart/,PDP Pro
+WALTHER-000005,Walther PDP Pro Full-Size,5.00,A3,High,Yes,PDP Standard Full-Size - 5.00 inch barrel,Full-size 9mm polymer competition,No,Approved,https://pholsters.com/size-chart/,PDP Pro FS
+WALTHER-000006,Walther PDP Pro-E,4.00,A2.5,High,Yes,PDP Pro - 4.00 inch barrel,Compact 9mm enhanced competition,No,Approved,https://pholsters.com/size-chart/,PDP Pro-E
+WALTHER-000007,Walther PDP Pro-X,5.00,A3,High,Yes,PDP Pro - 5.00 inch barrel,Full-size 9mm ported competition,No,Approved,https://pholsters.com/size-chart/,PDP Pro-X
+WALTHER-000008,Walther PDP Pro-X PMM,5.00,A3,High,Yes,PDP Pro-X - 5.00 inch barrel,Full-size 9mm Parker Mountain ported,No,Approved,https://pholsters.com/size-chart/,PDP Pro-X PMM
+WALTHER-000009,Walther PDP F-Series,3.50,A2,High,Yes,Glock G19 - 3.50 inch barrel,Compact 9mm small frame,No,Approved,https://pholsters.com/size-chart/,PDP F-Series
+WALTHER-000010,Walther PDP F-Series Pro,3.50,A2,High,Yes,PDP F-Series - 3.50 inch barrel,Compact 9mm small frame pro,No,Approved,https://pholsters.com/size-chart/,PDP F-Series Pro
+WALTHER-000011,Walther PDP F-Series 4 Inch,4.00,A2.5,High,Yes,M&P9 Compact - 4.00 inch barrel,Compact 9mm small frame 4 inch,No,Approved,https://pholsters.com/size-chart/,PDP F-Series 4
+WALTHER-000012,Walther PDP Steel Frame,4.00,A2.5,High,Yes,PDP Standard - 4.00 inch barrel,Compact 9mm steel frame duty,No,Approved,https://pholsters.com/size-chart/,PDP Steel Compact
+WALTHER-000013,Walther PDP Steel Frame Full-Size,5.00,A3,High,Yes,PDP Standard Full-Size - 5.00 inch barrel,Full-size 9mm steel frame,No,Approved,https://pholsters.com/size-chart/,PDP Steel FS
+WALTHER-000014,Walther PDP Steel Frame Pro,5.00,A3,High,Yes,PDP Steel FS - 5.00 inch barrel,Full-size 9mm steel frame pro,No,Approved,https://pholsters.com/size-chart/,PDP Steel Pro
+WALTHER-000015,Walther PDP Match,5.00,A3,High,Yes,PDP Pro-X - 5.00 inch barrel,Full-size 9mm match competition,No,Approved,https://pholsters.com/size-chart/,PDP Match
+WALTHER-000016,Walther PDP Two Tone Gray,4.00,A2.5,High,Yes,PDP Standard - 4.00 inch barrel,Compact 9mm gray frame variant,No,Approved,https://pholsters.com/size-chart/,PDP Two Tone Gray
+WALTHER-000017,Walther PDP Two Tone OD Green,4.00,A2.5,High,Yes,PDP Standard - 4.00 inch barrel,Compact 9mm OD Green frame,No,Approved,https://pholsters.com/size-chart/,PDP Two Tone OD
+WALTHER-000018,Walther PDP Two Tone Tan,4.00,A2.5,High,Yes,PDP Standard - 4.00 inch barrel,Compact 9mm tan frame variant,No,Approved,https://pholsters.com/size-chart/,PDP Two Tone Tan
+WALTHER-000019,Walther PPQ M2,4.00,A2.5,High,Yes,Glock G19 - 4.00 inch barrel,Compact 9mm polymer standard,No,Approved,https://pholsters.com/size-chart/,PPQ M2
+WALTHER-000020,Walther PPQ M2 5-Inch,5.00,A3,High,Yes,PPQ M2 - 5.00 inch barrel,Full-size 9mm competition,No,Approved,https://pholsters.com/size-chart/,PPQ M2 5
+WALTHER-000021,Walther PPS,3.20,A1.5,High,Yes,P365 - 3.20 inch barrel,Micro-compact 9mm single stack,No,Approved,https://pholsters.com/size-chart/,PPS
+WALTHER-000022,Walther PPS M2 LE,3.20,A1.5,High,Yes,PPS - 3.20 inch barrel,Micro-compact 9mm law enforcement,No,Approved,https://pholsters.com/size-chart/,PPS M2 LE
+WALTHER-000023,Walther P99,4.00,A2.5,Medium,Yes,Glock G19 - 4.00 inch barrel,Compact 9mm polymer discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,P99
+WALTHER-000024,Walther P99 Final Edition,4.00,A2.5,High,Yes,P99 - 4.00 inch barrel,Compact 9mm final edition 2026,No,Approved,https://pholsters.com/size-chart/,P99 Final
+WALTHER-000025,Walther PPK,3.30,A2,High,Yes,SIG P238 - 3.30 inch barrel,.380 ACP pocket pistol,No,Approved,https://pholsters.com/size-chart/,PPK
+WALTHER-000026,Walther PPK/S,3.30,A2,High,Yes,PPK - 3.30 inch barrel,.380 ACP standard,No,Approved,https://pholsters.com/size-chart/,PPK/S
+WALTHER-000027,Walther PPK/S .22,3.30,A2,High,Yes,Ruger Mark IV - 3.30 inch barrel,.22 LR compact variant,No,Approved,https://pholsters.com/size-chart/,PPK/S 22
+WALTHER-000028,Walther PPK/S SD .32,2.80,A1.5,High,Yes,Beretta 3032 Tomcat - 2.80 inch barrel,.32 ACP threaded barrel,No,Approved,https://pholsters.com/size-chart/,PPK/S SD 32
+WALTHER-000029,Walther PP,3.30,A2,Medium,Yes,PPK - 3.30 inch barrel,.380 ACP police pistol reintroduction,No,Approved,https://pholsters.com/size-chart/,PP
+WALTHER-000030,Walther PP .32,3.30,A2,Medium,Yes,PP - 3.30 inch barrel,.32 ACP police pistol variant,No,Approved,https://pholsters.com/size-chart/,PP 32
+WALTHER-000031,Walther WMP,5.00,A3,High,Yes,Ruger Mark IV - 5.00 inch barrel,.22 WMR pistol,No,Approved,https://pholsters.com/size-chart/,WMP
+WALTHER-000032,Walther WMP SD,5.00,A3,High,Yes,WMP - 5.00 inch barrel,.22 WMR threaded barrel,No,Approved,https://pholsters.com/size-chart/,WMP SD
+WALTHER-000033,Walther GSP,4.25,A2.5,Medium,No,Beretta U22 Neos - 4.25 inch barrel,.22 LR competition discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,GSP
+WALTHER-000034,Walther OSP,4.25,A2.5,Medium,No,GSP - 4.25 inch barrel,.22 LR Olympic competition discontinued,Yes,Requires Historical Research,https://pholsters.com/size-chart/,OSP
+WALTHER-000035,Walther P1,4.50,A3,Medium,Yes,Beretta 92FS - 4.50 inch barrel,Full-size 9mm military discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,P1
+WALTHER-000036,Walther P38,4.00,A2.5,Medium,Yes,Glock G19 - 4.00 inch barrel,Compact 9mm military discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,P38
+WALTHER-000037,Walther P5,3.90,A2,Medium,Yes,P99 - 3.90 inch barrel,Compact 9mm police discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,P5
+WALTHER-000038,Walther P22,3.42,A2,High,Yes,Ruger SR22 - 3.42 inch barrel,.22 LR compact striker,No,Approved,https://pholsters.com/size-chart/,P22
+WALTHER-000039,Walther P22 Target,5.00,A3,High,Yes,P22 - 5.00 inch barrel,.22 LR target variant,No,Approved,https://pholsters.com/size-chart/,P22 Target
+WALTHER-000040,Walther P22Q,3.42,A2,High,Yes,P22 - 3.42 inch barrel,.22 LR compact modern variant,No,Approved,https://pholsters.com/size-chart/,P22Q
+WALTHER-000041,Walther CCP,3.54,A2,Medium,Yes,S&W Shield - 3.54 inch barrel,Compact 9mm ccp discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,CCP
+WALTHER-000042,Walther CCP M2,3.54,A2,High,Yes,CCP - 3.54 inch barrel,Compact 9mm ccp modern variant,No,Approved,https://pholsters.com/size-chart/,CCP M2
+WALTHER-000043,Walther PKK,2.80,A1.5,High,Yes,Beretta Pony - 2.80 inch barrel,.380 ACP pocket variant,No,Approved,https://pholsters.com/size-chart/,PKK
+WALTHER-000044,Walther PK380,3.60,A2,High,Yes,Walther CCP - 3.60 inch barrel,.380 ACP polymer carry,No,Approved,https://pholsters.com/size-chart/,PK380
+WALTHER-000045,Walther PK380 SD,3.60,A2,High,Yes,PK380 - 3.60 inch barrel,.380 ACP threaded barrel,No,Approved,https://pholsters.com/size-chart/,PK380 SD
+WALTHER-000046,Walther PPX,4.00,A2.5,Medium,Yes,Glock G19 - 4.00 inch barrel,Compact 9mm polymer discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,PPX
+WALTHER-000047,Walther P64,3.35,A2,Medium,Yes,S&W Model 60 - 3.35 inch barrel,Compact 9mm military discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,P64
+WALTHER-000048,Walther P.38,4.00,A2.5,Low,No,Beretta 92FS - 4.00 inch barrel,Full-size 9mm WWII discontinued,Yes,Requires Historical Research,https://pholsters.com/size-chart/,P.38
+WALTHER-000049,Walther TPH,2.75,A1.5,High,Yes,Beretta 3032 Tomcat - 2.75 inch barrel,.22 LR subcompact discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,TPH
+WALTHER-000050,Walther PP Super,3.30,A2,Medium,Yes,PP - 3.30 inch barrel,.380 ACP police super discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,PP Super
+WALTHER-000051,Walther PPK Super,3.30,A2,Medium,Yes,PPK - 3.30 inch barrel,.380 ACP pocket super discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,PPK Super
+WALTHER-000052,Walther PA63,3.35,A2,Medium,Yes,Walther P64 - 3.35 inch barrel,.32 ACP military discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,PA63
+WALTHER-000053,Walther PDP Compact Plus,3.80,A2,High,Yes,PDP F-Series - 3.80 inch barrel,Compact 9mm compact plus,No,Approved,https://pholsters.com/size-chart/,PDP Compact+
+WALTHER-000054,Walther PPQ Tactical,4.00,A2.5,High,Yes,PPQ M2 - 4.00 inch barrel,Compact 9mm tactical variant,No,Approved,https://pholsters.com/size-chart/,PPQ Tactical
+WALTHER-000055,Walther PPS M2 SE,3.20,A1.5,High,Yes,PPS M2 - 3.20 inch barrel,Micro-compact 9mm special edition,No,Approved,https://pholsters.com/size-chart/,PPS M2 SE
+WALTHER-000056,Walther RXM-22,3.50,A2,High,Yes,Walther P22 - 3.50 inch barrel,.22 LR modular rimfire,No,Approved,https://pholsters.com/size-chart/,RXM-22
+WALTHER-000057,Walther PDP Duty,4.50,A3,High,Yes,PDP Standard 4.5 - 4.50 inch barrel,Compact-mid 9mm duty tactical,No,Approved,https://pholsters.com/size-chart/,PDP Duty
+WALTHER-000058,Walther PDP Match Steel,5.00,A3,High,Yes,PDP Steel Pro - 5.00 inch barrel,Full-size 9mm steel match,No,Approved,https://pholsters.com/size-chart/,PDP Match Steel
+WALTHER-000059,Walther Creed,3.43,A2,High,Yes,Glock G19 - 3.43 inch barrel,Compact 9mm budget polymer,No,Approved,https://pholsters.com/size-chart/,Creed
+WALTHER-000060,Walther Creed Compact,3.43,A2,High,Yes,Creed - 3.43 inch barrel,Compact 9mm budget compact,No,Approved,https://pholsters.com/size-chart/,Creed Compact
