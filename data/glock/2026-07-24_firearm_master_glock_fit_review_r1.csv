@@ -1,41 +1,67 @@
 firearm_id,display_name,barrel_length,proposed_passport_fit,confidence_level,passport_chart_exact_match,comparable_models,decision_basis,review_required,reviewer_decision,supporting_source_urls,aliases
 GLOCK-000001,Glock 17,4.49,A3,High,Yes,Beretta 92FS - 4.49 inch barrel,Full-size 9mm polymer standard,No,Approved,https://pholsters.com/size-chart/,G17
-GLOCK-000002,Glock 17L,6.02,A4,High,Yes,Glock 17 - 6.02 inch barrel,Full-size 9mm competition model,No,Approved,https://pholsters.com/size-chart/,G17L
-GLOCK-000003,Glock 17C,4.49,A3,High,Yes,Glock 17 - 4.49 inch barrel,Full-size 9mm compensated variant,No,Approved,https://pholsters.com/size-chart/,G17C
-GLOCK-000004,Glock 17CC,4.49,A3,High,Yes,Glock 17C - 4.49 inch barrel,Full-size 9mm double compensated,No,Approved,https://pholsters.com/size-chart/,G17CC
-GLOCK-000005,Glock 17 Gen 5,4.49,A3,High,Yes,Glock 17 - 4.49 inch barrel,Full-size 9mm modern variant,No,Approved,https://pholsters.com/size-chart/,G17 Gen5
-GLOCK-000006,Glock 17 MOS,4.49,A3,High,Yes,Glock 17 - 4.49 inch barrel,Full-size 9mm optics ready,No,Approved,https://pholsters.com/size-chart/,G17 MOS
-GLOCK-000007,Glock 19,4.02,A2.5,High,Yes,Glock G19 - 4.02 inch barrel,Compact 9mm standard,No,Approved,https://pholsters.com/size-chart/,G19
-GLOCK-000008,Glock 19C,4.02,A2.5,High,Yes,Glock 19 - 4.02 inch barrel,Compact 9mm compensated variant,No,Approved,https://pholsters.com/size-chart/,G19C
-GLOCK-000009,Glock 19CC,4.02,A2.5,High,Yes,Glock 19C - 4.02 inch barrel,Compact 9mm double compensated,No,Approved,https://pholsters.com/size-chart/,G19CC
-GLOCK-000010,Glock 19 Gen 5,4.02,A2.5,High,Yes,Glock 19 - 4.02 inch barrel,Compact 9mm modern variant,No,Approved,https://pholsters.com/size-chart/,G19 Gen5
-GLOCK-000011,Glock 19 MOS,4.02,A2.5,High,Yes,Glock 19 - 4.02 inch barrel,Compact 9mm optics ready,No,Approved,https://pholsters.com/size-chart/,G19 MOS
-GLOCK-000012,Glock 19 RTF2,4.02,A2.5,High,Yes,Glock 19 - 4.02 inch barrel,Compact 9mm grip texture variant,No,Approved,https://pholsters.com/size-chart/,G19 RTF2
-GLOCK-000013,Glock 26,3.43,A1.5,High,Yes,Glock G26 - 3.43 inch barrel,Subcompact 9mm standard,No,Approved,https://pholsters.com/size-chart/,G26
-GLOCK-000014,Glock 26 Gen 5,3.43,A1.5,High,Yes,Glock 26 - 3.43 inch barrel,Subcompact 9mm modern variant,No,Approved,https://pholsters.com/size-chart/,G26 Gen5
-GLOCK-000015,Glock 34,5.31,A4,High,Yes,Glock 17L - 5.31 inch barrel,Full-size 9mm competition model,No,Approved,https://pholsters.com/size-chart/,G34
-GLOCK-000016,Glock 34 Gen 5,5.31,A4,High,Yes,Glock 34 - 5.31 inch barrel,Full-size 9mm competition modern,No,Approved,https://pholsters.com/size-chart/,G34 Gen5
-GLOCK-000017,Glock 35,5.31,A4,High,Yes,Glock 34 - 5.31 inch barrel,Full-size .40 S&W competition,No,Approved,https://pholsters.com/size-chart/,G35
-GLOCK-000018,Glock 35 Gen 5,5.31,A4,High,Yes,Glock 35 - 5.31 inch barrel,Full-size .40 S&W competition modern,No,Approved,https://pholsters.com/size-chart/,G35 Gen5
-GLOCK-000019,Glock 22,4.49,A3,High,Yes,Beretta 92FS - 4.49 inch barrel,Full-size .40 S&W polymer standard,No,Approved,https://pholsters.com/size-chart/,G22
-GLOCK-000020,Glock 22 Gen 5,4.49,A3,High,Yes,Glock 22 - 4.49 inch barrel,Full-size .40 S&W modern variant,No,Approved,https://pholsters.com/size-chart/,G22 Gen5
-GLOCK-000021,Glock 23,4.02,A2.5,High,Yes,Glock G23 - 4.02 inch barrel,Compact .40 S&W standard,No,Approved,https://pholsters.com/size-chart/,G23
-GLOCK-000022,Glock 23 Gen 5,4.02,A2.5,High,Yes,Glock 23 - 4.02 inch barrel,Compact .40 S&W modern variant,No,Approved,https://pholsters.com/size-chart/,G23 Gen5
-GLOCK-000023,Glock 27,3.43,A1.5,High,Yes,Glock G27 - 3.43 inch barrel,Subcompact .40 S&W standard,No,Approved,https://pholsters.com/size-chart/,G27
-GLOCK-000024,Glock 27 Gen 5,3.43,A1.5,High,Yes,Glock 27 - 3.43 inch barrel,Subcompact .40 S&W modern variant,No,Approved,https://pholsters.com/size-chart/,G27 Gen5
-GLOCK-000025,Glock 20,4.61,A3,High,Yes,Glock 17 - 4.61 inch barrel,Full-size 10mm polymer,No,Approved,https://pholsters.com/size-chart/,G20
-GLOCK-000026,Glock 20 Gen 5,4.61,A3,High,Yes,Glock 20 - 4.61 inch barrel,Full-size 10mm modern variant,No,Approved,https://pholsters.com/size-chart/,G20 Gen5
-GLOCK-000027,Glock 29,3.78,A2,High,Yes,Glock G29 - 3.78 inch barrel,Compact 10mm polymer,No,Approved,https://pholsters.com/size-chart/,G29
-GLOCK-000028,Glock 29 Gen 5,3.78,A2,High,Yes,Glock 29 - 3.78 inch barrel,Compact 10mm modern variant,No,Approved,https://pholsters.com/size-chart/,G29 Gen5
-GLOCK-000029,Glock 21,4.49,A3,High,Yes,Colt M1911 - 4.49 inch barrel,Full-size .45 ACP polymer,No,Approved,https://pholsters.com/size-chart/,G21
-GLOCK-000030,Glock 21 Gen 5,4.49,A3,High,Yes,Glock 21 - 4.49 inch barrel,Full-size .45 ACP modern variant,No,Approved,https://pholsters.com/size-chart/,G21 Gen5
-GLOCK-000031,Glock 30,3.77,A2,High,Yes,Glock G30 - 3.77 inch barrel,Compact .45 ACP polymer,No,Approved,https://pholsters.com/size-chart/,G30
-GLOCK-000032,Glock 30 Gen 5,3.77,A2,High,Yes,Glock 30 - 3.77 inch barrel,Compact .45 ACP modern variant,No,Approved,https://pholsters.com/size-chart/,G30 Gen5
-GLOCK-000033,Glock 30S,3.77,A2,High,Yes,Glock 30 - 3.77 inch barrel,Compact .45 ACP slimline variant,No,Approved,https://pholsters.com/size-chart/,G30S
-GLOCK-000034,Glock 36,3.77,A2,High,Yes,Glock 30 - 3.77 inch barrel,Compact .45 ACP slimline,No,Approved,https://pholsters.com/size-chart/,G36
-GLOCK-000035,Glock 37,4.49,A3,Medium,Yes,Glock 22 - 4.49 inch barrel,.45 GAP full-size discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G37
-GLOCK-000036,Glock 38,4.02,A2.5,Medium,Yes,Glock 23 - 4.02 inch barrel,.45 GAP compact discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G38
-GLOCK-000037,Glock 39,3.43,A1.5,Medium,Yes,Glock 27 - 3.43 inch barrel,.45 GAP subcompact discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G39
-GLOCK-000038,Glock 40,6.02,A4,High,Yes,Glock 20 - 6.02 inch barrel,Full-size 10mm long slide,No,Approved,https://pholsters.com/size-chart/,G40
-GLOCK-000039,Glock 41,5.31,A4,High,Yes,Glock 21 - 5.31 inch barrel,Full-size .45 ACP long slide,No,Approved,https://pholsters.com/size-chart/,G41
-GLOCK-000040,Glock 43X,3.41,A2,High,Yes,Glock G43X - 3.41 inch barrel,Compact 9mm slimline,No,Approved,https://pholsters.com/size-chart/,G43X
+GLOCK-000002,Glock 17 Gen 1,4.49,A3,Medium,Yes,Glock 17 - 4.49 inch barrel,Full-size 9mm Gen 1 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G17 Gen1
+GLOCK-000003,Glock 17 Gen 2,4.49,A3,Medium,Yes,Glock 17 - 4.49 inch barrel,Full-size 9mm Gen 2 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G17 Gen2
+GLOCK-000004,Glock 17 Gen 3,4.49,A3,Medium,Yes,Glock 17 - 4.49 inch barrel,Full-size 9mm Gen 3 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G17 Gen3
+GLOCK-000005,Glock 17L,6.02,A4,High,Yes,Glock 17 - 6.02 inch barrel,Full-size 9mm competition model,No,Approved,https://pholsters.com/size-chart/,G17L
+GLOCK-000006,Glock 17C,4.49,A3,High,Yes,Glock 17 - 4.49 inch barrel,Full-size 9mm compensated variant,No,Approved,https://pholsters.com/size-chart/,G17C
+GLOCK-000007,Glock 17CC,4.49,A3,High,Yes,Glock 17C - 4.49 inch barrel,Full-size 9mm double compensated,No,Approved,https://pholsters.com/size-chart/,G17CC
+GLOCK-000008,Glock 17 Gen 4,4.49,A3,Medium,Yes,Glock 17 Gen 3 - 4.49 inch barrel,Full-size 9mm Gen 4 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G17 Gen4
+GLOCK-000009,Glock 17 Gen 5,4.49,A3,High,Yes,Glock 17 - 4.49 inch barrel,Full-size 9mm modern variant,No,Approved,https://pholsters.com/size-chart/,G17 Gen5
+GLOCK-000010,Glock 17 MOS,4.49,A3,High,Yes,Glock 17 - 4.49 inch barrel,Full-size 9mm optics ready,No,Approved,https://pholsters.com/size-chart/,G17 MOS
+GLOCK-000011,Glock 19,4.02,A2.5,High,Yes,Glock G19 - 4.02 inch barrel,Compact 9mm standard,No,Approved,https://pholsters.com/size-chart/,G19
+GLOCK-000012,Glock 19 Gen 1,4.02,A2.5,Medium,Yes,Glock 19 - 4.02 inch barrel,Compact 9mm Gen 1 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G19 Gen1
+GLOCK-000013,Glock 19 Gen 2,4.02,A2.5,Medium,Yes,Glock 19 - 4.02 inch barrel,Compact 9mm Gen 2 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G19 Gen2
+GLOCK-000014,Glock 19 Gen 3,4.02,A2.5,Medium,Yes,Glock 19 - 4.02 inch barrel,Compact 9mm Gen 3 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G19 Gen3
+GLOCK-000015,Glock 19C,4.02,A2.5,High,Yes,Glock 19 - 4.02 inch barrel,Compact 9mm compensated variant,No,Approved,https://pholsters.com/size-chart/,G19C
+GLOCK-000016,Glock 19CC,4.02,A2.5,High,Yes,Glock 19C - 4.02 inch barrel,Compact 9mm double compensated,No,Approved,https://pholsters.com/size-chart/,G19CC
+GLOCK-000017,Glock 19 Gen 4,4.02,A2.5,Medium,Yes,Glock 19 Gen 3 - 4.02 inch barrel,Compact 9mm Gen 4 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G19 Gen4
+GLOCK-000018,Glock 19 Gen 5,4.02,A2.5,High,Yes,Glock 19 - 4.02 inch barrel,Compact 9mm modern variant,No,Approved,https://pholsters.com/size-chart/,G19 Gen5
+GLOCK-000019,Glock 19 MOS,4.02,A2.5,High,Yes,Glock 19 - 4.02 inch barrel,Compact 9mm optics ready,No,Approved,https://pholsters.com/size-chart/,G19 MOS
+GLOCK-000020,Glock 19 RTF2,4.02,A2.5,High,Yes,Glock 19 - 4.02 inch barrel,Compact 9mm grip texture variant,No,Approved,https://pholsters.com/size-chart/,G19 RTF2
+GLOCK-000021,Glock 26,3.43,A1.5,High,Yes,Glock G26 - 3.43 inch barrel,Subcompact 9mm standard,No,Approved,https://pholsters.com/size-chart/,G26
+GLOCK-000022,Glock 26 Gen 1,3.43,A1.5,Medium,Yes,Glock 26 - 3.43 inch barrel,Subcompact 9mm Gen 1 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G26 Gen1
+GLOCK-000023,Glock 26 Gen 2,3.43,A1.5,Medium,Yes,Glock 26 - 3.43 inch barrel,Subcompact 9mm Gen 2 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G26 Gen2
+GLOCK-000024,Glock 26 Gen 3,3.43,A1.5,Medium,Yes,Glock 26 - 3.43 inch barrel,Subcompact 9mm Gen 3 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G26 Gen3
+GLOCK-000025,Glock 26 Gen 5,3.43,A1.5,High,Yes,Glock 26 - 3.43 inch barrel,Subcompact 9mm modern variant,No,Approved,https://pholsters.com/size-chart/,G26 Gen5
+GLOCK-000026,Glock 34,5.31,A4,High,Yes,Glock 17L - 5.31 inch barrel,Full-size 9mm competition model,No,Approved,https://pholsters.com/size-chart/,G34
+GLOCK-000027,Glock 34 Gen 1,5.31,A4,Medium,Yes,Glock 34 - 5.31 inch barrel,Full-size 9mm competition Gen 1 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G34 Gen1
+GLOCK-000028,Glock 34 Gen 3,5.31,A4,Medium,Yes,Glock 34 - 5.31 inch barrel,Full-size 9mm competition Gen 3 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G34 Gen3
+GLOCK-000029,Glock 34 Gen 5,5.31,A4,High,Yes,Glock 34 - 5.31 inch barrel,Full-size 9mm competition modern,No,Approved,https://pholsters.com/size-chart/,G34 Gen5
+GLOCK-000030,Glock 35,5.31,A4,High,Yes,Glock 34 - 5.31 inch barrel,Full-size .40 S&W competition,No,Approved,https://pholsters.com/size-chart/,G35
+GLOCK-000031,Glock 35 Gen 1,5.31,A4,Medium,Yes,Glock 35 - 5.31 inch barrel,Full-size .40 S&W competition Gen 1 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G35 Gen1
+GLOCK-000032,Glock 35 Gen 5,5.31,A4,High,Yes,Glock 35 - 5.31 inch barrel,Full-size .40 S&W competition modern,No,Approved,https://pholsters.com/size-chart/,G35 Gen5
+GLOCK-000033,Glock 22,4.49,A3,High,Yes,Beretta 92FS - 4.49 inch barrel,Full-size .40 S&W polymer standard,No,Approved,https://pholsters.com/size-chart/,G22
+GLOCK-000034,Glock 22 Gen 1,4.49,A3,Medium,Yes,Glock 22 - 4.49 inch barrel,Full-size .40 S&W Gen 1 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G22 Gen1
+GLOCK-000035,Glock 22 Gen 3,4.49,A3,Medium,Yes,Glock 22 - 4.49 inch barrel,Full-size .40 S&W Gen 3 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G22 Gen3
+GLOCK-000036,Glock 22 Gen 5,4.49,A3,High,Yes,Glock 22 - 4.49 inch barrel,Full-size .40 S&W modern variant,No,Approved,https://pholsters.com/size-chart/,G22 Gen5
+GLOCK-000037,Glock 23,4.02,A2.5,High,Yes,Glock G23 - 4.02 inch barrel,Compact .40 S&W standard,No,Approved,https://pholsters.com/size-chart/,G23
+GLOCK-000038,Glock 23 Gen 1,4.02,A2.5,Medium,Yes,Glock 23 - 4.02 inch barrel,Compact .40 S&W Gen 1 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G23 Gen1
+GLOCK-000039,Glock 23 Gen 3,4.02,A2.5,Medium,Yes,Glock 23 - 4.02 inch barrel,Compact .40 S&W Gen 3 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G23 Gen3
+GLOCK-000040,Glock 23 Gen 5,4.02,A2.5,High,Yes,Glock 23 - 4.02 inch barrel,Compact .40 S&W modern variant,No,Approved,https://pholsters.com/size-chart/,G23 Gen5
+GLOCK-000041,Glock 27,3.43,A1.5,High,Yes,Glock G27 - 3.43 inch barrel,Subcompact .40 S&W standard,No,Approved,https://pholsters.com/size-chart/,G27
+GLOCK-000042,Glock 27 Gen 1,3.43,A1.5,Medium,Yes,Glock 27 - 3.43 inch barrel,Subcompact .40 S&W Gen 1 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G27 Gen1
+GLOCK-000043,Glock 27 Gen 5,3.43,A1.5,High,Yes,Glock 27 - 3.43 inch barrel,Subcompact .40 S&W modern variant,No,Approved,https://pholsters.com/size-chart/,G27 Gen5
+GLOCK-000044,Glock 20,4.61,A3,High,Yes,Glock 17 - 4.61 inch barrel,Full-size 10mm polymer,No,Approved,https://pholsters.com/size-chart/,G20
+GLOCK-000045,Glock 20 Gen 1,4.61,A3,Medium,Yes,Glock 20 - 4.61 inch barrel,Full-size 10mm Gen 1 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G20 Gen1
+GLOCK-000046,Glock 20 Gen 3,4.61,A3,Medium,Yes,Glock 20 - 4.61 inch barrel,Full-size 10mm Gen 3 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G20 Gen3
+GLOCK-000047,Glock 20 Gen 5,4.61,A3,High,Yes,Glock 20 - 4.61 inch barrel,Full-size 10mm modern variant,No,Approved,https://pholsters.com/size-chart/,G20 Gen5
+GLOCK-000048,Glock 29,3.78,A2,High,Yes,Glock G29 - 3.78 inch barrel,Compact 10mm polymer,No,Approved,https://pholsters.com/size-chart/,G29
+GLOCK-000049,Glock 29 Gen 1,3.78,A2,Medium,Yes,Glock 29 - 3.78 inch barrel,Compact 10mm Gen 1 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G29 Gen1
+GLOCK-000050,Glock 29 Gen 5,3.78,A2,High,Yes,Glock 29 - 3.78 inch barrel,Compact 10mm modern variant,No,Approved,https://pholsters.com/size-chart/,G29 Gen5
+GLOCK-000051,Glock 21,4.49,A3,High,Yes,Colt M1911 - 4.49 inch barrel,Full-size .45 ACP polymer,No,Approved,https://pholsters.com/size-chart/,G21
+GLOCK-000052,Glock 21 Gen 1,4.49,A3,Medium,Yes,Glock 21 - 4.49 inch barrel,Full-size .45 ACP Gen 1 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G21 Gen1
+GLOCK-000053,Glock 21 Gen 3,4.49,A3,Medium,Yes,Glock 21 - 4.49 inch barrel,Full-size .45 ACP Gen 3 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G21 Gen3
+GLOCK-000054,Glock 21 Gen 5,4.49,A3,High,Yes,Glock 21 - 4.49 inch barrel,Full-size .45 ACP modern variant,No,Approved,https://pholsters.com/size-chart/,G21 Gen5
+GLOCK-000055,Glock 30,3.77,A2,High,Yes,Glock G30 - 3.77 inch barrel,Compact .45 ACP polymer,No,Approved,https://pholsters.com/size-chart/,G30
+GLOCK-000056,Glock 30 Gen 1,3.77,A2,Medium,Yes,Glock 30 - 3.77 inch barrel,Compact .45 ACP Gen 1 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G30 Gen1
+GLOCK-000057,Glock 30 Gen 3,3.77,A2,Medium,Yes,Glock 30 - 3.77 inch barrel,Compact .45 ACP Gen 3 discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G30 Gen3
+GLOCK-000058,Glock 30 Gen 5,3.77,A2,High,Yes,Glock 30 - 3.77 inch barrel,Compact .45 ACP modern variant,No,Approved,https://pholsters.com/size-chart/,G30 Gen5
+GLOCK-000059,Glock 30S,3.77,A2,High,Yes,Glock 30 - 3.77 inch barrel,Compact .45 ACP slimline variant,No,Approved,https://pholsters.com/size-chart/,G30S
+GLOCK-000060,Glock 36,3.77,A2,High,Yes,Glock 30 - 3.77 inch barrel,Compact .45 ACP slimline,No,Approved,https://pholsters.com/size-chart/,G36
+GLOCK-000061,Glock 37,4.49,A3,Medium,Yes,Glock 22 - 4.49 inch barrel,.45 GAP full-size discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G37
+GLOCK-000062,Glock 38,4.02,A2.5,Medium,Yes,Glock 23 - 4.02 inch barrel,.45 GAP compact discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G38
+GLOCK-000063,Glock 39,3.43,A1.5,Medium,Yes,Glock 27 - 3.43 inch barrel,.45 GAP subcompact discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,G39
+GLOCK-000064,Glock 40,6.02,A4,High,Yes,Glock 20 - 6.02 inch barrel,Full-size 10mm long slide,No,Approved,https://pholsters.com/size-chart/,G40
+GLOCK-000065,Glock 41,5.31,A4,High,Yes,Glock 21 - 5.31 inch barrel,Full-size .45 ACP long slide,No,Approved,https://pholsters.com/size-chart/,G41
+GLOCK-000066,Glock 43X,3.41,A2,High,Yes,Glock G43X - 3.41 inch barrel,Compact 9mm slimline,No,Approved,https://pholsters.com/size-chart/,G43X
