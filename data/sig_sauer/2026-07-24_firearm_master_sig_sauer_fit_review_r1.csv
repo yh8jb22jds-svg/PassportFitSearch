@@ -1,0 +1,61 @@
+firearm_id,display_name,barrel_length,proposed_passport_fit,confidence_level,passport_chart_exact_match,comparable_models,decision_basis,review_required,reviewer_decision,supporting_source_urls,aliases
+SIG-000001,SIG Sauer P365,3.10,A1.5,High,Yes,Glock G43 - 3.10 inch barrel,Micro-compact 9mm single stack,No,Approved,https://pholsters.com/size-chart/,P365
+SIG-000002,SIG Sauer P365 SAS,3.10,A1.5,High,Yes,P365 - 3.10 inch barrel,Micro-compact 9mm ambidextrous,No,Approved,https://pholsters.com/size-chart/,P365 SAS
+SIG-000003,SIG Sauer P365 XL,3.70,A2,High,Yes,P365 - 3.70 inch barrel,Compact 9mm extended,No,Approved,https://pholsters.com/size-chart/,P365 XL
+SIG-000004,SIG Sauer P365 X-Macro,3.10,A1.5,High,Yes,P365 - 3.10 inch barrel,Micro-compact 9mm 2023 model,No,Approved,https://pholsters.com/size-chart/,P365-XMACRO
+SIG-000005,SIG Sauer P365 FUSE,3.10,A1.5,High,Yes,P365 - 3.10 inch barrel,Micro-compact 9mm optics 2024,No,Approved,https://pholsters.com/size-chart/,P365 FUSE
+SIG-000006,SIG Sauer P365 Freedom,3.10,A1.5,High,Yes,P365 - 3.10 inch barrel,Micro-compact 9mm tactical 2026,No,Approved,https://pholsters.com/size-chart/,P365 Freedom
+SIG-000007,SIG Sauer P365 .380,3.10,A1.5,High,Yes,Beretta 3032 Tomcat - 3.10 inch barrel,Micro-compact .380 ACP,No,Approved,https://pholsters.com/size-chart/,P365-380
+SIG-000008,SIG Sauer P365 Nitron,3.10,A1.5,High,Yes,P365 - 3.10 inch barrel,Micro-compact 9mm finish variant,No,Approved,https://pholsters.com/size-chart/,P365 Nitron
+SIG-000009,SIG Sauer P320,3.90,A2,High,Yes,Glock G19 - 3.90 inch barrel,Compact 9mm polymer modular,No,Approved,https://pholsters.com/size-chart/,P320
+SIG-000010,SIG Sauer P320 Compact,3.60,A2,High,Yes,P320 - 3.60 inch barrel,Compact 9mm modular variant,No,Approved,https://pholsters.com/size-chart/,P320c
+SIG-000011,SIG Sauer P320 Full-Size,4.70,A3,High,Yes,Beretta 92FS - 4.70 inch barrel,Full-size 9mm polymer modular,No,Approved,https://pholsters.com/size-chart/,P320 FS
+SIG-000012,SIG Sauer P320 Subcompact,3.60,A2,High,Yes,Glock G19 - 3.60 inch barrel,Compact 9mm subcompact modular,No,Approved,https://pholsters.com/size-chart/,P320 SC
+SIG-000013,SIG Sauer P320 X-Carry,4.00,A2.5,High,Yes,M&P9 Compact - 4.00 inch barrel,Compact 9mm modular tactical,No,Approved,https://pholsters.com/size-chart/,P320 X-Carry
+SIG-000014,SIG Sauer P320 X-Five,5.00,A3,High,Yes,Glock 34 - 5.00 inch barrel,Full-size 9mm competition modular,No,Approved,https://pholsters.com/size-chart/,P320 X-Five
+SIG-000015,SIG Sauer P320 X-Spectre,4.60,A3,High,Yes,P320 Full-Size - 4.60 inch barrel,Full-size 9mm tactical modular,No,Approved,https://pholsters.com/size-chart/,P320 X-Spectre
+SIG-000016,SIG Sauer P320 XTEN,5.30,A4,High,Yes,Glock 34 - 5.30 inch barrel,Full-size 10mm competition,No,Approved,https://pholsters.com/size-chart/,P320 XTEN
+SIG-000017,SIG Sauer P320 Legion,4.70,A3,High,Yes,P320 Full-Size - 4.70 inch barrel,Full-size 9mm performance,No,Approved,https://pholsters.com/size-chart/,P320 Legion
+SIG-000018,SIG Sauer P320 Legion Compact,3.90,A2,High,Yes,P320 Compact - 3.90 inch barrel,Compact 9mm performance,No,Approved,https://pholsters.com/size-chart/,P320 Legion Compact
+SIG-000019,SIG Sauer P226,4.40,A3,High,Yes,Beretta 92FS - 4.40 inch barrel,Full-size 9mm double action,No,Approved,https://pholsters.com/size-chart/,P226
+SIG-000020,SIG Sauer P226 Compact,3.86,A2,High,Yes,P226 - 3.86 inch barrel,Compact 9mm double action,No,Approved,https://pholsters.com/size-chart/,P226c
+SIG-000021,SIG Sauer P226 Legion,4.40,A3,High,Yes,P226 - 4.40 inch barrel,Full-size 9mm performance variant,No,Approved,https://pholsters.com/size-chart/,P226 Legion
+SIG-000022,SIG Sauer P226 X-Five,5.00,A3,High,Yes,Glock 34 - 5.00 inch barrel,Full-size 9mm competition,No,Approved,https://pholsters.com/size-chart/,P226 X-Five
+SIG-000023,SIG Sauer P226 Nightmare,4.40,A3,High,Yes,P226 - 4.40 inch barrel,Full-size 9mm tacops variant,No,Approved,https://pholsters.com/size-chart/,P226 Nightmare
+SIG-000024,SIG Sauer P226 MK25,4.40,A3,High,Yes,P226 - 4.40 inch barrel,Full-size 9mm Navy variant,No,Approved,https://pholsters.com/size-chart/,P226 MK25
+SIG-000025,SIG Sauer P228,3.86,A2,High,Yes,Walther P99 - 3.86 inch barrel,Compact 9mm double action,No,Approved,https://pholsters.com/size-chart/,P228
+SIG-000026,SIG Sauer P229,3.86,A2,High,Yes,P226 Compact - 3.86 inch barrel,Compact 9mm double action,No,Approved,https://pholsters.com/size-chart/,P229
+SIG-000027,SIG Sauer P229 Compact,3.86,A2,High,Yes,P229 - 3.86 inch barrel,Compact 9mm double action variant,No,Approved,https://pholsters.com/size-chart/,P229c
+SIG-000028,SIG Sauer P229 Legion Compact,3.86,A2,High,Yes,P229 - 3.86 inch barrel,Compact 9mm performance,No,Approved,https://pholsters.com/size-chart/,P229 Legion
+SIG-000029,SIG Sauer P220,4.40,A3,High,Yes,Colt M1911 - 4.40 inch barrel,Full-size .45 ACP double action,No,Approved,https://pholsters.com/size-chart/,P220
+SIG-000030,SIG Sauer P220 Legion,4.40,A3,High,Yes,P220 - 4.40 inch barrel,Full-size .45 ACP performance,No,Approved,https://pholsters.com/size-chart/,P220 Legion
+SIG-000031,SIG Sauer P220 Compact,4.00,A2.5,High,Yes,Glock G30 - 4.00 inch barrel,Compact .45 ACP double action,No,Approved,https://pholsters.com/size-chart/,P220c
+SIG-000032,SIG Sauer P210,4.60,A3,High,Yes,Beretta 92FS - 4.60 inch barrel,Full-size 9mm single action,No,Approved,https://pholsters.com/size-chart/,P210
+SIG-000033,SIG Sauer P210 Target,4.60,A3,High,Yes,P210 - 4.60 inch barrel,Full-size 9mm target variant,No,Approved,https://pholsters.com/size-chart/,P210 Target
+SIG-000034,SIG Sauer P210 Carry,3.90,A2,High,Yes,P210 - 3.90 inch barrel,Compact 9mm single action,No,Approved,https://pholsters.com/size-chart/,P210 Carry
+SIG-000035,SIG Sauer P238,2.70,A1.5,High,Yes,Colt Mustang - 2.70 inch barrel,Subcompact .380 ACP single action,No,Approved,https://pholsters.com/size-chart/,P238
+SIG-000036,SIG Sauer P238 Nitron,2.70,A1.5,High,Yes,P238 - 2.70 inch barrel,Subcompact .380 ACP finish variant,No,Approved,https://pholsters.com/size-chart/,P238 Nitron
+SIG-000037,SIG Sauer P938,3.00,A1.5,High,Yes,Colt Defender - 3.00 inch barrel,Subcompact 9mm single action,No,Approved,https://pholsters.com/size-chart/,P938
+SIG-000038,SIG Sauer P938 Legion,3.00,A1.5,High,Yes,P938 - 3.00 inch barrel,Subcompact 9mm performance,No,Approved,https://pholsters.com/size-chart/,P938 Legion
+SIG-000039,SIG Sauer P1911,5.00,A3,High,Yes,Colt M1911A1 - 5.00 inch barrel,Full-size .45 ACP single action,No,Approved,https://pholsters.com/size-chart/,P1911
+SIG-000040,SIG Sauer P1911 Carry,4.25,A2.5,High,Yes,Colt Commander - 4.25 inch barrel,Compact .45 ACP single action,No,Approved,https://pholsters.com/size-chart/,P1911 Carry
+SIG-000041,SIG Sauer P1911 Spartan,5.00,A3,High,Yes,P1911 - 5.00 inch barrel,Full-size .45 ACP tactical,No,Approved,https://pholsters.com/size-chart/,P1911 Spartan
+SIG-000042,SIG Sauer P1911 Legion,5.00,A3,High,Yes,P1911 - 5.00 inch barrel,Full-size .45 ACP performance,No,Approved,https://pholsters.com/size-chart/,P1911 Legion
+SIG-000043,SIG Sauer P1911 XCarry Scorpion,4.25,A2.5,High,Yes,P1911 Carry - 4.25 inch barrel,Compact .45 ACP tactical 2026,No,Approved,https://pholsters.com/size-chart/,P1911 X-Carry
+SIG-000044,SIG Sauer P1911 XFull,5.00,A3,High,Yes,P1911 - 5.00 inch barrel,Full-size .45 ACP tactical 2026,No,Approved,https://pholsters.com/size-chart/,P1911 X-Full
+SIG-000045,SIG Sauer P320 Carry,3.90,A2,High,Yes,P320 Compact - 3.90 inch barrel,Compact 9mm carry modular,No,Approved,https://pholsters.com/size-chart/,P320 Carry
+SIG-000046,SIG Sauer P365 SAS Pro,3.10,A1.5,High,Yes,P365 - 3.10 inch barrel,Micro-compact 9mm pro night sights,No,Approved,https://pholsters.com/size-chart/,P365 SAS Pro
+SIG-000047,SIG Sauer P320 M18 Commemorative,3.90,A2,High,Yes,P320 Compact - 3.90 inch barrel,Compact 9mm military variant,No,Approved,https://pholsters.com/size-chart/,P320 M18
+SIG-000048,SIG Sauer P290,2.90,A1.5,High,Yes,Glock G43 - 2.90 inch barrel,Subcompact 9mm single stack,No,Approved,https://pholsters.com/size-chart/,P290
+SIG-000049,SIG Sauer P250 Compact,3.90,A2,Medium,Yes,P320 Compact - 3.90 inch barrel,Compact 9mm modular discontinued,Yes,Requires Verification,https://pholsters.com/size-chart/,P250
+SIG-000050,SIG Sauer P250 Full-Size,4.70,A3,Medium,Yes,P320 Full-Size - 4.70 inch barrel,Full-size 9mm modular discontinued,Yes,Requires Verification,https://pholsters.com/size-chart/,P250 FS
+SIG-000051,SIG Sauer Mosquito,3.90,A2,Medium,Yes,P226 - 3.90 inch barrel,.22 LR training pistol discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Mosquito
+SIG-000052,SIG Sauer P226 Sport,4.40,A3,Medium,Yes,P226 - 4.40 inch barrel,Full-size 9mm sport discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,P226 Sport
+SIG-000053,SIG Sauer P226 Super Match,4.40,A3,Medium,Yes,P226 - 4.40 inch barrel,Full-size 9mm competition discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,P226 Super Match
+SIG-000054,SIG Sauer P229 Sport,3.86,A2,Medium,Yes,P229 - 3.86 inch barrel,Compact 9mm sport discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,P229 Sport
+SIG-000055,SIG Sauer P220 Sport,4.40,A3,Medium,Yes,P220 - 4.40 inch barrel,Full-size .45 ACP sport discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,P220 Sport
+SIG-000056,SIG Sauer P226 SAO,4.40,A3,Medium,Yes,P226 - 4.40 inch barrel,Full-size 9mm single action discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,P226 SAO
+SIG-000057,SIG Sauer P229 SAO,3.86,A2,Medium,Yes,P229 - 3.86 inch barrel,Compact 9mm single action discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,P229 SAO
+SIG-000058,SIG Sauer P220 SAO,4.40,A3,Medium,Yes,P220 - 4.40 inch barrel,Full-size .45 ACP single action discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,P220 SAO
+SIG-000059,SIG Sauer P226 Equinox,4.40,A3,Medium,Yes,P226 - 4.40 inch barrel,Full-size 9mm equinox finish discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,P226 Equinox
+SIG-000060,SIG Sauer P229 Equinox,3.86,A2,Medium,Yes,P229 - 3.86 inch barrel,Compact 9mm equinox finish discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,P229 Equinox
