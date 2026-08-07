@@ -1,0 +1,66 @@
+firearm_id,display_name,barrel_length,proposed_passport_fit,confidence_level,passport_chart_exact_match,comparable_models,decision_basis,review_required,reviewer_decision,supporting_source_urls,aliases
+SPRINGFIELD-000001,Springfield Echelon 4.0 FC,4.00,A2.5,High,Yes,M&P9 Compact - 4.00 inch barrel,Compact 9mm modular duty 2026,No,Approved,https://pholsters.com/size-chart/,Echelon 4.0
+SPRINGFIELD-000002,Springfield Echelon Full-Size,5.00,A3,High,Yes,Beretta 92FS - 5.00 inch barrel,Full-size 9mm modular duty,No,Approved,https://pholsters.com/size-chart/,Echelon FS
+SPRINGFIELD-000003,Springfield Echelon Compact,3.80,A2,High,Yes,Glock G19 - 3.80 inch barrel,Compact 9mm modular variant,No,Approved,https://pholsters.com/size-chart/,Echelon Compact
+SPRINGFIELD-000004,Springfield 1911 DS Prodigy,4.25,A2.5,High,Yes,Colt Commander - 4.25 inch barrel,Compact 9mm double-stack 1911,No,Approved,https://pholsters.com/size-chart/,1911 DS Prodigy
+SPRINGFIELD-000005,Springfield 1911 DS Prodigy Full-Size,5.00,A3,High,Yes,Colt M1911A1 - 5.00 inch barrel,Full-size 9mm double-stack 1911,No,Approved,https://pholsters.com/size-chart/,1911 DS Prodigy FS
+SPRINGFIELD-000006,Springfield 1911 DS Prodigy Comp,4.25,A2.5,High,Yes,1911 DS Prodigy - 4.25 inch barrel,Compact 9mm double-stack compensated,No,Approved,https://pholsters.com/size-chart/,1911 DS Prodigy Comp
+SPRINGFIELD-000007,Springfield 1911 DS Prodigy Comp Full-Size,5.00,A3,High,Yes,1911 DS Prodigy - 5.00 inch barrel,Full-size 9mm double-stack compensated,No,Approved,https://pholsters.com/size-chart/,1911 DS Prodigy Comp FS
+SPRINGFIELD-000008,Springfield 1911 Master Class 10-8,5.00,A3,High,Yes,Colt M1911A1 - 5.00 inch barrel,Full-size .45 ACP performance 2026,No,Approved,https://pholsters.com/size-chart/,1911 Master Class 10-8
+SPRINGFIELD-000009,Springfield 1911 Master Class 10-8 9mm,5.00,A3,High,Yes,1911 Master Class - 5.00 inch barrel,Full-size 9mm performance variant,No,Approved,https://pholsters.com/size-chart/,1911 Master Class 10-8 9mm
+SPRINGFIELD-000010,Springfield 1911 Emissary AOS,5.00,A3,High,Yes,1911 Master Class - 5.00 inch barrel,Full-size .45 ACP optics ready,No,Approved,https://pholsters.com/size-chart/,1911 Emissary AOS
+SPRINGFIELD-000011,Springfield 1911 Garrison,5.00,A3,High,Yes,Colt M1911A1 - 5.00 inch barrel,Full-size .45 ACP standard,No,Approved,https://pholsters.com/size-chart/,1911 Garrison
+SPRINGFIELD-000012,Springfield 1911 Garrison 9mm,5.00,A3,High,Yes,1911 Garrison - 5.00 inch barrel,Full-size 9mm standard variant,No,Approved,https://pholsters.com/size-chart/,1911 Garrison 9mm
+SPRINGFIELD-000013,Springfield 1911 Garrison Target,5.00,A3,High,Yes,1911 Garrison - 5.00 inch barrel,Full-size .45 ACP target variant,No,Approved,https://pholsters.com/size-chart/,1911 Garrison Target
+SPRINGFIELD-000014,Springfield 1911 EMP,3.60,A2,High,Yes,Colt Officer's - 3.60 inch barrel,Compact .45 ACP enhanced micro,No,Approved,https://pholsters.com/size-chart/,1911 EMP
+SPRINGFIELD-000015,Springfield 1911 EMP 9mm,3.60,A2,High,Yes,1911 EMP - 3.60 inch barrel,Compact 9mm enhanced micro variant,No,Approved,https://pholsters.com/size-chart/,1911 EMP 9mm
+SPRINGFIELD-000016,Springfield 1911 EMP State Compliant,3.60,A2,High,Yes,1911 EMP - 3.60 inch barrel,Compact .45 ACP California compliant,No,Approved,https://pholsters.com/size-chart/,1911 EMP Compliant
+SPRINGFIELD-000017,Springfield SA-35,4.70,A3,High,Yes,Browning Hi-Power - 4.70 inch barrel,Full-size 9mm Browning inspired,No,Approved,https://pholsters.com/size-chart/,SA-35
+SPRINGFIELD-000018,Springfield SA-35 Polished Blued,4.70,A3,High,Yes,SA-35 - 4.70 inch barrel,Full-size 9mm polished blued 2026,No,Approved,https://pholsters.com/size-chart/,SA-35 Polished
+SPRINGFIELD-000019,Springfield SA-35 High Capacity,4.70,A3,High,Yes,SA-35 - 4.70 inch barrel,Full-size 9mm high capacity variant,No,Approved,https://pholsters.com/size-chart/,SA-35 HC
+SPRINGFIELD-000020,Springfield Hellcat,3.00,A1.5,High,Yes,P365 - 3.00 inch barrel,Micro-compact 9mm micro-compact,No,Approved,https://pholsters.com/size-chart/,Hellcat
+SPRINGFIELD-000021,Springfield Hellcat Pro,3.70,A2,High,Yes,Hellcat - 3.70 inch barrel,Compact 9mm micro-compact pro,No,Approved,https://pholsters.com/size-chart/,Hellcat Pro
+SPRINGFIELD-000022,Springfield Hellcat RDP,3.00,A1.5,High,Yes,Hellcat - 3.00 inch barrel,Micro-compact 9mm slide-cut optics,No,Approved,https://pholsters.com/size-chart/,Hellcat RDP
+SPRINGFIELD-000023,Springfield Hellcat Pro RDP,3.70,A2,High,Yes,Hellcat Pro - 3.70 inch barrel,Compact 9mm slide-cut optics,No,Approved,https://pholsters.com/size-chart/,Hellcat Pro RDP
+SPRINGFIELD-000024,Springfield Hellcat Pro OSP,3.70,A2,High,Yes,Hellcat Pro - 3.70 inch barrel,Compact 9mm optics system variant,No,Approved,https://pholsters.com/size-chart/,Hellcat Pro OSP
+SPRINGFIELD-000025,Springfield XD-S,3.30,A2,High,Yes,Glock G19 - 3.30 inch barrel,Compact 9mm single stack,No,Approved,https://pholsters.com/size-chart/,XD-S
+SPRINGFIELD-000026,Springfield XD-S 4.0 Inch,4.00,A2.5,High,Yes,XD-S - 4.00 inch barrel,Compact 9mm single stack 4 inch,No,Approved,https://pholsters.com/size-chart/,XD-S 4.0
+SPRINGFIELD-000027,Springfield XD-S .45 ACP,3.30,A2,High,Yes,XD-S - 3.30 inch barrel,Compact .45 ACP single stack,No,Approved,https://pholsters.com/size-chart/,XD-S 45
+SPRINGFIELD-000028,Springfield XD 9mm,4.00,A2.5,Medium,Yes,Glock G19 - 4.00 inch barrel,Compact 9mm polymer discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,XD 9mm
+SPRINGFIELD-000029,Springfield XD Tactical,5.00,A3,Medium,Yes,Beretta 92FS - 5.00 inch barrel,Full-size 9mm polymer discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,XD Tactical
+SPRINGFIELD-000030,Springfield XD .40 S&W,4.00,A2.5,Medium,Yes,M&P40 Compact - 4.00 inch barrel,Compact .40 S&W polymer discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,XD 40
+SPRINGFIELD-000031,Springfield XD-M,4.50,A3,High,Yes,M&P9 Compact - 4.50 inch barrel,Full-size 9mm modular,No,Approved,https://pholsters.com/size-chart/,XD-M
+SPRINGFIELD-000032,Springfield XD-M Elite,4.50,A3,High,Yes,XD-M - 4.50 inch barrel,Full-size 9mm elite modular,No,Approved,https://pholsters.com/size-chart/,XD-M Elite
+SPRINGFIELD-000033,Springfield XD-M Elite 10mm,5.00,A3,High,Yes,Glock 20 - 5.00 inch barrel,Full-size 10mm elite modular,No,Approved,https://pholsters.com/size-chart/,XD-M Elite 10mm
+SPRINGFIELD-000034,Springfield XD-M Elite Compact,3.80,A2,High,Yes,XD-M Compact - 3.80 inch barrel,Compact 9mm elite modular,No,Approved,https://pholsters.com/size-chart/,XD-M Elite Compact
+SPRINGFIELD-000035,Springfield XD-M Elite OSP,4.50,A3,High,Yes,XD-M Elite - 4.50 inch barrel,Full-size 9mm optics system,No,Approved,https://pholsters.com/size-chart/,XD-M Elite OSP
+SPRINGFIELD-000036,Springfield XD-M Compact,3.80,A2,High,Yes,Glock G19 - 3.80 inch barrel,Compact 9mm modular variant,No,Approved,https://pholsters.com/size-chart/,XD-M Compact
+SPRINGFIELD-000037,Springfield M1A Pistol,10.00,A4,Medium,No,Desert Eagle - 10.00 inch barrel,.308 Win semi-auto pistol,Yes,Requires Historical Research,https://pholsters.com/size-chart/,M1A Pistol
+SPRINGFIELD-000038,Springfield P9,4.00,A2.5,Medium,Yes,Glock G19 - 4.00 inch barrel,Compact 9mm polymer discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,P9
+SPRINGFIELD-000039,Springfield Trophy Match 1911,5.00,A3,High,Yes,Colt M1911A1 - 5.00 inch barrel,Full-size .45 ACP match variant,No,Approved,https://pholsters.com/size-chart/,Trophy Match
+SPRINGFIELD-000040,Springfield Loaded 1911,5.00,A3,High,Yes,Colt M1911A1 - 5.00 inch barrel,Full-size .45 ACP standard variant,No,Approved,https://pholsters.com/size-chart/,Loaded 1911
+SPRINGFIELD-000041,Springfield Operator 1911,5.00,A3,High,Yes,Colt M1911A1 - 5.00 inch barrel,Full-size .45 ACP tactical variant,No,Approved,https://pholsters.com/size-chart/,Operator 1911
+SPRINGFIELD-000042,Springfield Range Officer 1911,5.00,A3,High,Yes,Colt M1911A1 - 5.00 inch barrel,Full-size .45 ACP range variant,No,Approved,https://pholsters.com/size-chart/,Range Officer 1911
+SPRINGFIELD-000043,Springfield Range Officer Compact 1911,4.25,A2.5,High,Yes,Colt Commander - 4.25 inch barrel,Compact .45 ACP range variant,No,Approved,https://pholsters.com/size-chart/,Range Officer Compact
+SPRINGFIELD-000044,Springfield Micro Compact 1911,3.00,A1.5,High,Yes,Colt Defender - 3.00 inch barrel,Subcompact .45 ACP micro variant,No,Approved,https://pholsters.com/size-chart/,Micro Compact 1911
+SPRINGFIELD-000045,Springfield Saint Victor Pistol,8.50,A3,Medium,No,AR-15 Pistol platform - 8.50 inch barrel,Mid-size 9mm AR-style PDW,No,Approved,https://pholsters.com/size-chart/,Saint Victor PDW
+SPRINGFIELD-000046,Springfield Model 2020 Heatseeker,12.00,A4,Medium,No,Hunting rifle pistol - 12.00 inch barrel,Full-size .308 Win bolt-action,No,Approved,https://pholsters.com/size-chart/,Model 2020
+SPRINGFIELD-000047,Springfield XD .45 GAP,4.00,A2.5,Medium,Yes,Glock 37 - 4.00 inch barrel,Compact .45 GAP polymer discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,XD 45GAP
+SPRINGFIELD-000048,Springfield Mod.2 9mm,4.00,A2.5,Medium,Yes,Glock G19 - 4.00 inch barrel,Compact 9mm polymer discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,Mod.2 9mm
+SPRINGFIELD-000049,Springfield Armory 1911 Ultra Compact,3.50,A2,High,Yes,Colt Officer's - 3.50 inch barrel,Compact .45 ACP ultra variant,No,Approved,https://pholsters.com/size-chart/,1911 Ultra Compact
+SPRINGFIELD-000050,Springfield Armory 1911 Champion,4.00,A2.5,High,Yes,Colt Commander - 4.00 inch barrel,Compact .45 ACP champion variant,No,Approved,https://pholsters.com/size-chart/,1911 Champion
+SPRINGFIELD-000051,Springfield XD-E,3.30,A2,High,Yes,S&W Shield - 3.30 inch barrel,Compact 9mm external hammer,No,Approved,https://pholsters.com/size-chart/,XD-E
+SPRINGFIELD-000052,Springfield XD-E Compact,3.80,A2,High,Yes,XD-E - 3.80 inch barrel,Compact 9mm external hammer compact,No,Approved,https://pholsters.com/size-chart/,XD-E Compact
+SPRINGFIELD-000053,Springfield Hellcat Micro-Compact,3.00,A1.5,High,Yes,Hellcat - 3.00 inch barrel,Micro-compact 9mm micro-compact,No,Approved,https://pholsters.com/size-chart/,Hellcat Micro
+SPRINGFIELD-000054,Springfield 1911 Ronin,4.25,A2.5,High,Yes,Colt Commander - 4.25 inch barrel,Compact .45 ACP ronin variant,No,Approved,https://pholsters.com/size-chart/,1911 Ronin
+SPRINGFIELD-000055,Springfield 1911 Ronin Full-Size,5.00,A3,High,Yes,1911 Ronin - 5.00 inch barrel,Full-size .45 ACP ronin variant,No,Approved,https://pholsters.com/size-chart/,1911 Ronin FS
+SPRINGFIELD-000056,Springfield Echelon Compact Plus,4.10,A2.5,High,Yes,Echelon 4.0 - 4.10 inch barrel,Compact 9mm modular plus,No,Approved,https://pholsters.com/size-chart/,Echelon Compact+
+SPRINGFIELD-000057,Springfield XD Mod.2 Service,4.00,A2.5,Medium,Yes,XD Mod.2 - 4.00 inch barrel,Compact 9mm polymer discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,XD Mod.2
+SPRINGFIELD-000058,Springfield Combat Commander 1911,4.00,A2.5,High,Yes,Colt Combat Commander - 4.00 inch barrel,Compact .45 ACP combat variant,No,Approved,https://pholsters.com/size-chart/,Combat Commander
+SPRINGFIELD-000059,Springfield XD Subcompact,3.00,A1.5,High,Yes,Glock G26 - 3.00 inch barrel,Subcompact 9mm polymer,No,Approved,https://pholsters.com/size-chart/,XD Subcompact
+SPRINGFIELD-000060,Springfield Echelon L Optics Platform,5.20,A3,High,Yes,Echelon Full-Size - 5.20 inch barrel,Full-size 9mm optics platform,No,Approved,https://pholsters.com/size-chart/,Echelon L
+SPRINGFIELD-000061,Springfield XD Service,4.00,A2.5,Medium,Yes,XD - 4.00 inch barrel,Compact 9mm polymer service discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,XD Service
+SPRINGFIELD-000062,Springfield XD Compact,3.00,A1.5,Medium,Yes,Glock G26 - 3.00 inch barrel,Subcompact 9mm polymer discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,XD Compact
+SPRINGFIELD-000063,Springfield XD .40 Tactical,5.00,A3,Medium,Yes,XD .40 - 5.00 inch barrel,Full-size .40 S&W polymer discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,XD 40 Tactical
+SPRINGFIELD-000064,Springfield 1911 Full Ramp Loaded,5.00,A3,High,Yes,Loaded 1911 - 5.00 inch barrel,Full-size .45 ACP full ramp variant,No,Approved,https://pholsters.com/size-chart/,1911 Full Ramp
+SPRINGFIELD-000065,Springfield XD Subcompact .40 S&W,3.00,A1.5,Medium,Yes,XD Subcompact - 3.00 inch barrel,Subcompact .40 S&W polymer discontinued,No,Approved Discontinued,https://pholsters.com/size-chart/,XD Subcompact 40
