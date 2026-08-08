@@ -1,0 +1,61 @@
+alias_id,firearm_id,alias_text,normalized_alias,alias_type,priority,active
+SIG-ALS-000001,SIG-000001,SIG Sauer P365,sig sauer p365,Model Variation,1,1
+SIG-ALS-000002,SIG-000001,sig sauer p365,sig sauer p365,Model Variation,1,1
+SIG-ALS-000003,SIG-000001,P365,p365,Model Abbreviation,2,1
+SIG-ALS-000004,SIG-000001,SIG P365,sig p365,Model Abbreviation,2,1
+SIG-ALS-000005,SIG-000001,Sauer P365,sauer p365,Alternative Name,3,1
+SIG-ALS-000006,SIG-000002,SIG Sauer P365 SAS,sig sauer p365 sas,Model Variation,1,1
+SIG-ALS-000007,SIG-000002,sig sauer p365 sas,sig sauer p365 sas,Model Variation,1,1
+SIG-ALS-000008,SIG-000002,P365 SAS,p365 sas,Model Abbreviation,2,1
+SIG-ALS-000009,SIG-000002,SIG P365 SAS,sig p365 sas,Model Abbreviation,2,1
+SIG-ALS-000010,SIG-000002,P365 Ambidextrous,p365 ambidextrous,Alternative Name,3,1
+SIG-ALS-000011,SIG-000003,SIG Sauer P365 XL,sig sauer p365 xl,Model Variation,1,1
+SIG-ALS-000012,SIG-000003,sig sauer p365 xl,sig sauer p365 xl,Model Variation,1,1
+SIG-ALS-000013,SIG-000003,P365 XL,p365 xl,Model Abbreviation,2,1
+SIG-ALS-000014,SIG-000003,SIG P365 XL,sig p365 xl,Model Abbreviation,2,1
+SIG-ALS-000015,SIG-000003,P365 Extended,p365 extended,Alternative Name,3,1
+SIG-ALS-000016,SIG-000004,SIG Sauer P365 X-Macro,sig sauer p365 x-macro,Model Variation,1,1
+SIG-ALS-000017,SIG-000004,sig sauer p365 x-macro,sig sauer p365 x-macro,Model Variation,1,1
+SIG-ALS-000018,SIG-000004,P365 X-Macro,p365 x-macro,Model Abbreviation,2,1
+SIG-ALS-000019,SIG-000004,SIG P365 X-MACRO,sig p365 x-macro,Model Abbreviation,2,1
+SIG-ALS-000020,SIG-000004,P365 XMACRO,p365 xmacro,Alternative Name,3,1
+SIG-ALS-000021,SIG-000005,SIG Sauer P365 FUSE,sig sauer p365 fuse,Model Variation,1,1
+SIG-ALS-000022,SIG-000005,sig sauer p365 fuse,sig sauer p365 fuse,Model Variation,1,1
+SIG-ALS-000023,SIG-000005,P365 FUSE,p365 fuse,Model Abbreviation,2,1
+SIG-ALS-000024,SIG-000005,SIG P365 FUSE,sig p365 fuse,Model Abbreviation,2,1
+SIG-ALS-000025,SIG-000005,P365 Optics Ready,p365 optics ready,Alternative Name,3,1
+SIG-ALS-000026,SIG-000006,SIG Sauer P365 Freedom,sig sauer p365 freedom,Model Variation,1,1
+SIG-ALS-000027,SIG-000006,sig sauer p365 freedom,sig sauer p365 freedom,Model Variation,1,1
+SIG-ALS-000028,SIG-000006,P365 Freedom,p365 freedom,Model Abbreviation,2,1
+SIG-ALS-000029,SIG-000006,SIG P365 Freedom,sig p365 freedom,Model Abbreviation,2,1
+SIG-ALS-000030,SIG-000006,P365 Tactical,p365 tactical,Alternative Name,3,1
+SIG-ALS-000031,SIG-000007,SIG Sauer P365 .380,sig sauer p365 .380,Model Variation,1,1
+SIG-ALS-000032,SIG-000007,sig sauer p365 .380,sig sauer p365 .380,Model Variation,1,1
+SIG-ALS-000033,SIG-000007,P365 .380,p365 .380,Model Abbreviation,2,1
+SIG-ALS-000034,SIG-000007,SIG P365 380,sig p365 380,Model Abbreviation,2,1
+SIG-ALS-000035,SIG-000007,P365 380 ACP,p365 380 acp,Alternative Name,3,1
+SIG-ALS-000036,SIG-000008,SIG Sauer P365 Nitron,sig sauer p365 nitron,Model Variation,1,1
+SIG-ALS-000037,SIG-000008,sig sauer p365 nitron,sig sauer p365 nitron,Model Variation,1,1
+SIG-ALS-000038,SIG-000008,P365 Nitron,p365 nitron,Model Abbreviation,2,1
+SIG-ALS-000039,SIG-000008,SIG P365 Nitron,sig p365 nitron,Model Abbreviation,2,1
+SIG-ALS-000040,SIG-000008,P365 Finish,p365 finish,Alternative Name,3,1
+SIG-ALS-000041,SIG-000009,SIG Sauer P320,sig sauer p320,Model Variation,1,1
+SIG-ALS-000042,SIG-000009,sig sauer p320,sig sauer p320,Model Variation,1,1
+SIG-ALS-000043,SIG-000009,P320,p320,Model Abbreviation,2,1
+SIG-ALS-000044,SIG-000009,SIG P320,sig p320,Model Abbreviation,2,1
+SIG-ALS-000045,SIG-000009,Sauer P320,sauer p320,Alternative Name,3,1
+SIG-ALS-000046,SIG-000010,SIG Sauer P320 Compact,sig sauer p320 compact,Model Variation,1,1
+SIG-ALS-000047,SIG-000010,sig sauer p320 compact,sig sauer p320 compact,Model Variation,1,1
+SIG-ALS-000048,SIG-000010,P320 Compact,p320 compact,Model Abbreviation,2,1
+SIG-ALS-000049,SIG-000010,SIG P320c,sig p320c,Model Abbreviation,2,1
+SIG-ALS-000050,SIG-000010,P320c,p320c,Alternative Name,3,1
+SIG-ALS-000051,SIG-000011,SIG Sauer P320 Full-Size,sig sauer p320 full-size,Model Variation,1,1
+SIG-ALS-000052,SIG-000011,sig sauer p320 full-size,sig sauer p320 full-size,Model Variation,1,1
+SIG-ALS-000053,SIG-000011,P320 Full-Size,p320 full-size,Model Abbreviation,2,1
+SIG-ALS-000054,SIG-000011,SIG P320 FS,sig p320 fs,Model Abbreviation,2,1
+SIG-ALS-000055,SIG-000011,P320 FS,p320 fs,Alternative Name,3,1
+SIG-ALS-000056,SIG-000012,SIG Sauer P320 Subcompact,sig sauer p320 subcompact,Model Variation,1,1
+SIG-ALS-000057,SIG-000012,sig sauer p320 subcompact,sig sauer p320 subcompact,Model Variation,1,1
+SIG-ALS-000058,SIG-000012,P320 Subcompact,p320 subcompact,Model Abbreviation,2,1
+SIG-ALS-000059,SIG-000012,SIG P320 SC,sig p320 sc,Model Abbreviation,2,1
+SIG-ALS-000060,SIG-000012,P320 SC,p320 sc,Alternative Name,3,1
