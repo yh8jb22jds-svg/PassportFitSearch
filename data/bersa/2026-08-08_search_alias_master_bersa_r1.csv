@@ -1,0 +1,11 @@
+alias_id,firearm_id,alias_text,normalized_alias,alias_type,priority,active
+BERSA-ALS-000001,BERSA-000001,Bersa Thunder,bersa thunder,Model Variation,1,1
+BERSA-ALS-000002,BERSA-000001,bersa thunder,bersa thunder,Lowercase Variation,1,1
+BERSA-ALS-000003,BERSA-000001,Thunder,thunder,Abbreviation,2,1
+BERSA-ALS-000004,BERSA-000001,Bersa Compact,bersa compact,Alternative Name,2,1
+BERSA-ALS-000005,BERSA-000001,Thunder Pistol,thunder pistol,Alternative Name,3,1
+BERSA-ALS-000006,BERSA-000002,Bersa BP9CC,bersa bp9cc,Model Variation,1,1
+BERSA-ALS-000007,BERSA-000002,bersa bp9cc,bersa bp9cc,Lowercase Variation,1,1
+BERSA-ALS-000008,BERSA-000002,BP9CC,bp9cc,Abbreviation,2,1
+BERSA-ALS-000009,BERSA-000002,Bersa Subcompact,bersa subcompact,Alternative Name,2,1
+BERSA-ALS-000010,BERSA-000002,BP9 Compact,bp9 compact,Alternative Name,3,1

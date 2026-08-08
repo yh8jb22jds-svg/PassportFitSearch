@@ -1,0 +1,11 @@
+alias_id,firearm_id,alias_text,normalized_alias,alias_type,priority,active
+MOSSBERG-ALS-000001,MOSSBERG-000001,Mossberg MC2c,mossberg mc2c,Model Variation,1,1
+MOSSBERG-ALS-000002,MOSSBERG-000001,mossberg mc2c,mossberg mc2c,Lowercase Variation,1,1
+MOSSBERG-ALS-000003,MOSSBERG-000001,MC2c,mc2c,Abbreviation,2,1
+MOSSBERG-ALS-000004,MOSSBERG-000001,Mossberg MC2,mossberg mc2,Alternative Name,2,1
+MOSSBERG-ALS-000005,MOSSBERG-000001,MC2c Compact,mc2c compact,Alternative Name,3,1
+MOSSBERG-ALS-000006,MOSSBERG-000002,Mossberg MC2sc,mossberg mc2sc,Model Variation,1,1
+MOSSBERG-ALS-000007,MOSSBERG-000002,mossberg mc2sc,mossberg mc2sc,Lowercase Variation,1,1
+MOSSBERG-ALS-000008,MOSSBERG-000002,MC2sc,mc2sc,Abbreviation,2,1
+MOSSBERG-ALS-000009,MOSSBERG-000002,Mossberg Subcompact,mossberg subcompact,Alternative Name,2,1
+MOSSBERG-ALS-000010,MOSSBERG-000002,MC2 Subcompact,mc2 subcompact,Alternative Name,3,1

@@ -1,0 +1,11 @@
+alias_id,firearm_id,alias_text,normalized_alias,alias_type,priority,active
+HERITAGE-ALS-000001,HERITAGE-000001,Heritage Rough Rider,heritage rough rider,Model Variation,1,1
+HERITAGE-ALS-000002,HERITAGE-000001,heritage rough rider,heritage rough rider,Lowercase Variation,1,1
+HERITAGE-ALS-000003,HERITAGE-000001,Rough Rider,rough rider,Abbreviation,2,1
+HERITAGE-ALS-000004,HERITAGE-000001,Heritage Rimfire,heritage rimfire,Alternative Name,2,1
+HERITAGE-ALS-000005,HERITAGE-000001,Rough Rider Revolver,rough rider revolver,Alternative Name,3,1
+HERITAGE-ALS-000006,HERITAGE-000002,Heritage Barkeep,heritage barkeep,Model Variation,1,1
+HERITAGE-ALS-000007,HERITAGE-000002,heritage barkeep,heritage barkeep,Lowercase Variation,1,1
+HERITAGE-ALS-000008,HERITAGE-000002,Barkeep,barkeep,Abbreviation,2,1
+HERITAGE-ALS-000009,HERITAGE-000002,Heritage Compact,heritage compact,Alternative Name,2,1
+HERITAGE-ALS-000010,HERITAGE-000002,Barkeep Pocket,barkeep pocket,Alternative Name,3,1

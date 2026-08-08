@@ -1,0 +1,11 @@
+alias_id,firearm_id,alias_text,normalized_alias,alias_type,priority,active
+MR-ALS-000001,MR-000001,Magnum Research Desert Eagle,magnum research desert eagle,Model Variation,1,1
+MR-ALS-000002,MR-000001,magnum research desert eagle,magnum research desert eagle,Lowercase Variation,1,1
+MR-ALS-000003,MR-000001,Desert Eagle,desert eagle,Abbreviation,1,1
+MR-ALS-000004,MR-000001,DE,de,Abbreviation,2,1
+MR-ALS-000005,MR-000001,Mark XIX,mark xix,Alternative Name,2,1
+MR-ALS-000006,MR-000002,Magnum Research BFR,magnum research bfr,Model Variation,1,1
+MR-ALS-000007,MR-000002,magnum research bfr,magnum research bfr,Lowercase Variation,1,1
+MR-ALS-000008,MR-000002,BFR Revolver,bfr revolver,Abbreviation,2,1
+MR-ALS-000009,MR-000002,Biggest Finest Revolver,biggest finest revolver,Alternative Name,2,1
+MR-ALS-000010,MR-000002,BFR,bfr,Abbreviation,3,1

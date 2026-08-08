@@ -1,0 +1,11 @@
+alias_id,firearm_id,alias_text,normalized_alias,alias_type,priority,active
+IWI-ALS-000001,IWI-000001,IWI Masada,iwi masada,Model Variation,1,1
+IWI-ALS-000002,IWI-000001,iwi masada,iwi masada,Lowercase Variation,1,1
+IWI-ALS-000003,IWI-000001,Masada,masada,Abbreviation,2,1
+IWI-ALS-000004,IWI-000001,IWI Defensive Pistol,iwi defensive pistol,Alternative Name,2,1
+IWI-ALS-000005,IWI-000001,Masada 9mm,masada 9mm,Alternative Name,3,1
+IWI-ALS-000006,IWI-000002,IWI Jericho,iwi jericho,Model Variation,1,1
+IWI-ALS-000007,IWI-000002,iwi jericho,iwi jericho,Lowercase Variation,1,1
+IWI-ALS-000008,IWI-000002,Jericho,jericho,Abbreviation,2,1
+IWI-ALS-000009,IWI-000002,IWI 941,iwi 941,Alternative Name,2,1
+IWI-ALS-000010,IWI-000002,Jericho 941,jericho 941,Alternative Name,3,1

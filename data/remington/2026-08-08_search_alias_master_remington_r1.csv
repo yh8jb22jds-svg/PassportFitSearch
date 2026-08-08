@@ -1,0 +1,11 @@
+alias_id,firearm_id,alias_text,normalized_alias,alias_type,priority,active
+REMINGTON-ALS-000001,REMINGTON-000001,Remington 1911,remington 1911,Model Variation,1,1
+REMINGTON-ALS-000002,REMINGTON-000001,remington 1911,remington 1911,Lowercase Variation,1,1
+REMINGTON-ALS-000003,REMINGTON-000001,1911,1911,Abbreviation,1,1
+REMINGTON-ALS-000004,REMINGTON-000001,Remington R1,remington r1,Alternative Name,2,1
+REMINGTON-ALS-000005,REMINGTON-000001,R1 1911,r1 1911,Alternative Name,3,1
+REMINGTON-ALS-000006,REMINGTON-000002,Remington RP9,remington rp9,Model Variation,1,1
+REMINGTON-ALS-000007,REMINGTON-000002,remington rp9,remington rp9,Lowercase Variation,1,1
+REMINGTON-ALS-000008,REMINGTON-000002,RP9,rp9,Abbreviation,2,1
+REMINGTON-ALS-000009,REMINGTON-000002,Remington Polymer,remington polymer,Alternative Name,2,1
+REMINGTON-ALS-000010,REMINGTON-000002,RP9 Pistol,rp9 pistol,Alternative Name,3,1

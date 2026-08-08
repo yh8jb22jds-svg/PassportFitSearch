@@ -1,0 +1,11 @@
+alias_id,firearm_id,alias_text,normalized_alias,alias_type,priority,active
+BOND-ALS-000001,BOND-000001,Bond Arms Derringer,bond arms derringer,Model Variation,1,1
+BOND-ALS-000002,BOND-000001,bond arms derringer,bond arms derringer,Lowercase Variation,1,1
+BOND-ALS-000003,BOND-000001,Bond Derringer,bond derringer,Abbreviation,2,1
+BOND-ALS-000004,BOND-000001,Bond Snake Slayer,bond snake slayer,Alternative Name,2,1
+BOND-ALS-000005,BOND-000001,Bond Over Under,bond over under,Alternative Name,3,1
+BOND-ALS-000006,BOND-000002,Bond Arms Rowdy,bond arms rowdy,Model Variation,1,1
+BOND-ALS-000007,BOND-000002,bond arms rowdy,bond arms rowdy,Lowercase Variation,1,1
+BOND-ALS-000008,BOND-000002,Bond Rowdy,bond rowdy,Abbreviation,2,1
+BOND-ALS-000009,BOND-000002,Rowdy Derringer,rowdy derringer,Alternative Name,2,1
+BOND-ALS-000010,BOND-000002,Bond Affordable,bond affordable,Alternative Name,3,1

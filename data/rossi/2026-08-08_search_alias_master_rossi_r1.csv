@@ -1,0 +1,11 @@
+alias_id,firearm_id,alias_text,normalized_alias,alias_type,priority,active
+ROSSI-ALS-000001,ROSSI-000001,Rossi Revolver,rossi revolver,Model Variation,1,1
+ROSSI-ALS-000002,ROSSI-000001,rossi revolver,rossi revolver,Lowercase Variation,1,1
+ROSSI-ALS-000003,ROSSI-000001,Rossi RM66,rossi rm66,Abbreviation,2,1
+ROSSI-ALS-000004,ROSSI-000001,RM66,rm66,Abbreviation,2,1
+ROSSI-ALS-000005,ROSSI-000001,Rossi .357 Magnum,rossi .357 magnum,Alternative Name,3,1
+ROSSI-ALS-000006,ROSSI-000002,Rossi RS22,rossi rs22,Model Variation,1,1
+ROSSI-ALS-000007,ROSSI-000002,rossi rs22,rossi rs22,Lowercase Variation,1,1
+ROSSI-ALS-000008,ROSSI-000002,RS22,rs22,Abbreviation,2,1
+ROSSI-ALS-000009,ROSSI-000002,Rossi Rimfire,rossi rimfire,Alternative Name,2,1
+ROSSI-ALS-000010,ROSSI-000002,RS22 Pistol,rs22 pistol,Alternative Name,3,1

@@ -1,0 +1,11 @@
+alias_id,firearm_id,alias_text,normalized_alias,alias_type,priority,active
+SHADOW-ALS-000001,SHADOW-000001,Shadow Systems MR920,shadow systems mr920,Model Variation,1,1
+SHADOW-ALS-000002,SHADOW-000001,shadow systems mr920,shadow systems mr920,Lowercase Variation,1,1
+SHADOW-ALS-000003,SHADOW-000001,MR920,mr920,Abbreviation,2,1
+SHADOW-ALS-000004,SHADOW-000001,Shadow MR920,shadow mr920,Alternative Name,2,1
+SHADOW-ALS-000005,SHADOW-000001,MR920 Compact,mr920 compact,Alternative Name,3,1
+SHADOW-ALS-000006,SHADOW-000002,Shadow Systems CR920,shadow systems cr920,Model Variation,1,1
+SHADOW-ALS-000007,SHADOW-000002,shadow systems cr920,shadow systems cr920,Lowercase Variation,1,1
+SHADOW-ALS-000008,SHADOW-000002,CR920,cr920,Abbreviation,2,1
+SHADOW-ALS-000009,SHADOW-000002,Shadow CR920,shadow cr920,Alternative Name,2,1
+SHADOW-ALS-000010,SHADOW-000002,CR920 Subcompact,cr920 subcompact,Alternative Name,3,1

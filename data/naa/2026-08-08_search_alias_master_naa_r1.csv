@@ -1,0 +1,11 @@
+alias_id,firearm_id,alias_text,normalized_alias,alias_type,priority,active
+NAA-ALS-000001,NAA-000001,North American Arms,north american arms,Brand Name,1,1
+NAA-ALS-000002,NAA-000001,north american arms,north american arms,Lowercase Variation,1,1
+NAA-ALS-000003,NAA-000001,NAA,naa,Abbreviation,2,1
+NAA-ALS-000004,NAA-000001,NAA Mini Revolver,naa mini revolver,Alternative Name,2,1
+NAA-ALS-000005,NAA-000001,NAA Pug,naa pug,Alternative Name,3,1
+NAA-ALS-000006,NAA-000002,NAA Sidewinder,naa sidewinder,Model Variation,1,1
+NAA-ALS-000007,NAA-000002,naa sidewinder,naa sidewinder,Lowercase Variation,1,1
+NAA-ALS-000008,NAA-000002,Sidewinder,sidewinder,Abbreviation,2,1
+NAA-ALS-000009,NAA-000002,NAA Swing-out,naa swing-out,Alternative Name,2,1
+NAA-ALS-000010,NAA-000002,Sidewinder Revolver,sidewinder revolver,Alternative Name,3,1

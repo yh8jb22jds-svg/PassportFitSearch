@@ -1,0 +1,11 @@
+alias_id,firearm_id,alias_text,normalized_alias,alias_type,priority,active
+CHARTER-ALS-000001,CHARTER-000001,Charter Arms Pitbull,charter arms pitbull,Model Variation,1,1
+CHARTER-ALS-000002,CHARTER-000001,charter arms pitbull,charter arms pitbull,Lowercase Variation,1,1
+CHARTER-ALS-000003,CHARTER-000001,Pitbull,pitbull,Abbreviation,2,1
+CHARTER-ALS-000004,CHARTER-000001,Charter Pitbull,charter pitbull,Alternative Name,2,1
+CHARTER-ALS-000005,CHARTER-000001,Pitbull Revolver,pitbull revolver,Alternative Name,3,1
+CHARTER-ALS-000006,CHARTER-000002,Charter Arms Undercover,charter arms undercover,Model Variation,1,1
+CHARTER-ALS-000007,CHARTER-000002,charter arms undercover,charter arms undercover,Lowercase Variation,1,1
+CHARTER-ALS-000008,CHARTER-000002,Undercover,undercover,Abbreviation,2,1
+CHARTER-ALS-000009,CHARTER-000002,Charter Undercover,charter undercover,Alternative Name,2,1
+CHARTER-ALS-000010,CHARTER-000002,Undercover Revolver,undercover revolver,Alternative Name,3,1

@@ -1,0 +1,11 @@
+alias_id,firearm_id,alias_text,normalized_alias,alias_type,priority,active
+DBACK-ALS-000001,DBACK-000001,Diamondback Firearms,diamondback firearms,Brand Name,1,1
+DBACK-ALS-000002,DBACK-000001,diamondback firearms,diamondback firearms,Lowercase Variation,1,1
+DBACK-ALS-000003,DBACK-000001,Diamondback DB,diamondback db,Abbreviation,2,1
+DBACK-ALS-000004,DBACK-000001,Diamondback Pistol,diamondback pistol,Alternative Name,2,1
+DBACK-ALS-000005,DBACK-000001,DBF,dbf,Abbreviation,3,1
+DBACK-ALS-000006,DBACK-000002,Diamondback DB9,diamondback db9,Model Variation,1,1
+DBACK-ALS-000007,DBACK-000002,diamondback db9,diamondback db9,Lowercase Variation,1,1
+DBACK-ALS-000008,DBACK-000002,DB9,db9,Abbreviation,2,1
+DBACK-ALS-000009,DBACK-000002,Diamondback Compact,diamondback compact,Alternative Name,2,1
+DBACK-ALS-000010,DBACK-000002,DB9 Compact,db9 compact,Alternative Name,3,1
