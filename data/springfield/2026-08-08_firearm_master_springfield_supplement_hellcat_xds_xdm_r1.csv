@@ -1,0 +1,26 @@
+firearm_id,manufacturer,display_name,model,variant,caliber,barrel_length,action_type,passport_fit,capacity,frame_material,safety_type,active,discontinued,notes
+SPRINGFIELD-000052,Springfield Armory,Springfield Hellcat 9mm,Hellcat,Standard 9mm,9mm,3.0,Semi-Auto,A1.5,13,Polymer,Grip Safety,Yes,No,Micro-compact striker-fired concealed carry
+SPRINGFIELD-000053,Springfield Armory,Springfield Hellcat OSP,Hellcat,OSP (Optics Ready),9mm,3.0,Semi-Auto,A1.5,13,Polymer,Grip Safety,Yes,No,Micro-compact with optics-ready slide
+SPRINGFIELD-000054,Springfield Armory,Springfield Hellcat RDP 9mm,Hellcat,RDP Compensator 9mm,9mm,3.0,Semi-Auto,A1.5,13,Polymer,Grip Safety,Yes,No,Micro-compact with integrated compensator
+SPRINGFIELD-000055,Springfield Armory,Springfield Hellcat RDP 380,Hellcat,RDP Compensator 380 ACP,.380 ACP,3.0,Semi-Auto,A1.5,13,Polymer,Grip Safety,Yes,No,Micro-compact 380 ACP with integrated compensator
+SPRINGFIELD-000056,Springfield Armory,Springfield Hellcat Pro 9mm,Hellcat Pro,Pro Standard 9mm,9mm,3.7,Semi-Auto,A2,15,Polymer,Grip Safety,Yes,No,Compact crossover larger frame higher capacity
+SPRINGFIELD-000057,Springfield Armory,Springfield Hellcat Pro OSP,Hellcat Pro,Pro OSP Optics Ready,9mm,3.7,Semi-Auto,A2,15,Polymer,Grip Safety,Yes,No,Compact crossover optics-ready configuration
+SPRINGFIELD-000058,Springfield Armory,Springfield Hellcat Pro RDP,Hellcat Pro,Pro RDP Compensator,9mm,3.7,Semi-Auto,A2,15,Polymer,Grip Safety,Yes,No,Compact crossover with integrated compensator
+SPRINGFIELD-000059,Springfield Armory,Springfield XD-S Mod.2 9mm,XD-S Mod.2,Standard 9mm,9mm,3.3,Semi-Auto,A2,8,Polymer,Grip Safety,Yes,No,Single-stack subcompact concealed carry
+SPRINGFIELD-000060,Springfield Armory,Springfield XD-S Mod.2 45 ACP,XD-S Mod.2,Standard 45 ACP,.45 ACP,3.3,Semi-Auto,A2,6,Polymer,Grip Safety,Yes,No,Single-stack subcompact 45 ACP variant
+SPRINGFIELD-000061,Springfield Armory,Springfield XD-S Mod.2 Compact 9mm,XD-S Mod.2,Compact 9mm,9mm,4.0,Semi-Auto,A2.5,8,Polymer,Grip Safety,Yes,No,Single-stack compact 9mm extended barrel
+SPRINGFIELD-000062,Springfield Armory,Springfield XD-S Mod.2 Compact 45 ACP,XD-S Mod.2,Compact 45 ACP,.45 ACP,4.0,Semi-Auto,A2.5,6,Polymer,Grip Safety,Yes,No,Single-stack compact 45 ACP extended barrel
+SPRINGFIELD-000063,Springfield Armory,Springfield XD-M Elite 9mm,XD-M Elite,Standard 9mm,9mm,4.5,Semi-Auto,A3,19,Polymer,Grip Safety,Yes,No,Full-size striker-fired duty-rated pistol
+SPRINGFIELD-000064,Springfield Armory,Springfield XD-M Elite 40 SW,XD-M Elite,Standard 40 SW,.40 S&W,4.5,Semi-Auto,A3,16,Polymer,Grip Safety,Yes,No,Full-size striker-fired 40 caliber variant
+SPRINGFIELD-000065,Springfield Armory,Springfield XD-M Elite 45 ACP,XD-M Elite,Standard 45 ACP,.45 ACP,4.5,Semi-Auto,A3,13,Polymer,Grip Safety,Yes,No,Full-size striker-fired 45 ACP variant
+SPRINGFIELD-000066,Springfield Armory,Springfield XD-M Elite Compact 9mm,XD-M Elite,Compact 9mm,9mm,3.8,Semi-Auto,A2,13,Polymer,Grip Safety,Yes,No,Compact duty striker-fired 9mm
+SPRINGFIELD-000067,Springfield Armory,Springfield XD-M Elite Compact 40 SW,XD-M Elite,Compact 40 SW,.40 S&W,3.8,Semi-Auto,A2,11,Polymer,Grip Safety,Yes,No,Compact duty striker-fired 40 caliber
+SPRINGFIELD-000068,Springfield Armory,Springfield XD-M Elite Compact 45 ACP,XD-M Elite,Compact 45 ACP,.45 ACP,3.8,Semi-Auto,A2,10,Polymer,Grip Safety,Yes,No,Compact duty striker-fired 45 ACP
+SPRINGFIELD-000069,Springfield Armory,Springfield XD-M Elite Competition 9mm,XD-M Elite,Competition 9mm,9mm,5.25,Semi-Auto,A3.5,19,Polymer,Grip Safety,Yes,No,Full-size competition striker-fired 9mm
+SPRINGFIELD-000070,Springfield Armory,Springfield XD-M Elite Competition 40 SW,XD-M Elite,Competition 40 SW,.40 S&W,5.25,Semi-Auto,A3.5,16,Polymer,Grip Safety,Yes,No,Full-size competition striker-fired 40 caliber
+SPRINGFIELD-000071,Springfield Armory,Springfield XD-M Elite OSP 9mm,XD-M Elite,OSP Optics 9mm,9mm,4.5,Semi-Auto,A3,19,Polymer,Grip Safety,Yes,No,Full-size duty optics-ready 9mm
+SPRINGFIELD-000072,Springfield Armory,Springfield XD Full Size 9mm Gen 2,XD Full Size,Gen 2 Standard 9mm,9mm,4.5,Semi-Auto,A3,16,Polymer,Grip Safety,Yes,No,Full-size service pistol 9mm Gen 2
+SPRINGFIELD-000073,Springfield Armory,Springfield XD Full Size 40 SW Gen 2,XD Full Size,Gen 2 Standard 40 SW,.40 S&W,4.5,Semi-Auto,A3,13,Polymer,Grip Safety,Yes,No,Full-size service pistol 40 caliber Gen 2
+SPRINGFIELD-000074,Springfield Armory,Springfield XD Full Size 45 ACP Gen 2,XD Full Size,Gen 2 Standard 45 ACP,.45 ACP,4.5,Semi-Auto,A3,13,Polymer,Grip Safety,Yes,No,Full-size service pistol 45 ACP Gen 2
+SPRINGFIELD-000075,Springfield Armory,Springfield XD Compact 9mm Gen 2,XD Compact,Gen 2 Compact 9mm,9mm,4.0,Semi-Auto,A2.5,13,Polymer,Grip Safety,Yes,No,Compact service pistol 9mm Gen 2
+SPRINGFIELD-000076,Springfield Armory,Springfield XD Compact 40 SW Gen 2,XD Compact,Gen 2 Compact 40 SW,.40 S&W,4.0,Semi-Auto,A2.5,11,Polymer,Grip Safety,Yes,No,Compact service pistol 40 caliber Gen 2
