@@ -1,0 +1,43 @@
+alias_id,firearm_id,alias_text,normalized_alias,alias_type,priority,active
+BERETTA-ALS-000001,BERETTA-000001,Beretta M9,beretta m9,Model Variation,1,1
+BERETTA-ALS-000002,BERETTA-000001,M9,m9,Abbreviation,1,1
+BERETTA-ALS-000003,BERETTA-000001,Beretta M9 Standard,beretta m9 standard,Model Variation,2,1
+BERETTA-ALS-000004,BERETTA-000001,beretta m9,beretta m9,Lowercase Variation,2,1
+BERETTA-ALS-000005,BERETTA-000001,M9 Standard,m9 standard,Alternative Name,3,1
+BERETTA-ALS-000006,BERETTA-000002,Beretta M9A1,beretta m9a1,Model Variation,1,1
+BERETTA-ALS-000007,BERETTA-000002,M9A1,m9a1,Abbreviation,1,1
+BERETTA-ALS-000008,BERETTA-000002,beretta m9a1,beretta m9a1,Lowercase Variation,2,1
+BERETTA-ALS-000009,BERETTA-000002,M9A1 Standard,m9a1 standard,Alternative Name,3,1
+BERETTA-ALS-000010,BERETTA-000003,Beretta M9A3,beretta m9a3,Model Variation,1,1
+BERETTA-ALS-000011,BERETTA-000003,M9A3,m9a3,Abbreviation,1,1
+BERETTA-ALS-000012,BERETTA-000003,beretta m9a3,beretta m9a3,Lowercase Variation,2,1
+BERETTA-ALS-000013,BERETTA-000003,M9A3 Tactical,m9a3 tactical,Alternative Name,3,1
+BERETTA-ALS-000014,BERETTA-000004,Beretta 92FS,beretta 92fs,Model Variation,1,1
+BERETTA-ALS-000015,BERETTA-000004,92FS,92fs,Abbreviation,1,1
+BERETTA-ALS-000016,BERETTA-000004,beretta 92fs,beretta 92fs,Lowercase Variation,2,1
+BERETTA-ALS-000017,BERETTA-000004,Beretta 92,beretta 92,Alternative Name,2,1
+BERETTA-ALS-000018,BERETTA-000004,92FS Standard,92fs standard,Alternative Name,3,1
+BERETTA-ALS-000019,BERETTA-000005,Beretta 92FS Inox,beretta 92fs inox,Model Variation,1,1
+BERETTA-ALS-000020,BERETTA-000005,92FS Inox,92fs inox,Finish Variation,2,1
+BERETTA-ALS-000021,BERETTA-000005,beretta 92fs inox,beretta 92fs inox,Lowercase Variation,2,1
+BERETTA-ALS-000022,BERETTA-000005,92FS Stainless,92fs stainless,Alternative Name,3,1
+BERETTA-ALS-000023,BERETTA-000006,Beretta 92FSR,beretta 92fsr,Model Variation,1,1
+BERETTA-ALS-000024,BERETTA-000006,92FSR,92fsr,Abbreviation,1,1
+BERETTA-ALS-000025,BERETTA-000006,beretta 92fsr,beretta 92fsr,Lowercase Variation,2,1
+BERETTA-ALS-000026,BERETTA-000006,92FSR Rail,92fsr rail,Alternative Name,3,1
+BERETTA-ALS-000027,BERETTA-000007,Beretta 92X Full Size,beretta 92x full size,Model Variation,1,1
+BERETTA-ALS-000028,BERETTA-000007,92X Full Size,92x full size,Model Abbreviation,2,1
+BERETTA-ALS-000029,BERETTA-000007,beretta 92x full size,beretta 92x full size,Lowercase Variation,2,1
+BERETTA-ALS-000030,BERETTA-000007,92X,92x,Abbreviation,2,1
+BERETTA-ALS-000031,BERETTA-000008,Beretta 92X Centurion,beretta 92x centurion,Model Variation,1,1
+BERETTA-ALS-000032,BERETTA-000008,92X Centurion,92x centurion,Model Abbreviation,2,1
+BERETTA-ALS-000033,BERETTA-000008,beretta 92x centurion,beretta 92x centurion,Lowercase Variation,2,1
+BERETTA-ALS-000034,BERETTA-000008,92X Mid-Size,92x mid-size,Alternative Name,3,1
+BERETTA-ALS-000035,BERETTA-000009,Beretta 92X Compact,beretta 92x compact,Model Variation,1,1
+BERETTA-ALS-000036,BERETTA-000009,92X Compact,92x compact,Model Abbreviation,2,1
+BERETTA-ALS-000037,BERETTA-000009,beretta 92x compact,beretta 92x compact,Lowercase Variation,2,1
+BERETTA-ALS-000038,BERETTA-000009,92X Compact 9mm,92x compact 9mm,Alternative Name,3,1
+BERETTA-ALS-000039,BERETTA-000010,Beretta 92X Performance,beretta 92x performance,Model Variation,1,1
+BERETTA-ALS-000040,BERETTA-000010,92X Performance,92x performance,Model Abbreviation,2,1
+BERETTA-ALS-000041,BERETTA-000010,beretta 92x performance,beretta 92x performance,Lowercase Variation,2,1
+BERETTA-ALS-000042,BERETTA-000010,92X Performance 9mm,92x performance 9mm,Alternative Name,3,1
