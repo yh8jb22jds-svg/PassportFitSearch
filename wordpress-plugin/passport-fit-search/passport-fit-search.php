@@ -62,12 +62,15 @@ final class PH_Passport_Fit_Search {
         }
 
         $master_paths = array();
+        $review_paths = array();
         $alias_paths = array();
         foreach ($tree['tree'] as $item) {
             if (empty($item['type']) || $item['type'] !== 'blob' || empty($item['path'])) { continue; }
             $path = $item['path'];
             if (preg_match('~^data/.+\/\d{4}-\d{2}-\d{2}_firearm_master_(?!.*_(?:fit_review|sources)_)[^/]+\.csv$~i', $path)) {
                 $master_paths[] = $path;
+            } elseif (preg_match('~^data/.+\/\d{4}-\d{2}-\d{2}_firearm_master_.+_fit_review_[^/]+\.csv$~i', $path)) {
+                $review_paths[] = $path;
             } elseif (preg_match('~^data/.+\/\d{4}-\d{2}-\d{2}_search_alias_master_[^/]+\.csv$~i', $path)) {
                 $alias_paths[] = $path;
             }
@@ -86,17 +89,53 @@ final class PH_Passport_Fit_Search {
                     'variant' => isset($row['variant']) ? $row['variant'] : '',
                     'caliber' => isset($row['caliber']) ? $row['caliber'] : '',
                     'barrel_length' => isset($row['barrel_length']) ? $row['barrel_length'] : '',
-                    'passport_fit' => isset($row['passport_fit']) ? $row['passport_fit'] : ''
+                    'passport_fit' => (isset($row['fit_verified']) && in_array(strtolower($row['fit_verified']), array('1', 'yes', 'true', 'chart'), true)) ? (isset($row['passport_fit']) ? $row['passport_fit'] : '') : ''
                 );
             }
         }
 
         $aliases = array();
+        foreach ($review_paths as $path) {
+            $csv = self::http_get('https://raw.githubusercontent.com/' . self::OWNER . '/' . self::REPO . '/' . self::BRANCH . '/' . implode('/', array_map('rawurlencode', explode('/', $path))));
+            if (!$csv) { continue; }
+            foreach (self::parse_csv($csv) as $row) {
+                if (empty($row['firearm_id']) || empty($row['display_name'])) { continue; }
+                $id = $row['firearm_id'];
+                if (!isset($firearms[$id])) {
+                    $firearms[$id] = array(
+                        'firearm_id' => $id,
+                        'display_name' => $row['display_name'],
+                        'model' => '',
+                        'variant' => '',
+                        'caliber' => '',
+                        'barrel_length' => isset($row['barrel_length']) ? $row['barrel_length'] : '',
+                        'passport_fit' => ''
+                    );
+                }
+                $name = $row['display_name'];
+                $aliases[] = array('firearm_id' => $id, 'alias_text' => $name, 'normalized_alias' => $name, 'priority' => 1);
+                if (!empty($row['aliases'])) {
+                    $aliases[] = array('firearm_id' => $id, 'alias_text' => $row['aliases'], 'normalized_alias' => $row['aliases'], 'priority' => 1);
+                }
+            }
+        }
+
         foreach ($alias_paths as $path) {
             $csv = self::http_get('https://raw.githubusercontent.com/' . self::OWNER . '/' . self::REPO . '/' . self::BRANCH . '/' . implode('/', array_map('rawurlencode', explode('/', $path))));
             if (!$csv) { continue; }
             foreach (self::parse_csv($csv) as $row) {
                 if (empty($row['firearm_id']) || empty($row['alias_text']) || (isset($row['active']) && $row['active'] === '0')) { continue; }
+                if (!isset($firearms[$row['firearm_id']]) && (!isset($row['alias_type']) || stripos($row['alias_type'], 'Family Search') === false)) {
+                    $firearms[$row['firearm_id']] = array(
+                        'firearm_id' => $row['firearm_id'],
+                        'display_name' => $row['alias_text'],
+                        'model' => '',
+                        'variant' => '',
+                        'caliber' => '',
+                        'barrel_length' => '',
+                        'passport_fit' => ''
+                    );
+                }
                 $aliases[] = array(
                     'firearm_id' => $row['firearm_id'],
                     'alias_text' => $row['alias_text'],
