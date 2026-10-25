@@ -66,7 +66,7 @@ final class PH_Passport_Fit_Search {
         foreach ($tree['tree'] as $item) {
             if (empty($item['type']) || $item['type'] !== 'blob' || empty($item['path'])) { continue; }
             $path = $item['path'];
-            if (preg_match('~^data/.+\/\d{4}-\d{2}-\d{2}_firearm_master_[^/]+\.csv$~i', $path)) {
+            if (preg_match('~^data/.+\/\d{4}-\d{2}-\d{2}_firearm_master_(?!.*_(?:fit_review|sources)_)[^/]+\.csv$~i', $path)) {
                 $master_paths[] = $path;
             } elseif (preg_match('~^data/.+\/\d{4}-\d{2}-\d{2}_search_alias_master_[^/]+\.csv$~i', $path)) {
                 $alias_paths[] = $path;
