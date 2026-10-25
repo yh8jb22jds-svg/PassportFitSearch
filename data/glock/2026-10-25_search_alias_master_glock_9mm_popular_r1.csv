@@ -1,0 +1,101 @@
+alias_id,firearm_id,alias_text,normalized_alias,alias_type,priority,active
+GLOCK-ALS-000001,GLOCK-000001,Glock 17,glock 17,Model Variation,1,1
+GLOCK-ALS-000002,GLOCK-000001,G17,g17,Model Variation,1,1
+GLOCK-ALS-000003,GLOCK-000001,Glock G17,glock g17,Model Variation,1,1
+GLOCK-ALS-000004,GLOCK-000001,Glock 17 9mm,glock 17 9mm,Model Variation,1,1
+GLOCK-ALS-000005,GLOCK-000001,Glock 17 Gen 5,glock 17 gen 5,Model Variation,1,1
+GLOCK-ALS-000006,GLOCK-000001,Glock 17 Gen 6,glock 17 gen 6,Model Variation,1,1
+GLOCK-ALS-000007,GLOCK-000001,Glock 17 V,glock 17 v,Model Variation,1,1
+GLOCK-ALS-000008,GLOCK-000001,Glock 17 MOS,glock 17 mos,Model Variation,1,1
+GLOCK-ALS-000009,GLOCK-000001,Glock 9,glock 9,Family Search / Disambiguation,3,1
+GLOCK-ALS-000010,GLOCK-000001,Glock 9mm,glock 9mm,Family Search / Disambiguation,3,1
+GLOCK-ALS-000011,GLOCK-000001,9mm Glock,9mm glock,Family Search / Disambiguation,3,1
+GLOCK-ALS-000012,GLOCK-000001,Glock nine millimeter,glock nine millimeter,Family Search / Disambiguation,3,1
+GLOCK-ALS-000013,GLOCK-000011,Glock 19,glock 19,Model Variation,1,1
+GLOCK-ALS-000014,GLOCK-000011,G19,g19,Model Variation,1,1
+GLOCK-ALS-000015,GLOCK-000011,Glock G19,glock g19,Model Variation,1,1
+GLOCK-ALS-000016,GLOCK-000011,Glock 19 9mm,glock 19 9mm,Model Variation,1,1
+GLOCK-ALS-000017,GLOCK-000011,Glock 19 Gen 5,glock 19 gen 5,Model Variation,1,1
+GLOCK-ALS-000018,GLOCK-000011,Glock 19 Gen 6,glock 19 gen 6,Model Variation,1,1
+GLOCK-ALS-000019,GLOCK-000011,Glock 19 V,glock 19 v,Model Variation,1,1
+GLOCK-ALS-000020,GLOCK-000011,Glock 19 MOS,glock 19 mos,Model Variation,1,1
+GLOCK-ALS-000021,GLOCK-000011,Glock 9,glock 9,Family Search / Disambiguation,3,1
+GLOCK-ALS-000022,GLOCK-000011,Glock 9mm,glock 9mm,Family Search / Disambiguation,3,1
+GLOCK-ALS-000023,GLOCK-000011,9mm Glock,9mm glock,Family Search / Disambiguation,3,1
+GLOCK-ALS-000024,GLOCK-000011,Glock nine millimeter,glock nine millimeter,Family Search / Disambiguation,3,1
+GLOCK-ALS-000025,GLOCK-000021,Glock 26,glock 26,Model Variation,1,1
+GLOCK-ALS-000026,GLOCK-000021,G26,g26,Model Variation,1,1
+GLOCK-ALS-000027,GLOCK-000021,Glock G26,glock g26,Model Variation,1,1
+GLOCK-ALS-000028,GLOCK-000021,Glock 26 9mm,glock 26 9mm,Model Variation,1,1
+GLOCK-ALS-000029,GLOCK-000021,Glock 9,glock 9,Family Search / Disambiguation,3,1
+GLOCK-ALS-000030,GLOCK-000021,Glock 9mm,glock 9mm,Family Search / Disambiguation,3,1
+GLOCK-ALS-000031,GLOCK-000021,9mm Glock,9mm glock,Family Search / Disambiguation,3,1
+GLOCK-ALS-000032,GLOCK-000021,Glock nine millimeter,glock nine millimeter,Family Search / Disambiguation,3,1
+GLOCK-ALS-000033,GLOCK-000026,Glock 34,glock 34,Model Variation,1,1
+GLOCK-ALS-000034,GLOCK-000026,G34,g34,Model Variation,1,1
+GLOCK-ALS-000035,GLOCK-000026,Glock G34,glock g34,Model Variation,1,1
+GLOCK-ALS-000036,GLOCK-000026,Glock 34 9mm,glock 34 9mm,Model Variation,1,1
+GLOCK-ALS-000037,GLOCK-000026,Glock 9,glock 9,Family Search / Disambiguation,3,1
+GLOCK-ALS-000038,GLOCK-000026,Glock 9mm,glock 9mm,Family Search / Disambiguation,3,1
+GLOCK-ALS-000039,GLOCK-000026,9mm Glock,9mm glock,Family Search / Disambiguation,3,1
+GLOCK-ALS-000040,GLOCK-000026,Glock nine millimeter,glock nine millimeter,Family Search / Disambiguation,3,1
+GLOCK-ALS-000041,GLOCK-000066,Glock 43X,glock 43x,Model Variation,1,1
+GLOCK-ALS-000042,GLOCK-000066,G43X,g43x,Model Variation,1,1
+GLOCK-ALS-000043,GLOCK-000066,Glock G43X,glock g43x,Model Variation,1,1
+GLOCK-ALS-000044,GLOCK-000066,Glock 43X 9mm,glock 43x 9mm,Model Variation,1,1
+GLOCK-ALS-000045,GLOCK-000066,G43X MOS,g43x mos,Model Variation,1,1
+GLOCK-ALS-000046,GLOCK-000066,Glock 43 X,glock 43 x,Model Variation,1,1
+GLOCK-ALS-000047,GLOCK-000066,Glock 9,glock 9,Family Search / Disambiguation,3,1
+GLOCK-ALS-000048,GLOCK-000066,Glock 9mm,glock 9mm,Family Search / Disambiguation,3,1
+GLOCK-ALS-000049,GLOCK-000066,9mm Glock,9mm glock,Family Search / Disambiguation,3,1
+GLOCK-ALS-000050,GLOCK-000066,Glock nine millimeter,glock nine millimeter,Family Search / Disambiguation,3,1
+GLOCK-ALS-000051,GLOCK-000067,Glock 19X,glock 19x,Model Variation,1,1
+GLOCK-ALS-000052,GLOCK-000067,G19X,g19x,Model Variation,1,1
+GLOCK-ALS-000053,GLOCK-000067,Glock G19X,glock g19x,Model Variation,1,1
+GLOCK-ALS-000054,GLOCK-000067,Glock 19X 9mm,glock 19x 9mm,Model Variation,1,1
+GLOCK-ALS-000055,GLOCK-000067,G19X,g19x,Model Variation,1,1
+GLOCK-ALS-000056,GLOCK-000067,Glock 19 X,glock 19 x,Model Variation,1,1
+GLOCK-ALS-000057,GLOCK-000067,Glock 9,glock 9,Family Search / Disambiguation,3,1
+GLOCK-ALS-000058,GLOCK-000067,Glock 9mm,glock 9mm,Family Search / Disambiguation,3,1
+GLOCK-ALS-000059,GLOCK-000067,9mm Glock,9mm glock,Family Search / Disambiguation,3,1
+GLOCK-ALS-000060,GLOCK-000067,Glock nine millimeter,glock nine millimeter,Family Search / Disambiguation,3,1
+GLOCK-ALS-000061,GLOCK-000068,Glock 43,glock 43,Model Variation,1,1
+GLOCK-ALS-000062,GLOCK-000068,G43,g43,Model Variation,1,1
+GLOCK-ALS-000063,GLOCK-000068,Glock G43,glock g43,Model Variation,1,1
+GLOCK-ALS-000064,GLOCK-000068,Glock 43 9mm,glock 43 9mm,Model Variation,1,1
+GLOCK-ALS-000065,GLOCK-000068,Glock 9,glock 9,Family Search / Disambiguation,3,1
+GLOCK-ALS-000066,GLOCK-000068,Glock 9mm,glock 9mm,Family Search / Disambiguation,3,1
+GLOCK-ALS-000067,GLOCK-000068,9mm Glock,9mm glock,Family Search / Disambiguation,3,1
+GLOCK-ALS-000068,GLOCK-000068,Glock nine millimeter,glock nine millimeter,Family Search / Disambiguation,3,1
+GLOCK-ALS-000069,GLOCK-000069,Glock 45,glock 45,Model Variation,1,1
+GLOCK-ALS-000070,GLOCK-000069,G45,g45,Model Variation,1,1
+GLOCK-ALS-000071,GLOCK-000069,Glock G45,glock g45,Model Variation,1,1
+GLOCK-ALS-000072,GLOCK-000069,Glock 45 9mm,glock 45 9mm,Model Variation,1,1
+GLOCK-ALS-000073,GLOCK-000069,Glock 9,glock 9,Family Search / Disambiguation,3,1
+GLOCK-ALS-000074,GLOCK-000069,Glock 9mm,glock 9mm,Family Search / Disambiguation,3,1
+GLOCK-ALS-000075,GLOCK-000069,9mm Glock,9mm glock,Family Search / Disambiguation,3,1
+GLOCK-ALS-000076,GLOCK-000069,Glock nine millimeter,glock nine millimeter,Family Search / Disambiguation,3,1
+GLOCK-ALS-000077,GLOCK-000070,Glock 47,glock 47,Model Variation,1,1
+GLOCK-ALS-000078,GLOCK-000070,G47,g47,Model Variation,1,1
+GLOCK-ALS-000079,GLOCK-000070,Glock G47,glock g47,Model Variation,1,1
+GLOCK-ALS-000080,GLOCK-000070,Glock 47 9mm,glock 47 9mm,Model Variation,1,1
+GLOCK-ALS-000081,GLOCK-000070,Glock 9,glock 9,Family Search / Disambiguation,3,1
+GLOCK-ALS-000082,GLOCK-000070,Glock 9mm,glock 9mm,Family Search / Disambiguation,3,1
+GLOCK-ALS-000083,GLOCK-000070,9mm Glock,9mm glock,Family Search / Disambiguation,3,1
+GLOCK-ALS-000084,GLOCK-000070,Glock nine millimeter,glock nine millimeter,Family Search / Disambiguation,3,1
+GLOCK-ALS-000085,GLOCK-000071,Glock 48,glock 48,Model Variation,1,1
+GLOCK-ALS-000086,GLOCK-000071,G48,g48,Model Variation,1,1
+GLOCK-ALS-000087,GLOCK-000071,Glock G48,glock g48,Model Variation,1,1
+GLOCK-ALS-000088,GLOCK-000071,Glock 48 9mm,glock 48 9mm,Model Variation,1,1
+GLOCK-ALS-000089,GLOCK-000071,Glock 9,glock 9,Family Search / Disambiguation,3,1
+GLOCK-ALS-000090,GLOCK-000071,Glock 9mm,glock 9mm,Family Search / Disambiguation,3,1
+GLOCK-ALS-000091,GLOCK-000071,9mm Glock,9mm glock,Family Search / Disambiguation,3,1
+GLOCK-ALS-000092,GLOCK-000071,Glock nine millimeter,glock nine millimeter,Family Search / Disambiguation,3,1
+GLOCK-ALS-000093,GLOCK-000072,Glock 49,glock 49,Model Variation,1,1
+GLOCK-ALS-000094,GLOCK-000072,G49,g49,Model Variation,1,1
+GLOCK-ALS-000095,GLOCK-000072,Glock G49,glock g49,Model Variation,1,1
+GLOCK-ALS-000096,GLOCK-000072,Glock 49 9mm,glock 49 9mm,Model Variation,1,1
+GLOCK-ALS-000097,GLOCK-000072,Glock 9,glock 9,Family Search / Disambiguation,3,1
+GLOCK-ALS-000098,GLOCK-000072,Glock 9mm,glock 9mm,Family Search / Disambiguation,3,1
+GLOCK-ALS-000099,GLOCK-000072,9mm Glock,9mm glock,Family Search / Disambiguation,3,1
+GLOCK-ALS-000100,GLOCK-000072,Glock nine millimeter,glock nine millimeter,Family Search / Disambiguation,3,1
