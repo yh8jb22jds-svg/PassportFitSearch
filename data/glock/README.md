@@ -1,25 +1,26 @@
-# Glock 9mm search data repair (2026-10-25)
+# Glock search data (2026-10-25)
 
-This repair adds common 9mm Glock models and search aliases and replaces the earlier Glock fit review with a chart-first review.
+The importer-ready Glock files in this folder add common 9mm Glock models and searchable aliases.
 
-## Files
+## Import files
 
-- `2026-10-25_firearm_master_glock_9mm_popular_r1.csv`: 11 common 9mm Glock model records.
-- `2026-10-25_search_alias_master_glock_9mm_popular_r1.csv`: specific aliases plus broad `Glock 9` / `Glock 9mm` aliases.
-- `2026-10-25_firearm_master_glock_fit_review_r2.csv`: prior Glock review rows rechecked against the PHolsters size chart, plus the six missing common models.
-- The original `2026-07-24_firearm_master_glock_fit_review_r1.csv` is retained as historical input. Use the r2 review for chart-based fit decisions.
+- `2026-10-25_firearm_master_glock_9mm_popular_r1.csv` uses the repository's firearm master schema.
+- `2026-10-25_search_alias_master_glock_9mm_popular_r1.csv` maps model names and family searches to firearm IDs.
+- `2026-10-25_firearm_master_glock_fit_review_r2.csv` is a supporting review report; it is not the importer master.
 
-## Fit behavior
+## Search behavior
 
-A broad search for `Glock 9`, `Glock 9mm`, or `9mm Glock` is a family search. The search UI must show the matching model choices; it must not return one arbitrary fit for the whole family.
+A broad query such as `Glock 9`, `Glock 9mm`, or `9mm Glock` should return matching model choices. The selected exact model then determines the fit. Never show one arbitrary size for the entire 9mm family.
 
-Only explicit PHolsters chart entries receive a fit:
+Fit assignments in the importer master follow the PHolsters size chart:
 - Glock 17: A4
 - Glock 19: A3 and A4
 - Glock 26: A2.5
-- Glock 23 and the other exact models listed in the corrected review keep only their chart-listed fit codes.
-- Models absent from the chart remain searchable but have a blank `passport_fit` and `NOT_IN_CHART` / pending status. Barrel length alone is not proof that PHolsters has tested a fit.
+- Glock 34, 43, 43X, 19X, 45, 47, 48, and 49 are searchable but have blank `passport_fit` because they are not listed on that chart.
 
-## Source of truth
+The fit review report includes prior Glock inventory rows. A model absent from the PHolsters chart remains unconfirmed; barrel length by itself does not prove tested fit.
 
-Fit assignments link to https://pholsters.com/size-chart/. Model caliber and barrel lengths cite official GLOCK product pages or owner/buyer documents. Do not replace a blank chart fit with a guessed barrel-length category without explicit PHolsters approval.
+## Source links
+
+- PHolsters chart: https://pholsters.com/size-chart/
+- Model specifications: official GLOCK product and owner resources linked from the master data where available.
