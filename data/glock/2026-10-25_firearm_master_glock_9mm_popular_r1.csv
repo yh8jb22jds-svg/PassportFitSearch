@@ -1,13 +1,13 @@
-firearm_id,manufacturer_id,display_name,model,variant,caliber,barrel_length,action_type,passport_fit,active,discontinued
-GLOCK-000001,GLOCK-MFG,Glock 17,17,9x19mm model family,9x19mm,4.49,Semi-Auto,A4,1,0
-GLOCK-000011,GLOCK-MFG,Glock 19,19,Compact,9x19mm,4.02,Semi-Auto,A3,1,0
-GLOCK-000021,GLOCK-MFG,Glock 26,26,9x19mm model family,9x19mm,3.43,Semi-Auto,A2.5,1,0
-GLOCK-000026,GLOCK-MFG,Glock 34,34,9x19mm model family,9x19mm,5.31,Semi-Auto,,1,0
-GLOCK-000066,GLOCK-MFG,Glock 43X,43X,9x19mm model family,9x19mm,3.41,Semi-Auto,,1,0
-GLOCK-000067,GLOCK-MFG,Glock 19X,19X,9x19mm model family,9x19mm,4.02,Semi-Auto,,1,0
-GLOCK-000068,GLOCK-MFG,Glock 43,43,9x19mm model family,9x19mm,3.41,Semi-Auto,,1,0
-GLOCK-000069,GLOCK-MFG,Glock 45,45,9x19mm model family,9x19mm,4.02,Semi-Auto,,1,0
-GLOCK-000070,GLOCK-MFG,Glock 47,47,9x19mm model family,9x19mm,4.49,Semi-Auto,,1,0
-GLOCK-000071,GLOCK-MFG,Glock 48,48,9x19mm model family,9x19mm,4.17,Semi-Auto,,1,0
-GLOCK-000072,GLOCK-MFG,Glock 49,49,9x19mm model family,9x19mm,4.49,Semi-Auto,,1,0
-GLOCK-000073,GLOCK-MFG,Glock 19 - Full Barrel,19,Full Barrel,9x19mm,4.02,Semi-Auto,A4,1,0
+firearm_id,manufacturer_id,display_name,model,variant,caliber,barrel_length,action_type,passport_fit,active,discontinued,fit_verified
+GLOCK-000001,GLOCK-MFG,Glock 17,17,9x19mm model family,9x19mm,4.49,Semi-Auto,A4,1,0,1
+GLOCK-000011,GLOCK-MFG,Glock 19,19,Compact,9x19mm,4.02,Semi-Auto,A3,1,0,1
+GLOCK-000021,GLOCK-MFG,Glock 26,26,9x19mm model family,9x19mm,3.43,Semi-Auto,A2.5,1,0,1
+GLOCK-000026,GLOCK-MFG,Glock 34,34,9x19mm model family,9x19mm,5.31,Semi-Auto,,1,0,0
+GLOCK-000066,GLOCK-MFG,Glock 43X,43X,9x19mm model family,9x19mm,3.41,Semi-Auto,,1,0,0
+GLOCK-000067,GLOCK-MFG,Glock 19X,19X,9x19mm model family,9x19mm,4.02,Semi-Auto,,1,0,0
+GLOCK-000068,GLOCK-MFG,Glock 43,43,9x19mm model family,9x19mm,3.41,Semi-Auto,,1,0,0
+GLOCK-000069,GLOCK-MFG,Glock 45,45,9x19mm model family,9x19mm,4.02,Semi-Auto,,1,0,0
+GLOCK-000070,GLOCK-MFG,Glock 47,47,9x19mm model family,9x19mm,4.49,Semi-Auto,,1,0,0
+GLOCK-000071,GLOCK-MFG,Glock 48,48,9x19mm model family,9x19mm,4.17,Semi-Auto,,1,0,0
+GLOCK-000072,GLOCK-MFG,Glock 49,49,9x19mm model family,9x19mm,4.49,Semi-Auto,,1,0,0
+GLOCK-000073,GLOCK-MFG,Glock 19 - Full Barrel,19,Full Barrel,9x19mm,4.02,Semi-Auto,A4,1,0,1
