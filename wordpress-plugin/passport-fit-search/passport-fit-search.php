@@ -2,7 +2,7 @@
 /**
  * Plugin Name: PHolsters Passport Fit Search
  * Description: Searches the PassportFitSearch GitHub database for exact firearm models and chart-confirmed Passport fits.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: PHolsters
  * License: GPL-2.0-or-later
  */
@@ -201,11 +201,26 @@ final class PH_Passport_Fit_Search {
         foreach ($dataset['aliases'] as $alias) {
             if (!isset($dataset['firearms'][$alias['firearm_id']])) { continue; }
             $term = self::normalize($alias['normalized_alias']);
-            if ($term === '' || (strpos($term, $needle) === false && strpos($needle, $term) !== 0)) { continue; }
+            // Never treat a short alias (for example DE) as a prefix of an unrelated query.
+            // Two-character searches must be exact; longer searches may find longer aliases.
+            if ($term === '' || ($term !== $needle && (strlen($needle) < 3 || strpos($term, $needle) === false))) { continue; }
             $id = $alias['firearm_id'];
-            if (!isset($matches[$id]) || $alias['priority'] < $matches[$id]['priority']) {
-                $matches[$id] = array('firearm' => $dataset['firearms'][$id], 'priority' => $alias['priority'], 'exact' => ($term === $needle));
+            $exact = ($term === $needle);
+            if (!isset($matches[$id]) ||
+                ($exact && !$matches[$id]['exact']) ||
+                ($exact === $matches[$id]['exact'] && $alias['priority'] < $matches[$id]['priority'])) {
+                $matches[$id] = array('firearm' => $dataset['firearms'][$id], 'priority' => $alias['priority'], 'exact' => $exact);
             }
+        }
+
+        // An exact model alias takes precedence over models whose longer names
+        // merely contain the query (Glock 19 versus Glock 19X, for example).
+        $has_exact = false;
+        foreach ($matches as $match) {
+            if ($match['exact']) { $has_exact = true; break; }
+        }
+        if ($has_exact) {
+            $matches = array_filter($matches, function($match) { return $match['exact']; });
         }
 
         if (!$matches) {
