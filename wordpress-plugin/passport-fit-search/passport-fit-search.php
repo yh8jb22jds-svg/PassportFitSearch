@@ -198,38 +198,51 @@ final class PH_Passport_Fit_Search {
         }
 
         $matches = array();
-        foreach ($dataset['aliases'] as $alias) {
-            if (!isset($dataset['firearms'][$alias['firearm_id']])) { continue; }
-            $term = self::normalize($alias['normalized_alias']);
-            // Never treat a short alias (for example DE) as a prefix of an unrelated query.
-            // Two-character searches must be exact; longer searches may find longer aliases.
-            if ($term === '' || ($term !== $needle && (strlen($needle) < 3 || strpos($term, $needle) === false))) { continue; }
-            $id = $alias['firearm_id'];
-            $exact = ($term === $needle);
-            if (!isset($matches[$id]) ||
-                ($exact && !$matches[$id]['exact']) ||
-                ($exact === $matches[$id]['exact'] && $alias['priority'] < $matches[$id]['priority'])) {
-                $matches[$id] = array('firearm' => $dataset['firearms'][$id], 'priority' => $alias['priority'], 'exact' => $exact);
-            }
-        }
-
-        // An exact model alias takes precedence over models whose longer names
-        // merely contain the query (Glock 19 versus Glock 19X, for example).
-        $has_exact = false;
-        foreach ($matches as $match) {
-            if ($match['exact']) { $has_exact = true; break; }
-        }
-        if ($has_exact) {
-            $matches = array_filter($matches, function($match) { return $match['exact']; });
-        }
-
-        if (!$matches) {
+        if ($needle === 'de') {
+            // DE is commonly entered for both Derringer and Desert Eagle.
+            // Return choices instead of assigning either category's holster size.
             foreach ($dataset['firearms'] as $firearm) {
-                $haystack = self::normalize($firearm['display_name'] . ' ' . $firearm['model']);
-                if (strpos($haystack, $needle) !== false) {
-                    $matches[$firearm['firearm_id']] = array('firearm' => $firearm, 'priority' => 2, 'exact' => false);
+                if (preg_match('/derringer|desert\\s+eagle/i', $firearm['display_name'])) {
+                    $matches[$firearm['firearm_id']] = array(
+                        'firearm' => $firearm, 'priority' => 1, 'exact' => false
+                    );
                 }
             }
+        } else {
+            foreach ($dataset['aliases'] as $alias) {
+                if (!isset($dataset['firearms'][$alias['firearm_id']])) { continue; }
+                $term = self::normalize($alias['normalized_alias']);
+                // Never treat a short alias (for example DE) as a prefix of an unrelated query.
+                // Two-character searches must be exact; longer searches may find longer aliases.
+                if ($term === '' || ($term !== $needle && (strlen($needle) < 3 || strpos($term, $needle) === false))) { continue; }
+                $id = $alias['firearm_id'];
+                $exact = ($term === $needle);
+                if (!isset($matches[$id]) ||
+                    ($exact && !$matches[$id]['exact']) ||
+                    ($exact === $matches[$id]['exact'] && $alias['priority'] < $matches[$id]['priority'])) {
+                    $matches[$id] = array('firearm' => $dataset['firearms'][$id], 'priority' => $alias['priority'], 'exact' => $exact);
+                }
+            }
+
+            // An exact model alias takes precedence over models whose longer names
+            // merely contain the query (Glock 19 versus Glock 19X, for example).
+            $has_exact = false;
+            foreach ($matches as $match) {
+                if ($match['exact']) { $has_exact = true; break; }
+            }
+            if ($has_exact) {
+                $matches = array_filter($matches, function($match) { return $match['exact']; });
+            }
+
+            if (!$matches) {
+                foreach ($dataset['firearms'] as $firearm) {
+                    $haystack = self::normalize($firearm['display_name'] . ' ' . $firearm['model']);
+                    if (strpos($haystack, $needle) !== false) {
+                        $matches[$firearm['firearm_id']] = array('firearm' => $firearm, 'priority' => 2, 'exact' => false);
+                    }
+                }
+            }
+
         }
 
         uasort($matches, function($a, $b) {
