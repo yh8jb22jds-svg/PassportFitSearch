@@ -40,21 +40,16 @@ data/[manufacturer]/
 └── YYYY-MM-DD_firearm_master_[mfgr]_fit_review_r1.csv
 ```
 
-### PASSPORT FIT CATEGORIES
+### PASSPORT FIT VERIFICATION
 
-**Pistols (A-Series):**
-- A1: < 2.5" barrel
-- A1.5: 2.5-3.0" barrel
-- A2: 3.0-3.5" barrel
-- A2.5: 3.5-4.0" barrel
-- A3: 4.0-4.5" barrel
-- A4: > 4.5" barrel
+The [PHolsters size chart](https://pholsters.com/size-chart/) is the source of truth.
+Do not assign a fit from barrel length alone or copy proposed fits from review reports.
 
-**Revolvers (R-Series):**
-- R1.5: < 2.0" barrel
-- R2: 2.0-3.0" barrel
-- R2.5: 3.0-4.0" barrel
-- R3: > 4.0" barrel
+- Set `fit_verified=1` only with an explicit chart listing or PHolsters approval.
+- Keep `passport_fit` blank and `fit_verified=0` for unconfirmed models and variants.
+- Preserve multiple chart-listed fits as separate, clearly labeled choices.
+- Review-report decisions such as "Approved" do not verify importer master fits.
+- Keep generation and MOS identities separate unless their fit is explicitly verified.
 
 ### UPLOAD TO GITHUB
 
@@ -71,7 +66,7 @@ BEFORE uploading, verify each file:
 **Firearm Master:**
 - [ ] All IDs unique (MFG-######)
 - [ ] Barrel lengths numeric (3.0, not "3 inches")
-- [ ] Passport fit matches barrel length rule
+- [ ] Passport fit has explicit chart or PHolsters approval; otherwise blank
 - [ ] Active/discontinued logic correct
 
 **Search Alias:**
@@ -85,9 +80,9 @@ BEFORE uploading, verify each file:
 - [ ] Column name: [mfgr_lowercase]_source_url
 
 **QA Report:**
-- [ ] Fit matches firearm_master
+- [ ] Proposed fits remain review material and are not imported as confirmed
 - [ ] Comparable models from completed mfgrs
-- [ ] Reviewer decision: "Approved"
+- [ ] Confirmed master rows have explicit fit_verified and supporting approval
 
 ### ESTIMATED TIME
 - Research: 30-45 min

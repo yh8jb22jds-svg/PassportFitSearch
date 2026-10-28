@@ -2,7 +2,7 @@
 /**
  * Plugin Name: PHolsters Passport Fit Search
  * Description: Searches the PassportFitSearch GitHub database for exact firearm models and chart-confirmed Passport fits.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: PHolsters
  * License: GPL-2.0-or-later
  */
@@ -13,7 +13,7 @@ final class PH_Passport_Fit_Search {
     const OWNER = 'yh8jb22jds-svg';
     const REPO = 'PassportFitSearch';
     const BRANCH = 'main';
-    const CACHE_KEY = 'ph_passport_fit_dataset_v1';
+    const CACHE_KEY = 'ph_passport_fit_dataset_v2';
     const CACHE_TTL = DAY_IN_SECONDS;
 
     public static function boot() {
@@ -201,12 +201,23 @@ final class PH_Passport_Fit_Search {
         if ($needle === 'de') {
             // DE is commonly entered for both Derringer and Desert Eagle.
             // Return choices instead of assigning either category's holster size.
+            $choice_ids = array();
             foreach ($dataset['firearms'] as $firearm) {
-                if (preg_match('/derringer|desert\\s+eagle/i', $firearm['display_name'])) {
-                    $matches[$firearm['firearm_id']] = array(
-                        'firearm' => $firearm, 'priority' => 1, 'exact' => false
-                    );
+                if (preg_match('/\b(?:derringer|desert\s+eagle)\b/i', $firearm['display_name'])) {
+                    $choice_ids[$firearm['firearm_id']] = true;
                 }
+            }
+            // Alias-only category names also identify choices (for example Rowdy Derringer).
+            foreach ($dataset['aliases'] as $alias) {
+                if (preg_match('/\b(?:derringer|desert\s+eagle)\b/i', $alias['alias_text'])) {
+                    $choice_ids[$alias['firearm_id']] = true;
+                }
+            }
+            foreach ($choice_ids as $id => $_) {
+                if (!isset($dataset['firearms'][$id])) { continue; }
+                $matches[$id] = array(
+                    'firearm' => $dataset['firearms'][$id], 'priority' => 1, 'exact' => false
+                );
             }
         } else {
             foreach ($dataset['aliases'] as $alias) {
@@ -236,7 +247,7 @@ final class PH_Passport_Fit_Search {
 
             if (!$matches) {
                 foreach ($dataset['firearms'] as $firearm) {
-                    $haystack = self::normalize($firearm['display_name'] . ' ' . $firearm['model']);
+                    $haystack = self::normalize($firearm['display_name'] . ' ' . $firearm['model'] . ' ' . $firearm['variant']);
                     if (strpos($haystack, $needle) !== false) {
                         $matches[$firearm['firearm_id']] = array('firearm' => $firearm, 'priority' => 2, 'exact' => false);
                     }

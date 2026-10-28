@@ -3,10 +3,8 @@ GLOCK-ALS-000001,GLOCK-000001,Glock 17,glock 17,Model Variation,1,1
 GLOCK-ALS-000002,GLOCK-000001,G17,g17,Model Variation,1,1
 GLOCK-ALS-000003,GLOCK-000001,Glock G17,glock g17,Model Variation,1,1
 GLOCK-ALS-000004,GLOCK-000001,Glock 17 9mm,glock 17 9mm,Model Variation,1,1
-GLOCK-ALS-000005,GLOCK-000001,Glock 17 Gen 5,glock 17 gen 5,Model Variation,1,1
-GLOCK-ALS-000006,GLOCK-000001,Glock 17 Gen 6,glock 17 gen 6,Model Variation,1,1
-GLOCK-ALS-000007,GLOCK-000001,Glock 17 V,glock 17 v,Model Variation,1,1
-GLOCK-ALS-000008,GLOCK-000001,Glock 17 MOS,glock 17 mos,Model Variation,1,1
+GLOCK-ALS-000005,GLOCK-000009,Glock 17 Gen 5,glock 17 gen 5,Model Variation,1,1
+GLOCK-ALS-000008,GLOCK-000010,Glock 17 MOS,glock 17 mos,Model Variation,1,1
 GLOCK-ALS-000009,GLOCK-000001,Glock 9,glock 9,Family Search / Disambiguation,3,1
 GLOCK-ALS-000010,GLOCK-000001,Glock 9mm,glock 9mm,Family Search / Disambiguation,3,1
 GLOCK-ALS-000011,GLOCK-000001,9mm Glock,9mm glock,Family Search / Disambiguation,3,1
@@ -15,10 +13,8 @@ GLOCK-ALS-000013,GLOCK-000011,Glock 19,glock 19,Model Variation,1,1
 GLOCK-ALS-000014,GLOCK-000011,G19,g19,Model Variation,1,1
 GLOCK-ALS-000015,GLOCK-000011,Glock G19,glock g19,Model Variation,1,1
 GLOCK-ALS-000016,GLOCK-000011,Glock 19 9mm,glock 19 9mm,Model Variation,1,1
-GLOCK-ALS-000017,GLOCK-000011,Glock 19 Gen 5,glock 19 gen 5,Model Variation,1,1
-GLOCK-ALS-000018,GLOCK-000011,Glock 19 Gen 6,glock 19 gen 6,Model Variation,1,1
-GLOCK-ALS-000019,GLOCK-000011,Glock 19 V,glock 19 v,Model Variation,1,1
-GLOCK-ALS-000020,GLOCK-000011,Glock 19 MOS,glock 19 mos,Model Variation,1,1
+GLOCK-ALS-000017,GLOCK-000018,Glock 19 Gen 5,glock 19 gen 5,Model Variation,1,1
+GLOCK-ALS-000020,GLOCK-000019,Glock 19 MOS,glock 19 mos,Model Variation,1,1
 GLOCK-ALS-000021,GLOCK-000011,Glock 9,glock 9,Family Search / Disambiguation,3,1
 GLOCK-ALS-000022,GLOCK-000011,Glock 9mm,glock 9mm,Family Search / Disambiguation,3,1
 GLOCK-ALS-000023,GLOCK-000011,9mm Glock,9mm glock,Family Search / Disambiguation,3,1
@@ -102,11 +98,9 @@ GLOCK-ALS-000101,GLOCK-000073,Glock 19,glock 19,Model Variation,1,1
 GLOCK-ALS-000102,GLOCK-000073,G19,g19,Model Variation,1,1
 GLOCK-ALS-000103,GLOCK-000073,Glock G19,glock g19,Model Variation,1,1
 GLOCK-ALS-000104,GLOCK-000073,Glock 19 9mm,glock 19 9mm,Model Variation,1,1
-GLOCK-ALS-000105,GLOCK-000073,Glock 19 Gen 5,glock 19 gen 5,Model Variation,1,1
-GLOCK-ALS-000106,GLOCK-000073,Glock 19 Gen 6,glock 19 gen 6,Model Variation,1,1
-GLOCK-ALS-000107,GLOCK-000073,Glock 19 V,glock 19 v,Model Variation,1,1
-GLOCK-ALS-000108,GLOCK-000073,Glock 19 MOS,glock 19 mos,Model Variation,1,1
 GLOCK-ALS-000109,GLOCK-000073,Glock 9,glock 9,Family Search / Disambiguation,3,1
 GLOCK-ALS-000110,GLOCK-000073,Glock 9mm,glock 9mm,Family Search / Disambiguation,3,1
 GLOCK-ALS-000111,GLOCK-000073,9mm Glock,9mm glock,Family Search / Disambiguation,3,1
 GLOCK-ALS-000112,GLOCK-000073,Glock nine millimeter,glock nine millimeter,Family Search / Disambiguation,3,1
+GLOCK-ALS-000113,GLOCK-000011,Glock 19 Compact,glock 19 compact,Model Variation,1,1
+GLOCK-ALS-000114,GLOCK-000011,G19 Compact,g19 compact,Model Variation,1,1

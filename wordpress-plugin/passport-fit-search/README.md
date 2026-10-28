@@ -26,3 +26,20 @@ Broad aliases such as `Glock 9` return model choices. Glock 19 has separate reco
 - The repository must remain public for WordPress to read it without a GitHub token.
 - WordPress Cron runs when the site receives visits. After updating data, the previous cache can remain for up to 24 hours.
 - This plugin is separate from the homepage content. Replacing the current module with the shortcode is a WordPress edit and does not publish the draft.
+
+## Version 1.0.2 and regression checks
+
+- `DE` includes Derringer and Desert Eagle choices identified by names or aliases,
+  including Bond Arms Rowdy via its `Rowdy Derringer` alias. These alias-only
+  records have no confirmed fit.
+- Compact and Full Barrel searches select their specific Glock 19 fit choice.
+- Generation and MOS aliases retain separate, unconfirmed model identities.
+- The cache key changes in 1.0.2 so an older index is rebuilt on the next search.
+  Uploading new repository code does not replace an installed WordPress plugin;
+  install the updated plugin before previewing the draft shortcode.
+
+From the repository root, run `php tests/search-regression.php` (PHP 7.4 or newer).
+The checks execute the actual plugin importer and REST callback with local CSVs
+and minimal WordPress stubs; they require no network or WordPress installation.
+GitHub Actions runs the same checks on pushes and pull requests. Live draft-page
+preview remains necessary to verify WordPress HTTP access and rendering.

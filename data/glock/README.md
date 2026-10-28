@@ -24,3 +24,13 @@ The fit review report includes prior Glock inventory rows. A model absent from t
 
 - PHolsters chart: https://pholsters.com/size-chart/
 - Model specifications: official GLOCK product and owner resources linked from the master data where available.
+
+## Specific variant searches
+
+`Glock 19 Compact` and `G19 Compact` select the A3 choice; `Glock 19 Full Barrel`
+selects A4. Generic `Glock 19` and `G19` preserve both choices.
+
+Generation-specific and MOS aliases for Glock 17 and Glock 19 point to their
+separate review identities, which remain unconfirmed. A generic chart listing
+must not automatically confirm a generation or MOS variant. Unsupported Gen 6
+and V aliases have been removed pending identity and fit verification.

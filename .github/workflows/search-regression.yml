@@ -1,0 +1,13 @@
+name: Search regression
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check PHP syntax
+        run: php -l wordpress-plugin/passport-fit-search/passport-fit-search.php
+      - name: Test repository imports and search
+        run: php tests/search-regression.php
