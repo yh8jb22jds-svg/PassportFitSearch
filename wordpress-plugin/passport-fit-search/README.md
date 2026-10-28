@@ -43,3 +43,21 @@ The checks execute the actual plugin importer and REST callback with local CSVs
 and minimal WordPress stubs; they require no network or WordPress installation.
 GitHub Actions runs the same checks on pushes and pull requests. Live draft-page
 preview remains necessary to verify WordPress HTTP access and rendering.
+
+## Version 1.0.3: model suggestions
+
+Use `/wp-json/passport-fit/v1/search?q=Glock%2019&suggest=1` while typing to show
+longer model/generation choices, including Gen 5 MOS. Omit `suggest=1` on submit
+for exact-model precedence. Each returned firearm_id is a distinct selectable
+identity; use that returned record for details rather than searching its label.
+No suggested variant inherits a fit from its generic family.
+
+Popular model identities and spelling aliases are under `data/popular/`.
+The 1.0.3 cache key rebuilds the old dataset on the next search after installation.
+
+The live custom homepage uses `homepage-fit-search.js`, enqueued by the plugin on
+the front page. Keep the existing `#ph-fit-finder` HTML/CSS, but remove its old
+inline search script so only the plugin asset initializes it. This preserves the
+homepage design and product links while keeping future search behavior in this
+repository. Suggestions appear after 250 ms, can be selected by click, Tab/Enter,
+or arrow keys, and fill the input with the selected model. Escape dismisses them.

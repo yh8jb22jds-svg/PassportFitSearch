@@ -2,7 +2,7 @@
 /**
  * Plugin Name: PHolsters Passport Fit Search
  * Description: Searches the PassportFitSearch GitHub database for exact firearm models and chart-confirmed Passport fits.
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: PHolsters
  * License: GPL-2.0-or-later
  */
@@ -13,7 +13,7 @@ final class PH_Passport_Fit_Search {
     const OWNER = 'yh8jb22jds-svg';
     const REPO = 'PassportFitSearch';
     const BRANCH = 'main';
-    const CACHE_KEY = 'ph_passport_fit_dataset_v2';
+    const CACHE_KEY = 'ph_passport_fit_dataset_v3';
     const CACHE_TTL = DAY_IN_SECONDS;
 
     public static function boot() {
@@ -21,6 +21,13 @@ final class PH_Passport_Fit_Search {
         add_action('rest_api_init', array(__CLASS__, 'register_routes'));
         add_action('ph_passport_fit_refresh', array(__CLASS__, 'refresh_dataset'));
         add_action('init', array(__CLASS__, 'schedule_refresh'));
+        add_action('wp_enqueue_scripts', array(__CLASS__, 'enqueue_homepage_search'));
+    }
+
+    public static function enqueue_homepage_search() {
+        if (is_front_page()) {
+            wp_enqueue_script('ph-passport-homepage-search', plugins_url('homepage-fit-search.js', __FILE__), array(), '1.0.3', true);
+        }
     }
 
     public static function activate() {
@@ -173,18 +180,25 @@ final class PH_Passport_Fit_Search {
             'methods' => WP_REST_Server::READABLE,
             'callback' => array(__CLASS__, 'search'),
             'permission_callback' => '__return_true',
-            'args' => array('q' => array('required' => true, 'sanitize_callback' => 'sanitize_text_field'))
+            'args' => array(
+                'q' => array('required' => true, 'sanitize_callback' => 'sanitize_text_field'),
+                'suggest' => array('default' => '0', 'sanitize_callback' => 'sanitize_text_field')
+            )
         ));
     }
 
     private static function normalize($text) {
         $text = strtolower(remove_accents((string) $text));
+        $text = preg_replace('/smith\s*(?:&|and)?\s*wesson|s\s*&\s*w/', 'sw', $text);
+        $text = preg_replace('/sig[ -]*sauer/', 'sig', $text);
+        $text = str_replace('+', ' plus ', $text);
         return preg_replace('/[^a-z0-9]+/', '', $text);
     }
 
     public static function search($request) {
         $query = trim((string) $request->get_param('q'));
         $needle = self::normalize($query);
+        $suggest = ((string) $request->get_param('suggest') === '1');
         if (strlen($needle) < 2) {
             return new WP_REST_Response(array('results' => array()), 200);
         }
@@ -241,7 +255,7 @@ final class PH_Passport_Fit_Search {
             foreach ($matches as $match) {
                 if ($match['exact']) { $has_exact = true; break; }
             }
-            if ($has_exact) {
+            if ($has_exact && !$suggest) {
                 $matches = array_filter($matches, function($match) { return $match['exact']; });
             }
 
@@ -308,11 +322,11 @@ final class PH_Passport_Fit_Search {
             var input=root.querySelector('input'), button=root.querySelector('button'), output=root.querySelector('.ph-fit-search__results');
             var timer;
             function esc(s){return String(s||'').replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
-            function lookup(){
+            function lookup(suggest){
                 var q=input.value.trim();
                 if(q.length<2){output.innerHTML='';return}
                 output.textContent='Searching listed models…';
-                fetch(root.dataset.endpoint+'?q='+encodeURIComponent(q),{credentials:'same-origin'})
+                fetch(root.dataset.endpoint+'?q='+encodeURIComponent(q)+(suggest===true?'&suggest=1':''),{credentials:'same-origin'})
                     .then(function(r){return r.json().then(function(data){if(!r.ok) throw new Error('unavailable');return data})})
                     .then(function(data){
                         var results=data.results||[];
@@ -326,9 +340,9 @@ final class PH_Passport_Fit_Search {
                     })
                     .catch(function(){output.innerHTML='Fit search is temporarily unavailable. <a href="'+root.dataset.chart+'">Use the size chart</a>.'});
             }
-            input.addEventListener('input',function(){clearTimeout(timer);timer=setTimeout(lookup,250)});
-            input.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();lookup()}});
-            button.addEventListener('click',lookup);
+            input.addEventListener('input',function(){clearTimeout(timer);timer=setTimeout(function(){lookup(true)},250)});
+            input.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();lookup(false)}});
+            button.addEventListener('click',function(){lookup(false)});
         })();
         </script>
         <?php

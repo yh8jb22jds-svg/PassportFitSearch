@@ -6,11 +6,11 @@ Search data and a WordPress prototype for the PHolsters size guide. The source o
 
 This repository contains two different kinds of firearm data:
 
-- **Importer master records:** 77 rows in three CSV files: 40 Beretta, 25 Springfield supplement, and 12 popular 9 mm Glock entries. A master row is not automatically a confirmed fit; the WordPress importer shows a size only when `fit_verified` explicitly confirms it.
+- **Importer master records:** 82 rows in four CSV files: 40 Beretta, 25 Springfield supplement, 12 popular 9 mm Glock entries, and five additional popular model/variant identities. A master row is not automatically a confirmed fit; the WordPress importer shows a size only when `fit_verified` explicitly confirms it.
 - **Fit review reports:** exploratory and supporting rows for additional manufacturers. These include proposed sizes and overlapping revisions. They are searchable in the plugin, but are not proof of a chart-confirmed fit.
 - **Search alias files:** customer search phrases linked to firearm IDs. Some manufacturers have aliases without corresponding importer master records.
 
-These counts describe checked-in files as of 2026-10-26. Earlier project notes described a planned 1,811-record database; those records are **not all present as importer-ready, chart-confirmed entries here**. Do not use proposed fits or a barrel-length rule as a product compatibility guarantee.
+These counts describe checked-in files as of 2026-10-28. Earlier project notes described a planned 1,811-record database; those records are **not all present as importer-ready, chart-confirmed entries here**. Do not use proposed fits or a barrel-length rule as a product compatibility guarantee.
 
 ## Glock 9 mm search
 

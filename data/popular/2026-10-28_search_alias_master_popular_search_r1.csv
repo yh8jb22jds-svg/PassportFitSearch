@@ -1,0 +1,31 @@
+alias_id,firearm_id,alias_text,normalized_alias,alias_type,priority,active
+POPULAR-ALS-000001,GLOCK-000074,Glock 19 Gen 5 MOS,glock 19 gen 5 mos,Model Variation,1,1
+POPULAR-ALS-000002,GLOCK-000074,Glock 19 Gen5 MOS,glock 19 gen5 mos,Model Variation,1,1
+POPULAR-ALS-000003,GLOCK-000074,G19 Gen5 MOS,g19 gen5 mos,Model Variation,1,1
+POPULAR-ALS-000004,GLOCK-000074,G19 Gen 5 MOS,g19 gen 5 mos,Model Variation,1,1
+POPULAR-ALS-000005,GLOCK-000074,Glock 19 MOS Gen 5,glock 19 mos gen 5,Model Variation,1,1
+POPULAR-ALS-000006,GLOCK-000074,Glock 19 Gen 5 optics ready,glock 19 gen 5 optics ready,Model Variation,1,1
+POPULAR-ALS-000007,SW-000051,Smith & Wesson Equalizer,smith & wesson equalizer,Model Variation,1,1
+POPULAR-ALS-000008,SW-000051,S&W Equalizer,s&w equalizer,Model Variation,1,1
+POPULAR-ALS-000009,SW-000051,SW Equalizer,sw equalizer,Model Variation,1,1
+POPULAR-ALS-000010,SW-000051,Equalizer,equalizer,Model Variation,1,1
+POPULAR-ALS-000011,SW-000052,Smith & Wesson M&P9 M2.0 Full-Size Optics-Ready,smith & wesson m&p9 m2.0 full-size optics-ready,Model Variation,1,1
+POPULAR-ALS-000012,SW-000052,Smith & Wesson M&P9 M2.0 Full Size Optics Ready,smith & wesson m&p9 m2.0 full size optics ready,Model Variation,1,1
+POPULAR-ALS-000013,SW-000052,S&W M&P9 2.0 Full Size Optics Ready,s&w m&p9 2.0 full size optics ready,Model Variation,1,1
+POPULAR-ALS-000014,SW-000052,M&P9 M2.0 Full Size Optics Ready,m&p9 m2.0 full size optics ready,Model Variation,1,1
+POPULAR-ALS-000015,SW-000052,M&P9 2.0 optics ready,m&p9 2.0 optics ready,Model Variation,1,1
+POPULAR-ALS-000016,SW-000053,Smith & Wesson Model 686 Plus 4 inch,smith & wesson model 686 plus 4 inch,Model Variation,1,1
+POPULAR-ALS-000017,SW-000053,Smith & Wesson 686 Plus 4 inch,smith & wesson 686 plus 4 inch,Model Variation,1,1
+POPULAR-ALS-000018,SW-000053,S&W 686+ 4 inch,s&w 686+ 4 inch,Model Variation,1,1
+POPULAR-ALS-000019,SW-000053,686 Plus 4 inch,686 plus 4 inch,Model Variation,1,1
+POPULAR-ALS-000020,WALTHER-000002,Walther PDP 5 inch,walther pdp 5 inch,Model Variation,1,1
+POPULAR-ALS-000021,WALTHER-000002,Walther PDP Full Size 5 inch,walther pdp full size 5 inch,Model Variation,1,1
+POPULAR-ALS-000022,WALTHER-000002,PDP 5 inch,pdp 5 inch,Model Variation,1,1
+POPULAR-ALS-000023,CANIK-000023,Canik METE SFT One,canik mete sft one,Model Variation,1,1
+POPULAR-ALS-000024,CANIK-000023,METE SFT One,mete sft one,Model Variation,1,1
+POPULAR-ALS-000025,CZ-000033,CZ P-10 C,cz p-10 c,Model Variation,1,1
+POPULAR-ALS-000026,CZ-000033,CZ P10C,cz p10c,Model Variation,1,1
+POPULAR-ALS-000027,SIG-000061,SIG Sauer P365 X-Macro Comp,sig sauer p365 x-macro comp,Model Variation,1,1
+POPULAR-ALS-000028,SIG-000061,Sig P365 XMacro Comp,sig p365 xmacro comp,Model Variation,1,1
+POPULAR-ALS-000029,SIG-000061,P365 X Macro Comp,p365 x macro comp,Model Variation,1,1
+POPULAR-ALS-000030,SIG-000061,P365 XMacro Comp,p365 xmacro comp,Model Variation,1,1

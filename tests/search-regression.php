@@ -22,8 +22,9 @@ class WP_REST_Response {
 }
 class Test_Request {
     private $query;
-    public function __construct($query) { $this->query = $query; }
-    public function get_param($name) { return $this->query; }
+    private $suggest;
+    public function __construct($query, $suggest = false) { $this->query = $query; $this->suggest = $suggest; }
+    public function get_param($name) { return $name === 'q' ? $this->query : ($this->suggest ? '1' : '0'); }
 }
 function wp_remote_get($url, $options) {
     global $root;
@@ -50,8 +51,8 @@ function check($condition, $message) {
     $GLOBALS['checks']++;
     if (!$condition) { throw new Exception($message); }
 }
-function lookup($query) {
-    $response = PH_Passport_Fit_Search::search(new Test_Request($query));
+function lookup($query, $suggest = false) {
+    $response = PH_Passport_Fit_Search::search(new Test_Request($query, $suggest));
     check($response instanceof WP_REST_Response, 'Search failed: ' . $query);
     $results = array();
     foreach ($response->data['results'] as $row) { $results[$row['firearm_id']] = $row; }
@@ -108,6 +109,24 @@ expect_ids('Glock 19 V', array());
 $dataset = get_transient(PH_Passport_Fit_Search::CACHE_KEY);
 foreach (array('GLOCK-000014', 'BOND-000001', 'MR-000001', 'GLOCK-000067') as $id) {
     check($dataset['firearms'][$id]['passport_fit'] === '', 'Unverified fit imported: ' . $id);
+}
+// Suggest while typing without discarding generation choices; submit remains exact.
+$suggestions = lookup('Glock 19', true);
+foreach (array('GLOCK-000011', 'GLOCK-000073', 'GLOCK-000012', 'GLOCK-000014',
+    'GLOCK-000017', 'GLOCK-000018', 'GLOCK-000019', 'GLOCK-000074') as $id) {
+    check(isset($suggestions[$id]), 'Missing generation suggestion: ' . $id);
+}
+foreach (array('Glock 19 Gen 5 MOS', 'glock 19 gen5 mos', 'G19 Gen5 MOS', 'Glock 19 MOS Gen 5') as $query) {
+    $rows = expect_ids($query, array('GLOCK-000074'));
+    check(!$rows['GLOCK-000074']['confirmed'] && $rows['GLOCK-000074']['fit'] === '', 'Combined variant inherited fit');
+}
+foreach (array('Smith & Wesson Equalizer' => 'SW-000051', 'S&W Equalizer' => 'SW-000051',
+    'Smith & Wesson M&P9 M2.0 Full-Size Optics-Ready' => 'SW-000052',
+    'Walther PDP 5 inch' => 'WALTHER-000002', 'Canik METE SFT One' => 'CANIK-000023',
+    'Smith & Wesson Model 686 Plus 4 inch' => 'SW-000053', 'S&W 686+ 4 inch' => 'SW-000053',
+    'CZ P-10 C' => 'CZ-000033', 'SIG Sauer P365 X-Macro Comp' => 'SIG-000061') as $query => $id) {
+    $rows = expect_ids($query, array($id));
+    check(!$rows[$id]['confirmed'] && $rows[$id]['fit'] === '', 'Article listing treated as fit approval');
 }
 // Every explicit alias ID must remain unique after remapping.
 $ids = array();

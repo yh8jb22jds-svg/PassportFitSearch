@@ -1,0 +1,6 @@
+firearm_id,manufacturer_id,display_name,model,variant,caliber,barrel_length,action_type,passport_fit,active,discontinued,fit_verified
+GLOCK-000074,GLOCK-MFG,Glock 19 Gen 5 MOS,19,Gen 5 MOS,,,,,1,0,0
+SW-000051,SW-MFG,Smith & Wesson Equalizer,Equalizer,,,,,,1,0,0
+SW-000052,SW-MFG,Smith & Wesson M&P9 M2.0 Full-Size Optics-Ready,M&P9,M2.0 Full-Size Optics-Ready,,,,,1,0,0
+SW-000053,SW-MFG,Smith & Wesson Model 686 Plus - 4 inch,686 Plus,4 inch,,,,,1,0,0
+SIG-000061,SIG-MFG,SIG Sauer P365 X-Macro Comp,P365,X-Macro Comp,,,,,1,0,0
