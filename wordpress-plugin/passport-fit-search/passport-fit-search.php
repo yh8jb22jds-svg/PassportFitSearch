@@ -2,7 +2,7 @@
 /**
  * Plugin Name: PHolsters Passport Fit Search
  * Description: Searches the PassportFitSearch GitHub database for exact firearm models and chart-confirmed Passport fits.
- * Version: 1.0.3
+ * Version: 1.0.4
  * Author: PHolsters
  * License: GPL-2.0-or-later
  */
@@ -13,7 +13,7 @@ final class PH_Passport_Fit_Search {
     const OWNER = 'yh8jb22jds-svg';
     const REPO = 'PassportFitSearch';
     const BRANCH = 'main';
-    const CACHE_KEY = 'ph_passport_fit_dataset_v3';
+    const CACHE_KEY = 'ph_passport_fit_dataset_v4';
     const CACHE_TTL = DAY_IN_SECONDS;
 
     public static function boot() {
@@ -353,3 +353,23 @@ final class PH_Passport_Fit_Search {
 PH_Passport_Fit_Search::boot();
 register_activation_hook(__FILE__, array('PH_Passport_Fit_Search', 'activate'));
 register_deactivation_hook(__FILE__, array('PH_Passport_Fit_Search', 'deactivate'));
+
+
+/** Route customer comment alerts to the Passport customer-service inbox. */
+final class PH_Passport_Comment_Notifications {
+    const EMAIL = 'passportholsters@gmail.com';
+    public static function boot() {
+        add_filter('comment_notification_recipients', array(__CLASS__, 'recipients'), 100, 2);
+        add_filter('comment_moderation_recipients', array(__CLASS__, 'recipients'), 100, 2);
+        add_action('admin_notices', array(__CLASS__, 'notice'));
+    }
+    public static function recipients($recipients, $comment_id) {
+        return array(self::EMAIL);
+    }
+    public static function notice() {
+        $screen = function_exists('get_current_screen') ? get_current_screen() : null;
+        if (!$screen || $screen->id !== 'options-discussion') { return; }
+        echo '<div class="notice notice-info"><p><strong>Passport comment notifications:</strong> New-comment and moderation alerts are routed to <strong>' . esc_html(self::EMAIL) . '</strong>.</p></div>';
+    }
+}
+PH_Passport_Comment_Notifications::boot();
