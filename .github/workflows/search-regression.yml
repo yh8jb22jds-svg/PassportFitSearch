@@ -12,7 +12,7 @@ jobs:
       - name: Test repository imports and search
         run: php tests/search-regression.php
       - name: Audit size coverage
-        run: php tests/size-coverage-audit.php > passport-size-audit.csv && head -n 10 passport-size-audit.csv && echo 'First 15 missing records:' && sed -n '11,25p' passport-size-audit.csv
+        run: php tests/size-coverage-audit.php > passport-size-audit.csv && head -n 10 passport-size-audit.csv && echo 'First 15 missing records:' && grep 'UNRESOLVED_SAMPLE:' passport-size-audit.csv | head -n 65
       - name: Save complete size audit for correction work
         uses: actions/upload-artifact@v4
         with:
