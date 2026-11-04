@@ -197,7 +197,7 @@ final class PH_Passport_Fit_Search {
             'FN-' => '/^FN (?:309|502|503|509|510|545|Five-seveN|FNS|FNX|FNP|Reflex)\\b/i',
             'RUGER-' => '/^Ruger (?:SR22|SR9|Security-9|MAX-9|LC9|LCP|EC9|Mark IV|American Pistol)\\b/i',
             'KELTEC-' => '/^Kel-Tec (?:PR-|P-|P3AT|PF-|PMR-?|CP33|P17|P11|P15|P32|P50|PLR-)/i',
-            'KIMBER-' => '/^Kimber (?:Next Generation 1911|2K11|1911|Micro|R7|KDS9|Rapide|Custom|Ultra|Pro(?: Carry)?|Desert Warrior|Warrior|Eclipse|Aegis|Stainless|TLE|Covert|Sapphire|Solo|Grand Raptor|Gold Combat|Target|Super Match|Tactical Pro)\\b/i',
+            'KIMBER-' => '/^Kimber (?:Next Generation 1911|2K11|1911|Micro|R7|KDS9|Rapide|Custom|Ultra|Pro(?: Carry)?|Desert Warrior|Warrior|Eclipse|Aegis|Stainless|TLE|Covert|Sapphire|Solo|Grand Raptor|Gold Combat|Gold Match|Target|Super Match|Tactical (?:Pro|Ultra|Entry)|Combat Carry|Compact CDP)\\b/i',
             'RIA-' => '/^Rock Island Armory (?:GI|Rock Ultra|Rock Standard|Rock|TAC|M1911|1911|STK|Baby Rock|RIA 5|XT)\\b/i',
             'WALTHER-' => '/^Walther (?:PDP|PPQ|PPS|P99|P22|PK380|WMP|Q5|Q4|CCP|PD380|PPK|P38)\\b/i',
             'SPRINGFIELD-' => '/^Springfield (?:Echelon|1911|Hellcat|XD|XDM|XD-M|XDS|XD-S|SA-35|EMP|Prodigy)\\b/i',
