@@ -82,7 +82,7 @@ check($g17['GLOCK-000001']['size_source'] === 'confirmed' && $g17['GLOCK-000001'
 $unknown = lookup('Desert Eagle');
 check($unknown['MR-000001']['size_source'] === 'needs_data', 'Unknown fit must not be mislabeled as verified');
 $wmp = lookup('Walther WMP');
-check(isset($wmp['USER-WALTHER-WMP']) && $wmp['USER-WALTHER-WMP']['fit'] === 'A4' && $wmp['USER-WALTHER-WMP']['confirmed'], 'Walther WMP approved A4 fit');
+check(isset($wmp['USER-WALTHER-WMP']) && $wmp['USER-WALTHER-WMP']['fit'] === 'A4' && $wmp['USER-WALTHER-WMP']['confirmed'], 'Walther WMP approved A4 fit: ' . json_encode($wmp));
 $boomer = lookup('Charter Arms Boomer');
 check(isset($boomer['USER-CHARTER-BOOMER44']) && $boomer['USER-CHARTER-BOOMER44']['fit'] === 'R2' && $boomer['USER-CHARTER-BOOMER44']['confirmed'], 'Charter Boomer approved R2 fit');
 $p365 = lookup('SIG Sauer P365-FUSE');
