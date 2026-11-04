@@ -210,7 +210,7 @@ final class PH_Passport_Fit_Search {
         // revolver frame-specific exceptions need additional specifications.
         if (in_array($type, array('semi-auto', 'semi-automatic', 'semi automatic'), true)) {
             if ($inches >= 5.0 && $inches <= 6.0) { return 'A5'; }
-            if ($inches >= 4.0 && $inches < 5.0) { return 'A4'; }
+            if ($inches >= 4.0 && $inches <= 4.5) { return 'A4'; }
             if ($inches >= 3.5 && $inches < 4.0) { return 'A3'; }
             if ($inches >= 3.0 && $inches < 3.5) {
                 // Polymer subcompacts require A2.5; do not assume A2.
@@ -223,8 +223,8 @@ final class PH_Passport_Fit_Search {
             }
         }
         if (in_array($type, array('revolver', 'double-action revolver', 'single-action revolver'), true)) {
-            if ($inches >= 7.5 && $inches <= 8.5) { return 'R8'; }
-            if ($inches >= 5.5 && $inches <= 6.5) { return 'R6'; }
+            if ($inches >= 7.75 && $inches <= 8.25) { return 'R8'; }
+            if ($inches >= 5.75 && $inches <= 6.25) { return 'R6'; }
             if ($inches >= 3.75 && $inches <= 4.25) { return 'R4'; }
             // Short-barrel revolvers need frame size / shot count to distinguish R2/R2.5/R3.
         }
