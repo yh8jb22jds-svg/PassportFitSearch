@@ -69,6 +69,11 @@ function expect_ids($query, $ids) {
 check(PH_Passport_Fit_Search::refresh_dataset(), 'Importer failed');
 $g34 = lookup('Glock 34');
 check(isset($g34['GLOCK-000026']) && $g34['GLOCK-000026']['fit'] === 'A5' && $g34['GLOCK-000026']['suggested'] && !$g34['GLOCK-000026']['confirmed'], 'Glock 34 must suggest A5 from 5.31 inch barrel');
+check($g34['GLOCK-000026']['size_source'] === 'barrel_estimate', 'Calculated fit must be labeled an estimate');
+$g17 = lookup('Glock 17');
+check($g17['GLOCK-000001']['size_source'] === 'confirmed' && $g17['GLOCK-000001']['fit'] === 'A4', 'Confirmed fit must take priority');
+$unknown = lookup('Desert Eagle');
+check($unknown['MR-000001']['size_source'] === 'needs_data', 'Unknown fit must not be mislabeled as verified');
 $family_ids = array('GLOCK-000001', 'GLOCK-000011', 'GLOCK-000021', 'GLOCK-000026',
     'GLOCK-000066', 'GLOCK-000067', 'GLOCK-000068', 'GLOCK-000069', 'GLOCK-000070',
     'GLOCK-000071', 'GLOCK-000072', 'GLOCK-000073');
