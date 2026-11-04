@@ -246,8 +246,12 @@ final class PH_Passport_Fit_Search {
             if ($inches >= 7.75 && $inches <= 8.25) { return 'R8'; }
             if ($inches >= 5.75 && $inches <= 6.25) { return 'R6'; }
             if ($inches >= 3.75 && $inches <= 4.25) { return 'R4'; }
-            // Short-barrel revolvers need frame size / shot count to distinguish R2/R2.5/R3.
+            // Without frame/shot-count data, show both plausible families rather than guess.
+            if ($inches >= 2.5 && $inches <= 3.0) { return 'R2.5 / R3'; }
+            if ($inches >= 2.0 && $inches < 2.5) { return 'R2 / R3'; }
         }
+        // Derringers and Desert Eagles are classified by model, not barrel alone.
+        // Never guess these special sizes from an unrelated firearm's length.
         return '';
     }
 
