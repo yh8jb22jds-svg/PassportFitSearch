@@ -179,6 +179,16 @@ final class PH_Passport_Fit_Search {
                 $aliases_by_id[$id][] = $term;
             }
         }
+        // Canik TP9, METE, SFx, TTI Combat and Prime are semi-automatic pistol
+        // families. Apply only to these explicitly named families, not all Canik products.
+        foreach ($firearms as $id => &$firearm) {
+            if (strpos($id, 'CANIK-') === 0 &&
+                empty($firearm['action_type']) &&
+                preg_match('/^Canik (?:TP9|METE|SFx|TTI Combat|Prime)\\b/i', $firearm['display_name'])) {
+                $firearm['action_type'] = 'Semi-Auto';
+            }
+        }
+        unset($firearm);
         foreach ($firearms as $id => &$firearm) {
             $confirmed = trim($firearm['passport_fit']) !== '';
             $firearm['aliases'] = isset($aliases_by_id[$id]) ? $aliases_by_id[$id] : array();
