@@ -103,6 +103,9 @@ final class PH_Passport_Fit_Search {
         }
 
         $aliases = array();
+        foreach ($firearms as $id => $firearm) {
+            $aliases[] = array('firearm_id' => $id, 'alias_text' => $firearm['display_name'], 'normalized_alias' => $firearm['display_name'], 'priority' => 1);
+        }
         foreach ($review_paths as $path) {
             $csv = self::http_get('https://raw.githubusercontent.com/' . self::OWNER . '/' . self::REPO . '/' . self::BRANCH . '/' . implode('/', array_map('rawurlencode', explode('/', $path))));
             if (!$csv) { continue; }
