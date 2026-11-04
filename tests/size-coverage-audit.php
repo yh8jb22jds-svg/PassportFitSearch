@@ -40,6 +40,17 @@ foreach ($missing_reasons as $reason => $count) { echo $reason . ': ' . $count .
 echo 'Missing records by manufacturer (descending):' . PHP_EOL;
 uasort($missing_by_manufacturer, function($a, $b) { return array_sum($b) <=> array_sum($a); });
 foreach ($missing_by_manufacturer as $maker => $reasons) { echo $maker . ': ' . array_sum($reasons) . ' (type ' . $reasons['no_action_type'] . ', rule ' . $reasons['length_present_rule_gap'] . ', barrel ' . $reasons['no_barrel_length'] . ')' . PHP_EOL; }
+// Small, actionable diagnostic sample in CI logs; the full unresolved list
+// remains in the downloadable CSV artifact.
+echo 'Unresolved examples by manufacturer (first 8 each):' . PHP_EOL;
+$examples_by_maker = array();
+foreach ($missing as $row) {
+    $maker = explode('-', $row[0])[0];
+    if (!isset($examples_by_maker[$maker])) { $examples_by_maker[$maker] = 0; }
+    if ($examples_by_maker[$maker] >= 8) { continue; }
+    echo 'UNRESOLVED_SAMPLE: ' . implode(' | ', $row) . PHP_EOL;
+    $examples_by_maker[$maker]++;
+}
 echo 'firearm_id,gun_name,barrel_length,action_type,caliber' . PHP_EOL;
 foreach ($missing as $row) {
     echo implode(',', array_map(function($v) { return '"' . str_replace('"', '""', (string) $v) . '"'; }, $row)) . PHP_EOL;
