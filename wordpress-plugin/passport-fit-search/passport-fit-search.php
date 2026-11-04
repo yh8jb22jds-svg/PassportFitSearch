@@ -203,6 +203,8 @@ final class PH_Passport_Fit_Search {
             'SPRINGFIELD-' => '/^Springfield (?:Echelon|1911|Hellcat|XD|XDM|XD-M|XDS|XD-S|SA-35|EMP|Prodigy)\\b/i',
             'HK-' => '/^H&K (?:USP|VP9|VP40|P30|P2000|HK45|Mark 23|P7|CC9|SFP9)\\b/i',
             'COLT-' => '/^Colt (?:M1911|M1911A1|Government Model|Commander|Defender|Gold Cup|Delta Elite|Mustang|New Agent)\\b/i',
+            'TAURUS-' => '/^Taurus (?:G2|G3|GX4|TX22|TH9|TH40|PT92|PT99|PT111|PT140|PT145|PT1911|1911|Spectrum|Curve)\\b/i',
+            'SW-' => '/^(?:Smith & Wesson|S&W) (?:M&P|Shield|Equalizer|CSX|Bodyguard|SD9|SD40|SW9|SW40|Sigma|Victory|SW1911|1911)\\b/i',
             'SIG-' => '/^SIG Sauer (?:P365|P320|P226|P229|P220|P227|P238|P938|P210|P239|P250|P2022|P224)\\b/i',
         );
         foreach ($firearms as $id => &$firearm) {
