@@ -77,7 +77,7 @@ foreach (array('Glock 9', 'Glock 9mm', '9mm Glock') as $query) {
     $verified = array('GLOCK-000001' => 'A4', 'GLOCK-000011' => 'A3',
         'GLOCK-000021' => 'A2.5', 'GLOCK-000073' => 'A4');
     foreach ($rows as $id => $row) {
-        $expected = $verified[$id] ?? ($id === 'GLOCK-000026' ? 'A5' : '');
+        $expected = $verified[$id] ?? ($id === 'GLOCK-000026' ? 'A5' : (in_array($id, array('GLOCK-000066', 'GLOCK-000068'), true) ? 'A2 / A2.5' : (in_array($id, array('GLOCK-000067', 'GLOCK-000071'), true) ? 'A4' : (in_array($id, array('GLOCK-000069', 'GLOCK-000070', 'GLOCK-000072'), true) ? 'A4' : ''))));
         check($row['fit'] === $expected, 'Wrong fit: ' . $id);
         check($row['confirmed'] === isset($verified[$id]), 'Wrong confirmation: ' . $id);
     }
