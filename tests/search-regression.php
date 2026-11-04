@@ -88,6 +88,11 @@ $macro_comp = expect_ids('SIG Sauer P365 X-Macro Comp', array('SIG-000061'));
 check($macro_comp['SIG-000061']['barrel_length'] === '3.1' && !$macro_comp['SIG-000061']['confirmed'], 'SIG P365 XMACRO Comp must have one unverified 3.1 inch record');
 $boomer = lookup('Charter Arms Boomer');
 check(isset($boomer['USER-CHARTER-BOOMER44']) && $boomer['USER-CHARTER-BOOMER44']['fit'] === 'R2' && $boomer['USER-CHARTER-BOOMER44']['confirmed'], 'Charter Boomer approved R2 fit');
+// Unconfirmed fit is not the same as unavailable: manufacturer-length estimates must be shown.
+$macro = lookup('SIG Sauer P365 X-Macro Comp');
+check(isset($macro['SIG-000061']) && $macro['SIG-000061']['fit'] !== '' && $macro['SIG-000061']['suggested'] && !$macro['SIG-000061']['confirmed'], 'P365 XMACRO Comp must show a provisional size');
+$fuse = lookup('SIG Sauer P365-FUSE');
+check(isset($fuse['USER-SIG-P365-FUSE']) && $fuse['USER-SIG-P365-FUSE']['fit'] !== '' && $fuse['USER-SIG-P365-FUSE']['suggested'], 'P365 FUSE must show a barrel-based recommendation');
 $p365 = lookup('SIG Sauer P365-FUSE');
 check(isset($p365['USER-SIG-P365-FUSE']) && $p365['USER-SIG-P365-FUSE']['barrel_length'] === '4.3', 'P365 FUSE barrel must be 4.3 inches');
 $family_ids = array('GLOCK-000001', 'GLOCK-000011', 'GLOCK-000021', 'GLOCK-000026',
