@@ -155,6 +155,27 @@ final class PH_Passport_Fit_Search {
         }
 
         if (!$firearms) { return false; }
+        // One master record per firearm: name, aliases, barrel length and size.
+        // Keep the provenance of chart-confirmed fits distinct from estimates.
+        $aliases_by_id = array();
+        foreach ($aliases as $alias) {
+            $id = $alias['firearm_id'];
+            if (!isset($firearms[$id])) { continue; }
+            if (!isset($aliases_by_id[$id])) { $aliases_by_id[$id] = array(); }
+            $term = trim((string) $alias['alias_text']);
+            if ($term !== '' && !in_array($term, $aliases_by_id[$id], true)) {
+                $aliases_by_id[$id][] = $term;
+            }
+        }
+        foreach ($firearms as $id => &$firearm) {
+            $confirmed = trim($firearm['passport_fit']) !== '';
+            $firearm['aliases'] = isset($aliases_by_id[$id]) ? $aliases_by_id[$id] : array();
+            $firearm['recommended_size'] = $confirmed
+                ? trim($firearm['passport_fit']) : self::suggested_fit($firearm);
+            $firearm['size_source'] = $confirmed ? 'confirmed' :
+                ($firearm['recommended_size'] !== '' ? 'barrel_estimate' : 'needs_data');
+        }
+        unset($firearm);
         $dataset = array('firearms' => $firearms, 'aliases' => $aliases, 'refreshed_at' => gmdate('c'));
         set_transient(self::CACHE_KEY, $dataset, self::CACHE_TTL);
         return true;
@@ -315,7 +336,7 @@ final class PH_Passport_Fit_Search {
         foreach (array_slice($matches, 0, 25, true) as $match) {
             $firearm = $match['firearm'];
             $confirmed_fit = trim($firearm['passport_fit']);
-            $fit = $confirmed_fit !== '' ? $confirmed_fit : self::suggested_fit($firearm);
+            $fit = isset($firearm['recommended_size']) ? $firearm['recommended_size'] : $confirmed_fit;
             $variant = trim($firearm['variant']);
             $results[] = array(
                 'firearm_id' => $firearm['firearm_id'],
@@ -324,7 +345,8 @@ final class PH_Passport_Fit_Search {
                 'fit' => $fit,
                 'confirmed' => ($confirmed_fit !== ''),
                 'suggested' => ($fit !== '' && $confirmed_fit === ''),
-                'barrel_length' => isset($firearm['barrel_length']) ? $firearm['barrel_length'] : ''
+                'barrel_length' => isset($firearm['barrel_length']) ? $firearm['barrel_length'] : '',
+                'size_source' => isset($firearm['size_source']) ? $firearm['size_source'] : 'needs_data'
             );
         }
         return new WP_REST_Response(array('results' => $results, 'refreshed_at' => $dataset['refreshed_at']), 200);
