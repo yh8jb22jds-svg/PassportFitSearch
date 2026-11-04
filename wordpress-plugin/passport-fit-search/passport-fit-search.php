@@ -189,6 +189,25 @@ final class PH_Passport_Fit_Search {
             }
         }
         unset($firearm);
+        // Classify only explicitly identifiable semi-auto pistol model families.
+        // Brand-wide assumptions are unsafe: several manufacturers also make revolvers.
+        $semi_auto_families = array(
+            'GLOCK-' => '/^Glock (?:[0-9]{2,3})(?:\\b|X\\b)/i',
+            'CZ-' => '/^CZ (?:P-10|P-07|P-09|P-01|P-06|P-10|75|Shadow|SP-01|TS 2)\\b/i',
+            'FN-' => '/^FN (?:502|503|509|510|545|Five-seveN|FNS|FNX|FNP|Reflex)\\b/i',
+            'RUGER-' => '/^Ruger (?:SR22|SR9|Security-9|MAX-9|LC9|LCP|EC9|Mark IV|American Pistol)\\b/i',
+            'SIG-' => '/^SIG Sauer (?:P365|P320|P226|P229|P220|P227|P238|P938|P210|P239|P250|P2022|P224)\\b/i',
+        );
+        foreach ($firearms as $id => &$firearm) {
+            if (!empty($firearm['action_type'])) { continue; }
+            foreach ($semi_auto_families as $prefix => $pattern) {
+                if (strpos($id, $prefix) === 0 && preg_match($pattern, $firearm['display_name'])) {
+                    $firearm['action_type'] = 'Semi-Auto';
+                    break;
+                }
+            }
+        }
+        unset($firearm);
         foreach ($firearms as $id => &$firearm) {
             $confirmed = trim($firearm['passport_fit']) !== '';
             $firearm['aliases'] = isset($aliases_by_id[$id]) ? $aliases_by_id[$id] : array();
