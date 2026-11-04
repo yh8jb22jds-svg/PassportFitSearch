@@ -67,6 +67,10 @@ function expect_ids($query, $ids) {
     return $results;
 }
 check(PH_Passport_Fit_Search::refresh_dataset(), 'Importer failed');
+foreach (array('Glock 19', 'glock 19', 'GLOCK 19', 'GlOcK 19') as $case_query) {
+    $case_results = lookup($case_query);
+    check(array_keys($case_results) === array_keys(lookup('Glock 19')), 'Case-insensitive search failed: ' . $case_query);
+}
 $g34 = lookup('Glock 34');
 check(isset($g34['GLOCK-000026']) && $g34['GLOCK-000026']['fit'] === 'A5' && $g34['GLOCK-000026']['suggested'] && !$g34['GLOCK-000026']['confirmed'], 'Glock 34 must suggest A5 from 5.31 inch barrel');
 check($g34['GLOCK-000026']['size_source'] === 'barrel_estimate', 'Calculated fit must be labeled an estimate');
