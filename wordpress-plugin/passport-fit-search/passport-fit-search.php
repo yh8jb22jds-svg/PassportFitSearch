@@ -97,7 +97,6 @@ final class PH_Passport_Fit_Search {
                     'caliber' => isset($row['caliber']) ? $row['caliber'] : '',
                     'barrel_length' => isset($row['barrel_length']) ? $row['barrel_length'] : '',
                     'action_type' => isset($row['action_type']) ? $row['action_type'] : '',
-                    'caliber' => isset($row['caliber']) ? $row['caliber'] : '',
                     'passport_fit' => (isset($row['fit_verified']) && in_array(strtolower($row['fit_verified']), array('1', 'yes', 'true', 'chart'), true)) ? (isset($row['passport_fit']) ? $row['passport_fit'] : '') : ''
                 );
             }
