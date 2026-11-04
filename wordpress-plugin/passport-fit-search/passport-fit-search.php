@@ -89,6 +89,9 @@ final class PH_Passport_Fit_Search {
             if (!$csv) { continue; }
             foreach (self::parse_csv($csv) as $row) {
                 if (empty($row['firearm_id']) || empty($row['display_name'])) { continue; }
+                // Keep a chart/customer-confirmed record when another source repeats its ID.
+                $incoming_verified = isset($row['fit_verified']) && in_array(strtolower($row['fit_verified']), array('1', 'yes', 'true', 'chart'), true) && !empty($row['passport_fit']);
+                if (isset($firearms[$row['firearm_id']]) && !empty($firearms[$row['firearm_id']]['passport_fit']) && !$incoming_verified) { continue; }
                 $firearms[$row['firearm_id']] = array(
                     'firearm_id' => $row['firearm_id'],
                     'display_name' => $row['display_name'],
