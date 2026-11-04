@@ -7,6 +7,7 @@ $root = dirname(__DIR__);
 $cache = array();
 function add_shortcode(...$args) {}
 function add_action(...$args) {}
+function add_filter(...$args) {}
 function register_activation_hook(...$args) {}
 function register_deactivation_hook(...$args) {}
 function remove_accents($value) { return $value; }
