@@ -213,8 +213,8 @@ final class PH_Passport_Fit_Search {
             if ($inches >= 4.0 && $inches <= 4.5) { return 'A4'; }
             if ($inches >= 3.5 && $inches < 4.0) { return 'A3'; }
             if ($inches >= 3.0 && $inches < 3.5) {
-                // Polymer subcompacts require A2.5; do not assume A2.
-                return '';
+                // Compact/subcompact distinction cannot be inferred from length alone.
+                return 'A2 / A2.5';
             }
             if ($inches >= 2.0 && $inches < 3.0) {
                 // A1 is specifically for small .22/.25 autos.
@@ -374,7 +374,7 @@ final class PH_Passport_Fit_Search {
                             var fit=item.confirmed
                                 ? '<div class="ph-fit-search__fit"><strong>Passport fit: '+esc(item.fit)+'</strong>'+(item.variant?' <span class="ph-fit-search__muted">('+esc(item.variant)+')</span>':'')+'</div>'
                                 : item.suggested
-                                ? '<div class="ph-fit-search__fit"><strong>Based on the '+esc(item.barrel_length)+'″ barrel length, your recommended Passport Holsters size is '+esc(item.fit)+'.</strong> <span class="ph-fit-search__muted">Barrel-length estimate; confirm firearm configuration and product fit.</span></div>'
+                                ? '<div class="ph-fit-search__fit"><strong>'+(item.fit==='A2 / A2.5'?'Possible sizes: A2 — Compact; A2.5 — Subcompact. Choose the size matching your firearm.':'Based on the '+esc(item.barrel_length)+'″ barrel length, your recommended Passport Holsters size is '+esc(item.fit)+'.')+'</strong> <span class="ph-fit-search__muted">Barrel-length estimate; confirm firearm configuration and product fit.</span></div>'
                                 : '<div class="ph-fit-search__fit ph-fit-search__muted">No barrel-length recommendation is available for this model. <a href="'+root.dataset.chart+'">Check the size chart</a>.</div>';
                             return '<div class="ph-fit-search__item"><div class="ph-fit-search__title">'+esc(item.name)+'</div>'+fit+'</div>';
                         }).join('');
