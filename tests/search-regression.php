@@ -66,6 +66,8 @@ function expect_ids($query, $ids) {
     return $results;
 }
 check(PH_Passport_Fit_Search::refresh_dataset(), 'Importer failed');
+$g34 = lookup('Glock 34');
+check(isset($g34['GLOCK-000026']) && $g34['GLOCK-000026']['fit'] === 'A5' && $g34['GLOCK-000026']['suggested'] && !$g34['GLOCK-000026']['confirmed'], 'Glock 34 must suggest A5 from 5.31 inch barrel');
 $family_ids = array('GLOCK-000001', 'GLOCK-000011', 'GLOCK-000021', 'GLOCK-000026',
     'GLOCK-000066', 'GLOCK-000067', 'GLOCK-000068', 'GLOCK-000069', 'GLOCK-000070',
     'GLOCK-000071', 'GLOCK-000072', 'GLOCK-000073');
@@ -74,7 +76,8 @@ foreach (array('Glock 9', 'Glock 9mm', '9mm Glock') as $query) {
     $verified = array('GLOCK-000001' => 'A4', 'GLOCK-000011' => 'A3',
         'GLOCK-000021' => 'A2.5', 'GLOCK-000073' => 'A4');
     foreach ($rows as $id => $row) {
-        check($row['fit'] === ($verified[$id] ?? ''), 'Wrong fit: ' . $id);
+        $expected = $verified[$id] ?? ($id === 'GLOCK-000026' ? 'A5' : '');
+        check($row['fit'] === $expected, 'Wrong fit: ' . $id);
         check($row['confirmed'] === isset($verified[$id]), 'Wrong confirmation: ' . $id);
     }
 }
@@ -101,11 +104,11 @@ foreach (array('Glock 19 Gen 3' => 'GLOCK-000014', 'Glock 19 Gen 5' => 'GLOCK-00
     'G19 MOS' => 'GLOCK-000019', 'Glock 17 Gen 5' => 'GLOCK-000009',
     'Glock 17 MOS' => 'GLOCK-000010') as $query => $id) {
     $rows = expect_ids($query, array($id));
-    check($rows[$id]['fit'] === '' && !$rows[$id]['confirmed'], 'Variant inherited generic approval');
+    check(!$rows[$id]['confirmed'], 'Variant inherited generic approval');
 }
 expect_ids('Glock 19 Gen 6', array());
 expect_ids('Glock 19 V', array());
-// Neither master rows lacking verification nor proposed review fits may become confirmed.
+// Suggested fits may be present, but unverified master rows never become confirmed.
 $dataset = get_transient(PH_Passport_Fit_Search::CACHE_KEY);
 foreach (array('GLOCK-000014', 'BOND-000001', 'MR-000001', 'GLOCK-000067') as $id) {
     check($dataset['firearms'][$id]['passport_fit'] === '', 'Unverified fit imported: ' . $id);
@@ -126,7 +129,7 @@ foreach (array('Smith & Wesson Equalizer' => 'SW-000051', 'S&W Equalizer' => 'SW
     'Smith & Wesson Model 686 Plus 4 inch' => 'SW-000053', 'S&W 686+ 4 inch' => 'SW-000053',
     'CZ P-10 C' => 'CZ-000033', 'SIG Sauer P365 X-Macro Comp' => 'SIG-000061') as $query => $id) {
     $rows = expect_ids($query, array($id));
-    check(!$rows[$id]['confirmed'] && $rows[$id]['fit'] === '', 'Article listing treated as fit approval');
+    check(!$rows[$id]['confirmed'], 'Article listing treated as confirmed fit');
 }
 // Every explicit alias ID must remain unique after remapping.
 $ids = array();
