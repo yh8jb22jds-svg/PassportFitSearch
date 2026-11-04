@@ -347,9 +347,6 @@ final class PH_Passport_Fit_Search {
                 'variant' => $variant,
                 'fit' => $fit,
                 'fits' => $fit === '' ? array() : array_map('trim', explode('/', $fit)),
-                'size_links' => $fit === '' ? array() : array_map(function($size) {
-                    return 'https://pholsters.com/size-chart/?size=' . rawurlencode(trim($size));
-                }, explode('/', $fit)),
                 'confirmed' => ($confirmed_fit !== ''),
                 'suggested' => ($fit !== '' && $confirmed_fit === ''),
                 'barrel_length' => isset($firearm['barrel_length']) ? $firearm['barrel_length'] : '',
@@ -405,11 +402,7 @@ final class PH_Passport_Fit_Search {
                                 : item.suggested
                                 ? '<div class="ph-fit-search__fit"><strong>'+(item.fits && item.fits.length>1?'Possible sizes: '+(item.fit==='A2 / A2.5'?'A2 — Compact; A2.5 — Subcompact':esc(item.fits.join(' or ')))+'. Choose based on your firearm configuration.':'Based on the '+esc(item.barrel_length)+'″ barrel length, your recommended Passport Holsters size is '+esc(item.fit)+'.')+'</strong> <span class="ph-fit-search__muted">Barrel-length estimate; confirm firearm configuration and product fit.</span></div>'
                                 : '<div class="ph-fit-search__fit ph-fit-search__muted">No barrel-length recommendation is available for this model. <a href="'+root.dataset.chart+'">Check the size chart</a>.</div>';
-                            var links=(item.fits||[]).map(function(size,i){
-                                var url=(item.size_links||[])[i];
-                                return url?'<a href="'+esc(url)+'">Shop size '+esc(size)+'</a>':'';
-                            }).filter(Boolean).join(' &nbsp; · &nbsp; ');
-                            return '<div class="ph-fit-search__item"><div class="ph-fit-search__title">'+esc(item.name)+'</div>'+fit+(links?'<div class="ph-fit-search__fit">'+links+'</div>':'')+'</div>';
+                            return '<div class="ph-fit-search__item"><div class="ph-fit-search__title">'+esc(item.name)+'</div>'+fit+'</div>';
                         }).join('');
                     })
                     .catch(function(){output.innerHTML='Fit search is temporarily unavailable. <a href="'+root.dataset.chart+'">Use the size chart</a>.'});
