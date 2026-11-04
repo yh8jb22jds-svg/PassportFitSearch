@@ -7,8 +7,12 @@ ob_end_clean();
 $dataset = get_transient(PH_Passport_Fit_Search::CACHE_KEY);
 $counts = array('confirmed' => 0, 'barrel_estimate' => 0, 'needs_data' => 0);
 $missing = array();
+$threaded_records = array();
 $missing_reasons = array('no_barrel_length' => 0, 'no_action_type' => 0, 'length_present_rule_gap' => 0);
 foreach ($dataset['firearms'] as $id => $row) {
+    if (preg_match('/\\b(threaded|threaded barrel|suppressor ready|suppressor-ready)\\b/i', ($row['display_name'] ?? '') . ' ' . ($row['variant'] ?? ''))) {
+        $threaded_records[] = array($id, $row['display_name'], $row['barrel_length'] ?? '', $row['recommended_size'] ?? '');
+    }
     $source = $row['size_source'];
     $counts[$source] = ($counts[$source] ?? 0) + 1;
     if ($row['recommended_size'] === '') {
@@ -24,6 +28,8 @@ foreach ($dataset['firearms'] as $id => $row) {
     }
 }
 echo 'Imported firearms: ' . count($dataset['firearms']) . PHP_EOL;
+echo 'Explicit threaded/suppressor-ready variants: ' . count($threaded_records) . PHP_EOL;
+foreach ($threaded_records as $item) { echo 'THREADED_VARIANT: ' . implode(' | ', $item) . PHP_EOL; }
 foreach ($counts as $source => $count) { echo $source . ': ' . $count . PHP_EOL; }
 echo 'Needs manufacturer barrel/type or chart lookup: ' . count($missing) . PHP_EOL;
 foreach ($missing_reasons as $reason => $count) { echo $reason . ': ' . $count . PHP_EOL; }
