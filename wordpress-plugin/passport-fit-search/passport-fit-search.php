@@ -97,6 +97,7 @@ final class PH_Passport_Fit_Search {
                     'caliber' => isset($row['caliber']) ? $row['caliber'] : '',
                     'barrel_length' => isset($row['barrel_length']) ? $row['barrel_length'] : '',
                     'action_type' => isset($row['action_type']) ? $row['action_type'] : '',
+                    'caliber' => isset($row['caliber']) ? $row['caliber'] : '',
                     'passport_fit' => (isset($row['fit_verified']) && in_array(strtolower($row['fit_verified']), array('1', 'yes', 'true', 'chart'), true)) ? (isset($row['passport_fit']) ? $row['passport_fit'] : '') : ''
                 );
             }
@@ -204,10 +205,29 @@ final class PH_Passport_Fit_Search {
         $type = isset($firearm['action_type']) ? strtolower(trim((string) $firearm['action_type'])) : '';
         if (!preg_match('/^[0-9]+(?:\\.[0-9]+)?$/', $length)) { return ''; }
         $inches = (float) $length;
-        // A5: most large semi-automatics with 5–6 inch barrels.
-        // The result is a barrel-length-based recommendation, NOT a tested fit.
-        if (in_array($type, array('semi-auto', 'semi-automatic', 'semi automatic'), true)
-            && $inches >= 5.0 && $inches <= 6.0) { return 'A5'; }
+        // Chart-derived suggestions; confirmed model fits always take precedence.
+        // At overlapping endpoints, prefer the larger size. A2/A2.5 and
+        // revolver frame-specific exceptions need additional specifications.
+        if (in_array($type, array('semi-auto', 'semi-automatic', 'semi automatic'), true)) {
+            if ($inches >= 5.0 && $inches <= 6.0) { return 'A5'; }
+            if ($inches >= 4.0 && $inches < 5.0) { return 'A4'; }
+            if ($inches >= 3.5 && $inches < 4.0) { return 'A3'; }
+            if ($inches >= 3.0 && $inches < 3.5) {
+                // Polymer subcompacts require A2.5; do not assume A2.
+                return '';
+            }
+            if ($inches >= 2.0 && $inches < 3.0) {
+                // A1 is specifically for small .22/.25 autos.
+                $caliber = isset($firearm['caliber']) ? strtolower(trim((string) $firearm['caliber'])) : '';
+                if (preg_match('/(?:^|[^0-9])\\.?(?:22|25)(?:[^0-9]|$)/', $caliber)) { return 'A1'; }
+            }
+        }
+        if (in_array($type, array('revolver', 'double-action revolver', 'single-action revolver'), true)) {
+            if ($inches >= 7.5 && $inches <= 8.5) { return 'R8'; }
+            if ($inches >= 5.5 && $inches <= 6.5) { return 'R6'; }
+            if ($inches >= 3.75 && $inches <= 4.25) { return 'R4'; }
+            // Short-barrel revolvers need frame size / shot count to distinguish R2/R2.5/R3.
+        }
         return '';
     }
 
