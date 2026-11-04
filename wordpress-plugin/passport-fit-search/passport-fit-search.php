@@ -346,6 +346,7 @@ final class PH_Passport_Fit_Search {
                 'name' => $firearm['display_name'],
                 'variant' => $variant,
                 'fit' => $fit,
+                'fits' => $fit === '' ? array() : array_map('trim', explode('/', $fit)),
                 'confirmed' => ($confirmed_fit !== ''),
                 'suggested' => ($fit !== '' && $confirmed_fit === ''),
                 'barrel_length' => isset($firearm['barrel_length']) ? $firearm['barrel_length'] : '',
@@ -399,7 +400,7 @@ final class PH_Passport_Fit_Search {
                             var fit=item.confirmed
                                 ? '<div class="ph-fit-search__fit"><strong>Passport fit: '+esc(item.fit)+'</strong>'+(item.variant?' <span class="ph-fit-search__muted">('+esc(item.variant)+')</span>':'')+'</div>'
                                 : item.suggested
-                                ? '<div class="ph-fit-search__fit"><strong>'+(item.fit==='A2 / A2.5'?'Possible sizes: A2 — Compact; A2.5 — Subcompact. Choose the size matching your firearm.':'Based on the '+esc(item.barrel_length)+'″ barrel length, your recommended Passport Holsters size is '+esc(item.fit)+'.')+'</strong> <span class="ph-fit-search__muted">Barrel-length estimate; confirm firearm configuration and product fit.</span></div>'
+                                ? '<div class="ph-fit-search__fit"><strong>'+(item.fits && item.fits.length>1?'Possible sizes: '+(item.fit==='A2 / A2.5'?'A2 — Compact; A2.5 — Subcompact':esc(item.fits.join(' or ')))+'. Choose based on your firearm configuration.':'Based on the '+esc(item.barrel_length)+'″ barrel length, your recommended Passport Holsters size is '+esc(item.fit)+'.')+'</strong> <span class="ph-fit-search__muted">Barrel-length estimate; confirm firearm configuration and product fit.</span></div>'
                                 : '<div class="ph-fit-search__fit ph-fit-search__muted">No barrel-length recommendation is available for this model. <a href="'+root.dataset.chart+'">Check the size chart</a>.</div>';
                             return '<div class="ph-fit-search__item"><div class="ph-fit-search__title">'+esc(item.name)+'</div>'+fit+'</div>';
                         }).join('');
