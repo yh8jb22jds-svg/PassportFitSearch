@@ -13,7 +13,7 @@ final class PH_Passport_Fit_Search {
     const OWNER = 'yh8jb22jds-svg';
     const REPO = 'PassportFitSearch';
     const BRANCH = 'main';
-    const CACHE_KEY = 'ph_passport_fit_dataset_v4';
+    const CACHE_KEY = 'ph_passport_fit_dataset_v5';
     const CACHE_TTL = DAY_IN_SECONDS;
 
     public static function boot() {
@@ -96,6 +96,7 @@ final class PH_Passport_Fit_Search {
                     'variant' => isset($row['variant']) ? $row['variant'] : '',
                     'caliber' => isset($row['caliber']) ? $row['caliber'] : '',
                     'barrel_length' => isset($row['barrel_length']) ? $row['barrel_length'] : '',
+                    'action_type' => isset($row['action_type']) ? $row['action_type'] : '',
                     'passport_fit' => (isset($row['fit_verified']) && in_array(strtolower($row['fit_verified']), array('1', 'yes', 'true', 'chart'), true)) ? (isset($row['passport_fit']) ? $row['passport_fit'] : '') : ''
                 );
             }
@@ -195,6 +196,21 @@ final class PH_Passport_Fit_Search {
         return preg_replace('/[^a-z0-9]+/', '', $text);
     }
 
+    // Suggested sizes are separate from confirmed chart fits. Never overwrite approved fits.
+    // Only add rules backed by Passport Holsters' published size definitions.
+    private static function suggested_fit($firearm) {
+        if (trim($firearm['passport_fit']) !== '') { return ''; }
+        $length = isset($firearm['barrel_length']) ? trim((string) $firearm['barrel_length']) : '';
+        $type = isset($firearm['action_type']) ? strtolower(trim((string) $firearm['action_type'])) : '';
+        if (!preg_match('/^[0-9]+(?:\\.[0-9]+)?$/', $length)) { return ''; }
+        $inches = (float) $length;
+        // A5: most large semi-automatics with 5–6 inch barrels.
+        // The result is a barrel-length-based recommendation, NOT a tested fit.
+        if (in_array($type, array('semi-auto', 'semi-automatic', 'semi automatic'), true)
+            && $inches >= 5.0 && $inches <= 6.0) { return 'A5'; }
+        return '';
+    }
+
     public static function search($request) {
         $query = trim((string) $request->get_param('q'));
         $needle = self::normalize($query);
@@ -278,14 +294,17 @@ final class PH_Passport_Fit_Search {
         $results = array();
         foreach (array_slice($matches, 0, 25, true) as $match) {
             $firearm = $match['firearm'];
-            $fit = trim($firearm['passport_fit']);
+            $confirmed_fit = trim($firearm['passport_fit']);
+            $fit = $confirmed_fit !== '' ? $confirmed_fit : self::suggested_fit($firearm);
             $variant = trim($firearm['variant']);
             $results[] = array(
                 'firearm_id' => $firearm['firearm_id'],
                 'name' => $firearm['display_name'],
                 'variant' => $variant,
                 'fit' => $fit,
-                'confirmed' => ($fit !== '')
+                'confirmed' => ($confirmed_fit !== ''),
+                'suggested' => ($fit !== '' && $confirmed_fit === ''),
+                'barrel_length' => isset($firearm['barrel_length']) ? $firearm['barrel_length'] : ''
             );
         }
         return new WP_REST_Response(array('results' => $results, 'refreshed_at' => $dataset['refreshed_at']), 200);
@@ -334,7 +353,9 @@ final class PH_Passport_Fit_Search {
                         output.innerHTML=results.map(function(item){
                             var fit=item.confirmed
                                 ? '<div class="ph-fit-search__fit"><strong>Passport fit: '+esc(item.fit)+'</strong>'+(item.variant?' <span class="ph-fit-search__muted">('+esc(item.variant)+')</span>':'')+'</div>'
-                                : '<div class="ph-fit-search__fit ph-fit-search__muted">No chart-confirmed Passport fit is listed for this model. <a href="'+root.dataset.chart+'">Check the size chart</a>.</div>';
+                                : item.suggested
+                                ? '<div class="ph-fit-search__fit"><strong>Based on the '+esc(item.barrel_length)+'″ barrel length, your recommended Passport Holsters size is '+esc(item.fit)+'.</strong> <span class="ph-fit-search__muted">Barrel-length estimate; confirm firearm configuration and product fit.</span></div>'
+                                : '<div class="ph-fit-search__fit ph-fit-search__muted">No barrel-length recommendation is available for this model. <a href="'+root.dataset.chart+'">Check the size chart</a>.</div>';
                             return '<div class="ph-fit-search__item"><div class="ph-fit-search__title">'+esc(item.name)+'</div>'+fit+'</div>';
                         }).join('');
                     })
