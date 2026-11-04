@@ -11,3 +11,5 @@ jobs:
         run: php -l wordpress-plugin/passport-fit-search/passport-fit-search.php
       - name: Test repository imports and search
         run: php tests/search-regression.php
+      - name: Audit size coverage
+        run: php tests/size-coverage-audit.php > /tmp/passport-size-audit.csv && head -n 5 /tmp/passport-size-audit.csv && echo 'First 15 missing records:' && sed -n '6,20p' /tmp/passport-size-audit.csv
