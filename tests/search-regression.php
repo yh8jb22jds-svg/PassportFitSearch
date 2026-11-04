@@ -81,6 +81,8 @@ $g17 = lookup('Glock 17');
 check($g17['GLOCK-000001']['size_source'] === 'confirmed' && $g17['GLOCK-000001']['fit'] === 'A4', 'Confirmed fit must take priority');
 $unknown = lookup('Desert Eagle');
 check($unknown['MR-000001']['size_source'] === 'needs_data', 'Unknown fit must not be mislabeled as verified');
+$canik_standard = lookup('Canik METE SFT');
+check(isset($canik_standard['CANIK-000013']) && $canik_standard['CANIK-000013']['barrel_length'] === '4.47' && $canik_standard['CANIK-000013']['fit'] === 'A4', 'Manufacturer-confirmed Canik METE SFT 4.47 inch barrel must recommend A4');
 $canik = lookup('Canik METE SFT ONE');
 check(isset($canik['CANIK-000023']) && $canik['CANIK-000023']['fit'] === 'A4' && $canik['CANIK-000023']['suggested'] && !$canik['CANIK-000023']['confirmed'], 'Canik METE SFT ONE must recommend provisional A4 from 4.07 inch barrel');
 $wmp = lookup('Walther WMP');
