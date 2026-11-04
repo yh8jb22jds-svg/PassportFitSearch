@@ -83,6 +83,13 @@ final class PH_Passport_Fit_Search {
             }
         }
 
+        // Import curated customer corrections last, independent of GitHub tree order.
+        // A later confirmed correction must not be replaced by an older unverified row.
+        usort($master_paths, function($a, $b) {
+            $a_curated = strpos($a, 'data/customer-confirmed/') === 0 ? 1 : 0;
+            $b_curated = strpos($b, 'data/customer-confirmed/') === 0 ? 1 : 0;
+            return $a_curated === $b_curated ? strcmp($a, $b) : ($a_curated <=> $b_curated);
+        });
         $firearms = array();
         foreach ($master_paths as $path) {
             $csv = self::http_get('https://raw.githubusercontent.com/' . self::OWNER . '/' . self::REPO . '/' . self::BRANCH . '/' . implode('/', array_map('rawurlencode', explode('/', $path))));
