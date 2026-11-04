@@ -77,6 +77,12 @@ $g17 = lookup('Glock 17');
 check($g17['GLOCK-000001']['size_source'] === 'confirmed' && $g17['GLOCK-000001']['fit'] === 'A4', 'Confirmed fit must take priority');
 $unknown = lookup('Desert Eagle');
 check($unknown['MR-000001']['size_source'] === 'needs_data', 'Unknown fit must not be mislabeled as verified');
+$wmp = lookup('Walther WMP');
+check(isset($wmp['USER-WALTHER-WMP']) && $wmp['USER-WALTHER-WMP']['fit'] === 'A4' && $wmp['USER-WALTHER-WMP']['confirmed'], 'Walther WMP approved A4 fit');
+$boomer = lookup('Charter Arms Boomer');
+check(isset($boomer['USER-CHARTER-BOOMER44']) && $boomer['USER-CHARTER-BOOMER44']['fit'] === 'R2' && $boomer['USER-CHARTER-BOOMER44']['confirmed'], 'Charter Boomer approved R2 fit');
+$p365 = lookup('SIG Sauer P365-FUSE');
+check(isset($p365['USER-SIG-P365-FUSE']) && $p365['USER-SIG-P365-FUSE']['barrel_length'] === '4.3', 'P365 FUSE barrel must be 4.3 inches');
 $family_ids = array('GLOCK-000001', 'GLOCK-000011', 'GLOCK-000021', 'GLOCK-000026',
     'GLOCK-000066', 'GLOCK-000067', 'GLOCK-000068', 'GLOCK-000069', 'GLOCK-000070',
     'GLOCK-000071', 'GLOCK-000072', 'GLOCK-000073');
