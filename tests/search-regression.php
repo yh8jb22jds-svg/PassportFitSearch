@@ -120,6 +120,19 @@ foreach (array('Glock 9', 'Glock 9mm', '9mm Glock') as $query) {
         check($row['confirmed'] === isset($verified[$id]), 'Wrong confirmation: ' . $id);
     }
 }
+// Legacy published size-chart coverage: preserve searchable entries before
+// replacing the long model lists with a concise sizing guide.
+// Glock 19 appears in both A3 and A4 on the old chart; explicit variants resolve it.
+foreach (array(
+    'Glock 17' => 'GLOCK-000001',
+    'Glock 19 Compact' => 'GLOCK-000011',
+    'Glock 19 Full Barrel' => 'GLOCK-000073',
+    'Canik METE SFT' => 'CANIK-000013',
+    'Walther WMP' => 'WALTHER-000031',
+) as $chart_name => $chart_id) {
+    $chart_results = lookup($chart_name);
+    check(isset($chart_results[$chart_id]), 'Size-chart/model coverage missing: ' . $chart_name);
+}
 foreach (array('Glock 19', 'G19') as $query) {
     expect_ids($query, array('GLOCK-000011', 'GLOCK-000073'));
 }
