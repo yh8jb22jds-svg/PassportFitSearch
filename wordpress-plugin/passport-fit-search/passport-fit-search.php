@@ -196,6 +196,13 @@ final class PH_Passport_Fit_Search {
             'CZ-' => '/^CZ (?:P-10|P-07|P-09|P-01|P-06|P-10|75|Shadow|SP-01|TS 2)\\b/i',
             'FN-' => '/^FN (?:502|503|509|510|545|Five-seveN|FNS|FNX|FNP|Reflex)\\b/i',
             'RUGER-' => '/^Ruger (?:SR22|SR9|Security-9|MAX-9|LC9|LCP|EC9|Mark IV|American Pistol)\\b/i',
+            'KELTEC-' => '/^Kel-Tec (?:PR-|P-|P3AT|PF-|PMR-|CP33|P17|P11|P15|P32|P50|PLR-)/i',
+            'KIMBER-' => '/^Kimber (?:Next Generation 1911|2K11|1911|Micro|R7|KDS9|Rapide|Custom|Ultra|Pro Carry)\\b/i',
+            'RIA-' => '/^Rock Island Armory (?:GI|Rock Ultra|Rock Standard|TAC|M1911|1911|STK|Baby Rock|RIA 5)\\b/i',
+            'WALTHER-' => '/^Walther (?:PDP|PPQ|PPS|P99|P22|PK380|WMP|Q5|Q4|CCP|PD380|PPK|P38)\\b/i',
+            'SPRINGFIELD-' => '/^Springfield (?:Echelon|1911|Hellcat|XD|XDM|XD-M|XDS|XD-S|SA-35|EMP|Prodigy)\\b/i',
+            'HK-' => '/^H&K (?:USP|VP9|VP40|P30|P2000|HK45|Mark 23|P7|CC9|SFP9)\\b/i',
+            'COLT-' => '/^Colt (?:M1911|M1911A1|Government Model|Commander|Defender|Gold Cup|Delta Elite|Mustang|New Agent)\\b/i',
             'SIG-' => '/^SIG Sauer (?:P365|P320|P226|P229|P220|P227|P238|P938|P210|P239|P250|P2022|P224)\\b/i',
         );
         foreach ($firearms as $id => &$firearm) {
