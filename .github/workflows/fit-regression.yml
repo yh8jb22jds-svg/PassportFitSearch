@@ -1,0 +1,14 @@
+name: Passport Fit Regression
+on:
+  pull_request:
+  push:
+    branches: [fix/automatic-barrel-sizing]
+jobs:
+  php-regression:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: PHP syntax check
+        run: php -l wordpress-plugin/passport-fit-search/passport-fit-search.php
+      - name: PHP search regression
+        run: php tests/search-regression.php
