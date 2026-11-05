@@ -446,6 +446,9 @@ final class PH_Passport_Fit_Search {
             .ph-fit-search__title{font-weight:700}
             .ph-fit-search__fit{margin-top:4px}
             .ph-fit-search__muted{color:#555}
+            .ph-fit-search__shop{display:inline-block;margin-top:10px;padding:12px 16px;background:#d71920;color:#fff!important;border-radius:6px;font-size:16px;font-weight:700;text-decoration:none}
+            .ph-fit-search__item{font-size:16px;line-height:1.5}
+            .ph-fit-search__title{font-size:18px}
             @media(max-width:520px){.ph-fit-search__controls{display:block}.ph-fit-search__controls button{width:100%;margin-top:8px}}
         </style>
         <script>
@@ -470,7 +473,11 @@ final class PH_Passport_Fit_Search {
                                 : item.suggested
                                 ? '<div class="ph-fit-search__fit"><strong>'+(item.fits && item.fits.length>1?'Based on the information provided, we recommend considering '+(item.fit==='A2 / A2.5'?'A2 — Compact or A2.5 — Subcompact':esc(item.fits.join(' or ')))+'. Choose based on your firearm configuration.':'Based on the information provided, we recommend Passport Holsters size '+esc(item.fit)+'.')+'</strong> <span class="ph-fit-search__muted">Recommendation is for the standard factory configuration of the firearm named above. Aftermarket accessories or modifications may affect fit.</span></div>'
                                 : '<div class="ph-fit-search__fit ph-fit-search__muted">No barrel-length recommendation is available for this model. <a href="'+root.dataset.chart+'">Check the size chart</a>.</div>';
-                            return '<div class="ph-fit-search__item"><div class="ph-fit-search__title">'+esc(item.name)+'</div>'+fit+'</div>';
+                            var sizes=(item.fits||[]).filter(function(v){return /^[A-Z][0-9]+(?:\\.[0-9]+)?$/.test(v)});
+                            var shop=(item.fit && sizes.length===1 && item.fits.length===1)
+                                ? '<div><a class="ph-fit-search__shop" href="'+root.dataset.chart+'?size='+encodeURIComponent(sizes[0])+'&results=1#ph-size-search">Shop size '+esc(sizes[0])+' holsters</a></div>'
+                                : '';
+                            return '<div class="ph-fit-search__item"><div class="ph-fit-search__title">'+esc(item.name)+'</div>'+fit+shop+'</div>';
                         }).join('');
                     })
                     .catch(function(){output.innerHTML='Fit search is temporarily unavailable. <a href="'+root.dataset.chart+'">Use the size chart</a>.'});
