@@ -2,7 +2,7 @@
 /**
  * Plugin Name: PHolsters Passport Fit Search
  * Description: Searches the PassportFitSearch GitHub database for exact firearm models and chart-confirmed Passport fits.
- * Version: 1.1.3
+ * Version: 1.1.4
  * Author: PHolsters
  * License: GPL-2.0-or-later
  */
@@ -16,6 +16,17 @@ final class PH_Passport_Fit_Search {
     const CACHE_KEY = 'ph_passport_fit_dataset_v7';
     const CACHE_TTL = DAY_IN_SECONDS;
 
+    // Only sizes manufactured by Passport may be shown as confirmed fits.
+    private static function valid_fit($value) {
+        $allowed = array('A1','A2','A2.5','A3','A4','A5','R2','R2.5','R3','R4','R6','R8','D','DE');
+        $parts = preg_split('/\\s*(?:\\/|,|\\bor\\b)\\s*/i', trim((string) $value));
+        if (!$parts || count($parts) > 2) { return false; }
+        foreach ($parts as $part) {
+            if (!in_array(trim($part), $allowed, true)) { return false; }
+        }
+        return true;
+    }
+
     public static function boot() {
         add_shortcode('passport_fit_search', array(__CLASS__, 'shortcode'));
         add_action('rest_api_init', array(__CLASS__, 'register_routes'));
@@ -26,7 +37,7 @@ final class PH_Passport_Fit_Search {
 
     public static function enqueue_homepage_search() {
         if (is_front_page()) {
-            wp_enqueue_script('ph-passport-homepage-search', plugins_url('homepage-fit-search.js', __FILE__), array(), '1.1.3', true);
+            wp_enqueue_script('ph-passport-homepage-search', plugins_url('homepage-fit-search.js', __FILE__), array(), '1.1.4', true);
         }
     }
 
@@ -111,7 +122,7 @@ final class PH_Passport_Fit_Search {
             foreach (self::parse_csv($csv) as $row) {
                 if (empty($row['firearm_id']) || empty($row['display_name'])) { continue; }
                 // Keep a chart/customer-confirmed record when another source repeats its ID.
-                $incoming_verified = isset($row['fit_verified']) && in_array(strtolower($row['fit_verified']), array('1', 'yes', 'true', 'chart'), true) && !empty($row['passport_fit']);
+                $incoming_verified = isset($row['fit_verified']) && in_array(strtolower($row['fit_verified']), array('1', 'yes', 'true', 'chart'), true) && !empty($row['passport_fit']) && self::valid_fit($row['passport_fit']);
                 if (isset($firearms[$row['firearm_id']]) && !empty($firearms[$row['firearm_id']]['passport_fit']) && !$incoming_verified) { continue; }
                 $firearms[$row['firearm_id']] = array(
                     'firearm_id' => $row['firearm_id'],
@@ -121,7 +132,7 @@ final class PH_Passport_Fit_Search {
                     'caliber' => isset($row['caliber']) ? $row['caliber'] : '',
                     'barrel_length' => isset($row['barrel_length']) ? $row['barrel_length'] : '',
                     'action_type' => isset($row['action_type']) ? $row['action_type'] : '',
-                    'passport_fit' => (isset($row['fit_verified']) && in_array(strtolower($row['fit_verified']), array('1', 'yes', 'true', 'chart'), true)) ? (isset($row['passport_fit']) ? $row['passport_fit'] : '') : ''
+                    'passport_fit' => (isset($row['fit_verified']) && in_array(strtolower($row['fit_verified']), array('1', 'yes', 'true', 'chart'), true)) && self::valid_fit(isset($row['passport_fit']) ? $row['passport_fit'] : '') ? $row['passport_fit'] : ''
                 );
             }
         }
