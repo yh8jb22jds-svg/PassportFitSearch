@@ -2,7 +2,7 @@
 /**
  * Plugin Name: PHolsters Passport Fit Search
  * Description: Searches the PassportFitSearch GitHub database for exact firearm models and chart-confirmed Passport fits.
- * Version: 1.1.2
+ * Version: 1.1.3
  * Author: PHolsters
  * License: GPL-2.0-or-later
  */
@@ -26,7 +26,7 @@ final class PH_Passport_Fit_Search {
 
     public static function enqueue_homepage_search() {
         if (is_front_page()) {
-            wp_enqueue_script('ph-passport-homepage-search', plugins_url('homepage-fit-search.js', __FILE__), array(), '1.1.2', true);
+            wp_enqueue_script('ph-passport-homepage-search', plugins_url('homepage-fit-search.js', __FILE__), array(), '1.1.3', true);
         }
     }
 
@@ -524,7 +524,7 @@ final class PH_Passport_Fit_Search {
             .ph-fit-search__controls{display:flex;gap:8px}
             .ph-fit-search input{flex:1;min-width:0;padding:12px 14px;border:1px solid #777;border-radius:6px;font-size:16px}
             .ph-fit-search button{padding:12px 18px;border:0;border-radius:6px;background:#d71920;color:#fff;font-weight:700;cursor:pointer}
-            .ph-fit-search__results{margin-top:12px}
+            .ph-fit-search__results{margin:0 0 18px}.ph-fit-search__fit strong{display:block;color:#8b1e22;font-size:clamp(24px,5vw,34px);line-height:1.2;margin:8px 0}.ph-fit-search__shop{background:#8b1e22!important}
             .ph-fit-search__item{padding:12px;margin:8px 0;border:1px solid #ddd;border-radius:6px}
             .ph-fit-search__title{font-weight:700}
             .ph-fit-search__fit{margin-top:4px}
@@ -539,6 +539,7 @@ final class PH_Passport_Fit_Search {
             var root=document.currentScript.previousElementSibling.previousElementSibling;
             if(!root || !root.classList.contains('ph-fit-search')) return;
             var input=root.querySelector('input'), button=root.querySelector('button'), output=root.querySelector('.ph-fit-search__results');
+            root.insertBefore(output,root.querySelector(".ph-fit-search__controls"));
             var timer;
             function esc(s){return String(s||'').replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
             function lookup(suggest){
@@ -552,9 +553,9 @@ final class PH_Passport_Fit_Search {
                         if(!results.length){output.innerHTML='<p>No model match found. Try the manufacturer and model number, or <a href="'+root.dataset.chart+'">see the size chart</a>.</p>';return}
                         output.innerHTML=results.map(function(item){
                             var fit=item.confirmed
-                                ? '<div class="ph-fit-search__fit"><strong>Passport fit: '+esc(item.fit)+'</strong>'+(item.variant?' <span class="ph-fit-search__muted">('+esc(item.variant)+')</span>':'')+'</div>'
+                                ? '<div class="ph-fit-search__fit"><strong>Recommended Size: '+esc(item.fit)+'</strong>'+(item.variant?' <span class="ph-fit-search__muted">('+esc(item.variant)+')</span>':'')+'</div>'
                                 : item.suggested
-                                ? '<div class="ph-fit-search__fit"><strong>'+(item.fits && item.fits.length>1?'Based on the information provided, we recommend considering '+(item.fit==='A2 / A2.5'?'A2 — Compact or A2.5 — Subcompact':esc(item.fits.join(' or ')))+'. Choose based on your firearm configuration.':'Based on the information provided, we recommend Passport Holsters size '+esc(item.fit)+'.')+'</strong> <span class="ph-fit-search__muted">Recommendation is for the standard factory configuration of the firearm named above. Aftermarket accessories or modifications may affect fit.</span></div>'
+                                ? '<div class="ph-fit-search__fit"><strong>'+(item.fits && item.fits.length>1?'Based on the information provided, we recommend considering '+(item.fit==='A2 / A2.5'?'A2 — Compact or A2.5 — Subcompact':esc(item.fits.join(' or ')))+'. Choose based on your firearm configuration.':'Based on the barrel length provided, your recommended size is '+esc(item.fit)+'.')+'</strong> <span class="ph-fit-search__muted">Recommendation is for the standard factory configuration of the firearm named above. Aftermarket accessories or modifications may affect fit.</span></div>'
                                 : '<div class="ph-fit-search__fit ph-fit-search__muted">No barrel-length recommendation is available for this model. <a href="'+root.dataset.chart+'">Check the size chart</a>.</div>';
                             var dualFitNote=(item.confirmed && ((item.fits && item.fits.length>1 && item.fits.every(function(v){return /^[A-Z][0-9]+(?:\.[0-9]+)?$/.test(v)})) || item.firearm_id==='GLOCK-000011' || item.firearm_id==='GLOCK-000073'))
                 ? '<p class="ph-fit-search__muted">Passport Holsters has been making holsters since 1996. Some compact models have two listed fits. The smaller size offers a slightly snugger fit, which many customers prefer. Others prefer the larger size for its roomier feel and what they consider a quicker draw. Choose only a size that securely retains your firearm and fully protects the trigger guard. Both listed sizes are options, not a guarantee for modified firearms. Our holsters carry a lifetime warranty.</p>' : '';
