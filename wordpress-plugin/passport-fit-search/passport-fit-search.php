@@ -2,7 +2,7 @@
 /**
  * Plugin Name: PHolsters Passport Fit Search
  * Description: Searches the PassportFitSearch GitHub database for exact firearm models and chart-confirmed Passport fits.
- * Version: 1.1.1
+ * Version: 1.1.2
  * Author: PHolsters
  * License: GPL-2.0-or-later
  */
@@ -26,7 +26,7 @@ final class PH_Passport_Fit_Search {
 
     public static function enqueue_homepage_search() {
         if (is_front_page()) {
-            wp_enqueue_script('ph-passport-homepage-search', plugins_url('homepage-fit-search.js', __FILE__), array(), '1.1.1', true);
+            wp_enqueue_script('ph-passport-homepage-search', plugins_url('homepage-fit-search.js', __FILE__), array(), '1.1.2', true);
         }
     }
 
