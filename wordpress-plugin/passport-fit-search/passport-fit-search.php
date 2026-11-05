@@ -120,7 +120,8 @@ final class PH_Passport_Fit_Search {
         }
         foreach ($review_paths as $path) {
             $csv = self::http_get('https://raw.githubusercontent.com/' . self::OWNER . '/' . self::REPO . '/' . self::BRANCH . '/' . implode('/', array_map('rawurlencode', explode('/', $path))));
-            if (!$csv) { continue; }
+            // A partial download must not replace the previous complete dataset.
+            if ($csv === false || $csv === '') { return false; }
             foreach (self::parse_csv($csv) as $row) {
                 if (empty($row['firearm_id']) || empty($row['display_name'])) { continue; }
                 $id = $row['firearm_id'];
@@ -145,7 +146,8 @@ final class PH_Passport_Fit_Search {
 
         foreach ($alias_paths as $path) {
             $csv = self::http_get('https://raw.githubusercontent.com/' . self::OWNER . '/' . self::REPO . '/' . self::BRANCH . '/' . implode('/', array_map('rawurlencode', explode('/', $path))));
-            if (!$csv) { continue; }
+            // A partial download must not replace the previous complete dataset.
+            if ($csv === false || $csv === '') { return false; }
             foreach (self::parse_csv($csv) as $row) {
                 if (empty($row['firearm_id']) || empty($row['alias_text']) || (isset($row['active']) && $row['active'] === '0')) { continue; }
                 if (!isset($firearms[$row['firearm_id']]) && (!isset($row['alias_type']) || stripos($row['alias_type'], 'Family Search') === false)) {
