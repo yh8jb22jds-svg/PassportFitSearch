@@ -46,7 +46,7 @@ function wp_remote_get($url, $options) {
     $path = $root . '/' . rawurldecode(substr($url, strlen($prefix)));
     return array('status' => 200, 'body' => file_get_contents($path));
 }
-require $root . '/wordpress-plugin/passport-fit-search/passport-fit-search.php';
+require getenv('PH_PLUGIN_FILE') ?: $root . '/wordpress-plugin/passport-fit-search/passport-fit-search.php';
 $checks = 0;
 function check($condition, $message) {
     $GLOBALS['checks']++;
