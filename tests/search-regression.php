@@ -119,6 +119,10 @@ foreach (array(
     check($rows[$expected[0]]['fit'] === $expected[1] && $rows[$expected[0]]['confirmed'],
         'Chart fit missing: ' . $query);
 }
+$lcp = expect_ids('Ruger LCP', array('RUGER-000005'));
+check($lcp['RUGER-000005']['fit'] === 'A2' && $lcp['RUGER-000005']['confirmed'], 'Original LCP chart fit missing');
+$lcp_ii = expect_ids('Ruger LCP II', array('RUGER-000007'));
+check(!$lcp_ii['RUGER-000007']['confirmed'], 'LCP II inherited original LCP fit');
 // Neither master rows lacking verification nor proposed review fits may become confirmed.
 $dataset = get_transient(PH_Passport_Fit_Search::CACHE_KEY);
 foreach (array('GLOCK-000014', 'BOND-000001', 'MR-000001', 'GLOCK-000067') as $id) {
