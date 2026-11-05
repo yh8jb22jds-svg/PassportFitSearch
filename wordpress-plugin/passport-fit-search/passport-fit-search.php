@@ -201,7 +201,7 @@ final class PH_Passport_Fit_Search {
             'RIA-' => '/^Rock Island Armory (?:GI|Rock Ultra|Rock Standard|Rock|TAC|Tactical|M1911|1911(?:A1)?|STK|Baby Rock|RIA 5|XT(?:22)?|Pro Match|TCM|P10 TCM|Matchmaster|Ultra Compact Tactical|CS Model|\\.22 TCM Midsize|Midsize (?:Double Stack|Tactical)|Standard GI Enhanced|BBR 3\\.10)\\b/i',
             'WALTHER-' => '/^Walther (?:PDP|PPQ|PPS|P99|P22|PK380|WMP|Q5|Q4|CCP|PD380|PPK|P38)\\b/i',
             'SPRINGFIELD-' => '/^Springfield (?:Echelon|1911|Hellcat|XD|XDM|XD-M|XDS|XD-S|SA-35|EMP|Prodigy)\\b/i',
-            'HK-' => '/^H&K (?:USP[0-9]*|VP9|VP40|P30|P2000|HK45|Mark 23|P7(?:M[0-9]+)?|CC9|SFP9|P9S|PSP)\\b/i',
+            'HK-' => '/^H&K (?:USP[0-9]*|VP9|VP40|VP Pistol|P30|P2000|HK45|Mark 23|P7(?:M[0-9]+)?|CC9|SFP9|P9S|PSP)\\b/i',
             'COLT-' => '/^Colt (?:M1911|M1991A1|M1911A1|Government Model|Commander|Defender|Gold Cup|Delta Elite|Mustang|New Agent|Officer.s Model|Pocket Nine|Double Eagle|Pony|XSE|Concealed Carry Officer.s|Rail Gun)\\b/i',
             'TAURUS-' => '/^Taurus (?:G2C|G2S|G3C|G3X|G3XL|G2|G3|GX4|TX22|TH9|TH40|PT92|PT99|PT111|PT140|PT145|PT1911|1911|Spectrum|Curve)\\b/i',
             'SW-' => '/^(?:Smith & Wesson|S&W) (?:M&P|Shield|Equalizer|CSX|Bodyguard|SD9|SD40|SW9|SW40|Sigma|Victory|SW1911|1911)\\b/i',
