@@ -194,6 +194,7 @@ final class PH_Passport_Fit_Search {
         $semi_auto_families = array(
             'GLOCK-' => '/^Glock (?:[0-9]{2,3})(?:[A-Z]{1,2})?\\b/i',
             'CZ-' => '/^CZ (?:P-10|P-07|P-09|P-01|P-06|P-10|75|Shadow|SP-01|TS 2)\\b/i',
+            'CANIK-' => '/^Canik (?:TP9SF Combat(?: Exec)?)\\b/i',
             'FN-' => '/^FN (?:309|502|503|509|510|545|Five-seveN|FNS|FNX|FNP|Reflex)\\b/i',
             'RUGER-' => '/^Ruger (?:RXM|SR22|SR9|SR9c|P95|P85|Mark I|Security-9|MAX-9|LC9|LCP|EC9|Mark IV|American Pistol)\\b/i',
             'KELTEC-' => '/^Kel-Tec (?:PR-|P-|P3AT|PF-|PMR-?|CP33|P17|P11|P15|P32|P50|PLR-)/i',
