@@ -427,7 +427,12 @@ final class PH_Passport_Fit_Search {
 
         uasort($matches, function($a, $b) {
             if ($a['exact'] !== $b['exact']) { return $a['exact'] ? -1 : 1; }
-            return $a['priority'] <=> $b['priority'];
+            $priority = $a['priority'] <=> $b['priority'];
+            if ($priority !== 0) { return $priority; }
+            // Stable ordering avoids arbitrary results for common family searches.
+            $name = strnatcasecmp($a['firearm']['display_name'], $b['firearm']['display_name']);
+            if ($name !== 0) { return $name; }
+            return strcmp($a['firearm']['firearm_id'], $b['firearm']['firearm_id']);
         });
 
         $results = array();
