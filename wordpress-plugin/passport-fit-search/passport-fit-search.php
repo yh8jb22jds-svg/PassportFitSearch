@@ -209,7 +209,7 @@ final class PH_Passport_Fit_Search {
         );
         // Known revolver model families; avoid assigning R sizes by brand alone.
         $revolver_families = array(
-            'COLT-' => '/^Colt (?:Lawman Mk III|Detective Special|Police Special|Python)\\b/i',
+            'COLT-' => '/^Colt (?:Lawman Mk III|Detective Special|Police Special|Python|Cobra|King Cobra|Diamondback|Trooper)\\b/i',
             'SW-' => '/^(?:Smith & Wesson|S&W) (?:Model 686 Plus)\\b/i',
         );
         foreach ($firearms as $id => &$firearm) {
