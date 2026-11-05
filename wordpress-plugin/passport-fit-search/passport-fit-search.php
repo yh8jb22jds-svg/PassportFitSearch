@@ -252,7 +252,7 @@ final class PH_Passport_Fit_Search {
             // not approved size changes. Keep firearm_id and existing fit unchanged.
             $compact_patterns = array(
                 '/^Glock (?:19(?:X)?|45|26|43(?:X)?|48)\\b/i',
-                '/^SIG Sauer (?:P365(?: XL| XMacro)?|P320 (?:Compact|Carry))\\b/i',
+                '/^SIG Sauer (?:P365(?:[ -]?(?:XL|XMacro|X-Macro|X Macro|X|SAS))?|P320(?:[ -](?:Compact|Carry)))\\b/i',
                 '/^Smith & Wesson (?:M&P9 Compact|M&P Shield Plus|Shield Plus)\\b/i',
                 '/^Springfield (?:Hellcat(?: Pro)?|XD Compact)\\b/i',
                 '/^Ruger (?:MAX-9|Security-9 Compact)\\b/i',
