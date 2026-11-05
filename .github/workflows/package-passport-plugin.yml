@@ -12,10 +12,16 @@ jobs:
         run: php -l wordpress-plugin/passport-fit-search/passport-fit-search.php
       - name: Check JavaScript syntax
         run: node --check wordpress-plugin/passport-fit-search/homepage-fit-search.js
+      - name: Run firearm search regression
+        run: php tests/search-regression.php
+      - name: Check fit coverage
+        run: php tests/size-coverage-audit.php > /tmp/size-coverage.txt
       - name: Create installable WordPress plugin ZIP
+        run: bash scripts/package-plugin.sh
+      - name: Verify bundled database
         run: |
-          cd wordpress-plugin
-          zip -r ../passport-fit-search-install.zip passport-fit-search -x '*.DS_Store'
+          unzip -t passport-fit-search-install.zip
+          unzip -l passport-fit-search-install.zip | grep 'data/customer-confirmed/2026-11-04_firearm_master_customer_confirmed_r1.csv'
       - uses: actions/upload-artifact@v4
         with:
           name: passport-fit-search-install

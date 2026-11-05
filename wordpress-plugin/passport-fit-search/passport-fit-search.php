@@ -2,7 +2,7 @@
 /**
  * Plugin Name: PHolsters Passport Fit Search
  * Description: Searches the PassportFitSearch GitHub database for exact firearm models and chart-confirmed Passport fits.
- * Version: 1.1.0
+ * Version: 1.1.1
  * Author: PHolsters
  * License: GPL-2.0-or-later
  */
@@ -12,8 +12,8 @@ if (!defined('ABSPATH')) { exit; }
 final class PH_Passport_Fit_Search {
     const OWNER = 'yh8jb22jds-svg';
     const REPO = 'PassportFitSearch';
-    const BRANCH = 'main';
-    const CACHE_KEY = 'ph_passport_fit_dataset_v6';
+    const BRANCH = 'fix/automatic-barrel-sizing';
+    const CACHE_KEY = 'ph_passport_fit_dataset_v7';
     const CACHE_TTL = DAY_IN_SECONDS;
 
     public static function boot() {
@@ -26,7 +26,7 @@ final class PH_Passport_Fit_Search {
 
     public static function enqueue_homepage_search() {
         if (is_front_page()) {
-            wp_enqueue_script('ph-passport-homepage-search', plugins_url('homepage-fit-search.js', __FILE__), array(), '1.1.0', true);
+            wp_enqueue_script('ph-passport-homepage-search', plugins_url('homepage-fit-search.js', __FILE__), array(), '1.1.1', true);
         }
     }
 
@@ -61,9 +61,21 @@ final class PH_Passport_Fit_Search {
     }
 
     public static function refresh_dataset() {
-        $tree_url = 'https://api.github.com/repos/' . self::OWNER . '/' . self::REPO . '/git/trees/' . self::BRANCH . '?recursive=1';
-        $tree_json = self::http_get($tree_url);
-        $tree = $tree_json ? json_decode($tree_json, true) : null;
+        $bundled = __DIR__ . '/data';
+        if (is_dir($bundled)) {
+            $items = array();
+            $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($bundled, FilesystemIterator::SKIP_DOTS));
+            foreach ($iterator as $file) {
+                if ($file->isFile() && strtolower($file->getExtension()) === 'csv') {
+                    $items[] = array('type' => 'blob', 'path' => 'data/' . str_replace(DIRECTORY_SEPARATOR, '/', substr($file->getPathname(), strlen($bundled) + 1)));
+                }
+            }
+            $tree = array('tree' => $items, 'truncated' => false);
+        } else {
+            $tree_url = 'https://api.github.com/repos/' . self::OWNER . '/' . self::REPO . '/git/trees/' . self::BRANCH . '?recursive=1';
+            $tree_json = self::http_get($tree_url);
+            $tree = $tree_json ? json_decode($tree_json, true) : null;
+        }
         if (!is_array($tree) || empty($tree['tree']) || !empty($tree['truncated'])) {
             return false;
         }
@@ -92,7 +104,7 @@ final class PH_Passport_Fit_Search {
         });
         $firearms = array();
         foreach ($master_paths as $path) {
-            $csv = self::http_get('https://raw.githubusercontent.com/' . self::OWNER . '/' . self::REPO . '/' . self::BRANCH . '/' . implode('/', array_map('rawurlencode', explode('/', $path))));
+            $csv = self::read_csv_source($path);
             // Never replace a working cache with a silently incomplete dataset.
             // GitHub rate limits and network failures must leave the prior cache intact.
             if ($csv === false || $csv === '') { return false; }
@@ -119,7 +131,7 @@ final class PH_Passport_Fit_Search {
             $aliases[] = array('firearm_id' => $id, 'alias_text' => $firearm['display_name'], 'normalized_alias' => $firearm['display_name'], 'priority' => 1);
         }
         foreach ($review_paths as $path) {
-            $csv = self::http_get('https://raw.githubusercontent.com/' . self::OWNER . '/' . self::REPO . '/' . self::BRANCH . '/' . implode('/', array_map('rawurlencode', explode('/', $path))));
+            $csv = self::read_csv_source($path);
             // A partial download must not replace the previous complete dataset.
             if ($csv === false || $csv === '') { return false; }
             foreach (self::parse_csv($csv) as $row) {
@@ -145,7 +157,7 @@ final class PH_Passport_Fit_Search {
         }
 
         foreach ($alias_paths as $path) {
-            $csv = self::http_get('https://raw.githubusercontent.com/' . self::OWNER . '/' . self::REPO . '/' . self::BRANCH . '/' . implode('/', array_map('rawurlencode', explode('/', $path))));
+            $csv = self::read_csv_source($path);
             // A partial download must not replace the previous complete dataset.
             if ($csv === false || $csv === '') { return false; }
             foreach (self::parse_csv($csv) as $row) {
@@ -316,6 +328,17 @@ final class PH_Passport_Fit_Search {
             $records[] = $row;
         }
         return $records;
+    }
+
+    private static function read_csv_source($path) {
+        $bundled = __DIR__ . '/data';
+        if (is_dir($bundled)) {
+            $file = realpath(__DIR__ . '/' . $path);
+            $root = realpath($bundled);
+            if (!$file || !$root || strpos($file, $root . DIRECTORY_SEPARATOR) !== 0) { return false; }
+            return file_get_contents($file);
+        }
+        return self::http_get('https://raw.githubusercontent.com/' . self::OWNER . '/' . self::REPO . '/' . self::BRANCH . '/' . implode('/', array_map('rawurlencode', explode('/', $path))));
     }
 
     public static function register_routes() {

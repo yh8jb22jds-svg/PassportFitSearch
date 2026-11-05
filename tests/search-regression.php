@@ -41,7 +41,7 @@ function wp_remote_get($url, $options) {
         $tree = array_map(function($path) { return array('type' => 'blob', 'path' => $path); }, $paths);
         return array('status' => 200, 'body' => json_encode(array('tree' => $tree, 'truncated' => false)));
     }
-    $prefix = 'https://raw.githubusercontent.com/yh8jb22jds-svg/PassportFitSearch/main/';
+    $prefix = 'https://raw.githubusercontent.com/yh8jb22jds-svg/PassportFitSearch/' . PH_Passport_Fit_Search::BRANCH . '/';
     if (strpos($url, $prefix) !== 0) { throw new Exception('Unexpected HTTP request'); }
     $path = $root . '/' . rawurldecode(substr($url, strlen($prefix)));
     return array('status' => 200, 'body' => file_get_contents($path));
