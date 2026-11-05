@@ -105,6 +105,19 @@ foreach (array('Glock 19 Gen 3' => 'GLOCK-000014', 'Glock 19 Gen 5' => 'GLOCK-00
 }
 expect_ids('Glock 19 Gen 6', array());
 expect_ids('Glock 19 V', array());
+// Newly imported chart listings must be searchable with their confirmed size.
+foreach (array(
+    'Beretta 84' => array('CHART-000011', 'A2'),
+    'Bersa 83' => array('CHART-000022', 'A2'),
+    'S&W 442' => array('CHART-000097', 'R2'),
+    'Colt Commander' => array('COLT-000005', 'A4'),
+    'Glock 22' => array('GLOCK-000033', 'A4'),
+    'Ruger P89' => array('CHART-000060', 'A4')
+) as $query => $expected) {
+    $rows = expect_ids($query, array($expected[0]));
+    check($rows[$expected[0]]['fit'] === $expected[1] && $rows[$expected[0]]['confirmed'],
+        'Chart fit missing: ' . $query);
+}
 // Neither master rows lacking verification nor proposed review fits may become confirmed.
 $dataset = get_transient(PH_Passport_Fit_Search::CACHE_KEY);
 foreach (array('GLOCK-000014', 'BOND-000001', 'MR-000001', 'GLOCK-000067') as $id) {
