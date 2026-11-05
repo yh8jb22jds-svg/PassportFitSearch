@@ -240,6 +240,13 @@ final class PH_Passport_Fit_Search {
                 ? trim($firearm['passport_fit']) : self::suggested_fit($firearm);
             $firearm['size_source'] = $confirmed ? 'confirmed' :
                 ($firearm['recommended_size'] !== '' ? 'barrel_estimate' : 'needs_data');
+            // Internal audit marker, paired with the permanent firearm_id.
+            // Keep out of customer search results; recomputed on each dataset refresh.
+            $barrel = isset($firearm['barrel_length']) ? trim((string) $firearm['barrel_length']) : '';
+            $firearm['review_tag'] = (!$confirmed && $firearm['recommended_size'] === 'A5' &&
+                preg_match('/^[0-9]+(?:\\.[0-9]+)?$/', $barrel) &&
+                (float) $barrel >= 4.6 && (float) $barrel <= 4.9)
+                ? 'A5-REVIEW-46-49' : '';
         }
         unset($firearm);
         $dataset = array('firearms' => $firearms, 'aliases' => $aliases, 'refreshed_at' => gmdate('c'));
@@ -296,9 +303,9 @@ final class PH_Passport_Fit_Search {
         // At overlapping endpoints, prefer the larger size. A2/A2.5 and
         // revolver frame-specific exceptions need additional specifications.
         if (in_array($type, array('semi-auto', 'semi-automatic', 'semi automatic'), true)) {
-            if ($inches >= 4.7 && $inches <= 6.0) { return 'A5'; }
-            if ($inches >= 4.0 && $inches < 4.5) { return 'A4'; }
-            // 4.50–4.69 inches: hold for Mark's A4/A5 decision; never auto-assign.
+            if ($inches >= 4.6 && $inches <= 6.0) { return 'A5'; }
+            if ($inches >= 4.0 && $inches <= 4.5) { return 'A4'; }
+            // 4.51–4.59 inches remain unassigned pending an explicit rule.
             if ($inches >= 3.5 && $inches < 4.0) { return 'A3'; }
             if ($inches >= 3.0 && $inches < 3.5) {
                 // Compact/subcompact distinction cannot be inferred from length alone.
