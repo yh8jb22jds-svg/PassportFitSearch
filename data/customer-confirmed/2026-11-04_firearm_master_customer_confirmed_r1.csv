@@ -1,0 +1,12 @@
+firearm_id,manufacturer_id,display_name,model,variant,caliber,barrel_length,action_type,passport_fit,active,discontinued,fit_verified
+USER-SIG-P365-STD,SIG,SIG Sauer P365,P365,Standard,9mm,3.1,Semi-Auto,,1,0,0
+USER-SIG-P365-380,SIG,SIG Sauer P365-380,P365-380,Standard,.380 ACP,3.1,Semi-Auto,,1,0,0
+USER-SIG-P365-X,SIG,SIG Sauer P365X,P365X,Standard,9mm,3.1,Semi-Auto,,1,0,0
+SIG-000061,SIG,SIG Sauer P365-XMACRO Comp,P365-XMACRO,Comp,9mm,3.1,Semi-Auto,,1,0,0
+USER-SIG-P365-XL,SIG,SIG Sauer P365 XL,P365 XL,Standard,9mm,3.7,Semi-Auto,,1,0,0
+USER-SIG-P365-MACRO,SIG,SIG Sauer P365-XMACRO,P365-XMACRO,Non-compensated,9mm,3.7,Semi-Auto,,1,0,0
+USER-SIG-P365-FUSE,SIG,SIG Sauer P365-FUSE,P365-FUSE,Standard,9mm,4.3,Semi-Auto,,1,0,0
+USER-CHARTER-BOOMER44,CHARTER,Charter Arms Boomer .44 Special,Boomer,Standard,.44 Special,,Revolver,R2,1,0,1
+WALTHER-000031,WALTHER,Walther WMP,WMP,Standard,.22 WMR,4.5,Semi-Auto,A4,1,0,1
+CANIK-000013,CANIK,Canik METE SFT,METE SFT,Standard,9mm,4.47,Semi-Auto,,1,0,0
+CANIK-000021,CANIK,Canik METE SFT Pro Threaded Barrel,METE SFT Pro,Threaded Barrel,9mm,5.0,Semi-Auto,,1,0,0
