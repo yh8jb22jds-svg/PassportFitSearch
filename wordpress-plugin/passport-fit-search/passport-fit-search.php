@@ -280,7 +280,7 @@ final class PH_Passport_Fit_Search {
         // At overlapping endpoints, prefer the larger size. A2/A2.5 and
         // revolver frame-specific exceptions need additional specifications.
         if (in_array($type, array('semi-auto', 'semi-automatic', 'semi automatic'), true)) {
-            if ($inches >= 4.5 && $inches <= 6.49) { return 'A5'; }
+            if ($inches >= 4.5 && $inches <= 6.0) { return 'A5'; }
             if ($inches >= 4.0 && $inches <= 4.5) { return 'A4'; }
             if ($inches >= 3.5 && $inches < 4.0) { return 'A3'; }
             if ($inches >= 3.0 && $inches < 3.5) {
