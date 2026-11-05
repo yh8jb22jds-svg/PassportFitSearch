@@ -498,7 +498,7 @@ final class PH_Passport_Fit_Search {
                     .then(function(r){return r.json().then(function(data){if(!r.ok) throw new Error('unavailable');return data})})
                     .then(function(data){
                         var results=data.results||[];
-                        if(!results.length){output.innerHTML='<p>No exact model match found. <a href="'+root.dataset.chart+'">See the size chart</a>.</p>';return}
+                        if(!results.length){output.innerHTML='<p>No model match found. Try the manufacturer and model number, or <a href="'+root.dataset.chart+'">see the size chart</a>.</p>';return}
                         output.innerHTML=results.map(function(item){
                             var fit=item.confirmed
                                 ? '<div class="ph-fit-search__fit"><strong>Passport fit: '+esc(item.fit)+'</strong>'+(item.variant?' <span class="ph-fit-search__muted">('+esc(item.variant)+')</span>':'')+'</div>'
