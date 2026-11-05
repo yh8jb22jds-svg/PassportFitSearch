@@ -503,8 +503,8 @@ final class PH_Passport_Fit_Search {
                             var dualFitNote=(item.confirmed && item.fits && item.fits.length>1 && item.fits.every(function(v){return /^[A-Z][0-9]+(?:\\.[0-9]+)?$/.test(v)}))
                 ? '<p class="ph-fit-search__muted">Passport Holsters has been making holsters since 1996. Some compact models have two listed fits: the smaller size offers a slightly snugger fit, which many customers prefer. Others prefer the larger size for its roomier feel and what they consider a quicker draw. Choose only a size that securely retains your firearm and fully protects the trigger guard. Both listed sizes are options, not a guarantee for modified firearms. Our holsters carry a lifetime warranty.</p>' : '';
             var sizes=(item.fits||[]).filter(function(v){return /^[A-Z][0-9]+(?:\\.[0-9]+)?$/.test(v)});
-                            var shop=(item.fit && sizes.length===1 && item.fits.length===1)
-                                ? '<div><a class="ph-fit-search__shop" href="'+root.dataset.chart+'?size='+encodeURIComponent(sizes[0])+'&results=1#ph-size-search">Shop size '+esc(sizes[0])+' holsters</a></div>'
+                            var shop=(sizes.length && sizes.length===(item.fits||[]).length)
+                                ? '<div>'+sizes.map(function(size){return '<a class="ph-fit-search__shop" style="margin-right:8px" href="'+root.dataset.chart+'?size='+encodeURIComponent(size)+'&results=1#ph-size-search">Shop size '+esc(size)+' holsters</a>'}).join('')+'</div>'
                                 : '';
                             return '<div class="ph-fit-search__item"><div class="ph-fit-search__title">'+esc(item.name)+'</div>'+fit+dualFitNote+shop+'</div>';
                         }).join('');
