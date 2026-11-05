@@ -192,6 +192,8 @@ final class PH_Passport_Fit_Search {
         // Classify only explicitly identifiable semi-auto pistol model families.
         // Brand-wide assumptions are unsafe: several manufacturers also make revolvers.
         $semi_auto_families = array(
+            'KAHR-' => '/^Kahr (?:CW9|CW40|CM9|CM40|PM9|PM40|P9|P40|K9|K40|MK9|MK40|CT9|CT40|TP9|T9)\\b/i',
+            'BERSA-' => '/^Bersa (?:Thunder|BP9|BP380|TPR9|TPR40|Firestorm)\\b/i',
             'IWI-' => '/^IWI (?:Masada|Jericho|Baby Eagle)\\b/i',
             'SAR-' => '/^(?:SAR|Sarsilmaz) (?:SAR9|B6|K2|CM9|ST9|P8L)\\b/i',
             'STEYR-' => '/^Steyr (?:M9|M40|M357|L9|L40|C9|S9|A1|M-A1|L-A1)\\b/i',
