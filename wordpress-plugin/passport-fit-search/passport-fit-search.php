@@ -93,7 +93,9 @@ final class PH_Passport_Fit_Search {
         $firearms = array();
         foreach ($master_paths as $path) {
             $csv = self::http_get('https://raw.githubusercontent.com/' . self::OWNER . '/' . self::REPO . '/' . self::BRANCH . '/' . implode('/', array_map('rawurlencode', explode('/', $path))));
-            if (!$csv) { continue; }
+            // Never replace a working cache with a silently incomplete dataset.
+            // GitHub rate limits and network failures must leave the prior cache intact.
+            if ($csv === false || $csv === '') { return false; }
             foreach (self::parse_csv($csv) as $row) {
                 if (empty($row['firearm_id']) || empty($row['display_name'])) { continue; }
                 // Keep a chart/customer-confirmed record when another source repeats its ID.
