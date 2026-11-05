@@ -123,6 +123,18 @@ $lcp = expect_ids('Ruger LCP', array('RUGER-000005'));
 check($lcp['RUGER-000005']['fit'] === 'A2' && $lcp['RUGER-000005']['confirmed'], 'Original LCP chart fit missing');
 $lcp_ii = expect_ids('Ruger LCP II', array('RUGER-000007'));
 check(!$lcp_ii['RUGER-000007']['confirmed'], 'LCP II inherited original LCP fit');
+foreach (array(
+    'Glock 27' => array('GLOCK-000041', 'A2.5'),
+    'Glock 33' => array('CHART-000139', 'A2.5'),
+    'Springfield XD9 Subcompact' => array('CHART-000140', 'A2.5'),
+    'Walther P22' => array('WALTHER-000038', 'A2.5')
+) as $query => $expected) {
+    $rows = expect_ids($query, array($expected[0]));
+    check($rows[$expected[0]]['fit'] === $expected[1] && $rows[$expected[0]]['confirmed'],
+        'A2.5 chart listing missing: ' . $query);
+}
+$p22q = expect_ids('Walther P22Q', array('WALTHER-000040'));
+check(!$p22q['WALTHER-000040']['confirmed'], 'P22Q inherited chart-listed P22 fit');
 // Neither master rows lacking verification nor proposed review fits may become confirmed.
 $dataset = get_transient(PH_Passport_Fit_Search::CACHE_KEY);
 foreach (array('GLOCK-000014', 'BOND-000001', 'MR-000001', 'GLOCK-000067') as $id) {
