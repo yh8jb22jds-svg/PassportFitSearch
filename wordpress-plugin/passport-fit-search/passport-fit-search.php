@@ -241,9 +241,10 @@ final class PH_Passport_Fit_Search {
             $firearm['size_source'] = $confirmed ? 'confirmed' :
                 ($firearm['recommended_size'] !== '' ? 'barrel_estimate' : 'needs_data');
             // Internal audit marker, paired with the permanent firearm_id.
+            // Include both confirmed and estimated A5 fits in the 4.6–4.9 cohort.
             // Keep out of customer search results; recomputed on each dataset refresh.
             $barrel = isset($firearm['barrel_length']) ? trim((string) $firearm['barrel_length']) : '';
-            $firearm['review_tag'] = (!$confirmed && $firearm['recommended_size'] === 'A5' &&
+            $firearm['review_tag'] = ($firearm['recommended_size'] === 'A5' &&
                 preg_match('/^[0-9]+(?:\\.[0-9]+)?$/', $barrel) &&
                 (float) $barrel >= 4.6 && (float) $barrel <= 4.9)
                 ? 'A5-REVIEW-46-49' : '';
