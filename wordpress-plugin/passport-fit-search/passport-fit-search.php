@@ -195,7 +195,7 @@ final class PH_Passport_Fit_Search {
             'GLOCK-' => '/^Glock (?:[0-9]{2,3})(?:[A-Z]{1,2})?\\b/i',
             'CZ-' => '/^CZ (?:P-10|P-07|P-09|P-01|P-06|P-10|75|Shadow|SP-01|TS 2)\\b/i',
             'FN-' => '/^FN (?:309|502|503|509|510|545|Five-seveN|FNS|FNX|FNP|Reflex)\\b/i',
-            'RUGER-' => '/^Ruger (?:RXM|SR22|SR9|Security-9|MAX-9|LC9|LCP|EC9|Mark IV|American Pistol)\\b/i',
+            'RUGER-' => '/^Ruger (?:RXM|SR22|SR9|SR9c|P95|P85|Mark I|Security-9|MAX-9|LC9|LCP|EC9|Mark IV|American Pistol)\\b/i',
             'KELTEC-' => '/^Kel-Tec (?:PR-|P-|P3AT|PF-|PMR-?|CP33|P17|P11|P15|P32|P50|PLR-)/i',
             'KIMBER-' => '/^Kimber (?:Next Generation 1911|2K11|1911|Micro|R7|KDS9|Rapide|Custom|Ultra|Pro(?: Carry)?|Desert Warrior|Warrior|Eclipse|Aegis|Stainless|TLE|Covert|Sapphire|Solo|Grand Raptor|Gold Combat|Gold Match|Target|Super Match|Tactical (?:Pro|Ultra|Entry)|Combat Carry|Compact(?: CDP| Stainless| Pro Stainless)?|Polymer|Royal|Centennial)\\b/i',
             'RIA-' => '/^Rock Island Armory (?:GI|Rock Ultra|Rock Standard|Rock|TAC|Tactical|M1911|1911(?:A1)?|STK|Baby Rock|RIA 5|XT(?:22)?|Pro Match|TCM|P10 TCM|Matchmaster|Ultra Compact Tactical|CS Model|\\.22 TCM Midsize|Midsize (?:Double Stack|Tactical)|Standard GI Enhanced|BBR 3\\.10)\\b/i',
@@ -205,7 +205,7 @@ final class PH_Passport_Fit_Search {
             'COLT-' => '/^Colt (?:M1911|M1991A1|M1911A1|Government Model|Commander|Defender|Gold Cup|Delta Elite|Mustang|New Agent|Officer.s Model|Pocket Nine|Double Eagle|Pony|XSE|Concealed Carry Officer.s|Rail Gun)\\b/i',
             'TAURUS-' => '/^Taurus (?:G2C|G2S|G3C|G3X|G3XL|G2|G3|GX4|TX22|TH9|TH40|PT92|PT99|PT111|PT140|PT145|PT1911|1911|Spectrum|Curve)\\b/i',
             'SW-' => '/^(?:Smith & Wesson|S&W) (?:M&P|Shield|Equalizer|CSX|Bodyguard|SD9|SD40|SW9|SW40|Sigma|Victory|SW1911|1911)\\b/i',
-            'SIG-' => '/^SIG Sauer (?:P365|P320|P226|P229|P220|P227|P238|P938|P210|P239|P250|P2022|P224)\\b/i',
+            'SIG-' => '/^SIG Sauer (?:P365|P320|P226|P228|P229|P220|P227|P238|P938|P210|P239|P250|P2022|P224|P1911)\\b/i',
         );
         foreach ($firearms as $id => &$firearm) {
             if (!empty($firearm['action_type'])) { continue; }
@@ -280,8 +280,9 @@ final class PH_Passport_Fit_Search {
         // At overlapping endpoints, prefer the larger size. A2/A2.5 and
         // revolver frame-specific exceptions need additional specifications.
         if (in_array($type, array('semi-auto', 'semi-automatic', 'semi automatic'), true)) {
-            if ($inches >= 4.5 && $inches <= 6.0) { return 'A5'; }
-            if ($inches >= 4.0 && $inches <= 4.5) { return 'A4'; }
+            if ($inches >= 4.7 && $inches <= 6.0) { return 'A5'; }
+            if ($inches >= 4.0 && $inches < 4.5) { return 'A4'; }
+            // 4.5–4.6 inches: hold for Mark's A4/A5 decision.
             if ($inches >= 3.5 && $inches < 4.0) { return 'A3'; }
             if ($inches >= 3.0 && $inches < 3.5) {
                 // Compact/subcompact distinction cannot be inferred from length alone.
