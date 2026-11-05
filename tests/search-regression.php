@@ -149,6 +149,7 @@ foreach (glob($root . '/data/*/*search_alias_master*.csv') as $path) {
     while (($values = fgetcsv($handle)) !== false) {
         if (count($values) !== count($headers)) { continue; }
         $row = array_combine($headers, $values);
+        if (empty($row['alias_id'])) { continue; } // Some valid alias files omit optional IDs.
         check(!isset($ids[$row['alias_id']]), 'Duplicate alias ID: ' . $row['alias_id']);
         $ids[$row['alias_id']] = true;
     }
