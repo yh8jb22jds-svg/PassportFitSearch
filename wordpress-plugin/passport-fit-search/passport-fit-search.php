@@ -265,6 +265,19 @@ final class PH_Passport_Fit_Search {
                 '/^Canik (?:TP9 Elite SC|METE MC9)\\b/i'
             );
             $firearm['review_tags'] = $firearm['review_tag'] !== '' ? array($firearm['review_tag']) : array();
+            // Keep unresolved records easy to repair in the next sizing pass.
+            if ($firearm['recommended_size'] === '') {
+                if ($barrel === '' || !preg_match('/^[0-9]+(?:\\.[0-9]+)?$/', $barrel)) {
+                    $firearm['review_tags'][] = 'NEEDS-BARREL';
+                } elseif (empty($firearm['action_type'])) {
+                    $firearm['review_tags'][] = 'NEEDS-ACTION-TYPE';
+                } elseif (in_array(strtolower(trim($firearm['action_type'])), array('semi-auto', 'semi-automatic', 'semi automatic'), true)
+                    && (float) $barrel > 4.5 && (float) $barrel < 4.6) {
+                    $firearm['review_tags'][] = 'SIZE-RULE-GAP-451-459';
+                } else {
+                    $firearm['review_tags'][] = 'NEEDS-FIT-REVIEW';
+                }
+            }
             foreach ($compact_patterns as $pattern) {
                 if (preg_match($pattern, $firearm['display_name'])) {
                     $firearm['review_tags'][] = 'COMPACT-FIT-REVIEW';
