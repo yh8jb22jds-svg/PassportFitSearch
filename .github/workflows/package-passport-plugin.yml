@@ -1,0 +1,23 @@
+name: Package Passport Fit Finder
+on:
+  push:
+    branches: [fix/automatic-barrel-sizing]
+  workflow_dispatch:
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check PHP syntax
+        run: php -l wordpress-plugin/passport-fit-search/passport-fit-search.php
+      - name: Check JavaScript syntax
+        run: node --check wordpress-plugin/passport-fit-search/homepage-fit-search.js
+      - name: Create installable WordPress plugin ZIP
+        run: |
+          cd wordpress-plugin
+          zip -r ../passport-fit-search-install.zip passport-fit-search -x '*.DS_Store'
+      - uses: actions/upload-artifact@v4
+        with:
+          name: passport-fit-search-install
+          path: passport-fit-search-install.zip
+          retention-days: 30
