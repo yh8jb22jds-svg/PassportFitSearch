@@ -204,7 +204,7 @@ final class PH_Passport_Fit_Search {
             'HK-' => '/^H&K (?:USP[0-9]*|VP9|VP40|VP Pistol|P30|P2000|HK45|Mark 23|P7(?:M[0-9]+)?|CC9|SFP9|P9S|PSP)\\b/i',
             'COLT-' => '/^Colt (?:M1911|M1991A1|M1911A1|Government Model|Commander|Defender|Gold Cup|Delta Elite|Mustang|New Agent|Officer.s Model|Pocket Nine|Double Eagle|Pony|XSE|Concealed Carry Officer.s|Rail Gun|Combat Unit|Lightweight Commander|Marine Pistol)\\b/i',
             'TAURUS-' => '/^Taurus (?:G2C|G2S|G3C|G3X|G3XL|G2|G3|GX4|TX22|TH9|TH40|PT92|PT99|PT111|PT140|PT145|PT1911|1911|Spectrum|Curve)\\b/i',
-            'SW-' => '/^(?:Smith & Wesson|S&W) (?:M&P|Shield|Equalizer|CSX|Bodyguard|SD9|SD40|SW9|SW40|Sigma|Victory|SW1911|1911)\\b/i',
+            'SW-' => '/^(?:Smith & Wesson|S&W) (?:M&P(?:9|40|45|22|10|380)?|Shield|Equalizer|CSX|Bodyguard|SD9|SD40|SW9|SW40|Sigma|Victory|SW1911|1911)\\b/i',
             'SIG-' => '/^SIG Sauer (?:P365|P320|P226|P228|P229|P220|P227|P238|P938|P210|P239|P250|P2022|P224|P1911)\\b/i',
         );
         foreach ($firearms as $id => &$firearm) {
