@@ -195,7 +195,7 @@ final class PH_Passport_Fit_Search {
             'GLOCK-' => '/^Glock (?:[0-9]{2,3})(?:[A-Z]{1,2})?\\b/i',
             'CZ-' => '/^CZ (?:P-10|P-07|P-09|P-01|P-06|P-10|75|Shadow|SP-01|TS 2)\\b/i',
             'CANIK-' => '/^Canik (?:TP9SF Combat(?: Exec)?)\\b/i',
-            'FN-' => '/^FN (?:309|502|503|509|510|545|Five-seveN|FNS|FNX|FNP|Reflex)\\b/i',
+            'FN-' => '/^FN (?:309|502|503|509|510|545|Five-seveN|FNS|FNX|FNP|Reflex|High Power)\\b/i',
             'RUGER-' => '/^Ruger (?:RXM|SR22|SR9|SR9c|P95|P85|Mark I|Security-9|MAX-9|LC9|LCP|EC9|Mark IV|American Pistol)\\b/i',
             'KELTEC-' => '/^Kel-Tec (?:PR-|P-|P3AT|PF-|PMR-?|CP33|P17|P11|P15|P32|P50|PLR-)/i',
             'KIMBER-' => '/^Kimber (?:Next Generation 1911|2K11|1911|Micro|R7|KDS9|Rapide|Custom|Ultra|Pro(?: Carry)?|Desert Warrior|Warrior|Eclipse|Aegis|Stainless|TLE|Covert|Sapphire|Solo|Grand Raptor|Gold Combat|Gold Match|Target|Super Match|Tactical (?:Pro|Ultra|Entry)|Combat Carry|Compact(?: CDP| Stainless| Pro Stainless)?|Polymer|Royal|Centennial)\\b/i',
