@@ -298,7 +298,7 @@ final class PH_Passport_Fit_Search {
         if (in_array($type, array('semi-auto', 'semi-automatic', 'semi automatic'), true)) {
             if ($inches >= 4.7 && $inches <= 6.0) { return 'A5'; }
             if ($inches >= 4.0 && $inches < 4.5) { return 'A4'; }
-            // 4.5–4.6 inches: hold for Mark's A4/A5 decision.
+            // 4.50–4.69 inches: hold for Mark's A4/A5 decision; never auto-assign.
             if ($inches >= 3.5 && $inches < 4.0) { return 'A3'; }
             if ($inches >= 3.0 && $inches < 3.5) {
                 // Compact/subcompact distinction cannot be inferred from length alone.
