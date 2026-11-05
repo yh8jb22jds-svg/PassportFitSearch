@@ -194,6 +194,8 @@ final class PH_Passport_Fit_Search {
         $semi_auto_families = array(
             'BERETTA-' => '/^Beretta (?:92(?:FS|X|G|A1|A3|A4)?|M9(?:A1|A3|A4)?|PX4(?: Storm)?|APX(?: A1)?|80X|84|85|86|87|90-Two|Nano|Pico|BU9)\\b/i',
             'BROWNING-' => '/^Browning (?:Buck Mark|Hi-Power|High Power|BDA|1911-22|1911-380)\\b/i',
+            'MOSSBERG-' => '/^Mossberg (?:MC1sc|MC2c)\\b/i',
+            'SCCY-' => '/^SCCY (?:CPX-[1234]|DVG-1)\\b/i',
             'GLOCK-' => '/^Glock (?:[0-9]{2,3})(?:[A-Z]{1,2})?\\b/i',
             'CZ-' => '/^CZ (?:P-10|P-07|P-09|P-01|P-06|P-10|75|Shadow|SP-01|TS 2)\\b/i',
             'CANIK-' => '/^Canik (?:TP9SF Combat(?: Exec)?)\\b/i',
