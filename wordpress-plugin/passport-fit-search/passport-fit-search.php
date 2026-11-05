@@ -207,6 +207,21 @@ final class PH_Passport_Fit_Search {
             'SW-' => '/^(?:Smith & Wesson|S&W) (?:M&P(?:9|40|45|22|10|380)?|Shield|Equalizer|CSX|Bodyguard|SD9|SD40|SW9|SW40|Sigma|Victory|SW1911|1911)\\b/i',
             'SIG-' => '/^SIG Sauer (?:P365|P320|P226|P228|P229|P220|P227|P238|P938|P210|P239|P250|P2022|P224|P1911)\\b/i',
         );
+        // Known revolver model families; avoid assigning R sizes by brand alone.
+        $revolver_families = array(
+            'COLT-' => '/^Colt (?:Lawman Mk III|Detective Special|Police Special|Python)\\b/i',
+            'SW-' => '/^(?:Smith & Wesson|S&W) (?:Model 686 Plus)\\b/i',
+        );
+        foreach ($firearms as $id => &$firearm) {
+            if (!empty($firearm['action_type'])) { continue; }
+            foreach ($revolver_families as $prefix => $pattern) {
+                if (strpos($id, $prefix) === 0 && preg_match($pattern, $firearm['display_name'])) {
+                    $firearm['action_type'] = 'Revolver';
+                    break;
+                }
+            }
+        }
+        unset($firearm);
         foreach ($firearms as $id => &$firearm) {
             if (!empty($firearm['action_type'])) { continue; }
             foreach ($semi_auto_families as $prefix => $pattern) {
