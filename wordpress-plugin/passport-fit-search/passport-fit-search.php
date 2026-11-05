@@ -247,6 +247,25 @@ final class PH_Passport_Fit_Search {
                 preg_match('/^[0-9]+(?:\\.[0-9]+)?$/', $barrel) &&
                 (float) $barrel >= 4.6 && (float) $barrel <= 4.9)
                 ? 'A5-REVIEW-46-49' : '';
+            // Searchable internal compact-fit review cohort. These are candidates,
+            // not approved size changes. Keep firearm_id and existing fit unchanged.
+            $compact_patterns = array(
+                '/^Glock (?:19(?:X)?|45|26|43(?:X)?|48)\\b/i',
+                '/^SIG Sauer (?:P365(?: XL| XMacro)?|P320 (?:Compact|Carry))\\b/i',
+                '/^Smith & Wesson (?:M&P9 Compact|M&P Shield Plus|Shield Plus)\\b/i',
+                '/^Springfield (?:Hellcat(?: Pro)?|XD Compact)\\b/i',
+                '/^Ruger (?:MAX-9|Security-9 Compact)\\b/i',
+                '/^Taurus (?:G2C|G3C)\\b/i',
+                '/^CZ P-10 [CS]\\b/i',
+                '/^Canik (?:TP9 Elite SC|METE MC9)\\b/i'
+            );
+            $firearm['review_tags'] = $firearm['review_tag'] !== '' ? array($firearm['review_tag']) : array();
+            foreach ($compact_patterns as $pattern) {
+                if (preg_match($pattern, $firearm['display_name'])) {
+                    $firearm['review_tags'][] = 'COMPACT-FIT-REVIEW';
+                    break;
+                }
+            }
         }
         unset($firearm);
         $dataset = array('firearms' => $firearms, 'aliases' => $aliases, 'refreshed_at' => gmdate('c'));
@@ -480,11 +499,13 @@ final class PH_Passport_Fit_Search {
                                 : item.suggested
                                 ? '<div class="ph-fit-search__fit"><strong>'+(item.fits && item.fits.length>1?'Based on the information provided, we recommend considering '+(item.fit==='A2 / A2.5'?'A2 — Compact or A2.5 — Subcompact':esc(item.fits.join(' or ')))+'. Choose based on your firearm configuration.':'Based on the information provided, we recommend Passport Holsters size '+esc(item.fit)+'.')+'</strong> <span class="ph-fit-search__muted">Recommendation is for the standard factory configuration of the firearm named above. Aftermarket accessories or modifications may affect fit.</span></div>'
                                 : '<div class="ph-fit-search__fit ph-fit-search__muted">No barrel-length recommendation is available for this model. <a href="'+root.dataset.chart+'">Check the size chart</a>.</div>';
-                            var sizes=(item.fits||[]).filter(function(v){return /^[A-Z][0-9]+(?:\\.[0-9]+)?$/.test(v)});
+                            var dualFitNote=(item.confirmed && item.fits && item.fits.length>1 && item.fits.every(function(v){return /^[A-Z][0-9]+(?:\\.[0-9]+)?$/.test(v)}))
+                ? '<p class="ph-fit-search__muted">Passport Holsters has been making holsters since 1996. Some compact models have two listed fits: the smaller size is generally snugger, while the larger size provides more room. Choose only a size that securely retains your firearm and fully protects the trigger guard. Both listed sizes are options, not a guarantee for modified firearms. Our holsters carry a lifetime warranty.</p>' : '';
+            var sizes=(item.fits||[]).filter(function(v){return /^[A-Z][0-9]+(?:\\.[0-9]+)?$/.test(v)});
                             var shop=(item.fit && sizes.length===1 && item.fits.length===1)
                                 ? '<div><a class="ph-fit-search__shop" href="'+root.dataset.chart+'?size='+encodeURIComponent(sizes[0])+'&results=1#ph-size-search">Shop size '+esc(sizes[0])+' holsters</a></div>'
                                 : '';
-                            return '<div class="ph-fit-search__item"><div class="ph-fit-search__title">'+esc(item.name)+'</div>'+fit+shop+'</div>';
+                            return '<div class="ph-fit-search__item"><div class="ph-fit-search__title">'+esc(item.name)+'</div>'+fit+dualFitNote+shop+'</div>';
                         }).join('');
                     })
                     .catch(function(){output.innerHTML='Fit search is temporarily unavailable. <a href="'+root.dataset.chart+'">Use the size chart</a>.'});
