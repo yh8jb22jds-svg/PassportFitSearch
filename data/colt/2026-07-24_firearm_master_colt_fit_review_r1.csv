@@ -14,8 +14,8 @@ COLT-000012,Colt M1991A1 Compact,3.50,A2.5,High,Yes,Officer's Model - 3.50 inch 
 COLT-000013,Colt M1991A1,4.25,A3,High,Yes,Government Model - 4.25 inch barrel,Mid-size 9mm standard,No,Approved,https://pholsters.com/size-chart/,M1991A1
 COLT-000014,Colt Pony,2.80,A2,High,Yes,Beretta 80X Cheetah - 2.80 inch barrel,Subcompact .380 ACP,No,Approved,https://pholsters.com/size-chart/,Pony
 COLT-000015,Colt Pony Pocketlite,2.80,A2,High,Yes,Pony - 2.80 inch barrel,Subcompact .380 ACP lightweight,No,Approved,https://pholsters.com/size-chart/,Pony Pocketlite
-COLT-000016,Colt Mustang,2.75,A1.5,High,Yes,Beretta 3032 Tomcat - 2.75 inch barrel,Subcompact .380 ACP,No,Approved,https://pholsters.com/size-chart/,Mustang
-COLT-000017,Colt Mustang Pocketlite,2.75,A1.5,High,Yes,Mustang - 2.75 inch barrel,Subcompact .380 ACP lightweight,No,Approved,https://pholsters.com/size-chart/,Mustang Pocketlite
+COLT-000016,Colt Mustang,2.75,A2,High,Yes,Beretta 3032 Tomcat - 2.75 inch barrel,Subcompact .380 ACP,No,Approved,https://pholsters.com/size-chart/,Mustang
+COLT-000017,Colt Mustang Pocketlite,2.75,A2,High,Yes,Mustang - 2.75 inch barrel,Subcompact .380 ACP lightweight,No,Approved,https://pholsters.com/size-chart/,Mustang Pocketlite
 COLT-000018,Colt Mustang Plus II,3.00,A2,High,Yes,Mustang - 3.00 inch barrel,Compact .380 ACP variant,No,Approved,https://pholsters.com/size-chart/,Mustang Plus II
 COLT-000019,Colt XSE Government,5.00,A4,High,Yes,Government Model - 5.00 inch barrel,Full-size .45 ACP enhanced model,No,Approved,https://pholsters.com/size-chart/,XSE Government
 COLT-000020,Colt XSE Commander,4.25,A3,High,Yes,Commander - 4.25 inch barrel,Mid-size .45 ACP enhanced variant,No,Approved,https://pholsters.com/size-chart/,XSE Commander
@@ -25,10 +25,10 @@ COLT-000023,Colt Combat Unit,4.25,A3,High,Yes,Commander - 4.25 inch barrel,Mid-s
 COLT-000024,Colt Lightweight Commander,4.25,A3,High,Yes,Commander - 4.25 inch barrel,Mid-size .45 ACP lightweight variant,No,Approved,https://pholsters.com/size-chart/,Lightweight Commander
 COLT-000025,Colt Marine Pistol,5.00,A4,High,Yes,Government Model - 5.00 inch barrel,Full-size .45 ACP military variant,No,Approved,https://pholsters.com/size-chart/,Marine Pistol
 COLT-000026,Colt Lawman Mk III,4.00,A3,Medium,Yes,Government Model - 4.00 inch barrel,.357 Magnum discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_Lawman,Lawman MkIII
-COLT-000027,Colt Detective Special,2.00,A1.5,Medium,Yes,S&W Model 36 - 2.00 inch barrel,.38 Special revolver discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_Detective_Special,Detective Special
+COLT-000027,Colt Detective Special,2.00,R3,Medium,Yes,S&W Model 36 - 2.00 inch barrel,.38 Special revolver discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_Detective_Special,Detective Special
 COLT-000028,Colt Police Special,4.00,A3,Medium,Yes,Government Model - 4.00 inch barrel,.38 Special revolver discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_Police_Special,Police Special
 COLT-000029,Colt Python,4.00,A3,Medium,Yes,Police Special - 4.00 inch barrel,.357 Magnum revolver discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_Python,Python
-COLT-000030,Colt Cobra,2.00,A1.5,Medium,Yes,Detective Special - 2.00 inch barrel,.38 Special revolver discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_Cobra,Cobra
+COLT-000030,Colt Cobra,2.00,R3,Medium,Yes,Detective Special - 2.00 inch barrel,.38 Special revolver discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_Cobra,Cobra
 COLT-000031,Colt King Cobra,4.00,A3,Medium,Yes,Python - 4.00 inch barrel,.357 Magnum revolver discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_King_Cobra,King Cobra
 COLT-000032,Colt Diamondback,4.00,A3,Medium,Yes,Police Special - 4.00 inch barrel,.38 Special revolver discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_Diamondback,Diamondback
 COLT-000033,Colt Trooper,4.00,A3,Medium,Yes,Police Special - 4.00 inch barrel,.357 Magnum revolver discontinued,No,Approved Discontinued,https://en.wikipedia.org/wiki/Colt_Trooper,Trooper
