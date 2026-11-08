@@ -653,10 +653,10 @@ Beretta,"PX4 Storm Compact (9 mm), Variant 1",3.2,A3
 Beretta,"PX4 Storm Inox (40 SW), Variant 1",4,A4
 Beretta,"PX4 Storm Inox (9 mm), Variant 1",4,A4
 Beretta,"PX4 Storm SD (45 Auto), Variant 1",4.53,A4
-Beretta,"PX4 Storm Sub Compact (40 SW), Variant 1",3,A3
-Beretta,"PX4 Storm Sub Compact (40 SW), Variant 2",3,A3
-Beretta,"PX4 Storm Sub Compact (9 mm), Variant 1",3,A3
-Beretta,"PX4 Storm Sub Compact (9 mm), Variant 2",3,A3
+Beretta,"PX4 Storm Sub Compact (40 SW), Variant 1",3,A2.5/A3
+Beretta,"PX4 Storm Sub Compact (40 SW), Variant 2",3,A2.5/A3
+Beretta,"PX4 Storm Sub Compact (9 mm), Variant 1",3,A2.5/A3
+Beretta,"PX4 Storm Sub Compact (9 mm), Variant 2",3,A2.5/A3
 Beretta,"PX4 Storm (40 SW), Variant 1",4,A4
 Beretta,"PX4 Storm (40 SW), Variant 2",4,A4
 Beretta,"PX4 Storm (40 SW), Variant 3",4,A4
@@ -3367,9 +3367,9 @@ Llama,"Micro Max (32 Auto), Variant 1",3.688,A3
 Llama,"Micro Max (380 Auto), Variant 1",3.688,A3
 Llama,"Micro Max (380 Auto), Variant 2",3.688,A3
 Llama,"Mini Max II (45 Auto), Variant 1",3.625,A3
-Llama,"Mini Max Sub Compact (40 SW), Variant 1",3.25,A3
-Llama,"Mini Max Sub Compact (45 Auto), Variant 1",3.25,A3
-Llama,"Mini Max Sub Compact (9 mm), Variant 1",3.25,A3
+Llama,"Mini Max Sub Compact (40 SW), Variant 1",3.25,A2.5/A3
+Llama,"Mini Max Sub Compact (45 Auto), Variant 1",3.25,A2.5/A3
+Llama,"Mini Max Sub Compact (9 mm), Variant 1",3.25,A2.5/A3
 Llama,"Mini Max (40 SW), Variant 1",3.5,A3
 Llama,"Mini Max (40 SW), Variant 2",3.5,A3
 Llama,"Mini Max (45 Auto), Variant 1",3.5,A3
@@ -5819,7 +5819,7 @@ Sphinx,"SDP Production (9 mm), Variant 1",4.5,A4
 Sphinx,"SDP Production (9 mm), Variant 2",4.5,A4
 Sphinx,"SDP Production (9 mm), Variant 3",4.5,A4
 Sphinx,"SDP Standard (9 mm), Variant 1",4.5,A4
-Sphinx,"SDP Subcompact (9 mm), Variant 1",3.13,A2/A3
+Sphinx,"SDP Subcompact (9 mm), Variant 1",3.13,A2.5/A3
 Springfield Armory,"1911 A1 Champion Operator (45 Auto), Variant 1",4,A4
 Springfield Armory,"1911 A1 Combat Operator (45 Auto), Variant 1",5,A5
 Springfield Armory,"1911 A1 Combat Operator (9 mm), Variant 1",5,A5
@@ -6090,12 +6090,12 @@ Springfield Armory,"XD Service Model (9 mm), Variant 2",4,A4
 Springfield Armory,"XD Service Model (9 mm), Variant 3",4,A4
 Springfield Armory,"XD Service Model (9 mm), Variant 4",4,A4
 Springfield Armory,"XD Service Model (9 mm), Variant 5",4,A4
-Springfield Armory,"XD Sub Compact (40 SW), Variant 1",3,A3
-Springfield Armory,"XD Sub Compact (40 SW), Variant 2",3,A3
-Springfield Armory,"XD Sub Compact (40 SW), Variant 3",3,A3
-Springfield Armory,"XD Sub Compact (9 mm), Variant 1",3,A3
-Springfield Armory,"XD Sub Compact (9 mm), Variant 2",3,A3
-Springfield Armory,"XD Sub Compact (9 mm), Variant 3",3,A3
+Springfield Armory,"XD Sub Compact (40 SW), Variant 1",3,A2.5/A3
+Springfield Armory,"XD Sub Compact (40 SW), Variant 2",3,A2.5/A3
+Springfield Armory,"XD Sub Compact (40 SW), Variant 3",3,A2.5/A3
+Springfield Armory,"XD Sub Compact (9 mm), Variant 1",3,A2.5/A3
+Springfield Armory,"XD Sub Compact (9 mm), Variant 2",3,A2.5/A3
+Springfield Armory,"XD Sub Compact (9 mm), Variant 3",3,A2.5/A3
 Springfield Armory,"XD Tactical (357 SIG), Variant 1",5,A5
 Springfield Armory,"XD Tactical (357 SIG), Variant 2",5,A5
 Springfield Armory,"XD Tactical (40 SW), Variant 1",5,A5
