@@ -2463,7 +2463,7 @@ Glock,"41 Gen4 MOS (45 Auto), Variant 1",5.31,A5
 Glock,"41 Gen4 (45 Auto), Variant 1",5.31,A5
 Glock,"42 (380 Auto), Variant 1",3.2,A3
 Glock,"43 (9 mm), Variant 1",3.39,A3
-Glock,"43X MOS (9 mm), Variant 1",3.41,A3
+Glock,"43X MOS (9 mm), Variant 1",3.41,A2.5/A3
 Glock,"43X (9 mm), Variant 1",3.41,A3
 Glock,"43X (9 mm), Variant 2",3.41,A3
 Glock,"43X (9 mm), Variant 3",3.41,A3
@@ -3107,29 +3107,29 @@ Kimber,"LTP II (45 Auto), Variant 1",5,A5
 Kimber,"Master Carry Custom (45 Auto), Variant 1",5,A5
 Kimber,"Master Carry Pro (45 Auto), Variant 1",4,A4
 Kimber,"Master Carry Ultra (45 Auto), Variant 1",3,A3
-Kimber,"Micro 9 MC (9 mm), Variant 1",3.45,A3
-Kimber,"Micro 9 MC (9 mm), Variant 2",3.45,A3
-Kimber,"Micro 9 OI (9 mm), Variant 1",3.15,A2/A3
-Kimber,"Micro 9 OI (9 mm), Variant 2",3.15,A2/A3
-Kimber,"Micro 9 Rapide (Black Ice) (9 mm), Variant 1",3.15,A2/A3
-Kimber,"Micro 9 Triari (9 mm), Variant 1",3.15,A2/A3
-Kimber,"Micro 9 (9 mm), Variant 1",3.15,A2/A3
-Kimber,"Micro 9 (9 mm), Variant 10",3.15,A2/A3
-Kimber,"Micro 9 (9 mm), Variant 11",3.15,A2/A3
-Kimber,"Micro 9 (9 mm), Variant 12",3.15,A2/A3
-Kimber,"Micro 9 (9 mm), Variant 13",3.15,A2/A3
-Kimber,"Micro 9 (9 mm), Variant 14",3.15,A2/A3
-Kimber,"Micro 9 (9 mm), Variant 15",3.15,A2/A3
-Kimber,"Micro 9 (9 mm), Variant 16",3.15,A2/A3
-Kimber,"Micro 9 (9 mm), Variant 17",3.15,A2/A3
-Kimber,"Micro 9 (9 mm), Variant 2",3.15,A2/A3
-Kimber,"Micro 9 (9 mm), Variant 3",3.15,A2/A3
-Kimber,"Micro 9 (9 mm), Variant 4",3.15,A2/A3
-Kimber,"Micro 9 (9 mm), Variant 5",3.15,A2/A3
-Kimber,"Micro 9 (9 mm), Variant 6",3.15,A2/A3
-Kimber,"Micro 9 (9 mm), Variant 7",3.15,A2/A3
-Kimber,"Micro 9 (9 mm), Variant 8",3.15,A2/A3
-Kimber,"Micro 9 (9 mm), Variant 9",3.15,A2/A3
+Kimber,"Micro 9 MC (9 mm), Variant 1",3.45,A2.5/A3
+Kimber,"Micro 9 MC (9 mm), Variant 2",3.45,A2.5/A3
+Kimber,"Micro 9 OI (9 mm), Variant 1",3.15,A2.5/A3
+Kimber,"Micro 9 OI (9 mm), Variant 2",3.15,A2.5/A3
+Kimber,"Micro 9 Rapide (Black Ice) (9 mm), Variant 1",3.15,A2.5/A3
+Kimber,"Micro 9 Triari (9 mm), Variant 1",3.15,A2.5/A3
+Kimber,"Micro 9 (9 mm), Variant 1",3.15,A2.5/A3
+Kimber,"Micro 9 (9 mm), Variant 10",3.15,A2.5/A3
+Kimber,"Micro 9 (9 mm), Variant 11",3.15,A2.5/A3
+Kimber,"Micro 9 (9 mm), Variant 12",3.15,A2.5/A3
+Kimber,"Micro 9 (9 mm), Variant 13",3.15,A2.5/A3
+Kimber,"Micro 9 (9 mm), Variant 14",3.15,A2.5/A3
+Kimber,"Micro 9 (9 mm), Variant 15",3.15,A2.5/A3
+Kimber,"Micro 9 (9 mm), Variant 16",3.15,A2.5/A3
+Kimber,"Micro 9 (9 mm), Variant 17",3.15,A2.5/A3
+Kimber,"Micro 9 (9 mm), Variant 2",3.15,A2.5/A3
+Kimber,"Micro 9 (9 mm), Variant 3",3.15,A2.5/A3
+Kimber,"Micro 9 (9 mm), Variant 4",3.15,A2.5/A3
+Kimber,"Micro 9 (9 mm), Variant 5",3.15,A2.5/A3
+Kimber,"Micro 9 (9 mm), Variant 6",3.15,A2.5/A3
+Kimber,"Micro 9 (9 mm), Variant 7",3.15,A2.5/A3
+Kimber,"Micro 9 (9 mm), Variant 8",3.15,A2.5/A3
+Kimber,"Micro 9 (9 mm), Variant 9",3.15,A2.5/A3
 Kimber,"Micro (380 Auto), Variant 1",2.75,A2
 Kimber,"Micro (380 Auto), Variant 10",2.75,A2
 Kimber,"Micro (380 Auto), Variant 11",2.75,A2
@@ -3554,9 +3554,9 @@ Mossberg,"MC2c (9 mm), Variant 1",3.9,A3/A4
 Mossberg,"MC2c (9 mm), Variant 2",3.9,A3/A4
 Mossberg,"MC2c (9 mm), Variant 3",3.9,A3/A4
 Mossberg,"MC2c (9 mm), Variant 4",3.9,A3/A4
-Mossberg,"MC2sc (9 mm), Variant 1",3.4,A3
-Mossberg,"MC2sc (9 mm), Variant 2",3.4,A3
-Mossberg,"MC2sc (9 mm), Variant 3",3.4,A3
+Mossberg,"MC2sc (9 mm), Variant 1",3.4,A2.5/A3
+Mossberg,"MC2sc (9 mm), Variant 2",3.4,A2.5/A3
+Mossberg,"MC2sc (9 mm), Variant 3",3.4,A2.5/A3
 NAA,"1860 Earl (22 Mag WMR)), Variant 1",3,R2.5
 NAA,"1860 Earl (22 Mag WMR)), Variant 2",4,R4
 NAA,"1860 Hogleg (22 Mag WMR)), Variant 1",6,R6
@@ -4360,7 +4360,7 @@ Ruger,"Redhawk (45 Colt), Variant 1",4.2,R4
 Ruger,"Redhawk (45 Colt), Variant 2",4,R4
 Ruger,"Redhawk (45 Colt), Variant 3",5.5,R6
 Ruger,"Redhawk (45 Colt), Variant 4",7.5,R8
-Ruger,"Security 380 (380 Auto), Variant 1",3.42,A3
+Ruger,"Security 380 (380 Auto), Variant 1",3.42,A2.5/A3
 Ruger,"Security 9 Compact (9 mm), Variant 1",3.42,A3
 Ruger,"Security 9 Compact (9 mm), Variant 2",3.42,A3
 Ruger,"Security 9 Compact (9 mm), Variant 3",3.42,A3
@@ -5074,20 +5074,20 @@ SIG,"P320 XFIVE LEGION (9 mm), Variant 1",5,A5
 SIG,"P320 XTEN COMP (10 mm), Variant 1",3.8,A3
 SIG,"P320 XTEN (10 mm), Variant 1",5,A5
 SIG,"P322 (22 LR), Variant 1",4,A4
-SIG,"P365 380 (380 Auto), Variant 1",3.1,A2/A3
-SIG,"P365 380 (380 Auto), Variant 2",3.1,A2/A3
-SIG,"P365 AXG LEGION (9 mm), Variant 1",3.1,A2/A3
+SIG,"P365 380 (380 Auto), Variant 1",3.1,A2.5/A3
+SIG,"P365 380 (380 Auto), Variant 2",3.1,A2.5/A3
+SIG,"P365 AXG LEGION (9 mm), Variant 1",3.1,A2.5/A3
 SIG,"P365 FUSE (9 mm), Variant 1",4.3,A4
 SIG,"P365 FUSE (9 mm), Variant 2",4.3,A4
 SIG,"P365 FUSE (9 mm), Variant 3",4.3,A4
-SIG,"P365 LUXE 380 (380 Auto), Variant 1",3.1,A2/A3
-SIG,"P365 SAS (9 mm), Variant 1",3.1,A2/A3
-SIG,"P365 XL Spectre Comp (9 mm), Variant 1",3.1,A2/A3
+SIG,"P365 LUXE 380 (380 Auto), Variant 1",3.1,A2.5/A3
+SIG,"P365 SAS (9 mm), Variant 1",3.1,A2.5/A3
+SIG,"P365 XL Spectre Comp (9 mm), Variant 1",3.1,A2.5/A3
 SIG,"P365 XL SPECTRE (9 mm), Variant 1",3.7,A3
 SIG,"P365 XL (9 mm), Variant 1",3.7,A3
 SIG,"P365 XL (9 mm), Variant 2",3.7,A3
-SIG,"P365 XMACRO COMP (9 mm), Variant 1",3.1,A2/A3
-SIG,"P365 XMACRO COMP (9 mm), Variant 2",3.1,A2/A3
+SIG,"P365 XMACRO COMP (9 mm), Variant 1",3.1,A2.5/A3
+SIG,"P365 XMACRO COMP (9 mm), Variant 2",3.1,A2.5/A3
 SIG,"P365 XMACRO TACOPS (9 mm), Variant 1",3.7,A3
 SIG,"P365 XMACRO (9 mm), Variant 1",3.7,A3
 SIG,"P365 XMACRO (9 mm), Variant 2",3.7,A3
@@ -5095,8 +5095,8 @@ SIG,"P365 (9 mm), Variant 1",3.1,A2.5/A3
 SIG,"P365 (9 mm), Variant 2",3.1,A2.5/A3
 SIG,"P365 (9 mm), Variant 3",3.1,A2.5/A3
 SIG,"P365 (9 mm), Variant 4",3.1,A2.5/A3
-SIG,"P365X (9 mm), Variant 1",3.1,A2/A3
-SIG,"P365X (9 mm), Variant 2",3.1,A2/A3
+SIG,"P365X (9 mm), Variant 1",3.1,A2.5/A3
+SIG,"P365X (9 mm), Variant 2",3.1,A2.5/A3
 SIG,"P938 Emperor Scorpion (9 mm), Variant 1",3,A3
 SIG,"P938 Emperor Scorpion (9 mm), Variant 2",3.5,A3
 SIG,"P938 LEGION (9 mm), Variant 1",3,A3
@@ -5667,16 +5667,16 @@ Smith & Wesson,"MP Shield M2 0 (9 mm), Variant 3",3.1,A2/A3
 Smith & Wesson,"MP Shield M2 0 (9 mm), Variant 4",3.1,A2/A3
 Smith & Wesson,"MP Shield M2 0 (9 mm), Variant 5",3.1,A2/A3
 Smith & Wesson,"MP Shield M2 0 (9 mm), Variant 6",3.1,A2/A3
-Smith & Wesson,"MP Shield Plus (30 Super Carry), Variant 1",3.1,A2/A3
-Smith & Wesson,"MP Shield Plus (30 Super Carry), Variant 2",3.1,A2/A3
-Smith & Wesson,"MP Shield Plus (30 Super Carry), Variant 3",3.1,A2/A3
-Smith & Wesson,"MP Shield Plus (30 Super Carry), Variant 4",3.1,A2/A3
-Smith & Wesson,"MP Shield Plus (9 mm), Variant 1",3.1,A2/A3
-Smith & Wesson,"MP Shield Plus (9 mm), Variant 2",3.1,A2/A3
-Smith & Wesson,"MP Shield Plus (9 mm), Variant 3",3.1,A2/A3
-Smith & Wesson,"MP Shield Plus (9 mm), Variant 4",3.1,A2/A3
-Smith & Wesson,"MP Shield Plus (9 mm), Variant 5",3.1,A2/A3
-Smith & Wesson,"MP Shield Plus (9 mm), Variant 6",3.1,A2/A3
+Smith & Wesson,"MP Shield Plus (30 Super Carry), Variant 1",3.1,A2.5/A3
+Smith & Wesson,"MP Shield Plus (30 Super Carry), Variant 2",3.1,A2.5/A3
+Smith & Wesson,"MP Shield Plus (30 Super Carry), Variant 3",3.1,A2.5/A3
+Smith & Wesson,"MP Shield Plus (30 Super Carry), Variant 4",3.1,A2.5/A3
+Smith & Wesson,"MP Shield Plus (9 mm), Variant 1",3.1,A2.5/A3
+Smith & Wesson,"MP Shield Plus (9 mm), Variant 2",3.1,A2.5/A3
+Smith & Wesson,"MP Shield Plus (9 mm), Variant 3",3.1,A2.5/A3
+Smith & Wesson,"MP Shield Plus (9 mm), Variant 4",3.1,A2.5/A3
+Smith & Wesson,"MP Shield Plus (9 mm), Variant 5",3.1,A2.5/A3
+Smith & Wesson,"MP Shield Plus (9 mm), Variant 6",3.1,A2.5/A3
 Smith & Wesson,"MP Shield Plus (9 mm), Variant 7",4,A4
 Smith & Wesson,"MP Shield Plus (9 mm), Variant 8",4,A4
 Smith & Wesson,"MP Shield Plus (9 mm), Variant 9",4,A4
@@ -5956,12 +5956,12 @@ Springfield Armory,"Hellcat RDP (9 mm), Variant 1",3.8,A3
 Springfield Armory,"Hellcat RDP (9 mm), Variant 2",3.8,A3
 Springfield Armory,"Hellcat RDP (9 mm), Variant 3",3.8,A3
 Springfield Armory,"Hellcat RDP (9 mm), Variant 4",3.8,A3
-Springfield Armory,"Hellcat (9 mm), Variant 1",3,A3
-Springfield Armory,"Hellcat (9 mm), Variant 2",3,A3
-Springfield Armory,"Hellcat (9 mm), Variant 3",3,A3
-Springfield Armory,"Hellcat (9 mm), Variant 4",3,A3
-Springfield Armory,"Hellcat (9 mm), Variant 5",3,A3
-Springfield Armory,"Hellcat (9 mm), Variant 6",3,A3
+Springfield Armory,"Hellcat (9 mm), Variant 1",3,A2.5/A3
+Springfield Armory,"Hellcat (9 mm), Variant 2",3,A2.5/A3
+Springfield Armory,"Hellcat (9 mm), Variant 3",3,A2.5/A3
+Springfield Armory,"Hellcat (9 mm), Variant 4",3,A2.5/A3
+Springfield Armory,"Hellcat (9 mm), Variant 5",3,A2.5/A3
+Springfield Armory,"Hellcat (9 mm), Variant 6",3,A2.5/A3
 Springfield Armory,"SA 35 (9 mm), Variant 1",4.7,A4
 Springfield Armory,"TGO 1 Leatham Legend (45 Auto), Variant 1",5,A5
 Springfield Armory,"TGO 2 Leatham Legend (45 Auto), Variant 1",5,A5
@@ -6746,8 +6746,8 @@ Taurus,"GX2 (9 mm), Variant 6",3.38,A3
 Taurus,"GX2 (9 mm), Variant 7",3.38,A3
 Taurus,"GX4 Carry (9 mm), Variant 1",3.7,A3
 Taurus,"GX4 Carry (9 mm), Variant 2",3.7,A3
-Taurus,"GX4 (9 mm), Variant 1",3.06,A2/A3
-Taurus,"GX4 (9 mm), Variant 2",3.06,A2/A3
+Taurus,"GX4 (9 mm), Variant 1",3.06,A2.5/A3
+Taurus,"GX4 (9 mm), Variant 2",3.06,A2.5/A3
 Taurus,"GX4XL (9 mm), Variant 1",3.71,A3
 Taurus,"GX4XL (9 mm), Variant 2",3.71,A3
 Taurus,"GX4XL (9 mm), Variant 3",3.71,A3
