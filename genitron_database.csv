@@ -2417,16 +2417,16 @@ Glock,"24 (40 SW), Variant 1",6.02,A6
 Glock,"24 (40 SW), Variant 2",6.02,A6
 Glock,"24C (40 SW), Variant 1",6.02,A6
 Glock,"25 (380 Auto), Variant 1",4.02,A4
-Glock,"26 Gen4 (9 mm), Variant 1",3.46,A2.5
-Glock,"26 Gen5 MOS (9 mm), Variant 1",3.43,A2.5
-Glock,"26 Gen5 (9 mm), Variant 1",3.43,A2.5
-Glock,"26 Gen5 (9 mm), Variant 2",3.43,A2.5
-Glock,"26 V MOS (9 mm), Variant 1",3.43,A2.5
-Glock,"26 V (9 mm), Variant 1",3.43,A2.5
-Glock,"26 (9 mm), Variant 1",3.43,A2.5
-Glock,"27 Gen4 (40 SW), Variant 1",3.42,A2.5
-Glock,"27 Gen5 (40 SW), Variant 1",3.43,A2.5
-Glock,"27 (40 SW), Variant 1",3.42,A2.5
+Glock,"26 Gen4 (9 mm), Variant 1",3.46,A2.5/A3
+Glock,"26 Gen5 MOS (9 mm), Variant 1",3.43,A2.5/A3
+Glock,"26 Gen5 (9 mm), Variant 1",3.43,A2.5/A3
+Glock,"26 Gen5 (9 mm), Variant 2",3.43,A2.5/A3
+Glock,"26 V MOS (9 mm), Variant 1",3.43,A2.5/A3
+Glock,"26 V (9 mm), Variant 1",3.43,A2.5/A3
+Glock,"26 (9 mm), Variant 1",3.43,A2.5/A3
+Glock,"27 Gen4 (40 SW), Variant 1",3.42,A2.5/A3
+Glock,"27 Gen5 (40 SW), Variant 1",3.43,A2.5/A3
+Glock,"27 (40 SW), Variant 1",3.42,A2.5/A3
 Glock,"28 (380 Auto), Variant 1",3.42,A3
 Glock,"29 Gen4 (10 mm), Variant 1",3.78,A3
 Glock,"29 Gen5 (10 mm), Variant 1",3.78,A3
@@ -2444,8 +2444,8 @@ Glock,"32 Gen4 (357 SIG), Variant 1",4.01,A4
 Glock,"32 (357 SIG), Variant 1",4.01,A4
 Glock,"32 (357 SIG), Variant 2",4.01,A4
 Glock,"32C (357 SIG), Variant 1",4.01,A4
-Glock,"33 Gen4 (357 SIG), Variant 1",3.43,A2.5
-Glock,"33 (357 SIG), Variant 1",3.43,A2.5
+Glock,"33 Gen4 (357 SIG), Variant 1",3.43,A2.5/A3
+Glock,"33 (357 SIG), Variant 1",3.43,A2.5/A3
 Glock,"34 Gen4 MOS (9 mm), Variant 1",5.31,A5
 Glock,"34 Gen4 (9 mm), Variant 1",5.31,A5
 Glock,"34 Gen5 MOS (9 mm), Variant 1",5.31,A5
@@ -5091,10 +5091,10 @@ SIG,"P365 XMACRO COMP (9 mm), Variant 2",3.1,A2/A3
 SIG,"P365 XMACRO TACOPS (9 mm), Variant 1",3.7,A3
 SIG,"P365 XMACRO (9 mm), Variant 1",3.7,A3
 SIG,"P365 XMACRO (9 mm), Variant 2",3.7,A3
-SIG,"P365 (9 mm), Variant 1",3.1,A2/A3
-SIG,"P365 (9 mm), Variant 2",3.1,A2/A3
-SIG,"P365 (9 mm), Variant 3",3.1,A2/A3
-SIG,"P365 (9 mm), Variant 4",3.1,A2/A3
+SIG,"P365 (9 mm), Variant 1",3.1,A2.5/A3
+SIG,"P365 (9 mm), Variant 2",3.1,A2.5/A3
+SIG,"P365 (9 mm), Variant 3",3.1,A2.5/A3
+SIG,"P365 (9 mm), Variant 4",3.1,A2.5/A3
 SIG,"P365X (9 mm), Variant 1",3.1,A2/A3
 SIG,"P365X (9 mm), Variant 2",3.1,A2/A3
 SIG,"P938 Emperor Scorpion (9 mm), Variant 1",3,A3
