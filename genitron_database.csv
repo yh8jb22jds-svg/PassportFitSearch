@@ -262,7 +262,7 @@ ArmaLite,"AR 24 (9 mm), Variant 1",4.67,A4
 ArmaLite,"AR 24 (9 mm), Variant 2",4.67,A4
 ArmaLite,"AR 24K (9 mm), Variant 1",3.89,A3/A4
 ArmaLite,"AR 24K (9 mm), Variant 2",3.89,A3/A4
-Arminius,"HW 22 (22 LR), Variant 1",2,R2
+Arminius,"HW 22 (22 LR), Variant 1",2,R3
 Arminius,"HW 3 (22 LR), Variant 1",2.75,R3
 Arminius,"HW 3 (22 LR), Variant 2",2.75,R3
 Arminius,"HW 3 (22 Mag WMR)), Variant 1",2.75,R3
@@ -281,7 +281,7 @@ Arminius,"HW 38 (38 Spl), Variant 2",4,R4
 Arminius,"HW 5 (22 LR), Variant 1",4,R4
 Arminius,"HW 5 (22 LR), Variant 2",4,R4
 Arminius,"HW 5 (32 SW Long), Variant 1",4,R4
-Arminius,"HW 6 (22 Mag WMR)), Variant 1",2,R2
+Arminius,"HW 6 (22 Mag WMR)), Variant 1",2,R3
 Arminius,"HW 7 T (22 LR), Variant 1",6,R6
 Arminius,"HW 7 (22 LR), Variant 1",6,R6
 Arminius,"HW 7 (22 LR), Variant 2",6,R6
@@ -293,7 +293,7 @@ Arminius,"HW 9 (22 LR), Variant 2",6,R6
 Arminius,"HW 9 (22 LR), Variant 3",6,R6
 Arminius,"HW 9 (22 LR), Variant 4",6,R6
 Arminius,"HW 9 (22 LR), Variant 5",6,R6
-Arminius,"WSA (22 LR), Variant 1",6.75,R8
+Arminius,"WSA (22 LR), Variant 1",6.75,R6
 Arminius,"WSA (357 Mag), Variant 1",4.75,R4
 Armscor-RIA,"1911 A1 45MSP RIA (45 Auto), Variant 1",4,A4
 Armscor-RIA,"1911 A1 45P CS (45 Auto), Variant 1",3.5,A3
@@ -334,8 +334,8 @@ Armscor-RIA,"2011 Tactical VZ Grip (10 mm), Variant 1",5,A5
 Armscor-RIA,"2011 Tactical VZ Grip (45 Auto), Variant 1",5,A5
 Armscor-RIA,"5 0 ST (9 mm), Variant 1",4.91,A4/A5
 Armscor-RIA,"5 0E (9 mm), Variant 1",4.91,A4/A5
-Armscor-RIA,"AL3 0 (357 Mag), Variant 1",2,R2
-Armscor-RIA,"AL3 1 (357 Mag), Variant 1",2,R2
+Armscor-RIA,"AL3 0 (357 Mag), Variant 1",2,R3
+Armscor-RIA,"AL3 1 (357 Mag), Variant 1",2,R3
 Armscor-RIA,"AL9 0 (9 mm), Variant 1",3,R3
 Armscor-RIA,"Baby Rock (380 Auto), Variant 1",3.75,A3
 Armscor-RIA,"BBR 3 10 (45 Auto), Variant 1",3.1,A2/A3
@@ -344,10 +344,10 @@ Armscor-RIA,"LI380 (380 Auto), Variant 1",3.55,A3
 Armscor-RIA,"M200 RIA (38 Spl), Variant 1",4,R4
 Armscor-RIA,"M200 (38 Spl), Variant 1",2.875,R3
 Armscor-RIA,"M202 (38 Spl), Variant 1",4,R4
-Armscor-RIA,"M206 RIA (38 Spl), Variant 1",2,R2
-Armscor-RIA,"M206 RIA (38 Spl), Variant 2",2,R2
-Armscor-RIA,"M206 RIA (38 Spl), Variant 3",2,R2
-Armscor-RIA,"M206 (38 Spl), Variant 1",2,R2
+Armscor-RIA,"M206 RIA (38 Spl), Variant 1",2,R3
+Armscor-RIA,"M206 RIA (38 Spl), Variant 2",2,R3
+Armscor-RIA,"M206 RIA (38 Spl), Variant 3",2,R3
+Armscor-RIA,"M206 (38 Spl), Variant 1",2,R3
 Armscor-RIA,"MAP FS (9 mm), Variant 1",4.45,A4
 Armscor-RIA,"MAP MS (9 mm), Variant 1",3.66,A3
 Armscor-RIA,"MAPP FS (9 mm), Variant 1",4.45,A4
@@ -410,7 +410,7 @@ Astra,"2000 Cub (22 Short), Variant 1",2.25,A2
 Astra,"2000 Cub (22 Short), Variant 2",2.25,A2
 Astra,"2000 Cub (25 Auto), Variant 1",2.25,A2
 Astra,"2000 Cub (25 Auto), Variant 2",2.25,A2
-Astra,"250 (22 LR), Variant 1",2,R2
+Astra,"250 (22 LR), Variant 1",2,R3
 Astra,"250 (38 Spl), Variant 1",2,R2
 Astra,"250 (38 Spl), Variant 2",2,R2
 Astra,"300 (32 Auto), Variant 1",4,A4
@@ -438,8 +438,8 @@ Astra,"5000 Constable (22 LR), Variant 1",3.5,A3
 Astra,"5000 Constable (32 Auto), Variant 1",3.5,A3
 Astra,"5000 Constable (380 Auto), Variant 1",3.5,A3
 Astra,"600 (9 mm), Variant 1",5.25,A5
-Astra,"680 (38 Spl), Variant 1",2,R2
-Astra,"680 (38 Spl), Variant 2",2,R2
+Astra,"680 (38 Spl), Variant 1",2,R3
+Astra,"680 (38 Spl), Variant 2",2,R3
 Astra,"7000 (22 LR), Variant 1",2.3,A2
 Astra,"7000 (22 LR), Variant 2",2.3,A2
 Astra,"800 Condor (9 mm), Variant 1",5.25,A5
@@ -468,10 +468,10 @@ Astra,"A 80 (9 mm), Variant 1",3.75,A3
 Astra,"A 90 (45 Auto), Variant 1",3.7,A3
 Astra,"A 90 (9 mm), Variant 1",3.7,A3
 Astra,"A 90 (9 mm), Variant 2",3.7,A3
-Astra,"Cadix (22 LR), Variant 1",2,R2
+Astra,"Cadix (22 LR), Variant 1",2,R3
 Astra,"Cadix (22 LR), Variant 2",4,R4
 Astra,"Cadix (22 LR), Variant 3",6,R6
-Astra,"Cadix (32 SW Long), Variant 1",2,R2
+Astra,"Cadix (32 SW Long), Variant 1",2,R3
 Astra,"Cadix (32 SW Long), Variant 2",4,R4
 Astra,"Cadix (32 SW Long), Variant 3",6,R6
 Astra,"Cadix (38 Spl), Variant 1",2,R2
@@ -1127,14 +1127,14 @@ Charles Daly,"M 5 Ultra X Compact 1911 (9 mm), Variant 1",3.143,A2/A3
 Charles Daly,"ZDA (40 SW), Variant 1",4.25,A4
 Charles Daly,"ZDA (9 mm), Variant 1",4.25,A4
 Charter Arms,"79K (380 Auto), Variant 1",3.6,A3
-Charter Arms,"Bulldog (44 SW Spl), Variant 1",2.5,R3
-Charter Arms,"Bulldog (44 SW Spl), Variant 2",2.5,R3
-Charter Arms,"Bulldog (44 SW Spl), Variant 3",2.5,R3
-Charter Arms,"Bulldog (44 SW Spl), Variant 4",2.5,R3
-Charter Arms,"Bulldog (44 SW Spl), Variant 5",2.5,R3
-Charter Arms,"Bulldog (44 SW Spl), Variant 6",2.5,R3
-Charter Arms,"Bulldog (44 SW Spl), Variant 7",3,R3
-Charter Arms,"Bulldog (45 Colt), Variant 1",2.5,R3
+Charter Arms,"Bulldog (44 SW Spl), Variant 1",2.5,R2/R2.5
+Charter Arms,"Bulldog (44 SW Spl), Variant 2",2.5,R2/R2.5
+Charter Arms,"Bulldog (44 SW Spl), Variant 3",2.5,R2/R2.5
+Charter Arms,"Bulldog (44 SW Spl), Variant 4",2.5,R2/R2.5
+Charter Arms,"Bulldog (44 SW Spl), Variant 5",2.5,R2/R2.5
+Charter Arms,"Bulldog (44 SW Spl), Variant 6",2.5,R2/R2.5
+Charter Arms,"Bulldog (44 SW Spl), Variant 7",3,R2.5
+Charter Arms,"Bulldog (45 Colt), Variant 1",2.5,R2/R2.5
 Charter Arms,"Chic Lady (38 Spl), Variant 1",2,R2
 Charter Arms,"Chic Lady (38 Spl), Variant 2",2,R2
 Charter Arms,"Coyote (380 Auto), Variant 1",2,R2
@@ -1142,8 +1142,8 @@ Charter Arms,"Coyote (380 Auto), Variant 2",2,R2
 Charter Arms,"Coyote (380 Auto), Variant 3",2,R2
 Charter Arms,"Coyote (380 Auto), Variant 4",2,R2
 Charter Arms,"Coyote (380 Auto), Variant 5",2,R2
-Charter Arms,"Dixie Derringer (22 LR), Variant 1",1.125,D
-Charter Arms,"Dixie Derringer (22 Mag WMR)), Variant 1",1.125,D
+Charter Arms,"Dixie Derringer (22 LR), Variant 1",1.125,R2
+Charter Arms,"Dixie Derringer (22 Mag WMR)), Variant 1",1.125,R2
 Charter Arms,"Explorer II (22 LR), Variant 1",6,A6
 Charter Arms,"Explorer II (22 LR), Variant 2",8,Manual fit review
 Charter Arms,"Goldfinger (38 Spl P), Variant 1",2,R2
@@ -1152,17 +1152,17 @@ Charter Arms,"Lavender Lady (38 Spl P), Variant 1",2,R2
 Charter Arms,"Mag Pug (357 Mag), Variant 1",2.2,R2
 Charter Arms,"Mag Pug (357 Mag), Variant 2",2.2,R2
 Charter Arms,"Mag Pug (357 Mag), Variant 3",2.2,R2
-Charter Arms,"Mag Pug (357 Mag), Variant 4",3,R3
-Charter Arms,"Mag Pug (41 Rem Mag), Variant 1",2.5,R3
+Charter Arms,"Mag Pug (357 Mag), Variant 4",3,R2.5
+Charter Arms,"Mag Pug (41 Rem Mag), Variant 1",2.5,R2/R2.5
 Charter Arms,"Off Duty (38 Spl P), Variant 1",2,R2
 Charter Arms,"On Duty (38 Spl P), Variant 1",2,R2
-Charter Arms,"Pathfinder Lite (22 Mag WMR)), Variant 1",2,R2
-Charter Arms,"Pathfinder Lite (22 Mag WMR)), Variant 2",2,R2
-Charter Arms,"Pathfinder Lite (22 Mag WMR)), Variant 3",2,R2
-Charter Arms,"Pathfinder (22 LR), Variant 1",2,R2
-Charter Arms,"Pathfinder (22 Mag WMR)), Variant 1",2,R2
-Charter Arms,"Pathfinder (22 Mag WMR)), Variant 2",2,R2
-Charter Arms,"Patriot (327 Federal Mag), Variant 1",2.2,R2
+Charter Arms,"Pathfinder Lite (22 Mag WMR)), Variant 1",2,R3
+Charter Arms,"Pathfinder Lite (22 Mag WMR)), Variant 2",2,R3
+Charter Arms,"Pathfinder Lite (22 Mag WMR)), Variant 3",2,R3
+Charter Arms,"Pathfinder (22 LR), Variant 1",2,R3
+Charter Arms,"Pathfinder (22 Mag WMR)), Variant 1",2,R3
+Charter Arms,"Pathfinder (22 Mag WMR)), Variant 2",2,R3
+Charter Arms,"Patriot (327 Federal Mag), Variant 1",2.2,R3
 Charter Arms,"Pink Lady Off Duty (38 Spl P), Variant 1",2,R2
 Charter Arms,"Pink Lady Southpaw (38 Spl P), Variant 1",2,R2
 Charter Arms,"Pink Lady (32 Mag), Variant 1",2,R2
@@ -1171,15 +1171,15 @@ Charter Arms,"Pink Lady (38 Spl P), Variant 2",2,R2
 Charter Arms,"Pitbull (380 Auto), Variant 1",3,R3
 Charter Arms,"Pitbull (40 SW), Variant 1",2.3,R2
 Charter Arms,"Pitbull (40 SW), Variant 2",2.3,R2
-Charter Arms,"Pitbull (45 Auto), Variant 1",2.5,R3
-Charter Arms,"Pitbull (45 Auto), Variant 2",2.5,R3
+Charter Arms,"Pitbull (45 Auto), Variant 1",2.5,R2/R2.5
+Charter Arms,"Pitbull (45 Auto), Variant 2",2.5,R2/R2.5
 Charter Arms,"Pitbull (9 mm), Variant 1",2.2,R2
 Charter Arms,"Pitbull (9 mm), Variant 2",2.2,R2
-Charter Arms,"Pitbull (9 mm), Variant 3",2.2,R2
+Charter Arms,"Pitbull (9 mm), Variant 3",2.2,R3
 Charter Arms,"Police Bulldog (38 Spl P), Variant 1",4.2,R4
 Charter Arms,"Police Bulldog (38 Spl P), Variant 2",4,R4
 Charter Arms,"Police Bulldog (38 Spl), Variant 1",4,R4
-Charter Arms,"Police Undercover (38 Spl P), Variant 1",2.2,R2
+Charter Arms,"Police Undercover (38 Spl P), Variant 1",2.2,R3
 Charter Arms,"Professional (32 Mag), Variant 1",3,R3
 Charter Arms,"Professional (32 Mag), Variant 2",3,R3
 Charter Arms,"Professional (357 Mag), Variant 1",3,R3
@@ -1200,9 +1200,9 @@ Charter Arms,"Undercover (38 Spl P), Variant 4",2,R2
 Charter Arms,"Undercover (38 Spl P), Variant 5",2,R2
 Charter Arms,"Undercover (38 Spl P), Variant 6",2,R2
 Charter Arms,"Undercover (38 Spl P), Variant 7",2,R2
-Charter Arms,"Undercoverette (32 Mag), Variant 1",2,R2
+Charter Arms,"Undercoverette (32 Mag), Variant 1",2,R3
 Charter Arms,"Undercoverette (32 Mag), Variant 2",2,R2
-Charter Arms,"Undercoverette (32 SW Long), Variant 1",2,R2
+Charter Arms,"Undercoverette (32 SW Long), Variant 1",2,R3
 Chiappa,"1873 SAA (22 LR), Variant 1",4.75,R4
 Chiappa,"1873 SAA (22 LR), Variant 2",4.75,R4
 Chiappa,"1873 SAA (22 LR), Variant 3",5.5,R6
@@ -1225,17 +1225,17 @@ Chiappa,"M9 (40 SW), Variant 1",4.92,A4/A5
 Chiappa,"M9 (9 mm), Variant 1",4.92,A4/A5
 Chiappa,"MC14 (380 Auto), Variant 1",3.82,A3
 Chiappa,"MC27 (9 mm), Variant 1",3.87,A3/A4
-Chiappa,"Rhino 200D (357 Mag), Variant 1",2,R2
-Chiappa,"Rhino 200D (40 SW), Variant 1",2,R2
-Chiappa,"Rhino 200D (40 SW), Variant 2",2,R2
-Chiappa,"Rhino 200DS (357 Mag), Variant 1",2,R2
-Chiappa,"Rhino 200DS (357 Mag), Variant 2",2,R2
-Chiappa,"Rhino 200DS (357 Mag), Variant 3",2,R2
-Chiappa,"Rhino 200DS (357 Mag), Variant 4",2,R2
-Chiappa,"Rhino 200DS (40 SW), Variant 1",2,R2
-Chiappa,"Rhino 200DS (40 SW), Variant 2",2,R2
-Chiappa,"Rhino 200DS (9 mm), Variant 1",2,R2
-Chiappa,"Rhino 200DS (9 mm), Variant 2",2,R2
+Chiappa,"Rhino 200D (357 Mag), Variant 1",2,R3
+Chiappa,"Rhino 200D (40 SW), Variant 1",2,R3
+Chiappa,"Rhino 200D (40 SW), Variant 2",2,R3
+Chiappa,"Rhino 200DS (357 Mag), Variant 1",2,R3
+Chiappa,"Rhino 200DS (357 Mag), Variant 2",2,R3
+Chiappa,"Rhino 200DS (357 Mag), Variant 3",2,R3
+Chiappa,"Rhino 200DS (357 Mag), Variant 4",2,R3
+Chiappa,"Rhino 200DS (40 SW), Variant 1",2,R3
+Chiappa,"Rhino 200DS (40 SW), Variant 2",2,R3
+Chiappa,"Rhino 200DS (9 mm), Variant 1",2,R3
+Chiappa,"Rhino 200DS (9 mm), Variant 2",2,R3
 Chiappa,"Rhino 30DS Hunter (357 Mag), Variant 1",3,R3
 Chiappa,"Rhino 30DS X (357 Mag), Variant 1",3,R3
 Chiappa,"Rhino 30DS (357 Mag), Variant 1",3,R3
@@ -1383,8 +1383,8 @@ Colt,"38 Super Model O (38 Super), Variant 1",5,A5
 Colt,"38 Super Model O (38 Super), Variant 2",5,A5
 Colt,"380 Government (380 Auto), Variant 1",3.25,A3
 Colt,"380 Government (380 Auto), Variant 2",3.25,A3
-Colt,"Agent (38 Spl), Variant 1",2,R2
-Colt,"Agent (38 Spl), Variant 2",2,R2
+Colt,"Agent (38 Spl), Variant 1",2,R3
+Colt,"Agent (38 Spl), Variant 2",2,R3
 Colt,"Anaconda Hunter (44 Rem Mag), Variant 1",8,R8
 Colt,"Anaconda (44 Rem Mag), Variant 1",4.25,R4
 Colt,"Anaconda (44 Rem Mag), Variant 2",6,R6
@@ -1402,13 +1402,13 @@ Colt,"Anaconda (45 Colt), Variant 4",4,R4
 Colt,"Anaconda (45 Colt), Variant 5",6,R6
 Colt,"Anaconda (45 Colt), Variant 6",8,R8
 Colt,"Cobra (22 LR), Variant 1",3,R3
-Colt,"Cobra (32 SW Long), Variant 1",2,R2
+Colt,"Cobra (32 SW Long), Variant 1",2,R3
 Colt,"Cobra (32 SW Long), Variant 2",3,R3
-Colt,"Cobra (38 Spl P), Variant 1",2,R2
-Colt,"Cobra (38 Spl), Variant 1",2,R2
-Colt,"Cobra (38 Spl), Variant 2",2,R2
-Colt,"Cobra (38 Spl), Variant 3",2,R2
-Colt,"Cobra (38 Spl), Variant 4",2,R2
+Colt,"Cobra (38 Spl P), Variant 1",2,R3
+Colt,"Cobra (38 Spl), Variant 1",2,R3
+Colt,"Cobra (38 Spl), Variant 2",2,R3
+Colt,"Cobra (38 Spl), Variant 3",2,R3
+Colt,"Cobra (38 Spl), Variant 4",2,R3
 Colt,"Cobra (38 Spl), Variant 5",3,R3
 Colt,"Combat Commander (45 Auto), Variant 1",4.25,A4
 Colt,"Combat Commander (9 mm), Variant 1",4.25,A4
@@ -1441,16 +1441,16 @@ Colt,"Delta Elite (10 mm), Variant 3",5,A5
 Colt,"Delta Elite (10 mm), Variant 4",5,A5
 Colt,"Delta Elite (10 mm), Variant 5",5,A5
 Colt,"Delta Gold Cup (10 mm), Variant 1",5.03,A5
-Colt,"Detective Special (32 SW Long), Variant 1",2,R2
-Colt,"Detective Special (32 SW Long), Variant 2",2,R2
-Colt,"Detective Special (38 Spl), Variant 1",2,R2
-Colt,"Detective Special (38 Spl), Variant 2",2,R2
-Colt,"Detective Special (38 Spl), Variant 3",2,R2
-Colt,"Detective Special (38 Spl), Variant 4",2,R2
-Colt,"Detective Special (38 Spl), Variant 5",2,R2
+Colt,"Detective Special (32 SW Long), Variant 1",2,R3
+Colt,"Detective Special (32 SW Long), Variant 2",2,R3
+Colt,"Detective Special (38 Spl), Variant 1",2,R3
+Colt,"Detective Special (38 Spl), Variant 2",2,R3
+Colt,"Detective Special (38 Spl), Variant 3",2,R3
+Colt,"Detective Special (38 Spl), Variant 4",2,R3
+Colt,"Detective Special (38 Spl), Variant 5",2,R3
 Colt,"Detective Special (38 Spl), Variant 6",3,R3
-Colt,"Detective Special (38 Spl), Variant 7",2,R2
-Colt,"Detective Special (38 Spl), Variant 8",2,R2
+Colt,"Detective Special (38 Spl), Variant 7",2,R3
+Colt,"Detective Special (38 Spl), Variant 8",2,R3
 Colt,"Diamondback (22 LR), Variant 1",2.5,R3
 Colt,"Diamondback (22 LR), Variant 2",4,R4
 Colt,"Diamondback (22 LR), Variant 3",4,R4
@@ -1490,8 +1490,8 @@ Colt,"Junior (25 Auto), Variant 3",2.25,A2
 Colt,"Junior (25 Auto), Variant 4",2.25,A2
 Colt,"King Cobra Target 22LR (22 LR), Variant 1",4.25,R4
 Colt,"King Cobra (357 Mag), Variant 1",3,R3
-Colt,"King Cobra (357 Mag), Variant 2",2,R2
-Colt,"King Cobra (357 Mag), Variant 3",2,R2
+Colt,"King Cobra (357 Mag), Variant 2",2,R3
+Colt,"King Cobra (357 Mag), Variant 3",2,R3
 Colt,"King Cobra (357 Mag), Variant 4",4.25,R4
 Colt,"King Cobra (357 Mag), Variant 5",4,R4
 Colt,"King Cobra (357 Mag), Variant 6",6,R6
@@ -1527,7 +1527,7 @@ Colt,"New Frontier (44 SW Spl), Variant 3",7.5,R8
 Colt,"New Frontier (45 Colt), Variant 1",4.75,R4
 Colt,"New Frontier (45 Colt), Variant 2",5.5,R6
 Colt,"New Frontier (45 Colt), Variant 3",7.5,R8
-Colt,"Night Cobra (38 Spl P), Variant 1",2.1,R2
+Colt,"Night Cobra (38 Spl P), Variant 1",2.1,R3
 Colt,"Officers ACP (45 Auto), Variant 1",3.5,A3
 Colt,"Officers ACP (45 Auto), Variant 2",3.5,A3
 Colt,"Official Police (38 Spl), Variant 1",4,R4
@@ -1540,8 +1540,8 @@ Colt,"Pocket Positive (32 SW Long), Variant 1",2.5,R3
 Colt,"Pocket Positive (32 SW Long), Variant 2",2.5,R3
 Colt,"Pocket Positive (32 SW Long), Variant 3",3.5,R4
 Colt,"Pocket Positive (32 SW Long), Variant 4",3.5,R4
-Colt,"Pocket Positive (32 SW Long), Variant 5",2,R2
-Colt,"Pocket Positive (32 SW Long), Variant 6",2,R2
+Colt,"Pocket Positive (32 SW Long), Variant 5",2,R3
+Colt,"Pocket Positive (32 SW Long), Variant 6",2,R3
 Colt,"Pony (380 Auto), Variant 1",2.75,A2
 Colt,"Pony (380 Auto), Variant 2",2.75,A2
 Colt,"Python Elite (357 Mag), Variant 1",4,R4
@@ -1890,12 +1890,12 @@ DWM,"Luger Parabellum (9 mm), Variant 5",4,A4
 DWM,"Luger Parabellum (9 mm), Variant 6",4,A4
 EAA,"Bounty Hunter (22 LR), Variant 1",4.75,R4
 EAA,"Bounty Hunter (22 LR), Variant 2",4.75,R4
-EAA,"Bounty Hunter (22 LR), Variant 3",6.75,R8
-EAA,"Bounty Hunter (22 LR), Variant 4",6.75,R8
+EAA,"Bounty Hunter (22 LR), Variant 3",6.75,R6
+EAA,"Bounty Hunter (22 LR), Variant 4",6.75,R6
 EAA,"Bounty Hunter (22 LR), Variant 5",4.75,R4
 EAA,"Bounty Hunter (22 LR), Variant 6",4.75,R4
-EAA,"Bounty Hunter (22 LR), Variant 7",6.75,R8
-EAA,"Bounty Hunter (22 LR), Variant 8",6.75,R8
+EAA,"Bounty Hunter (22 LR), Variant 7",6.75,R6
+EAA,"Bounty Hunter (22 LR), Variant 8",6.75,R6
 EAA,"Bounty Hunter (357 Mag), Variant 1",4.5,R4
 EAA,"Bounty Hunter (357 Mag), Variant 2",7.5,R8
 EAA,"Bounty Hunter (357 Mag), Variant 3",4.5,R4
@@ -1925,11 +1925,11 @@ EAA,"SAR K2 Sarsilmaz (45 Auto), Variant 2",4.7,A4
 EAA,"SAR K2P Sarsilmaz (9 mm), Variant 1",3.8,A3
 EAA,"SAR ST10 Sarsilmaz (9 mm), Variant 1",4.4,A4
 EAA,"SAR ST10 Sarsilmaz (9 mm), Variant 2",4.4,A4
-EAA,"Windicator (357 Mag), Variant 1",2,R2
-EAA,"Windicator (357 Mag), Variant 2",2,R2
+EAA,"Windicator (357 Mag), Variant 1",2,R3
+EAA,"Windicator (357 Mag), Variant 2",2,R3
 EAA,"Windicator (357 Mag), Variant 3",4,R4
 EAA,"Windicator (357 Mag), Variant 4",4,R4
-EAA,"Windicator (38 Spl), Variant 1",2,R2
+EAA,"Windicator (38 Spl), Variant 1",2,R3
 EAA,"Windicator (38 Spl), Variant 2",4,R4
 EAA,"Witness Compact (10 mm), Variant 1",3.6,A3
 EAA,"Witness Compact (10 mm), Variant 2",3.6,A3
@@ -2123,18 +2123,18 @@ FIE,"Hombre (44 Rem Mag), Variant 3",7.5,R8
 FIE,"Hombre (45 Colt), Variant 1",5.5,R6
 FIE,"Hombre (45 Colt), Variant 2",6,R6
 FIE,"Hombre (45 Colt), Variant 3",7.5,R8
-FIE,"N 38 Titan Tiger (38 Spl), Variant 1",2,R2
+FIE,"N 38 Titan Tiger (38 Spl), Variant 1",2,R3
 FIE,"N 38 Titan Tiger (38 Spl), Variant 2",4,R4
-FIE,"N 38 Titan Tiger (38 Spl), Variant 3",2,R2
+FIE,"N 38 Titan Tiger (38 Spl), Variant 3",2,R3
 FIE,"N 38 Titan Tiger (38 Spl), Variant 4",4,R4
 FIE,"SSP (380 Auto), Variant 1",3.125,A2/A3
-FIE,"Standard (38 Spl), Variant 1",2,R2
+FIE,"Standard (38 Spl), Variant 1",2,R3
 FIE,"Standard (38 Spl), Variant 2",4,R4
 FIE,"Super Titan II (32 Auto), Variant 1",3.81,A3
 FIE,"Super Titan II (380 Auto), Variant 1",3.81,A3
 FIE,"Super Titan (380 Auto), Variant 1",3.88,A3/A4
 FIE,"Texas Ranger TEX 22 (22 LR), Variant 1",4.75,R4
-FIE,"Texas Ranger TEX 22 (22 LR), Variant 2",6.5,R8
+FIE,"Texas Ranger TEX 22 (22 LR), Variant 2",6.5,R6
 FIE,"Texas Ranger TEX 22 (22 LR), Variant 3",7,R8
 FIE,"Texas Ranger TEX 22 (22 LR), Variant 4",9,R10
 FIE,"Texas Ranger TEX 22 (22 LR), Variant 5",4.75,R4
@@ -2157,9 +2157,9 @@ FireStorm,"45 Government Mini Compact (45 Auto), Variant 1",3.5,A3
 FireStorm,"45 Government Mini Compact (45 Auto), Variant 2",3.5,A3
 FireStorm,"45 Government (45 Auto), Variant 1",5.125,A4/A5
 FireStorm,"45 Government (45 Auto), Variant 2",5.125,A4/A5
-FireStorm,"FS38R (38 Spl P), Variant 1",2,R2
-FireStorm,"FS38R (38 Spl P), Variant 2",2,R2
-FireStorm,"FS38R (38 Spl P), Variant 3",2,R2
+FireStorm,"FS38R (38 Spl P), Variant 1",2,R3
+FireStorm,"FS38R (38 Spl P), Variant 2",2,R3
+FireStorm,"FS38R (38 Spl P), Variant 3",2,R3
 FireStorm,"Mini Firestorm 40 (40 SW), Variant 1",3.5,A3
 FireStorm,"Mini Firestorm 40 (40 SW), Variant 2",3.5,A3
 FireStorm,"Mini Firestorm 40 (40 SW), Variant 3",3.5,A3
@@ -2526,8 +2526,8 @@ H&R,"Hammerless Second Model (32 SW), Variant 2",3.25,R4
 H&R,"Self Loading 25 (25 Auto), Variant 1",2,A2
 H&R,"Self Loading 32 (32 Auto), Variant 1",3.5,A3
 H&R,"Self Loading 32 (32 Auto), Variant 2",3.5,A3
-H&R,"Young America Double Action (32 SW), Variant 1",2.5,R3
-H&R,"Young America Safety Hammer (32 SW), Variant 1",2.5,R3
+H&R,"Young America Double Action (32 SW), Variant 1",2.5,R2/R2.5
+H&R,"Young America Safety Hammer (32 SW), Variant 1",2.5,R2/R2.5
 Hammerli,"208 (22 LR), Variant 1",6,A6
 Hammerli,"208S (22 LR), Variant 1",6,A6
 Hammerli,"208S (22 LR), Variant 2",6,A6
@@ -2544,9 +2544,9 @@ Heizer,"PKO 45 (45 Auto), Variant 3",2.75,A2
 Heizer,"PS1 (45 410 Cal), Variant 1",3.25,A3
 Henry,"Big Boy (357 Mag), Variant 1",4,R4
 Henry,"Big Boy (357 Mag), Variant 2",4,R4
-Heritage,"Barkeep Boot (22 LR), Variant 1",1,R2
-Heritage,"Barkeep Boot (22 LR), Variant 2",1,R2
-Heritage,"Barkeep Boot (22 LR), Variant 3",1,R2
+Heritage,"Barkeep Boot (22 LR), Variant 1",1,R3
+Heritage,"Barkeep Boot (22 LR), Variant 2",1,R3
+Heritage,"Barkeep Boot (22 LR), Variant 3",1,R3
 Heritage,"Barkeep (22 LR), Variant 1",2.68,R3
 Heritage,"Barkeep (22 LR), Variant 2",2.68,R3
 Heritage,"Barkeep (22 LR), Variant 3",2.68,R3
@@ -2555,28 +2555,28 @@ Heritage,"Barkeep (22 LR), Variant 5",3.6,R4
 Heritage,"Barkeep (22 LR), Variant 6",3.6,R4
 Heritage,"H 25 (25 Auto), Variant 1",2.25,A2
 Heritage,"Roscoe (38 Spl P), Variant 1",2,R2
-Heritage,"Roscoe (38 Spl P), Variant 2",3,R3
+Heritage,"Roscoe (38 Spl P), Variant 2",3,R2.5
 Heritage,"Rough Rider Big Bore (357 Mag), Variant 1",4.75,R4
 Heritage,"Rough Rider Big Bore (357 Mag), Variant 2",5.5,R6
 Heritage,"Rough Rider Big Bore (45 Colt), Variant 1",4.75,R4
 Heritage,"Rough Rider Big Bore (45 Colt), Variant 2",5.5,R6
 Heritage,"Rough Rider Small Bore (22 LR), Variant 1",4.75,R4
-Heritage,"Rough Rider Small Bore (22 LR), Variant 2",6.5,R8
+Heritage,"Rough Rider Small Bore (22 LR), Variant 2",6.5,R6
 Heritage,"Rough Rider Small Bore (22 Mag WMR)), Variant 1",4.75,R4
-Heritage,"Rough Rider Small Bore (22 Mag WMR)), Variant 10",6.5,R8
+Heritage,"Rough Rider Small Bore (22 Mag WMR)), Variant 10",6.5,R6
 Heritage,"Rough Rider Small Bore (22 Mag WMR)), Variant 11",4.75,R4
-Heritage,"Rough Rider Small Bore (22 Mag WMR)), Variant 12",6.5,R8
-Heritage,"Rough Rider Small Bore (22 Mag WMR)), Variant 13",6.5,R8
+Heritage,"Rough Rider Small Bore (22 Mag WMR)), Variant 12",6.5,R6
+Heritage,"Rough Rider Small Bore (22 Mag WMR)), Variant 13",6.5,R6
 Heritage,"Rough Rider Small Bore (22 Mag WMR)), Variant 2",4.75,R4
 Heritage,"Rough Rider Small Bore (22 Mag WMR)), Variant 3",4.75,R4
-Heritage,"Rough Rider Small Bore (22 Mag WMR)), Variant 4",6.5,R8
-Heritage,"Rough Rider Small Bore (22 Mag WMR)), Variant 5",6.5,R8
-Heritage,"Rough Rider Small Bore (22 Mag WMR)), Variant 6",6.5,R8
+Heritage,"Rough Rider Small Bore (22 Mag WMR)), Variant 4",6.5,R6
+Heritage,"Rough Rider Small Bore (22 Mag WMR)), Variant 5",6.5,R6
+Heritage,"Rough Rider Small Bore (22 Mag WMR)), Variant 6",6.5,R6
 Heritage,"Rough Rider Small Bore (22 Mag WMR)), Variant 7",9,R10
 Heritage,"Rough Rider Small Bore (22 Mag WMR)), Variant 8",3.5,R4
 Heritage,"Rough Rider Small Bore (22 Mag WMR)), Variant 9",4.75,R4
-Heritage,"Rough Rider Small Bore (32 Mag), Variant 1",6.5,R8
-Heritage,"Rough Rider Tactical Cowboy (22 LR), Variant 1",6.5,R8
+Heritage,"Rough Rider Small Bore (32 Mag), Variant 1",6.5,R6
+Heritage,"Rough Rider Tactical Cowboy (22 LR), Variant 1",6.5,R6
 Hi-Point,"C 9 COMP (9 mm), Variant 1",4,A4
 Hi-Point,"C 9 (9 mm), Variant 1",3.5,A3
 Hi-Point,"CF 380 COMP (380 Auto), Variant 1",4,A4
@@ -2815,8 +2815,8 @@ Iver Johnson-Orig,"84 Protector Sealed Eight (22 LR), Variant 1",2.5,R3
 Iver Johnson-Orig,"Cattleman (44 Rem Mag), Variant 1",5.5,R6
 Iver Johnson-Orig,"Cattleman (44 Rem Mag), Variant 2",7.25,R8
 Iver Johnson-Orig,"Compact 25 (25 Auto), Variant 1",2,A2
-Iver Johnson-Orig,"New American Bulldog (38 Spl), Variant 1",2.5,R3
-Iver Johnson-Orig,"New American Bulldog (38 Spl), Variant 2",2.5,R3
+Iver Johnson-Orig,"New American Bulldog (38 Spl), Variant 1",2.5,R2/R2.5
+Iver Johnson-Orig,"New American Bulldog (38 Spl), Variant 2",2.5,R2/R2.5
 Iver Johnson-Orig,"Sidewinder (22 LR), Variant 1",4.75,R4
 Iver Johnson-Orig,"Sidewinder (22 LR), Variant 2",4.75,R4
 Iver Johnson-Orig,"Sidewinder (22 LR), Variant 3",6,R6
@@ -3091,15 +3091,15 @@ Kimber,"Gold Combat Stainless II (45 Auto), Variant 2",5,A5
 Kimber,"Gold Match II (45 Auto), Variant 1",5,A5
 Kimber,"Gold Match Ten II (45 Auto), Variant 1",5,A5
 Kimber,"Grand Raptor II (45 Auto), Variant 1",5,A5
-Kimber,"K6S (357 Mag), Variant 1",2,R2
+Kimber,"K6S (357 Mag), Variant 1",2,R3
 Kimber,"K6S (357 Mag), Variant 2",3,R3
 Kimber,"K6S (357 Mag), Variant 3",4,R4
 Kimber,"K6S (357 Mag), Variant 4",4,R4
-Kimber,"K6S (357 Mag), Variant 5",2,R2
+Kimber,"K6S (357 Mag), Variant 5",2,R3
 Kimber,"K6S (357 Mag), Variant 6",3,R3
-Kimber,"K6S (357 Mag), Variant 7",2,R2
-Kimber,"K6S (357 Mag), Variant 8",2,R2
-Kimber,"K6xs (38 Spl), Variant 1",2,R2
+Kimber,"K6S (357 Mag), Variant 7",2,R3
+Kimber,"K6S (357 Mag), Variant 8",2,R3
+Kimber,"K6xs (38 Spl), Variant 1",2,R3
 Kimber,"KDS9c (9 mm), Variant 1",4.09,A3/A4
 Kimber,"KDS9c (9 mm), Variant 2",4.09,A3/A4
 Kimber,"KPD (40 SW), Variant 1",4.1,A3/A4
@@ -3436,13 +3436,13 @@ Magnum Research,"BFR (45 410 Cal), Variant 1",7.5,R8
 Magnum Research,"BFR (45 70 Gov), Variant 1",7.5,R8
 Magnum Research,"BFR (45 70 Gov), Variant 2",10,R10
 Magnum Research,"BFR (450 Marlin), Variant 1",10,R10
-Magnum Research,"BFR (454 Casull), Variant 1",6.5,R8
+Magnum Research,"BFR (454 Casull), Variant 1",6.5,R6
 Magnum Research,"BFR (454 Casull), Variant 2",7.5,R8
 Magnum Research,"BFR (460 SW Mag), Variant 1",10,R10
 Magnum Research,"BFR (460 SW Mag), Variant 2",7.5,R8
-Magnum Research,"BFR (480 Ruger), Variant 1",6.5,R8
+Magnum Research,"BFR (480 Ruger), Variant 1",6.5,R6
 Magnum Research,"BFR (480 Ruger), Variant 2",7.5,R8
-Magnum Research,"BFR (50 AE), Variant 1",6.5,R8
+Magnum Research,"BFR (50 AE), Variant 1",6.5,R6
 Magnum Research,"BFR (50 AE), Variant 2",7.5,R8
 Magnum Research,"BFR (500 SW), Variant 1",7.5,R8
 Magnum Research,"BFR (500 SW), Variant 2",10,R10
@@ -3557,10 +3557,10 @@ Mossberg,"MC2c (9 mm), Variant 4",3.9,A3/A4
 Mossberg,"MC2sc (9 mm), Variant 1",3.4,A3
 Mossberg,"MC2sc (9 mm), Variant 2",3.4,A3
 Mossberg,"MC2sc (9 mm), Variant 3",3.4,A3
-NAA,"1860 Earl (22 Mag WMR)), Variant 1",3,R3
+NAA,"1860 Earl (22 Mag WMR)), Variant 1",3,R2.5
 NAA,"1860 Earl (22 Mag WMR)), Variant 2",4,R4
 NAA,"1860 Hogleg (22 Mag WMR)), Variant 1",6,R6
-NAA,"1860 Sherrif (22 Mag WMR)), Variant 1",2.5,R3
+NAA,"1860 Sherrif (22 Mag WMR)), Variant 1",2.5,R2/R2.5
 NAA,"22 Magnum Ported (22 Mag WMR)), Variant 1",1.125,R2
 NAA,"Black Widow (17 HMR), Variant 1",2,R2
 NAA,"Black Widow (22 LR), Variant 1",2,R2
@@ -3584,18 +3584,18 @@ NAA,"Pug (22 Mag WMR)), Variant 2",1,R2
 NAA,"Pug (22 Mag WMR)), Variant 3",1,R2
 NAA,"Ranger II (22 Mag WMR)), Variant 1",1.625,R2
 NAA,"Sidewinder (22 Mag WMR)), Variant 1",1.5,R2
-NAA,"Sidewinder (22 Mag WMR)), Variant 2",2.5,R3
+NAA,"Sidewinder (22 Mag WMR)), Variant 2",2.5,R2/R2.5
 NAA,"Sidewinder (22 Mag WMR)), Variant 3",4,R4
 NAA,"Wasp (22 Mag WMR)), Variant 1",1.125,R2
 NAA,"Wasp (22 Mag WMR)), Variant 2",1.625,R2
-NEF,"Lady Ultra (32 Mag), Variant 1",3,R3
+NEF,"Lady Ultra (32 Mag), Variant 1",3,R2.5
 NEF,"Lady Ultra (32 Mag), Variant 2",4,R4
 NEF,"R22 Ultra Mag (22 Mag WMR)), Variant 1",4,R4
 NEF,"R22 Ultra Mag (22 Mag WMR)), Variant 2",6,R6
-NEF,"R73 (32 Mag), Variant 1",2.5,R3
-NEF,"R73 (32 Mag), Variant 2",2.5,R3
-NEF,"R73 (32 Mag), Variant 3",3,R3
-NEF,"R73 (32 Mag), Variant 4",3,R3
+NEF,"R73 (32 Mag), Variant 1",2.5,R2/R2.5
+NEF,"R73 (32 Mag), Variant 2",2.5,R2/R2.5
+NEF,"R73 (32 Mag), Variant 3",3,R2.5
+NEF,"R73 (32 Mag), Variant 4",3,R2.5
 NEF,"R73 (32 Mag), Variant 5",4,R4
 NEF,"R73 (32 Mag), Variant 6",4,R4
 NEF,"R92 Ultra (22 LR), Variant 1",4,R4
@@ -3643,7 +3643,7 @@ Nighthawk,"President (45 Auto), Variant 2",5,A5
 Nighthawk,"President (9 mm), Variant 1",5,A5
 Nighthawk,"President (9 mm), Variant 2",5,A5
 Nighthawk,"Ranger 357 (357 Mag), Variant 1",4,R4
-Nighthawk,"Sky Hawk (9 mm), Variant 1",2,R2
+Nighthawk,"Sky Hawk (9 mm), Variant 1",2,R3
 Nighthawk,"Super Sport (357 Mag), Variant 1",6,R6
 Nighthawk,"T3 (45 Auto), Variant 1",4.25,A4
 Nighthawk,"T4 (45 Auto), Variant 1",3.8,A3
@@ -4005,20 +4005,20 @@ Rohrbaugh,"R9S Stealth Elite (9 mm), Variant 1",2.9,A2/A3
 Rohrbaugh,"R9S Stealth (9 mm), Variant 1",2.9,A2/A3
 Rohrbaugh,"Robar (9 mm), Variant 1",2.9,A2/A3
 Rossi,"68 (38 Spl), Variant 1",2.1875,R2
-Rossi,"68 (38 Spl), Variant 2",3,R3
-Rossi,"68 (38 Spl), Variant 3",3,R3
+Rossi,"68 (38 Spl), Variant 2",3,R2.5
+Rossi,"68 (38 Spl), Variant 3",3,R2.5
 Rossi,"68S (38 Spl), Variant 1",2,R2
-Rossi,"68S (38 Spl), Variant 2",3,R3
-Rossi,"720 (44 SW Spl), Variant 1",3,R3
-Rossi,"720 (44 SW Spl), Variant 2",3,R3
-Rossi,"720 (44 SW Spl), Variant 3",3,R3
+Rossi,"68S (38 Spl), Variant 2",3,R2.5
+Rossi,"720 (44 SW Spl), Variant 1",3,R2.5
+Rossi,"720 (44 SW Spl), Variant 2",3,R2.5
+Rossi,"720 (44 SW Spl), Variant 3",3,R2.5
 Rossi,"851 (38 Spl P), Variant 1",4,R4
 Rossi,"971 (357 Mag), Variant 1",4,R4
 Rossi,"972 (357 Mag), Variant 1",6,R6
 Rossi,"R351 (38 Spl P), Variant 1",2,R2
 Rossi,"R352 (38 Spl P), Variant 1",2,R2
-Rossi,"R461 (357 Mag), Variant 1",2,R2
-Rossi,"R462 (357 Mag), Variant 1",2,R2
+Rossi,"R461 (357 Mag), Variant 1",2,R3
+Rossi,"R462 (357 Mag), Variant 1",2,R3
 Rossi,"RM66 (357 Mag), Variant 1",6,R6
 Rossi,"RP63 (357 Mag), Variant 1",3,R3
 RRA,"Basic Carry (45 Auto), Variant 1",5,A5
@@ -4104,7 +4104,7 @@ Ruger,"Bisley Vaquero (45 Colt), Variant 5",4.625,R4
 Ruger,"Bisley Vaquero (45 Colt), Variant 6",5.5,R6
 Ruger,"Bisley Vaquero (45 Colt), Variant 7",5.5,R6
 Ruger,"Bisley (22 LR), Variant 1",4.625,R4
-Ruger,"Bisley (22 LR), Variant 2",6.5,R8
+Ruger,"Bisley (22 LR), Variant 2",6.5,R6
 Ruger,"Bisley (357 Mag), Variant 1",7.5,R8
 Ruger,"Bisley (44 Rem Mag), Variant 1",7.5,R8
 Ruger,"Bisley (45 Colt), Variant 1",7.5,R8
@@ -4141,7 +4141,7 @@ Ruger,"GP 100 (357 Mag), Variant 7",3,R3
 Ruger,"GP 100 (357 Mag), Variant 8",4,R4
 Ruger,"GP 100 (357 Mag), Variant 9",4,R4
 Ruger,"GP 100 (38 Spl), Variant 1",4,R4
-Ruger,"GP 100 (44 SW Spl), Variant 1",3,R3
+Ruger,"GP 100 (44 SW Spl), Variant 1",3,R2.5
 Ruger,"LC380 (380 Auto), Variant 1",3.12,A2/A3
 Ruger,"LC9 (9 mm), Variant 1",3.12,A2/A3
 Ruger,"LC9s Pro (9 mm), Variant 1",3.12,A2/A3
@@ -4150,11 +4150,11 @@ Ruger,"LCP II (22 LR), Variant 1",2.75,A2
 Ruger,"LCP II (380 Auto), Variant 1",2.75,A2
 Ruger,"LCP MAX (380 Auto), Variant 1",2.8,A2
 Ruger,"LCP (380 Auto), Variant 1",2.75,A2
-Ruger,"LCR (22 LR), Variant 1",1.88,R2
-Ruger,"LCR (22 LR), Variant 2",1.88,R2
-Ruger,"LCR (22 LR), Variant 3",1.88,R2
-Ruger,"LCR (22 Mag WMR)), Variant 1",1.88,R2
-Ruger,"LCR (327 Federal Mag), Variant 1",1.88,R2
+Ruger,"LCR (22 LR), Variant 1",1.88,R3
+Ruger,"LCR (22 LR), Variant 2",1.88,R3
+Ruger,"LCR (22 LR), Variant 3",1.88,R3
+Ruger,"LCR (22 Mag WMR)), Variant 1",1.88,R3
+Ruger,"LCR (327 Federal Mag), Variant 1",1.88,R3
 Ruger,"LCR (357 Mag), Variant 1",1.88,R2
 Ruger,"LCR (357 Mag), Variant 2",1.88,R2
 Ruger,"LCR (357 Mag), Variant 3",1.88,R2
@@ -4164,15 +4164,15 @@ Ruger,"LCR (38 Spl P), Variant 3",1.88,R2
 Ruger,"LCR (38 Spl P), Variant 4",1.88,R2
 Ruger,"LCR (9 mm), Variant 1",1.88,R2
 Ruger,"LCRx (22 LR), Variant 1",3,R3
-Ruger,"LCRx (22 Mag WMR)), Variant 1",1.88,R2
+Ruger,"LCRx (22 Mag WMR)), Variant 1",1.88,R3
 Ruger,"LCRx (22 Mag WMR)), Variant 2",3,R3
-Ruger,"LCRx (22 Mag WMR)), Variant 3",1.88,R2
-Ruger,"LCRx (22 Mag WMR)), Variant 4",1.88,R2
-Ruger,"LCRx (327 Federal Mag), Variant 1",1.88,R2
+Ruger,"LCRx (22 Mag WMR)), Variant 3",1.88,R3
+Ruger,"LCRx (22 Mag WMR)), Variant 4",1.88,R3
+Ruger,"LCRx (327 Federal Mag), Variant 1",1.88,R3
 Ruger,"LCRx (357 Mag), Variant 1",1.88,R2
-Ruger,"LCRx (357 Mag), Variant 2",3,R3
+Ruger,"LCRx (357 Mag), Variant 2",3,R2.5
 Ruger,"LCRx (38 Spl P), Variant 1",1.88,R2
-Ruger,"LCRx (38 Spl P), Variant 2",3,R3
+Ruger,"LCRx (38 Spl P), Variant 2",3,R2.5
 Ruger,"LCRx (38 Spl P), Variant 3",1.88,R2
 Ruger,"LCRx (9 mm), Variant 1",1.88,R2
 Ruger,"Mark II (22 LR), Variant 1",4.75,A4
@@ -4227,15 +4227,15 @@ Ruger,"New Model Blackhawk (30 Carbine), Variant 1",7.5,R8
 Ruger,"New Model Blackhawk (30 Carbine), Variant 2",7.5,R8
 Ruger,"New Model Blackhawk (327 Federal Mag), Variant 1",5.5,R6
 Ruger,"New Model Blackhawk (357 Mag), Variant 1",4.625,R4
-Ruger,"New Model Blackhawk (357 Mag), Variant 2",6.5,R8
+Ruger,"New Model Blackhawk (357 Mag), Variant 2",6.5,R6
 Ruger,"New Model Blackhawk (357 Mag), Variant 3",4.625,R4
-Ruger,"New Model Blackhawk (357 Mag), Variant 4",6.5,R8
+Ruger,"New Model Blackhawk (357 Mag), Variant 4",6.5,R6
 Ruger,"New Model Blackhawk (357 Mag), Variant 5",4.625,R4
-Ruger,"New Model Blackhawk (357 Mag), Variant 6",6.5,R8
+Ruger,"New Model Blackhawk (357 Mag), Variant 6",6.5,R6
 Ruger,"New Model Blackhawk (41 Rem Mag), Variant 1",4.625,R4
-Ruger,"New Model Blackhawk (41 Rem Mag), Variant 2",6.5,R8
+Ruger,"New Model Blackhawk (41 Rem Mag), Variant 2",6.5,R6
 Ruger,"New Model Blackhawk (41 Rem Mag), Variant 3",4.625,R4
-Ruger,"New Model Blackhawk (41 Rem Mag), Variant 4",6.5,R8
+Ruger,"New Model Blackhawk (41 Rem Mag), Variant 4",6.5,R6
 Ruger,"New Model Blackhawk (44 SW Spl), Variant 1",4.62,R4
 Ruger,"New Model Blackhawk (44 SW Spl), Variant 2",5.5,R6
 Ruger,"New Model Blackhawk (45 Colt), Variant 1",4.625,R4
@@ -4260,22 +4260,22 @@ Ruger,"New Model Super Blackhawk (44 Rem Mag), Variant 7",7.5,R8
 Ruger,"New Model Super Blackhawk (44 Rem Mag), Variant 8",10.5,R10
 Ruger,"New Model Super Blackhawk (44 Rem Mag), Variant 9",7.5,R8
 Ruger,"New Model Super Blackhawk (45 Colt), Variant 1",7.5,R8
-Ruger,"New Model Super Single Six (17 HMR), Variant 1",6.5,R8
+Ruger,"New Model Super Single Six (17 HMR), Variant 1",6.5,R6
 Ruger,"New Model Super Single Six (17 HMR), Variant 2",7.5,R8
-Ruger,"New Model Super Single Six (17 HMR), Variant 3",6.5,R8
+Ruger,"New Model Super Single Six (17 HMR), Variant 3",6.5,R6
 Ruger,"New Model Super Single Six (22 LR), Variant 1",7.5,R8
 Ruger,"New Model Super Single Six (22 LR), Variant 10",5.5,R6
-Ruger,"New Model Super Single Six (22 LR), Variant 11",6.5,R8
-Ruger,"New Model Super Single Six (22 LR), Variant 12",6.5,R8
+Ruger,"New Model Super Single Six (22 LR), Variant 11",6.5,R6
+Ruger,"New Model Super Single Six (22 LR), Variant 12",6.5,R6
 Ruger,"New Model Super Single Six (22 LR), Variant 13",9.5,R10
 Ruger,"New Model Super Single Six (22 LR), Variant 14",4.625,R4
 Ruger,"New Model Super Single Six (22 LR), Variant 15",5.5,R6
-Ruger,"New Model Super Single Six (22 LR), Variant 16",6.5,R8
+Ruger,"New Model Super Single Six (22 LR), Variant 16",6.5,R6
 Ruger,"New Model Super Single Six (22 LR), Variant 2",4.625,R4
 Ruger,"New Model Super Single Six (22 LR), Variant 3",5.5,R6
 Ruger,"New Model Super Single Six (22 LR), Variant 4",5.5,R6
-Ruger,"New Model Super Single Six (22 LR), Variant 5",6.5,R8
-Ruger,"New Model Super Single Six (22 LR), Variant 6",6.5,R8
+Ruger,"New Model Super Single Six (22 LR), Variant 5",6.5,R6
+Ruger,"New Model Super Single Six (22 LR), Variant 6",6.5,R6
 Ruger,"New Model Super Single Six (22 LR), Variant 7",9.5,R10
 Ruger,"New Model Super Single Six (22 LR), Variant 8",4.625,R4
 Ruger,"New Model Super Single Six (22 LR), Variant 9",5.5,R6
@@ -4378,7 +4378,7 @@ Ruger,"Security Six (357 Mag), Variant 3",4,R4
 Ruger,"Security Six (357 Mag), Variant 4",4,R4
 Ruger,"Security Six (357 Mag), Variant 5",6,R6
 Ruger,"Security Six (357 Mag), Variant 6",6,R6
-Ruger,"Single Nine (22 Mag WMR)), Variant 1",6.5,R8
+Ruger,"Single Nine (22 Mag WMR)), Variant 1",6.5,R6
 Ruger,"Single Ten (22 LR), Variant 1",5.5,R6
 Ruger,"SP101 (22 LR), Variant 1",4.2,R4
 Ruger,"SP101 (22 LR), Variant 2",4,R4
@@ -5145,11 +5145,11 @@ Smith & Wesson,"1076 (10 mm), Variant 1",4.25,A4
 Smith & Wesson,"1076 (10 mm), Variant 2",4.25,A4
 Smith & Wesson,"1086 (10 mm), Variant 1",4.25,A4
 Smith & Wesson,"1086 (10 mm), Variant 2",4.25,A4
-Smith & Wesson,"12 (38 Spl), Variant 1",2,R2
-Smith & Wesson,"12 (38 Spl), Variant 2",2,R2
+Smith & Wesson,"12 (38 Spl), Variant 1",2,R3
+Smith & Wesson,"12 (38 Spl), Variant 2",2,R3
 Smith & Wesson,"12 (38 Spl), Variant 3",4,R4
 Smith & Wesson,"12 (38 Spl), Variant 4",4,R4
-Smith & Wesson,"12 (38 Spl), Variant 5",2,R2
+Smith & Wesson,"12 (38 Spl), Variant 5",2,R3
 Smith & Wesson,"12 (38 Spl), Variant 6",4,R4
 Smith & Wesson,"13 (357 Mag), Variant 1",4,R4
 Smith & Wesson,"13 (357 Mag), Variant 10",4,R4
@@ -5199,17 +5199,17 @@ Smith & Wesson,"22A (22 LR), Variant 8",5.5,A5
 Smith & Wesson,"22S (22 LR), Variant 1",5.5,A5
 Smith & Wesson,"22S (22 LR), Variant 2",7,Manual fit review
 Smith & Wesson,"22S (22 LR), Variant 3",5.5,A5
-Smith & Wesson,"24 (44 SW Spl), Variant 1",6.5,R8
-Smith & Wesson,"24 (44 SW Spl), Variant 2",6.5,R8
+Smith & Wesson,"24 (44 SW Spl), Variant 1",6.5,R6
+Smith & Wesson,"24 (44 SW Spl), Variant 2",6.5,R6
 Smith & Wesson,"24 (44 SW Spl), Variant 3",3,R3
 Smith & Wesson,"24 (44 SW Spl), Variant 4",3,R3
 Smith & Wesson,"25 (45 Auto), Variant 1",3,R3
-Smith & Wesson,"25 (45 Colt), Variant 1",6.5,R8
-Smith & Wesson,"25 (45 Colt), Variant 2",6.5,R8
+Smith & Wesson,"25 (45 Colt), Variant 1",6.5,R6
+Smith & Wesson,"25 (45 Colt), Variant 2",6.5,R6
 Smith & Wesson,"25 (45 Colt), Variant 3",3,R3
 Smith & Wesson,"27 (357 Mag), Variant 1",4,R4
 Smith & Wesson,"27 (357 Mag), Variant 10",6,R6
-Smith & Wesson,"27 (357 Mag), Variant 2",6.5,R8
+Smith & Wesson,"27 (357 Mag), Variant 2",6.5,R6
 Smith & Wesson,"27 (357 Mag), Variant 3",3.5,R4
 Smith & Wesson,"27 (357 Mag), Variant 4",3.5,R4
 Smith & Wesson,"27 (357 Mag), Variant 5",4,R4
@@ -5223,39 +5223,39 @@ Smith & Wesson,"28 (357 Mag), Variant 2",6,R6
 Smith & Wesson,"29 (44 Rem Mag), Variant 1",3,R3
 Smith & Wesson,"29 (44 Rem Mag), Variant 10",4,R4
 Smith & Wesson,"29 (44 Rem Mag), Variant 11",6,R6
-Smith & Wesson,"29 (44 Rem Mag), Variant 12",6.5,R8
+Smith & Wesson,"29 (44 Rem Mag), Variant 12",6.5,R6
 Smith & Wesson,"29 (44 Rem Mag), Variant 13",8.375,R8
 Smith & Wesson,"29 (44 Rem Mag), Variant 2",3,R3
 Smith & Wesson,"29 (44 Rem Mag), Variant 3",4,R4
 Smith & Wesson,"29 (44 Rem Mag), Variant 4",4,R4
-Smith & Wesson,"29 (44 Rem Mag), Variant 5",6.5,R8
-Smith & Wesson,"29 (44 Rem Mag), Variant 6",6.5,R8
-Smith & Wesson,"29 (44 Rem Mag), Variant 7",6.5,R8
-Smith & Wesson,"29 (44 Rem Mag), Variant 8",6.5,R8
+Smith & Wesson,"29 (44 Rem Mag), Variant 5",6.5,R6
+Smith & Wesson,"29 (44 Rem Mag), Variant 6",6.5,R6
+Smith & Wesson,"29 (44 Rem Mag), Variant 7",6.5,R6
+Smith & Wesson,"29 (44 Rem Mag), Variant 8",6.5,R6
 Smith & Wesson,"29 (44 Rem Mag), Variant 9",4,R4
 Smith & Wesson,"30 1 (32 SW Long), Variant 1",4,R4
 Smith & Wesson,"30 1 (32 SW Long), Variant 2",4,R4
 Smith & Wesson,"30 1 (32 SW Long), Variant 3",3,R3
 Smith & Wesson,"30 1 (32 SW Long), Variant 4",3,R3
-Smith & Wesson,"30 1 (32 SW Long), Variant 5",2,R2
-Smith & Wesson,"30 1 (32 SW Long), Variant 6",2,R2
+Smith & Wesson,"30 1 (32 SW Long), Variant 5",2,R3
+Smith & Wesson,"30 1 (32 SW Long), Variant 6",2,R3
 Smith & Wesson,"31 1 (32 SW Long), Variant 1",4,R4
 Smith & Wesson,"31 1 (32 SW Long), Variant 2",4,R4
 Smith & Wesson,"31 1 (32 SW Long), Variant 3",3,R3
 Smith & Wesson,"31 1 (32 SW Long), Variant 4",3,R3
-Smith & Wesson,"31 1 (32 SW Long), Variant 5",2,R2
-Smith & Wesson,"31 1 (32 SW Long), Variant 6",2,R2
+Smith & Wesson,"31 1 (32 SW Long), Variant 5",2,R3
+Smith & Wesson,"31 1 (32 SW Long), Variant 6",2,R3
 Smith & Wesson,"310 Night Guard (10 mm), Variant 1",2.75,R3
 Smith & Wesson,"315 Night Guard (38 Spl P), Variant 1",2.5,R3
 Smith & Wesson,"317 Kit Gun (22 LR), Variant 1",3,R3
-Smith & Wesson,"317 (22 LR), Variant 1",1.875,R2
+Smith & Wesson,"317 (22 LR), Variant 1",1.875,R3
 Smith & Wesson,"325 Night Guard (45 Auto), Variant 1",2.5,R3
 Smith & Wesson,"325PD (45 Auto), Variant 1",2.5,R3
 Smith & Wesson,"325PD (45 Auto), Variant 2",4,R4
 Smith & Wesson,"327 MP R8 (357 Mag), Variant 1",5,R6
 Smith & Wesson,"327 Night Guard (357 Mag), Variant 1",2.5,R3
 Smith & Wesson,"327 (357 Mag), Variant 1",2.5,R3
-Smith & Wesson,"327 (357 Mag), Variant 2",2,R2
+Smith & Wesson,"327 (357 Mag), Variant 2",2,R3
 Smith & Wesson,"327PD (357 Mag), Variant 1",4,R4
 Smith & Wesson,"329 Night Guard (44 Rem Mag), Variant 1",2.5,R3
 Smith & Wesson,"329PD (44 Rem Mag), Variant 1",4,R4
@@ -5264,16 +5264,16 @@ Smith & Wesson,"340PD (357 Mag), Variant 1",1.875,R2
 Smith & Wesson,"340PD (357 Mag), Variant 2",1.875,R2
 Smith & Wesson,"340SS (357 Mag), Variant 1",1.875,R2
 Smith & Wesson,"350 (350 Legend), Variant 1",7.25,R8
-Smith & Wesson,"351C (22 Mag WMR)), Variant 1",1.875,R2
-Smith & Wesson,"351PD (22 Mag WMR)), Variant 1",1.875,R2
+Smith & Wesson,"351C (22 Mag WMR)), Variant 1",1.875,R3
+Smith & Wesson,"351PD (22 Mag WMR)), Variant 1",1.875,R3
 Smith & Wesson,"357 Night Guard (41 Rem Mag), Variant 1",2.5,R3
 Smith & Wesson,"357PD (41 Rem Mag), Variant 1",4,R4
 Smith & Wesson,"36 (38 Spl P), Variant 1",1.875,R2
 Smith & Wesson,"36 (38 Spl P), Variant 2",1.875,R2
 Smith & Wesson,"36 (38 Spl P), Variant 3",1.875,R2
-Smith & Wesson,"36 (38 Spl P), Variant 4",3,R3
-Smith & Wesson,"36 (38 Spl P), Variant 5",3,R3
-Smith & Wesson,"36 (38 Spl P), Variant 6",3,R3
+Smith & Wesson,"36 (38 Spl P), Variant 4",3,R2.5
+Smith & Wesson,"36 (38 Spl P), Variant 5",3,R2.5
+Smith & Wesson,"36 (38 Spl P), Variant 6",3,R2.5
 Smith & Wesson,"360 Kit Gun (357 Mag), Variant 1",3.125,R4
 Smith & Wesson,"360 (357 Mag), Variant 1",1.875,R2
 Smith & Wesson,"360PD (357 Mag), Variant 1",1.875,R2
@@ -5308,7 +5308,7 @@ Smith & Wesson,"3914NL (9 mm), Variant 1",3.5,A3
 Smith & Wesson,"3953 (9 mm), Variant 1",3.5,A3
 Smith & Wesson,"3953TSW (9 mm), Variant 1",3.5,A3
 Smith & Wesson,"3954 (9 mm), Variant 1",3.5,A3
-Smith & Wesson,"396 Night Guard (44 SW Spl), Variant 1",2.5,R3
+Smith & Wesson,"396 Night Guard (44 SW Spl), Variant 1",2.5,R2/R2.5
 Smith & Wesson,"396 (44 SW Spl), Variant 1",3.125,R4
 Smith & Wesson,"40 (38 Spl), Variant 1",1.875,R2
 Smith & Wesson,"40 (38 Spl), Variant 2",1.875,R2
@@ -5344,7 +5344,7 @@ Smith & Wesson,"410S (40 SW), Variant 2",4,A4
 Smith & Wesson,"411 (40 SW), Variant 1",4,A4
 Smith & Wesson,"422 Field (22 LR), Variant 1",4.5,A4
 Smith & Wesson,"422 Field (22 LR), Variant 2",6,A6
-Smith & Wesson,"432PD (32 Mag), Variant 1",1.875,R2
+Smith & Wesson,"432PD (32 Mag), Variant 1",1.875,R3
 Smith & Wesson,"439 (9 mm), Variant 1",4,A4
 Smith & Wesson,"439 (9 mm), Variant 2",4,A4
 Smith & Wesson,"439 (9 mm), Variant 3",4,A4
@@ -5377,7 +5377,7 @@ Smith & Wesson,"459 (9 mm), Variant 3",4,A4
 Smith & Wesson,"460V (460 SW Mag), Variant 1",5,R6
 Smith & Wesson,"460V (460 SW Mag), Variant 2",5,R6
 Smith & Wesson,"460XVR (460 SW Mag), Variant 1",8.375,R8
-Smith & Wesson,"460XVR (460 SW Mag), Variant 2",2.75,R3
+Smith & Wesson,"460XVR (460 SW Mag), Variant 2",2.75,R2.5
 Smith & Wesson,"460XVR (460 SW Mag), Variant 3",10.5,R10
 Smith & Wesson,"469 (9 mm), Variant 1",3.5,A3
 Smith & Wesson,"469 (9 mm), Variant 2",3.5,A3
@@ -5391,8 +5391,8 @@ Smith & Wesson,"500 (500 SW), Variant 2",8.375,R8
 Smith & Wesson,"500 (500 SW), Variant 3",10.5,R10
 Smith & Wesson,"500 (500 SW), Variant 4",8.375,R8
 Smith & Wesson,"500 (500 SW), Variant 5",7.5,R8
-Smith & Wesson,"500 (500 SW), Variant 6",6.5,R8
-Smith & Wesson,"500ES (500 SW), Variant 1",2.75,R3
+Smith & Wesson,"500 (500 SW), Variant 6",6.5,R6
+Smith & Wesson,"500ES (500 SW), Variant 1",2.75,R2.5
 Smith & Wesson,"520 (357 Mag), Variant 1",4,R4
 Smith & Wesson,"520 (357 Mag), Variant 2",4,R4
 Smith & Wesson,"539 (9 mm), Variant 1",4,A4
@@ -5434,11 +5434,11 @@ Smith & Wesson,"5926 (9 mm), Variant 1",4,A4
 Smith & Wesson,"5943 (9 mm), Variant 1",4,A4
 Smith & Wesson,"5944 (9 mm), Variant 1",4,A4
 Smith & Wesson,"5946 (9 mm), Variant 1",4,A4
-Smith & Wesson,"60 (357 Mag), Variant 1",3,R3
+Smith & Wesson,"60 (357 Mag), Variant 1",3,R2.5
 Smith & Wesson,"60 (357 Mag), Variant 2",5,R6
 Smith & Wesson,"60 (357 Mag), Variant 3",2.125,R2
-Smith & Wesson,"60 (357 Mag), Variant 4",3,R3
-Smith & Wesson,"60 (357 Mag), Variant 5",3,R3
+Smith & Wesson,"60 (357 Mag), Variant 4",3,R2.5
+Smith & Wesson,"60 (357 Mag), Variant 5",3,R2.5
 Smith & Wesson,"60LS (357 Mag), Variant 1",2.125,R2
 Smith & Wesson,"61 Escort (22 LR), Variant 1",2.125,A2
 Smith & Wesson,"61 Escort (22 LR), Variant 2",2.125,A2
@@ -5449,12 +5449,12 @@ Smith & Wesson,"61 Escort (22 LR), Variant 6",2.125,A2
 Smith & Wesson,"61 Escort (22 LR), Variant 7",2.125,A2
 Smith & Wesson,"61 Escort (22 LR), Variant 8",2.125,A2
 Smith & Wesson,"610 (10 mm), Variant 1",4,R4
-Smith & Wesson,"610 (10 mm), Variant 2",6.5,R8
-Smith & Wesson,"610 (10 mm), Variant 3",3.875,R3/R4
+Smith & Wesson,"610 (10 mm), Variant 2",6.5,R6
+Smith & Wesson,"610 (10 mm), Variant 3",3.875,R4
 Smith & Wesson,"610 (10 mm), Variant 4",6,R6
 Smith & Wesson,"610 (40 SW), Variant 1",4,R4
-Smith & Wesson,"610 (40 SW), Variant 2",6.5,R8
-Smith & Wesson,"610 (40 SW), Variant 3",3.875,R3/R4
+Smith & Wesson,"610 (40 SW), Variant 2",6.5,R6
+Smith & Wesson,"610 (40 SW), Variant 3",3.875,R4
 Smith & Wesson,"610 (40 SW), Variant 4",6,R6
 Smith & Wesson,"617 (22 LR), Variant 1",4,R4
 Smith & Wesson,"617 (22 LR), Variant 2",6,R6
@@ -5465,11 +5465,11 @@ Smith & Wesson,"622 Field (22 LR), Variant 1",4.5,A4
 Smith & Wesson,"622 Field (22 LR), Variant 2",6,A6
 Smith & Wesson,"622 Target (22 LR), Variant 1",4.5,A4
 Smith & Wesson,"622 Target (22 LR), Variant 2",6,A6
-Smith & Wesson,"624 Target (44 SW Spl), Variant 1",6.5,R8
+Smith & Wesson,"624 Target (44 SW Spl), Variant 1",6.5,R6
 Smith & Wesson,"624 Target (44 SW Spl), Variant 2",4,R4
 Smith & Wesson,"625 (45 Auto), Variant 1",4,R4
 Smith & Wesson,"625 (45 Auto), Variant 2",5,R6
-Smith & Wesson,"625 (45 Auto), Variant 3",2,R2
+Smith & Wesson,"625 (45 Auto), Variant 3",2,R3
 Smith & Wesson,"625 (45 Auto), Variant 4",5.25,R6
 Smith & Wesson,"625JM (45 Auto), Variant 1",4,R4
 Smith & Wesson,"627 (357 Mag), Variant 1",5,R6
@@ -5478,10 +5478,10 @@ Smith & Wesson,"627 (357 Mag), Variant 3",5,R6
 Smith & Wesson,"627 (357 Mag), Variant 4",2.62,R3
 Smith & Wesson,"629 CLassic (44 Rem Mag), Variant 1",5,R6
 Smith & Wesson,"629 Classic (44 Rem Mag), Variant 1",5,R6
-Smith & Wesson,"629 CLassic (44 Rem Mag), Variant 2",6.5,R8
-Smith & Wesson,"629 Classic (44 Rem Mag), Variant 2",6.5,R8
-Smith & Wesson,"629 Classic (44 Rem Mag), Variant 3",6.5,R8
-Smith & Wesson,"629 CLassic (44 Rem Mag), Variant 3",6.5,R8
+Smith & Wesson,"629 CLassic (44 Rem Mag), Variant 2",6.5,R6
+Smith & Wesson,"629 Classic (44 Rem Mag), Variant 2",6.5,R6
+Smith & Wesson,"629 Classic (44 Rem Mag), Variant 3",6.5,R6
+Smith & Wesson,"629 CLassic (44 Rem Mag), Variant 3",6.5,R6
 Smith & Wesson,"629 Classic (44 Rem Mag), Variant 4",8.375,R8
 Smith & Wesson,"629 CLassic (44 Rem Mag), Variant 4",8.375,R8
 Smith & Wesson,"629 Mag na port (44 Rem Mag), Variant 1",3,R3
@@ -5494,14 +5494,14 @@ Smith & Wesson,"629 (44 Rem Mag), Variant 5",7.5,R8
 Smith & Wesson,"63 (22 LR), Variant 1",5,R6
 Smith & Wesson,"632 Carry Comp (327 Federal Mag), Variant 1",3,R3
 Smith & Wesson,"632 Carry Comp (327 Federal Mag), Variant 2",3,R3
-Smith & Wesson,"632 (327 Federal Mag), Variant 1",2.125,R2
+Smith & Wesson,"632 (327 Federal Mag), Variant 1",2.125,R3
 Smith & Wesson,"637 (38 Spl P), Variant 1",1.875,R2
 Smith & Wesson,"637 (38 Spl P), Variant 2",1.875,R2
 Smith & Wesson,"638 (38 Spl P), Variant 1",1.875,R2
 Smith & Wesson,"639 (9 mm), Variant 1",4,A4
 Smith & Wesson,"639 (9 mm), Variant 2",4,A4
 Smith & Wesson,"64 (38 Spl P), Variant 1",4,R4
-Smith & Wesson,"64 (38 Spl P), Variant 2",2,R2
+Smith & Wesson,"64 (38 Spl P), Variant 2",2,R3
 Smith & Wesson,"64 (38 Spl P), Variant 3",3,R3
 Smith & Wesson,"640 (357 Mag), Variant 1",2.125,R2
 Smith & Wesson,"642 CT (38 Spl P), Variant 1",1.875,R2
@@ -5770,7 +5770,7 @@ Smith & Wesson,"SW9GVE (9 mm), Variant 1",4,A4
 Smith & Wesson,"SW9VE (9 mm), Variant 1",4,A4
 Smith & Wesson,"SW9VE (9 mm), Variant 2",4,A4
 Smith & Wesson,"Victory (38 Spl), Variant 1",4,R4
-Smith & Wesson,"Victory (38 Spl), Variant 2",2,R2
+Smith & Wesson,"Victory (38 Spl), Variant 2",2,R3
 Sphinx,"2000 Master (40 SW), Variant 1",4.53,A4
 Sphinx,"2000 Master (9 mm), Variant 1",4.53,A4
 Sphinx,"2000 Master (9x21 mm), Variant 1",4.53,A4
@@ -6392,28 +6392,28 @@ Tanfoglio,"Witness 1911 (45 Auto), Variant 1",5,A5
 TARA,"TM 9 (9 mm), Variant 1",4.44,A4
 TARA,"TM 9 (9 mm), Variant 2",4.44,A4
 TARA,"TM 9 (9 mm), Variant 3",4.44,A4
-Taurus,"17 Tracker (17 HMR), Variant 1",1.75,R2
-Taurus,"17 Tracker (17 HMR), Variant 2",1.75,R2
-Taurus,"17 Tracker (17 HMR), Variant 3",6.5,R8
-Taurus,"17 Tracker (17 HMR), Variant 4",6.5,R8
-Taurus,"17 Tracker (17 HMR), Variant 5",6.5,R8
+Taurus,"17 Tracker (17 HMR), Variant 1",1.75,R3
+Taurus,"17 Tracker (17 HMR), Variant 2",1.75,R3
+Taurus,"17 Tracker (17 HMR), Variant 3",6.5,R6
+Taurus,"17 Tracker (17 HMR), Variant 4",6.5,R6
+Taurus,"17 Tracker (17 HMR), Variant 5",6.5,R6
 Taurus,"17 Tracker (17 HMR), Variant 6",8.375,R8
 Taurus,"17 Tracker (17 HMR), Variant 7",8.375,R8
-Taurus,"17 Tracker (17 Mach2), Variant 1",1.75,R2
-Taurus,"17 Tracker (17 Mach2), Variant 2",1.75,R2
-Taurus,"17C Tracker (17 HMR), Variant 1",2,R2
-Taurus,"17C Tracker (17 HMR), Variant 2",2,R2
+Taurus,"17 Tracker (17 Mach2), Variant 1",1.75,R3
+Taurus,"17 Tracker (17 Mach2), Variant 2",1.75,R3
+Taurus,"17C Tracker (17 HMR), Variant 1",2,R3
+Taurus,"17C Tracker (17 HMR), Variant 2",2,R3
 Taurus,"17C Tracker (17 HMR), Variant 3",4,R4
 Taurus,"17C Tracker (17 HMR), Variant 4",5,R6
 Taurus,"17C Tracker (17 HMR), Variant 5",4,R4
 Taurus,"17C Tracker (17 HMR), Variant 6",5,R6
-Taurus,"17C Ultra Lite (17 HMR), Variant 1",2,R2
-Taurus,"17C Ultra Lite (17 HMR), Variant 2",2,R2
+Taurus,"17C Ultra Lite (17 HMR), Variant 1",2,R3
+Taurus,"17C Ultra Lite (17 HMR), Variant 2",2,R3
 Taurus,"180 Curve (380 Auto), Variant 1",2.5,A2
 Taurus,"1911 Commander (45 Auto), Variant 1",4.2,A4
 Taurus,"1911 Officer (45 Auto), Variant 1",3.5,A3
 Taurus,"218 Raging Bee (218 BEE), Variant 1",10,R10
-Taurus,"21T Tracker (218 BEE), Variant 1",6.5,R8
+Taurus,"21T Tracker (218 BEE), Variant 1",6.5,R6
 Taurus,"22PLY (22 LR), Variant 1",2.8,A2
 Taurus,"22PLY (22 LR), Variant 2",2.8,A2
 Taurus,"24 7 G2 Compact (40 SW), Variant 1",3.5,A3
@@ -6430,34 +6430,34 @@ Taurus,"24 7 G2 (9 mm), Variant 1",4.2,A4
 Taurus,"24 7 G2 (9 mm), Variant 2",4.2,A4
 Taurus,"25PLY (25 Auto), Variant 1",2.33,A2
 Taurus,"25PLY (25 Auto), Variant 2",2.33,A2
-Taurus,"327 (327 Federal Mag), Variant 1",2,R2
-Taurus,"327 (327 Federal Mag), Variant 2",2,R2
-Taurus,"327 (327 Federal Mag), Variant 3",2,R2
-Taurus,"327 (327 Federal Mag), Variant 4",2,R2
+Taurus,"327 (327 Federal Mag), Variant 1",2,R3
+Taurus,"327 (327 Federal Mag), Variant 2",2,R3
+Taurus,"327 (327 Federal Mag), Variant 3",2,R3
+Taurus,"327 (327 Federal Mag), Variant 4",2,R3
 Taurus,"380 IB (380 Auto), Variant 1",1.75,R2
 Taurus,"380 IB (380 Auto), Variant 2",1.75,R2
 Taurus,"380 IB (380 Auto), Variant 3",1.75,R2
 Taurus,"380 IB (380 Auto), Variant 4",1.75,R2
 Taurus,"405 (40 SW), Variant 1",2,R2
 Taurus,"405 (40 SW), Variant 2",2,R2
-Taurus,"415 Total Titanium (41 Rem Mag), Variant 1",2.5,R3
-Taurus,"415 (41 Rem Mag), Variant 1",2.5,R3
-Taurus,"416 Raging Bull (41 Rem Mag), Variant 1",6.5,R8
+Taurus,"415 Total Titanium (41 Rem Mag), Variant 1",2.5,R2/R2.5
+Taurus,"415 (41 Rem Mag), Variant 1",2.5,R2/R2.5
+Taurus,"416 Raging Bull (41 Rem Mag), Variant 1",6.5,R6
 Taurus,"416 Raging Bull (41 Rem Mag), Variant 2",8.375,R8
 Taurus,"425 Tracker (41 Rem Mag), Variant 1",4,R4
 Taurus,"425 Tracker (41 Rem Mag), Variant 2",4,R4
-Taurus,"425 Tracker (41 Rem Mag), Variant 3",6.5,R8
+Taurus,"425 Tracker (41 Rem Mag), Variant 3",6.5,R6
 Taurus,"44 Tracker (44 Rem Mag), Variant 1",4,R4
 Taurus,"44 Tracker (44 Rem Mag), Variant 2",4,R4
 Taurus,"44 (44 Rem Mag), Variant 1",4,R4
-Taurus,"44 (44 Rem Mag), Variant 2",6.5,R8
+Taurus,"44 (44 Rem Mag), Variant 2",6.5,R6
 Taurus,"44 (44 Rem Mag), Variant 3",8.375,R8
 Taurus,"44 (44 Rem Mag), Variant 4",4,R4
-Taurus,"44 (44 Rem Mag), Variant 5",6.5,R8
+Taurus,"44 (44 Rem Mag), Variant 5",6.5,R6
 Taurus,"44 (44 Rem Mag), Variant 6",8.375,R8
-Taurus,"444 Raging Bull (44 Rem Mag), Variant 1",6.5,R8
+Taurus,"444 Raging Bull (44 Rem Mag), Variant 1",6.5,R6
 Taurus,"444 Raging Bull (44 Rem Mag), Variant 2",8.375,R8
-Taurus,"444 Raging Bull (44 Rem Mag), Variant 3",6.5,R8
+Taurus,"444 Raging Bull (44 Rem Mag), Variant 3",6.5,R6
 Taurus,"444 Raging Bull (44 Rem Mag), Variant 4",8.375,R8
 Taurus,"444 Ultra Lite (44 Rem Mag), Variant 1",4,R4
 Taurus,"444 Ultra Lite (44 Rem Mag), Variant 2",4,R4
@@ -6477,30 +6477,30 @@ Taurus,"450 Total Titanium (45 Colt), Variant 1",2,R2
 Taurus,"450 Ultra Lite (45 Colt), Variant 1",2,R2
 Taurus,"450 (45 Colt), Variant 1",2,R2
 Taurus,"4510 Judge (45 410 Cal), Variant 1",2,R2
-Taurus,"4510 Judge (45 410 Cal), Variant 10",3,R3
-Taurus,"4510 Judge (45 410 Cal), Variant 11",6.5,R8
-Taurus,"4510 Judge (45 410 Cal), Variant 12",3,R3
-Taurus,"4510 Judge (45 410 Cal), Variant 13",3,R3
-Taurus,"4510 Judge (45 410 Cal), Variant 14",3,R3
-Taurus,"4510 Judge (45 410 Cal), Variant 15",3,R3
-Taurus,"4510 Judge (45 410 Cal), Variant 16",3,R3
-Taurus,"4510 Judge (45 410 Cal), Variant 17",3,R3
-Taurus,"4510 Judge (45 410 Cal), Variant 2",3,R3
-Taurus,"4510 Judge (45 410 Cal), Variant 3",3,R3
-Taurus,"4510 Judge (45 410 Cal), Variant 4",6.5,R8
-Taurus,"4510 Judge (45 410 Cal), Variant 5",3,R3
-Taurus,"4510 Judge (45 410 Cal), Variant 6",3,R3
+Taurus,"4510 Judge (45 410 Cal), Variant 10",3,R2.5
+Taurus,"4510 Judge (45 410 Cal), Variant 11",6.5,R6
+Taurus,"4510 Judge (45 410 Cal), Variant 12",3,R2.5
+Taurus,"4510 Judge (45 410 Cal), Variant 13",3,R2.5
+Taurus,"4510 Judge (45 410 Cal), Variant 14",3,R2.5
+Taurus,"4510 Judge (45 410 Cal), Variant 15",3,R2.5
+Taurus,"4510 Judge (45 410 Cal), Variant 16",3,R2.5
+Taurus,"4510 Judge (45 410 Cal), Variant 17",3,R2.5
+Taurus,"4510 Judge (45 410 Cal), Variant 2",3,R2.5
+Taurus,"4510 Judge (45 410 Cal), Variant 3",3,R2.5
+Taurus,"4510 Judge (45 410 Cal), Variant 4",6.5,R6
+Taurus,"4510 Judge (45 410 Cal), Variant 5",3,R2.5
+Taurus,"4510 Judge (45 410 Cal), Variant 6",3,R2.5
 Taurus,"4510 Judge (45 410 Cal), Variant 7",2,R2
 Taurus,"4510 Judge (45 410 Cal), Variant 8",2,R2
-Taurus,"4510 Judge (45 410 Cal), Variant 9",3,R3
-Taurus,"454 Raging Bull (454 Casull), Variant 1",6.5,R8
+Taurus,"4510 Judge (45 410 Cal), Variant 9",3,R2.5
+Taurus,"454 Raging Bull (454 Casull), Variant 1",6.5,R6
 Taurus,"454 Raging Bull (454 Casull), Variant 2",8.375,R8
 Taurus,"454 Raging Bull (454 Casull), Variant 3",5,R6
-Taurus,"454 Raging Bull (454 Casull), Variant 4",6.5,R8
+Taurus,"454 Raging Bull (454 Casull), Variant 4",6.5,R6
 Taurus,"454 Raging Bull (454 Casull), Variant 5",8.375,R8
 Taurus,"454 Raging Bull (454 Casull), Variant 6",2.25,R2
 Taurus,"455 Tracker (45 Auto), Variant 1",4,R4
-Taurus,"455 Tracker (45 Auto), Variant 2",6.5,R8
+Taurus,"455 Tracker (45 Auto), Variant 2",6.5,R6
 Taurus,"455 Tracker (45 Auto), Variant 3",4,R4
 Taurus,"455 Tracker (45 Auto), Variant 4",2,R2
 Taurus,"460 Tracker (45 Colt), Variant 1",4,R4
@@ -6508,7 +6508,7 @@ Taurus,"460 Tracker (45 Colt), Variant 2",6,R6
 Taurus,"460 Tracker (45 Colt), Variant 3",4,R4
 Taurus,"460 Tracker (45 Colt), Variant 4",6,R6
 Taurus,"480 Raging Bull (480 Ruger), Variant 1",5,R6
-Taurus,"480 Raging Bull (480 Ruger), Variant 2",6.5,R8
+Taurus,"480 Raging Bull (480 Ruger), Variant 2",6.5,R6
 Taurus,"480 Raging Bull (480 Ruger), Variant 3",8.375,R8
 Taurus,"500 Raging Bull (500 SW), Variant 1",10,R10
 Taurus,"513 Raging Judge Ultra Lite (45 410 Cal), Variant 1",3,R3
@@ -6517,8 +6517,8 @@ Taurus,"513 Raging Judge Ultra Lite (45 410 Cal), Variant 3",6,R6
 Taurus,"513 Raging Judge Ultra Lite (45 410 Cal), Variant 4",6,R6
 Taurus,"513 Raging Judge (454 Casull), Variant 1",3,R3
 Taurus,"513 Raging Judge (454 Casull), Variant 2",3,R3
-Taurus,"513 Raging Judge (454 Casull), Variant 3",6.5,R8
-Taurus,"513 Raging Judge (454 Casull), Variant 4",6.5,R8
+Taurus,"513 Raging Judge (454 Casull), Variant 3",6.5,R6
+Taurus,"513 Raging Judge (454 Casull), Variant 4",6.5,R6
 Taurus,"605 (357 Mag), Variant 1",2,R2
 Taurus,"605 (357 Mag), Variant 2",2,R2
 Taurus,"605 (357 Mag), Variant 3",2,R2
@@ -6527,25 +6527,25 @@ Taurus,"605 (357 Mag), Variant 5",2,R2
 Taurus,"605 (357 Mag), Variant 6",2,R2
 Taurus,"608 Competition (357 Mag), Variant 1",6,R6
 Taurus,"608 (357 Mag), Variant 1",4,R4
-Taurus,"608 (357 Mag), Variant 2",6.5,R8
+Taurus,"608 (357 Mag), Variant 2",6.5,R6
 Taurus,"608 (357 Mag), Variant 3",8.375,R8
 Taurus,"608 (357 Mag), Variant 4",4,R4
-Taurus,"608 (357 Mag), Variant 5",6.5,R8
+Taurus,"608 (357 Mag), Variant 5",6.5,R6
 Taurus,"608 (357 Mag), Variant 6",8.375,R8
-Taurus,"617 Total Titanium (357 Mag), Variant 1",2,R2
-Taurus,"617 Total Titanium (357 Mag), Variant 2",2,R2
-Taurus,"617 (357 Mag), Variant 1",2,R2
-Taurus,"617 (357 Mag), Variant 2",2,R2
-Taurus,"617 (357 Mag), Variant 3",2,R2
-Taurus,"617 (357 Mag), Variant 4",2,R2
-Taurus,"617 (357 Mag), Variant 5",2,R2
-Taurus,"617 (357 Mag), Variant 6",2,R2
-Taurus,"617 (357 Mag), Variant 7",2,R2
-Taurus,"617 (357 Mag), Variant 8",2,R2
+Taurus,"617 Total Titanium (357 Mag), Variant 1",2,R3
+Taurus,"617 Total Titanium (357 Mag), Variant 2",2,R3
+Taurus,"617 (357 Mag), Variant 1",2,R3
+Taurus,"617 (357 Mag), Variant 2",2,R3
+Taurus,"617 (357 Mag), Variant 3",2,R3
+Taurus,"617 (357 Mag), Variant 4",2,R3
+Taurus,"617 (357 Mag), Variant 5",2,R3
+Taurus,"617 (357 Mag), Variant 6",2,R3
+Taurus,"617 (357 Mag), Variant 7",2,R3
+Taurus,"617 (357 Mag), Variant 8",2,R3
 Taurus,"627 Tracker (357 Mag), Variant 1",4,R4
 Taurus,"627 Tracker (357 Mag), Variant 2",6,R6
 Taurus,"627 Tracker (357 Mag), Variant 3",4,R4
-Taurus,"627 Tracker (357 Mag), Variant 4",6.5,R8
+Taurus,"627 Tracker (357 Mag), Variant 4",6.5,R6
 Taurus,"65 (357 Mag), Variant 1",4,R4
 Taurus,"65 (357 Mag), Variant 2",4,R4
 Taurus,"66 Combat (357 Mag), Variant 1",3,R3
@@ -6571,20 +6571,20 @@ Taurus,"692 (357 Mag), Variant 1",2.5,R3
 Taurus,"692 (357 Mag), Variant 2",2.5,R3
 Taurus,"692 (357 Mag), Variant 3",3,R3
 Taurus,"692 (357 Mag), Variant 4",3,R3
-Taurus,"692 (357 Mag), Variant 5",6.5,R8
-Taurus,"692 (357 Mag), Variant 6",6.5,R8
+Taurus,"692 (357 Mag), Variant 5",6.5,R6
+Taurus,"692 (357 Mag), Variant 6",6.5,R6
 Taurus,"692 (9 mm), Variant 1",2.5,R3
 Taurus,"692 (9 mm), Variant 2",2.5,R3
 Taurus,"692 (9 mm), Variant 3",3,R3
 Taurus,"692 (9 mm), Variant 4",3,R3
-Taurus,"692 (9 mm), Variant 5",6.5,R8
-Taurus,"692 (9 mm), Variant 6",6.5,R8
-Taurus,"731 Total Titanium (32 Mag), Variant 1",2,R2
-Taurus,"731 Ultra Lite (32 Mag), Variant 1",2,R2
-Taurus,"817 Ultra Lite (38 Spl P), Variant 1",2,R2
-Taurus,"817 Ultra Lite (38 Spl P), Variant 2",2,R2
-Taurus,"817 Ultra Lite (38 Spl P), Variant 3",2,R2
-Taurus,"817 Ultra Lite (38 Spl P), Variant 4",2,R2
+Taurus,"692 (9 mm), Variant 5",6.5,R6
+Taurus,"692 (9 mm), Variant 6",6.5,R6
+Taurus,"731 Total Titanium (32 Mag), Variant 1",2,R3
+Taurus,"731 Ultra Lite (32 Mag), Variant 1",2,R3
+Taurus,"817 Ultra Lite (38 Spl P), Variant 1",2,R3
+Taurus,"817 Ultra Lite (38 Spl P), Variant 2",2,R3
+Taurus,"817 Ultra Lite (38 Spl P), Variant 3",2,R3
+Taurus,"817 Ultra Lite (38 Spl P), Variant 4",2,R3
 Taurus,"82 (38 Spl P), Variant 1",4,R4
 Taurus,"82 (38 Spl P), Variant 2",4,R4
 Taurus,"85 Total Titanium (38 Spl P), Variant 1",2,R2
@@ -6609,20 +6609,20 @@ Taurus,"85 (38 Spl P), Variant 7",2,R2
 Taurus,"85 (38 Spl P), Variant 8",2,R2
 Taurus,"85 (38 Spl P), Variant 9",2,R2
 Taurus,"851 Protector (38 Spl P), Variant 1",2,R2
-Taurus,"856 (38 Spl P), Variant 1",2,R2
-Taurus,"856 (38 Spl P), Variant 10",2,R2
-Taurus,"856 (38 Spl P), Variant 11",2,R2
-Taurus,"856 (38 Spl P), Variant 12",2,R2
-Taurus,"856 (38 Spl P), Variant 13",2,R2
-Taurus,"856 (38 Spl P), Variant 14",2,R2
-Taurus,"856 (38 Spl P), Variant 2",2,R2
-Taurus,"856 (38 Spl P), Variant 3",2,R2
-Taurus,"856 (38 Spl P), Variant 4",2,R2
-Taurus,"856 (38 Spl P), Variant 5",2,R2
-Taurus,"856 (38 Spl P), Variant 6",2,R2
-Taurus,"856 (38 Spl P), Variant 7",2,R2
-Taurus,"856 (38 Spl P), Variant 8",2,R2
-Taurus,"856 (38 Spl P), Variant 9",2,R2
+Taurus,"856 (38 Spl P), Variant 1",2,R3
+Taurus,"856 (38 Spl P), Variant 10",2,R3
+Taurus,"856 (38 Spl P), Variant 11",2,R3
+Taurus,"856 (38 Spl P), Variant 12",2,R3
+Taurus,"856 (38 Spl P), Variant 13",2,R3
+Taurus,"856 (38 Spl P), Variant 14",2,R3
+Taurus,"856 (38 Spl P), Variant 2",2,R3
+Taurus,"856 (38 Spl P), Variant 3",2,R3
+Taurus,"856 (38 Spl P), Variant 4",2,R3
+Taurus,"856 (38 Spl P), Variant 5",2,R3
+Taurus,"856 (38 Spl P), Variant 6",2,R3
+Taurus,"856 (38 Spl P), Variant 7",2,R3
+Taurus,"856 (38 Spl P), Variant 8",2,R3
+Taurus,"856 (38 Spl P), Variant 9",2,R3
 Taurus,"905 (9 mm), Variant 1",2,R2
 Taurus,"905 (9 mm), Variant 10",1.75,R2
 Taurus,"905 (9 mm), Variant 11",1.75,R2
@@ -6635,35 +6635,35 @@ Taurus,"905 (9 mm), Variant 6",2,R2
 Taurus,"905 (9 mm), Variant 7",1.75,R2
 Taurus,"905 (9 mm), Variant 8",1.75,R2
 Taurus,"905 (9 mm), Variant 9",1.75,R2
-Taurus,"94 Ultra Lite (22 LR), Variant 1",2,R2
-Taurus,"94 Ultra Lite (22 LR), Variant 2",2,R2
-Taurus,"94 (22 LR), Variant 1",2,R2
+Taurus,"94 Ultra Lite (22 LR), Variant 1",2,R3
+Taurus,"94 Ultra Lite (22 LR), Variant 2",2,R3
+Taurus,"94 (22 LR), Variant 1",2,R3
 Taurus,"94 (22 LR), Variant 2",4,R4
 Taurus,"94 (22 LR), Variant 3",5,R6
-Taurus,"94 (22 LR), Variant 4",2,R2
+Taurus,"94 (22 LR), Variant 4",2,R3
 Taurus,"94 (22 LR), Variant 5",4,R4
 Taurus,"94 (22 LR), Variant 6",5,R6
-Taurus,"941 Ultra Lite (22 Mag WMR)), Variant 1",2,R2
-Taurus,"941 Ultra Lite (22 Mag WMR)), Variant 2",2,R2
-Taurus,"941 (22 Mag WMR)), Variant 1",2,R2
+Taurus,"941 Ultra Lite (22 Mag WMR)), Variant 1",2,R3
+Taurus,"941 Ultra Lite (22 Mag WMR)), Variant 2",2,R3
+Taurus,"941 (22 Mag WMR)), Variant 1",2,R3
 Taurus,"941 (22 Mag WMR)), Variant 2",4,R4
 Taurus,"941 (22 Mag WMR)), Variant 3",5,R6
-Taurus,"941 (22 Mag WMR)), Variant 4",2,R2
+Taurus,"941 (22 Mag WMR)), Variant 4",2,R3
 Taurus,"941 (22 Mag WMR)), Variant 5",4,R4
 Taurus,"941 (22 Mag WMR)), Variant 6",5,R6
-Taurus,"942 (22 LR), Variant 1",2,R2
-Taurus,"942 (22 LR), Variant 2",2,R2
-Taurus,"942 (22 LR), Variant 3",2,R2
+Taurus,"942 (22 LR), Variant 1",2,R3
+Taurus,"942 (22 LR), Variant 2",2,R3
+Taurus,"942 (22 LR), Variant 3",2,R3
 Taurus,"942 (22 LR), Variant 4",3,R3
 Taurus,"942 (22 LR), Variant 5",3,R3
-Taurus,"942 (22 Mag WMR)), Variant 1",2,R2
-Taurus,"942 (22 Mag WMR)), Variant 2",2,R2
-Taurus,"942 (22 Mag WMR)), Variant 3",2,R2
+Taurus,"942 (22 Mag WMR)), Variant 1",2,R3
+Taurus,"942 (22 Mag WMR)), Variant 2",2,R3
+Taurus,"942 (22 Mag WMR)), Variant 3",2,R3
 Taurus,"942 (22 Mag WMR)), Variant 4",3,R3
 Taurus,"942 (22 Mag WMR)), Variant 5",3,R3
-Taurus,"970 Tracker (22 LR), Variant 1",6.5,R8
-Taurus,"971 Tracker (22 Mag WMR)), Variant 1",6.5,R8
-Taurus,"992 Tracker (22 Mag WMR)), Variant 1",6.5,R8
+Taurus,"970 Tracker (22 LR), Variant 1",6.5,R6
+Taurus,"971 Tracker (22 Mag WMR)), Variant 1",6.5,R6
+Taurus,"992 Tracker (22 Mag WMR)), Variant 1",6.5,R6
 Taurus,"992 Tracker (22 Mag WMR)), Variant 2",4,R4
 Taurus,"CIA 650 (357 Mag), Variant 1",2,R2
 Taurus,"CIA 650 (357 Mag), Variant 2",2,R2
@@ -6671,10 +6671,10 @@ Taurus,"CIA 850 (38 Spl P), Variant 1",2,R2
 Taurus,"CIA 850 (38 Spl P), Variant 2",2,R2
 Taurus,"CIA 850 (38 Spl P), Variant 3",2,R2
 Taurus,"CIA 850 (38 Spl P), Variant 4",2,R2
-Taurus,"Defender 605 (357 Mag), Variant 1",3,R3
-Taurus,"Defender 605 (357 Mag), Variant 2",3,R3
-Taurus,"Defender 605 (357 Mag), Variant 3",3,R3
-Taurus,"Defender 605 (357 Mag), Variant 4",3,R3
+Taurus,"Defender 605 (357 Mag), Variant 1",3,R2.5
+Taurus,"Defender 605 (357 Mag), Variant 2",3,R2.5
+Taurus,"Defender 605 (357 Mag), Variant 3",3,R2.5
+Taurus,"Defender 605 (357 Mag), Variant 4",3,R2.5
 Taurus,"Defender 856 (38 Spl P), Variant 1",3,R3
 Taurus,"Defender 856 (38 Spl P), Variant 2",3,R3
 Taurus,"Defender 856 (38 Spl P), Variant 3",3,R3
@@ -6792,7 +6792,7 @@ Taurus,"Protector 851 (38 Spl P), Variant 3",2,R2
 Taurus,"Protector 851 (38 Spl P), Variant 4",2,R2
 Taurus,"Protector 851 (38 Spl P), Variant 5",2,R2
 Taurus,"Protector 851 (38 Spl P), Variant 6",2,R2
-Taurus,"Protector Ply (38 Spl P), Variant 1",2.5,R3
+Taurus,"Protector Ply (38 Spl P), Variant 1",2.5,R2/R2.5
 Taurus,"PT 100 (40 SW), Variant 1",5,A5
 Taurus,"PT 100 (40 SW), Variant 2",5,A5
 Taurus,"PT 100 (40 SW), Variant 3",5,A5
@@ -6956,31 +6956,31 @@ Taurus,"PT840 (40 SW), Variant 1",4,A4
 Taurus,"PT840 (40 SW), Variant 2",4,A4
 Taurus,"PT845 (45 Auto), Variant 1",4,A4
 Taurus,"PT845 (45 Auto), Variant 2",4,A4
-Taurus,"Public Defender Polymer (45 410 Cal), Variant 1",2.5,R3
-Taurus,"Public Defender Polymer (45 410 Cal), Variant 2",2.5,R3
+Taurus,"Public Defender Polymer (45 410 Cal), Variant 1",2.5,R2/R2.5
+Taurus,"Public Defender Polymer (45 410 Cal), Variant 2",2.5,R2/R2.5
 Taurus,"Raging Hornet (22 Hornet), Variant 1",10,R10
 Taurus,"Raging Hunter (357 Mag), Variant 1",8.37,R8
 Taurus,"Raging Hunter (357 Mag), Variant 2",8.37,R8
-Taurus,"Raging Hunter (357 Mag), Variant 3",6.75,R8
-Taurus,"Raging Hunter (357 Mag), Variant 4",6.75,R8
+Taurus,"Raging Hunter (357 Mag), Variant 3",6.75,R6
+Taurus,"Raging Hunter (357 Mag), Variant 4",6.75,R6
 Taurus,"Raging Hunter (357 Mag), Variant 5",5.12,R6
 Taurus,"Raging Hunter (357 Mag), Variant 6",5.12,R6
 Taurus,"Raging Hunter (44 Rem Mag), Variant 1",8.37,R8
 Taurus,"Raging Hunter (44 Rem Mag), Variant 2",8.37,R8
-Taurus,"Raging Hunter (44 Rem Mag), Variant 3",6.75,R8
-Taurus,"Raging Hunter (44 Rem Mag), Variant 4",6.75,R8
+Taurus,"Raging Hunter (44 Rem Mag), Variant 3",6.75,R6
+Taurus,"Raging Hunter (44 Rem Mag), Variant 4",6.75,R6
 Taurus,"Raging Hunter (44 Rem Mag), Variant 5",5.12,R6
 Taurus,"Raging Hunter (44 Rem Mag), Variant 6",5.12,R6
 Taurus,"Raging Hunter (454 Casull), Variant 1",8.37,R8
 Taurus,"Raging Hunter (454 Casull), Variant 2",8.37,R8
-Taurus,"Raging Hunter (454 Casull), Variant 3",6.75,R8
-Taurus,"Raging Hunter (454 Casull), Variant 4",6.75,R8
+Taurus,"Raging Hunter (454 Casull), Variant 3",6.75,R6
+Taurus,"Raging Hunter (454 Casull), Variant 4",6.75,R6
 Taurus,"Raging Hunter (454 Casull), Variant 5",5.12,R6
 Taurus,"Raging Hunter (454 Casull), Variant 6",5.12,R6
 Taurus,"Raging Hunter (460 SW Mag), Variant 1",8.37,R8
 Taurus,"Raging Hunter (460 SW Mag), Variant 2",8.37,R8
-Taurus,"Raging Hunter (460 SW Mag), Variant 3",6.75,R8
-Taurus,"Raging Hunter (460 SW Mag), Variant 4",6.76,R8
+Taurus,"Raging Hunter (460 SW Mag), Variant 3",6.75,R6
+Taurus,"Raging Hunter (460 SW Mag), Variant 4",6.76,R6
 Taurus,"Raging Hunter (460 SW Mag), Variant 5",5.12,R6
 Taurus,"Raging Hunter (460 SW Mag), Variant 6",5.12,R6
 Taurus,"Raging Hunter (460 SW Mag), Variant 7",10.5,R10
@@ -7137,7 +7137,7 @@ Uberti,"1890 Police (357 Mag), Variant 1",5.5,R6
 Uberti,"1890 Police (45 Colt), Variant 1",5.5,R6
 Uberti,"Bisley Flattop (45 Colt), Variant 1",7.5,R8
 Uberti,"Hardin (45 Colt), Variant 1",7,R8
-Uberti,"No 3 New Model Russian (44 SW Spl), Variant 1",6.5,R8
+Uberti,"No 3 New Model Russian (44 SW Spl), Variant 1",6.5,R6
 Uberti,"Sharps 1A Derringer Replica (22 Short), Variant 1",2.5,D
 Uberti,"Teddy (45 Colt), Variant 1",5.5,R6
 US Firearms,"12 22 (22 LR), Variant 1",4.75,R4
@@ -7261,23 +7261,23 @@ US Firearms,"Rodeo (44 SW Spl), Variant 3",7.5,R8
 US Firearms,"Rodeo (45 Colt), Variant 1",4.75,R4
 US Firearms,"Rodeo (45 Colt), Variant 2",5.5,R6
 US Firearms,"Rodeo (45 Colt), Variant 3",7.5,R8
-US Firearms,"Sheriffs Model (32 20 Cal), Variant 1",2,R2
+US Firearms,"Sheriffs Model (32 20 Cal), Variant 1",2,R3
 US Firearms,"Sheriffs Model (32 20 Cal), Variant 2",3,R3
 US Firearms,"Sheriffs Model (32 20 Cal), Variant 3",3.5,R4
 US Firearms,"Sheriffs Model (32 20 Cal), Variant 4",4,R4
-US Firearms,"Sheriffs Model (38 40 Win), Variant 1",2,R2
+US Firearms,"Sheriffs Model (38 40 Win), Variant 1",2,R3
 US Firearms,"Sheriffs Model (38 40 Win), Variant 2",3,R3
 US Firearms,"Sheriffs Model (38 40 Win), Variant 3",3.5,R4
 US Firearms,"Sheriffs Model (38 40 Win), Variant 4",4,R4
-US Firearms,"Sheriffs Model (44 40 Win), Variant 1",2,R2
+US Firearms,"Sheriffs Model (44 40 Win), Variant 1",2,R3
 US Firearms,"Sheriffs Model (44 40 Win), Variant 2",3,R3
 US Firearms,"Sheriffs Model (44 40 Win), Variant 3",3.5,R4
 US Firearms,"Sheriffs Model (44 40 Win), Variant 4",4,R4
-US Firearms,"Sheriffs Model (44 SW Spl), Variant 1",2,R2
+US Firearms,"Sheriffs Model (44 SW Spl), Variant 1",2,R3
 US Firearms,"Sheriffs Model (44 SW Spl), Variant 2",3,R3
 US Firearms,"Sheriffs Model (44 SW Spl), Variant 3",3.5,R4
 US Firearms,"Sheriffs Model (44 SW Spl), Variant 4",4,R4
-US Firearms,"Sheriffs Model (45 Colt), Variant 1",2,R2
+US Firearms,"Sheriffs Model (45 Colt), Variant 1",2,R3
 US Firearms,"Sheriffs Model (45 Colt), Variant 2",3,R3
 US Firearms,"Sheriffs Model (45 Colt), Variant 3",3.5,R4
 US Firearms,"Sheriffs Model (45 Colt), Variant 4",4,R4
@@ -7297,19 +7297,19 @@ US Firearms,"Single Action (44 SW Spl), Variant 3",7.5,R8
 US Firearms,"Single Action (45 Colt), Variant 1",4.75,R4
 US Firearms,"Single Action (45 Colt), Variant 2",5.5,R6
 US Firearms,"Single Action (45 Colt), Variant 3",7.5,R8
-US Firearms,"Snubnose (32 20 Cal), Variant 1",2,R2
+US Firearms,"Snubnose (32 20 Cal), Variant 1",2,R3
 US Firearms,"Snubnose (32 20 Cal), Variant 2",3,R3
 US Firearms,"Snubnose (32 20 Cal), Variant 3",4,R4
-US Firearms,"Snubnose (38 40 Win), Variant 1",2,R2
+US Firearms,"Snubnose (38 40 Win), Variant 1",2,R3
 US Firearms,"Snubnose (38 40 Win), Variant 2",3,R3
 US Firearms,"Snubnose (38 40 Win), Variant 3",4,R4
-US Firearms,"Snubnose (44 40 Win), Variant 1",2,R2
+US Firearms,"Snubnose (44 40 Win), Variant 1",2,R3
 US Firearms,"Snubnose (44 40 Win), Variant 2",3,R3
 US Firearms,"Snubnose (44 40 Win), Variant 3",4,R4
-US Firearms,"Snubnose (44 SW Spl), Variant 1",2,R2
+US Firearms,"Snubnose (44 SW Spl), Variant 1",2,R3
 US Firearms,"Snubnose (44 SW Spl), Variant 2",3,R3
 US Firearms,"Snubnose (44 SW Spl), Variant 3",4,R4
-US Firearms,"Snubnose (45 Colt), Variant 1",2,R2
+US Firearms,"Snubnose (45 Colt), Variant 1",2,R3
 US Firearms,"Snubnose (45 Colt), Variant 2",3,R3
 US Firearms,"Snubnose (45 Colt), Variant 3",4,R4
 US Firearms,"Super 38 (38 Super), Variant 1",5,A5
